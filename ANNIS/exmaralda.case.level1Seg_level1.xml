@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<!DOCTYPE paula SYSTEM "paula_feat.dtd">
+<paula version="1.0">
+
+<header paula_id="exmaralda.case_level1"/>
+
+<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="level1" xml:base="exmaralda.case.level1Seg.xml">
+
+<feat xlink:href="#level1Seg_1" value="Application"/><!-- Our.... -->
+<feat xlink:href="#level1Seg_2" value="Apllication"/><!-- Moreover.... -->
+<feat xlink:href="#level1Seg_3" value="Application"/><!-- One.... -->
+<feat xlink:href="#level1Seg_4" value="Application"/><!-- The...unmistakably -->
+<feat xlink:href="#level1Seg_5" value="Application"/><!-- ..... -->
+<feat xlink:href="#level1Seg_6" value="Application"/><!-- Each.... -->
+<feat xlink:href="#level1Seg_7" value="Application"/><!-- In.... -->
+<feat xlink:href="#level1Seg_8" value="Application"/><!-- Similarly.... -->
+<feat xlink:href="#level1Seg_9" value="Results"/><!-- Bearing.... -->
+<feat xlink:href="#level1Seg_10" value="Application"/><!-- Though...contract." -->
+<feat xlink:href="#level1Seg_11" value="Application"/><!-- In...The -->
+<feat xlink:href="#level1Seg_12" value="Application"/><!-- Court.... -->
+<feat xlink:href="#level1Seg_13" value="Application"/><!-- We.... -->
+<feat xlink:href="#level1Seg_14" value="Application"/><!-- Mid_America's.... -->
+<feat xlink:href="#level1Seg_15" value="Results"/><!-- In.... -->
+<feat xlink:href="#level1Seg_16" value="Results"/><!-- In.... -->
+</featList>
+
+</paula>

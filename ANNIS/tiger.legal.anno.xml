@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE paula SYSTEM "paula_struct.dtd">
+
+<paula version="1.0">
+<header paula_id="tiger.legal.annoSet"/>
+
+<structList xmlns:xlink="http://www.w3.org/1999/xlink" type="annoSet">
+
+<struct id="anno_1">
+  <rel id="rel_1" xlink:href="tiger.legal.anno_feat.xml"/>
+</struct>
+
+<struct id="anno_2">
+  <rel id="rel_2" xlink:href="tiger.legal.tok.xml"/>
+  <rel id="rel_3" xlink:href="tiger.legal.tok_pos.xml"/>
+</struct>
+
+<struct id="anno_3">
+  <rel id="rel_4" xlink:href="tiger.legal.text.xml"/>
+</struct>
+
+<struct id="anno_4">
+  <rel id="rel_5" xlink:href="tiger.legal.const.xml"/>
+  <rel id="rel_6" xlink:href="tiger.legal.const_cat.xml"/>
+  <rel id="rel_7" xlink:href="tiger.legal.const_func.xml"/>
+</struct>
+
+</structList>
+</paula>

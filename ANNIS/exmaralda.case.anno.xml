@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE paula SYSTEM "paula_struct.dtd">
+
+<paula version="1.0">
+<header paula_id="exmaralda.case.annoSet"/>
+
+<structList xmlns:xlink="http://www.w3.org/1999/xlink" type="annoSet">
+
+<struct id="anno_1">
+  <rel id="rel_1" xlink:href="exmaralda.case.anno_feat.xml"/>
+</struct>
+
+<struct id="anno_2">
+  <rel id="rel_2" xlink:href="exmaralda.case.tok.xml"/>
+</struct>
+
+<struct id="anno_3">
+  <rel id="rel_3" xlink:href="exmaralda.case.level2Seg.xml"/>
+  <rel id="rel_4" xlink:href="exmaralda.case.level2Seg_level2.xml"/>
+</struct>
+
+<struct id="anno_4">
+  <rel id="rel_5" xlink:href="exmaralda.case.level1Seg.xml"/>
+  <rel id="rel_6" xlink:href="exmaralda.case.level1Seg_level1.xml"/>
+</struct>
+
+<struct id="anno_5">
+  <rel id="rel_7" xlink:href="exmaralda.case.posSeg.xml"/>
+  <rel id="rel_8" xlink:href="exmaralda.case.posSeg_pos.xml"/>
+</struct>
+
+<struct id="anno_6">
+  <rel id="rel_9" xlink:href="exmaralda.case.text.xml"/>
+</struct>
+
+<struct id="anno_7">
+	<rel id="rel_10" xlink:href="tiger.case.tok_pos.xml"/>
+</struct>
+<struct id="anno_8">
+	<rel id="rel_11" xlink:href="tiger.case.const.xml"/>
+	<rel id="rel_12" xlink:href="tiger.case.const_cat.xml"/>
+<rel id="rel_13" xlink:href="tiger.case.const_func.xml"/>
+</struct>
+
+</structList>
+</paula>

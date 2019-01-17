@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE paula SYSTEM "paula_feat.dtd">
+<paula version="1.0">
+
+<header paula_id="exmaralda.pos.utf8.annoFeat"/>
+
+<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="annoFeat" xml:base="exmaralda.pos.utf8.anno.xml">
+
+ <feat xlink:href="#rel_1" value="annoFeat"/>
+ <feat xlink:href="#rel_2" value="tok"/>
+ <feat xlink:href="#rel_3" value="posSeg"/>
+ <feat xlink:href="#rel_4" value="pos"/>
+ <feat xlink:href="#rel_5" value="text"/>
+</featList>
+</paula>

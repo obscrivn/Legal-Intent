@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE paula SYSTEM "paula_feat.dtd">
+<paula version="1.0">
+
+<header paula_id="tiger.legal.annoFeat"/>
+
+<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="annoFeat" xml:base="tiger.legal.anno.xml">
+
+ <feat xlink:href="#rel_1" value="annoFeat"/>
+ <feat xlink:href="#rel_2" value="tok"/>
+ <feat xlink:href="#rel_3" value="pos"/>
+ <feat xlink:href="#rel_4" value="text"/>
+ <feat xlink:href="#rel_5" value="const"/>
+ <feat xlink:href="#rel_6" value="cat"/>
+ <feat xlink:href="#rel_7" value="func"/>
+</featList>
+</paula>

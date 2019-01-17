@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<!DOCTYPE paula SYSTEM "paula_feat.dtd">
+<paula version="1.0">
+
+<header paula_id="exmaralda.case_level2"/>
+
+<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="level2" xml:base="exmaralda.case.level2Seg.xml">
+
+<feat xlink:href="#level2Seg_1" value="case history"/><!-- Our.... -->
+<feat xlink:href="#level2Seg_2" value="case history"/><!-- Moreover.... -->
+<feat xlink:href="#level2Seg_3" value="specific case"/><!-- One.... -->
+<feat xlink:href="#level2Seg_4" value="case history"/><!-- The...unmistakably -->
+<feat xlink:href="#level2Seg_5" value="case history"/><!-- ..... -->
+<feat xlink:href="#level2Seg_6" value="case history"/><!-- Each.... -->
+<feat xlink:href="#level2Seg_7" value="specific case"/><!-- In.... -->
+<feat xlink:href="#level2Seg_8" value="specific case"/><!-- Similarly.... -->
+<feat xlink:href="#level2Seg_9" value="substantive"/><!-- Bearing.... -->
+<feat xlink:href="#level2Seg_10" value="this case"/><!-- Though...contract." -->
+<feat xlink:href="#level2Seg_11" value="this case"/><!-- In...The -->
+<feat xlink:href="#level2Seg_12" value="specific case"/><!-- Court.... -->
+<feat xlink:href="#level2Seg_13" value="this case"/><!-- We.... -->
+<feat xlink:href="#level2Seg_14" value="specific case"/><!-- Mid_America's.... -->
+<feat xlink:href="#level2Seg_15" value="substantive"/><!-- In.... -->
+<feat xlink:href="#level2Seg_16" value="dicta"/><!-- In.... -->
+</featList>
+
+</paula>

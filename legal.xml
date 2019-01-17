@@ -1,0 +1,5524 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<corpus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="./schema/TigerXML.xsd"
+	id="legal" >
+<head>
+	<meta>
+		<name>/Users/olgascrivner/legal.xml.gz</name>
+		<format>bracketing format</format>
+	</meta>
+	<annotation>
+		<feature name="word" domain="T" />
+		<feature name="pos" domain="T">
+			<value name="''" />
+			<value name="," />
+			<value name="." />
+			<value name=":" />
+			<value name="CC" />
+			<value name="CD" />
+			<value name="DT" />
+			<value name="FW" />
+			<value name="IN" />
+			<value name="JJ" />
+			<value name="JJR" />
+			<value name="MD" />
+			<value name="NN" />
+			<value name="NNP" />
+			<value name="NNPS" />
+			<value name="NNS" />
+			<value name="PDT" />
+			<value name="PRP" />
+			<value name="PRP$" />
+			<value name="RB" />
+			<value name="TO" />
+			<value name="VB" />
+			<value name="VBD" />
+			<value name="VBG" />
+			<value name="VBN" />
+			<value name="VBP" />
+			<value name="VBZ" />
+			<value name="WDT" />
+			<value name="WRB" />
+		</feature>
+		<feature name="cat" domain="NT">
+			<value name="ADJP" />
+			<value name="ADVP" />
+			<value name="CONJP" />
+			<value name="FRAG" />
+			<value name="NAC" />
+			<value name="NP" />
+			<value name="NX" />
+			<value name="PP" />
+			<value name="PRN" />
+			<value name="QP" />
+			<value name="S" />
+			<value name="SBAR" />
+			<value name="UCP" />
+			<value name="VP" />
+			<value name="WHADVP" />
+			<value name="WHNP" />
+			<value name="X" />
+		</feature>
+		<edgelabel>
+			<value name="--" />
+		</edgelabel>
+	</annotation>
+</head>
+
+	<body>
+		<s id="s1" >
+			<graph root="s1_500" >
+				<terminals>
+					<t id="s1_1" word="Indiana" pos="NNP" />
+					<t id="s1_2" word="courts" pos="NNS" />
+					<t id="s1_3" word="strictly" pos="RB" />
+					<t id="s1_4" word="construe" pos="VBP" />
+					<t id="s1_5" word="contracts" pos="NNS" />
+					<t id="s1_6" word="to" pos="TO" />
+					<t id="s1_7" word="indemnify" pos="VB" />
+					<t id="s1_8" word="a" pos="DT" />
+					<t id="s1_9" word="party" pos="NN" />
+					<t id="s1_10" word="against" pos="IN" />
+					<t id="s1_11" word="its" pos="PRP$" />
+					<t id="s1_12" word="own" pos="JJ" />
+					<t id="s1_13" word="negligence„recognizing" pos="NN" />
+					<t id="s1_14" word="that" pos="IN" />
+					<t id="s1_15" word="a" pos="DT" />
+					<t id="s1_16" word="party" pos="NN" />
+					<t id="s1_17" word="would" pos="MD" />
+					<t id="s1_18" word="not" pos="RB" />
+					<t id="s1_19" word="lightly" pos="RB" />
+					<t id="s1_20" word="accept" pos="VBP" />
+					<t id="s1_21" word="liability" pos="NN" />
+					<t id="s1_22" word="for" pos="IN" />
+					<t id="s1_23" word="someone" pos="NN" />
+					<t id="s1_24" word="elseÍs" pos="NN" />
+					<t id="s1_25" word="negligence" pos="NN" />
+					<t id="s1_26" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s1_501" cat="NP" >
+						<edge idref="s1_1" label="--" />
+						<edge idref="s1_2" label="--" />
+					</nt>
+					<nt id="s1_502" cat="ADVP" >
+						<edge idref="s1_3" label="--" />
+					</nt>
+					<nt id="s1_509" cat="NP" >
+						<edge idref="s1_8" label="--" />
+						<edge idref="s1_9" label="--" />
+					</nt>
+					<nt id="s1_512" cat="NP" >
+						<edge idref="s1_11" label="--" />
+						<edge idref="s1_12" label="--" />
+						<edge idref="s1_13" label="--" />
+					</nt>
+					<nt id="s1_515" cat="NP" >
+						<edge idref="s1_15" label="--" />
+						<edge idref="s1_16" label="--" />
+					</nt>
+					<nt id="s1_518" cat="ADVP" >
+						<edge idref="s1_19" label="--" />
+					</nt>
+					<nt id="s1_520" cat="NP" >
+						<edge idref="s1_21" label="--" />
+					</nt>
+					<nt id="s1_522" cat="NP" >
+						<edge idref="s1_23" label="--" />
+					</nt>
+					<nt id="s1_521" cat="PP" >
+						<edge idref="s1_22" label="--" />
+						<edge idref="s1_522" label="--" />
+					</nt>
+					<nt id="s1_519" cat="VP" >
+						<edge idref="s1_20" label="--" />
+						<edge idref="s1_520" label="--" />
+						<edge idref="s1_521" label="--" />
+					</nt>
+					<nt id="s1_523" cat="NP" >
+						<edge idref="s1_24" label="--" />
+					</nt>
+					<nt id="s1_524" cat="ADVP" >
+						<edge idref="s1_25" label="--" />
+					</nt>
+					<nt id="s1_517" cat="VP" >
+						<edge idref="s1_518" label="--" />
+						<edge idref="s1_519" label="--" />
+						<edge idref="s1_523" label="--" />
+						<edge idref="s1_524" label="--" />
+					</nt>
+					<nt id="s1_516" cat="VP" >
+						<edge idref="s1_17" label="--" />
+						<edge idref="s1_18" label="--" />
+						<edge idref="s1_517" label="--" />
+					</nt>
+					<nt id="s1_514" cat="S" >
+						<edge idref="s1_515" label="--" />
+						<edge idref="s1_516" label="--" />
+					</nt>
+					<nt id="s1_513" cat="SBAR" >
+						<edge idref="s1_14" label="--" />
+						<edge idref="s1_514" label="--" />
+					</nt>
+					<nt id="s1_511" cat="NP" >
+						<edge idref="s1_512" label="--" />
+						<edge idref="s1_513" label="--" />
+					</nt>
+					<nt id="s1_510" cat="PP" >
+						<edge idref="s1_10" label="--" />
+						<edge idref="s1_511" label="--" />
+					</nt>
+					<nt id="s1_508" cat="NP" >
+						<edge idref="s1_509" label="--" />
+						<edge idref="s1_510" label="--" />
+					</nt>
+					<nt id="s1_507" cat="VP" >
+						<edge idref="s1_7" label="--" />
+						<edge idref="s1_508" label="--" />
+					</nt>
+					<nt id="s1_506" cat="VP" >
+						<edge idref="s1_6" label="--" />
+						<edge idref="s1_507" label="--" />
+					</nt>
+					<nt id="s1_505" cat="S" >
+						<edge idref="s1_506" label="--" />
+					</nt>
+					<nt id="s1_504" cat="NP" >
+						<edge idref="s1_5" label="--" />
+						<edge idref="s1_505" label="--" />
+					</nt>
+					<nt id="s1_503" cat="VP" >
+						<edge idref="s1_4" label="--" />
+						<edge idref="s1_504" label="--" />
+					</nt>
+					<nt id="s1_500" cat="S" >
+						<edge idref="s1_501" label="--" />
+						<edge idref="s1_502" label="--" />
+						<edge idref="s1_503" label="--" />
+						<edge idref="s1_26" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s2" >
+			<graph root="s2_500" >
+				<terminals>
+					<t id="s2_1" word="Thus" pos="RB" />
+					<t id="s2_2" word="," pos="," />
+					<t id="s2_3" word="indemnity" pos="NN" />
+					<t id="s2_4" word="clauses" pos="NNS" />
+					<t id="s2_5" word="must" pos="MD" />
+					<t id="s2_6" word="state" pos="NN" />
+					<t id="s2_7" word="the" pos="DT" />
+					<t id="s2_8" word="partiesÍ" pos="NN" />
+					<t id="s2_9" word="intent" pos="NN" />
+					<t id="s2_10" word="to" pos="TO" />
+					<t id="s2_11" word="indemnify" pos="VB" />
+					<t id="s2_12" word="in" pos="IN" />
+					<t id="s2_13" word="clear" pos="JJ" />
+					<t id="s2_14" word="and" pos="CC" />
+					<t id="s2_15" word="unequivocal" pos="JJ" />
+					<t id="s2_16" word="language" pos="NN" />
+					<t id="s2_17" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s2_501" cat="ADVP" >
+						<edge idref="s2_1" label="--" />
+					</nt>
+					<nt id="s2_502" cat="NP" >
+						<edge idref="s2_3" label="--" />
+						<edge idref="s2_4" label="--" />
+					</nt>
+					<nt id="s2_505" cat="NP" >
+						<edge idref="s2_7" label="--" />
+						<edge idref="s2_8" label="--" />
+						<edge idref="s2_9" label="--" />
+					</nt>
+					<nt id="s2_511" cat="ADJP" >
+						<edge idref="s2_13" label="--" />
+						<edge idref="s2_14" label="--" />
+						<edge idref="s2_15" label="--" />
+					</nt>
+					<nt id="s2_510" cat="NP" >
+						<edge idref="s2_511" label="--" />
+						<edge idref="s2_16" label="--" />
+					</nt>
+					<nt id="s2_509" cat="PP" >
+						<edge idref="s2_12" label="--" />
+						<edge idref="s2_510" label="--" />
+					</nt>
+					<nt id="s2_508" cat="VP" >
+						<edge idref="s2_11" label="--" />
+						<edge idref="s2_509" label="--" />
+					</nt>
+					<nt id="s2_507" cat="VP" >
+						<edge idref="s2_10" label="--" />
+						<edge idref="s2_508" label="--" />
+					</nt>
+					<nt id="s2_506" cat="S" >
+						<edge idref="s2_507" label="--" />
+					</nt>
+					<nt id="s2_504" cat="VP" >
+						<edge idref="s2_6" label="--" />
+						<edge idref="s2_505" label="--" />
+						<edge idref="s2_506" label="--" />
+					</nt>
+					<nt id="s2_503" cat="VP" >
+						<edge idref="s2_5" label="--" />
+						<edge idref="s2_504" label="--" />
+					</nt>
+					<nt id="s2_500" cat="S" >
+						<edge idref="s2_501" label="--" />
+						<edge idref="s2_2" label="--" />
+						<edge idref="s2_502" label="--" />
+						<edge idref="s2_503" label="--" />
+						<edge idref="s2_17" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s3" >
+			<graph root="s3_500" >
+				<terminals>
+					<t id="s3_1" word="Otherwise" pos="RB" />
+					<t id="s3_2" word="," pos="," />
+					<t id="s3_3" word="we" pos="PRP" />
+					<t id="s3_4" word="will" pos="MD" />
+					<t id="s3_5" word="not" pos="RB" />
+					<t id="s3_6" word="find" pos="VB" />
+					<t id="s3_7" word="a" pos="DT" />
+					<t id="s3_8" word="knowing" pos="NN" />
+					<t id="s3_9" word="and" pos="CC" />
+					<t id="s3_10" word="willing" pos="JJ" />
+					<t id="s3_11" word="agreement" pos="NN" />
+					<t id="s3_12" word="to" pos="TO" />
+					<t id="s3_13" word="indemnify" pos="VB" />
+					<t id="s3_14" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s3_501" cat="ADVP" >
+						<edge idref="s3_1" label="--" />
+					</nt>
+					<nt id="s3_502" cat="NP" >
+						<edge idref="s3_3" label="--" />
+					</nt>
+					<nt id="s3_506" cat="ADJP" >
+						<edge idref="s3_8" label="--" />
+						<edge idref="s3_9" label="--" />
+						<edge idref="s3_10" label="--" />
+					</nt>
+					<nt id="s3_509" cat="VP" >
+						<edge idref="s3_13" label="--" />
+					</nt>
+					<nt id="s3_508" cat="VP" >
+						<edge idref="s3_12" label="--" />
+						<edge idref="s3_509" label="--" />
+					</nt>
+					<nt id="s3_507" cat="S" >
+						<edge idref="s3_508" label="--" />
+					</nt>
+					<nt id="s3_505" cat="NP" >
+						<edge idref="s3_7" label="--" />
+						<edge idref="s3_506" label="--" />
+						<edge idref="s3_11" label="--" />
+						<edge idref="s3_507" label="--" />
+					</nt>
+					<nt id="s3_504" cat="VP" >
+						<edge idref="s3_6" label="--" />
+						<edge idref="s3_505" label="--" />
+					</nt>
+					<nt id="s3_503" cat="VP" >
+						<edge idref="s3_4" label="--" />
+						<edge idref="s3_5" label="--" />
+						<edge idref="s3_504" label="--" />
+					</nt>
+					<nt id="s3_500" cat="S" >
+						<edge idref="s3_501" label="--" />
+						<edge idref="s3_2" label="--" />
+						<edge idref="s3_502" label="--" />
+						<edge idref="s3_503" label="--" />
+						<edge idref="s3_14" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s4" >
+			<graph root="s4_500" >
+				<terminals>
+					<t id="s4_1" word="And" pos="CC" />
+					<t id="s4_2" word="the" pos="DT" />
+					<t id="s4_3" word="need" pos="NN" />
+					<t id="s4_4" word="for" pos="IN" />
+					<t id="s4_5" word="explicit" pos="JJ" />
+					<t id="s4_6" word="language" pos="NN" />
+					<t id="s4_7" word="is" pos="VBZ" />
+					<t id="s4_8" word="especially" pos="RB" />
+					<t id="s4_9" word="important" pos="JJ" />
+					<t id="s4_10" word="when" pos="WRB" />
+					<t id="s4_11" word="an" pos="DT" />
+					<t id="s4_12" word="agreement" pos="NN" />
+					<t id="s4_13" word="involves" pos="VBZ" />
+					<t id="s4_14" word="retroactive" pos="JJ" />
+					<t id="s4_15" word="indemnity„since" pos="NN" />
+					<t id="s4_16" word="even" pos="RB" />
+					<t id="s4_17" word="in" pos="IN" />
+					<t id="s4_18" word="insurance" pos="NN" />
+					<t id="s4_19" word="contracts" pos="NNS" />
+					<t id="s4_20" word="," pos="," />
+					<t id="s4_21" word="where" pos="WRB" />
+					<t id="s4_22" word="indemnity" pos="NN" />
+					<t id="s4_23" word="is" pos="VBZ" />
+					<t id="s4_24" word="the" pos="DT" />
+					<t id="s4_25" word="central" pos="JJ" />
+					<t id="s4_26" word="purpose" pos="NN" />
+					<t id="s4_27" word="," pos="," />
+					<t id="s4_28" word="we" pos="PRP" />
+					<t id="s4_29" word="presume" pos="VBP" />
+					<t id="s4_30" word="that" pos="IN" />
+					<t id="s4_31" word="insurers" pos="NNS" />
+					<t id="s4_32" word="would" pos="MD" />
+					<t id="s4_33" word="not" pos="RB" />
+					<t id="s4_34" word="accept" pos="VB" />
+					<t id="s4_35" word="liability" pos="NN" />
+					<t id="s4_36" word="for" pos="IN" />
+					<t id="s4_37" word="a" pos="DT" />
+					<t id="s4_38" word="known" pos="VBN" />
+					<t id="s4_39" word="," pos="," />
+					<t id="s4_40" word="existing" pos="VBG" />
+					<t id="s4_41" word="loss" pos="NN" />
+					<t id="s4_42" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s4_503" cat="NP" >
+						<edge idref="s4_2" label="--" />
+						<edge idref="s4_3" label="--" />
+					</nt>
+					<nt id="s4_505" cat="NP" >
+						<edge idref="s4_5" label="--" />
+						<edge idref="s4_6" label="--" />
+					</nt>
+					<nt id="s4_504" cat="PP" >
+						<edge idref="s4_4" label="--" />
+						<edge idref="s4_505" label="--" />
+					</nt>
+					<nt id="s4_502" cat="NP" >
+						<edge idref="s4_503" label="--" />
+						<edge idref="s4_504" label="--" />
+					</nt>
+					<nt id="s4_507" cat="ADJP" >
+						<edge idref="s4_8" label="--" />
+						<edge idref="s4_9" label="--" />
+					</nt>
+					<nt id="s4_509" cat="WHADVP" >
+						<edge idref="s4_10" label="--" />
+					</nt>
+					<nt id="s4_511" cat="NP" >
+						<edge idref="s4_11" label="--" />
+						<edge idref="s4_12" label="--" />
+					</nt>
+					<nt id="s4_513" cat="NP" >
+						<edge idref="s4_14" label="--" />
+						<edge idref="s4_15" label="--" />
+					</nt>
+					<nt id="s4_515" cat="ADVP" >
+						<edge idref="s4_16" label="--" />
+					</nt>
+					<nt id="s4_517" cat="NP" >
+						<edge idref="s4_18" label="--" />
+						<edge idref="s4_19" label="--" />
+					</nt>
+					<nt id="s4_519" cat="WHADVP" >
+						<edge idref="s4_21" label="--" />
+					</nt>
+					<nt id="s4_521" cat="NP" >
+						<edge idref="s4_22" label="--" />
+					</nt>
+					<nt id="s4_523" cat="NP" >
+						<edge idref="s4_24" label="--" />
+						<edge idref="s4_25" label="--" />
+						<edge idref="s4_26" label="--" />
+					</nt>
+					<nt id="s4_522" cat="VP" >
+						<edge idref="s4_23" label="--" />
+						<edge idref="s4_523" label="--" />
+					</nt>
+					<nt id="s4_520" cat="S" >
+						<edge idref="s4_521" label="--" />
+						<edge idref="s4_522" label="--" />
+					</nt>
+					<nt id="s4_518" cat="SBAR" >
+						<edge idref="s4_519" label="--" />
+						<edge idref="s4_520" label="--" />
+					</nt>
+					<nt id="s4_516" cat="NP" >
+						<edge idref="s4_517" label="--" />
+						<edge idref="s4_20" label="--" />
+						<edge idref="s4_518" label="--" />
+					</nt>
+					<nt id="s4_514" cat="PP" >
+						<edge idref="s4_515" label="--" />
+						<edge idref="s4_17" label="--" />
+						<edge idref="s4_516" label="--" />
+					</nt>
+					<nt id="s4_512" cat="VP" >
+						<edge idref="s4_13" label="--" />
+						<edge idref="s4_513" label="--" />
+						<edge idref="s4_514" label="--" />
+					</nt>
+					<nt id="s4_510" cat="S" >
+						<edge idref="s4_511" label="--" />
+						<edge idref="s4_512" label="--" />
+					</nt>
+					<nt id="s4_508" cat="SBAR" >
+						<edge idref="s4_509" label="--" />
+						<edge idref="s4_510" label="--" />
+					</nt>
+					<nt id="s4_506" cat="VP" >
+						<edge idref="s4_7" label="--" />
+						<edge idref="s4_507" label="--" />
+						<edge idref="s4_508" label="--" />
+					</nt>
+					<nt id="s4_501" cat="S" >
+						<edge idref="s4_502" label="--" />
+						<edge idref="s4_506" label="--" />
+					</nt>
+					<nt id="s4_525" cat="NP" >
+						<edge idref="s4_28" label="--" />
+					</nt>
+					<nt id="s4_529" cat="NP" >
+						<edge idref="s4_31" label="--" />
+					</nt>
+					<nt id="s4_532" cat="NP" >
+						<edge idref="s4_35" label="--" />
+					</nt>
+					<nt id="s4_534" cat="NP" >
+						<edge idref="s4_37" label="--" />
+						<edge idref="s4_38" label="--" />
+						<edge idref="s4_39" label="--" />
+						<edge idref="s4_40" label="--" />
+						<edge idref="s4_41" label="--" />
+					</nt>
+					<nt id="s4_533" cat="PP" >
+						<edge idref="s4_36" label="--" />
+						<edge idref="s4_534" label="--" />
+					</nt>
+					<nt id="s4_531" cat="VP" >
+						<edge idref="s4_34" label="--" />
+						<edge idref="s4_532" label="--" />
+						<edge idref="s4_533" label="--" />
+					</nt>
+					<nt id="s4_530" cat="VP" >
+						<edge idref="s4_32" label="--" />
+						<edge idref="s4_33" label="--" />
+						<edge idref="s4_531" label="--" />
+					</nt>
+					<nt id="s4_528" cat="S" >
+						<edge idref="s4_529" label="--" />
+						<edge idref="s4_530" label="--" />
+					</nt>
+					<nt id="s4_527" cat="SBAR" >
+						<edge idref="s4_30" label="--" />
+						<edge idref="s4_528" label="--" />
+					</nt>
+					<nt id="s4_526" cat="VP" >
+						<edge idref="s4_29" label="--" />
+						<edge idref="s4_527" label="--" />
+					</nt>
+					<nt id="s4_524" cat="S" >
+						<edge idref="s4_525" label="--" />
+						<edge idref="s4_526" label="--" />
+					</nt>
+					<nt id="s4_500" cat="S" >
+						<edge idref="s4_1" label="--" />
+						<edge idref="s4_501" label="--" />
+						<edge idref="s4_27" label="--" />
+						<edge idref="s4_524" label="--" />
+						<edge idref="s4_42" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s5" >
+			<graph root="s5_500" >
+				<terminals>
+					<t id="s5_1" word="Here" pos="RB" />
+					<t id="s5_2" word="," pos="," />
+					<t id="s5_3" word="Mid-America" pos="NNP" />
+					<t id="s5_4" word="Sound" pos="NNP" />
+					<t id="s5_5" word="argues" pos="VBZ" />
+					<t id="s5_6" word="that" pos="IN" />
+					<t id="s5_7" word="the" pos="DT" />
+					<t id="s5_8" word="Indiana" pos="NNP" />
+					<t id="s5_9" word="State" pos="NNP" />
+					<t id="s5_10" word="Fair" pos="NNP" />
+					<t id="s5_11" word="Commission" pos="NNP" />
+					<t id="s5_12" word="accepted" pos="VBD" />
+					<t id="s5_13" word="liability" pos="NN" />
+					<t id="s5_14" word="for" pos="IN" />
+					<t id="s5_15" word="an" pos="DT" />
+					<t id="s5_16" word="existing" pos="NN" />
+					<t id="s5_17" word="," pos="," />
+					<t id="s5_18" word="catastrophic" pos="JJ" />
+					<t id="s5_19" word="loss„not" pos="NN" />
+					<t id="s5_20" word="through" pos="IN" />
+					<t id="s5_21" word="explicit" pos="JJ" />
+					<t id="s5_22" word="contract" pos="NN" />
+					<t id="s5_23" word="language" pos="NN" />
+					<t id="s5_24" word="calling" pos="VBG" />
+					<t id="s5_25" word="for" pos="IN" />
+					<t id="s5_26" word="retroactive" pos="JJ" />
+					<t id="s5_27" word="indemnification" pos="NN" />
+					<t id="s5_28" word="," pos="," />
+					<t id="s5_29" word="but" pos="CC" />
+					<t id="s5_30" word="through" pos="IN" />
+					<t id="s5_31" word="a" pos="DT" />
+					<t id="s5_32" word="years-long" pos="JJ" />
+					<t id="s5_33" word="course" pos="NN" />
+					<t id="s5_34" word="of" pos="IN" />
+					<t id="s5_35" word="conduct" pos="NN" />
+					<t id="s5_36" word="in" pos="IN" />
+					<t id="s5_37" word="paying" pos="VBG" />
+					<t id="s5_38" word="invoices" pos="NNS" />
+					<t id="s5_39" word="that" pos="WDT" />
+					<t id="s5_40" word="had" pos="VBD" />
+					<t id="s5_41" word="standard" pos="VBN" />
+					<t id="s5_42" word="indemnity" pos="NN" />
+					<t id="s5_43" word="language" pos="NN" />
+					<t id="s5_44" word="on" pos="IN" />
+					<t id="s5_45" word="the" pos="DT" />
+					<t id="s5_46" word="back" pos="NN" />
+					<t id="s5_47" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s5_501" cat="ADVP" >
+						<edge idref="s5_1" label="--" />
+					</nt>
+					<nt id="s5_502" cat="NP" >
+						<edge idref="s5_3" label="--" />
+						<edge idref="s5_4" label="--" />
+					</nt>
+					<nt id="s5_506" cat="NP" >
+						<edge idref="s5_7" label="--" />
+						<edge idref="s5_8" label="--" />
+						<edge idref="s5_9" label="--" />
+						<edge idref="s5_10" label="--" />
+						<edge idref="s5_11" label="--" />
+					</nt>
+					<nt id="s5_508" cat="NP" >
+						<edge idref="s5_13" label="--" />
+					</nt>
+					<nt id="s5_511" cat="NP" >
+						<edge idref="s5_15" label="--" />
+						<edge idref="s5_16" label="--" />
+						<edge idref="s5_17" label="--" />
+						<edge idref="s5_18" label="--" />
+						<edge idref="s5_19" label="--" />
+					</nt>
+					<nt id="s5_514" cat="NP" >
+						<edge idref="s5_21" label="--" />
+						<edge idref="s5_22" label="--" />
+						<edge idref="s5_23" label="--" />
+					</nt>
+					<nt id="s5_518" cat="NP" >
+						<edge idref="s5_26" label="--" />
+						<edge idref="s5_27" label="--" />
+					</nt>
+					<nt id="s5_517" cat="PP" >
+						<edge idref="s5_25" label="--" />
+						<edge idref="s5_518" label="--" />
+					</nt>
+					<nt id="s5_521" cat="NP" >
+						<edge idref="s5_31" label="--" />
+						<edge idref="s5_32" label="--" />
+						<edge idref="s5_33" label="--" />
+					</nt>
+					<nt id="s5_524" cat="NP" >
+						<edge idref="s5_35" label="--" />
+					</nt>
+					<nt id="s5_529" cat="NP" >
+						<edge idref="s5_38" label="--" />
+					</nt>
+					<nt id="s5_531" cat="WHNP" >
+						<edge idref="s5_39" label="--" />
+					</nt>
+					<nt id="s5_535" cat="NP" >
+						<edge idref="s5_42" label="--" />
+						<edge idref="s5_43" label="--" />
+					</nt>
+					<nt id="s5_537" cat="NP" >
+						<edge idref="s5_45" label="--" />
+						<edge idref="s5_46" label="--" />
+					</nt>
+					<nt id="s5_536" cat="PP" >
+						<edge idref="s5_44" label="--" />
+						<edge idref="s5_537" label="--" />
+					</nt>
+					<nt id="s5_534" cat="VP" >
+						<edge idref="s5_41" label="--" />
+						<edge idref="s5_535" label="--" />
+						<edge idref="s5_536" label="--" />
+					</nt>
+					<nt id="s5_533" cat="VP" >
+						<edge idref="s5_40" label="--" />
+						<edge idref="s5_534" label="--" />
+					</nt>
+					<nt id="s5_532" cat="S" >
+						<edge idref="s5_533" label="--" />
+					</nt>
+					<nt id="s5_530" cat="SBAR" >
+						<edge idref="s5_531" label="--" />
+						<edge idref="s5_532" label="--" />
+					</nt>
+					<nt id="s5_528" cat="NP" >
+						<edge idref="s5_529" label="--" />
+						<edge idref="s5_530" label="--" />
+					</nt>
+					<nt id="s5_527" cat="VP" >
+						<edge idref="s5_37" label="--" />
+						<edge idref="s5_528" label="--" />
+					</nt>
+					<nt id="s5_526" cat="S" >
+						<edge idref="s5_527" label="--" />
+					</nt>
+					<nt id="s5_525" cat="PP" >
+						<edge idref="s5_36" label="--" />
+						<edge idref="s5_526" label="--" />
+					</nt>
+					<nt id="s5_523" cat="NP" >
+						<edge idref="s5_524" label="--" />
+						<edge idref="s5_525" label="--" />
+					</nt>
+					<nt id="s5_522" cat="PP" >
+						<edge idref="s5_34" label="--" />
+						<edge idref="s5_523" label="--" />
+					</nt>
+					<nt id="s5_520" cat="NP" >
+						<edge idref="s5_521" label="--" />
+						<edge idref="s5_522" label="--" />
+					</nt>
+					<nt id="s5_519" cat="PP" >
+						<edge idref="s5_30" label="--" />
+						<edge idref="s5_520" label="--" />
+					</nt>
+					<nt id="s5_516" cat="PP" >
+						<edge idref="s5_517" label="--" />
+						<edge idref="s5_28" label="--" />
+						<edge idref="s5_29" label="--" />
+						<edge idref="s5_519" label="--" />
+					</nt>
+					<nt id="s5_515" cat="VP" >
+						<edge idref="s5_24" label="--" />
+						<edge idref="s5_516" label="--" />
+					</nt>
+					<nt id="s5_513" cat="NP" >
+						<edge idref="s5_514" label="--" />
+						<edge idref="s5_515" label="--" />
+					</nt>
+					<nt id="s5_512" cat="PP" >
+						<edge idref="s5_20" label="--" />
+						<edge idref="s5_513" label="--" />
+					</nt>
+					<nt id="s5_510" cat="NP" >
+						<edge idref="s5_511" label="--" />
+						<edge idref="s5_512" label="--" />
+					</nt>
+					<nt id="s5_509" cat="PP" >
+						<edge idref="s5_14" label="--" />
+						<edge idref="s5_510" label="--" />
+					</nt>
+					<nt id="s5_507" cat="VP" >
+						<edge idref="s5_12" label="--" />
+						<edge idref="s5_508" label="--" />
+						<edge idref="s5_509" label="--" />
+					</nt>
+					<nt id="s5_505" cat="S" >
+						<edge idref="s5_506" label="--" />
+						<edge idref="s5_507" label="--" />
+					</nt>
+					<nt id="s5_504" cat="SBAR" >
+						<edge idref="s5_6" label="--" />
+						<edge idref="s5_505" label="--" />
+					</nt>
+					<nt id="s5_503" cat="VP" >
+						<edge idref="s5_5" label="--" />
+						<edge idref="s5_504" label="--" />
+					</nt>
+					<nt id="s5_500" cat="S" >
+						<edge idref="s5_501" label="--" />
+						<edge idref="s5_2" label="--" />
+						<edge idref="s5_502" label="--" />
+						<edge idref="s5_503" label="--" />
+						<edge idref="s5_47" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s6" >
+			<graph root="s6_500" >
+				<terminals>
+					<t id="s6_1" word="But" pos="CC" />
+					<t id="s6_2" word="as" pos="IN" />
+					<t id="s6_3" word="a" pos="DT" />
+					<t id="s6_4" word="matter" pos="NN" />
+					<t id="s6_5" word="of" pos="IN" />
+					<t id="s6_6" word="law" pos="NN" />
+					<t id="s6_7" word="," pos="," />
+					<t id="s6_8" word="a" pos="DT" />
+					<t id="s6_9" word="form" pos="NN" />
+					<t id="s6_10" word="of" pos="IN" />
+					<t id="s6_11" word="liability" pos="NN" />
+					<t id="s6_12" word="so" pos="RB" />
+					<t id="s6_13" word="disfavored" pos="VBD" />
+					<t id="s6_14" word="can" pos="MD" />
+					<t id="s6_15" word="not" pos="RB" />
+					<t id="s6_16" word="be" pos="VB" />
+					<t id="s6_17" word="implied" pos="VBN" />
+					<t id="s6_18" word="from" pos="IN" />
+					<t id="s6_19" word="a" pos="DT" />
+					<t id="s6_20" word="course" pos="NN" />
+					<t id="s6_21" word="of" pos="IN" />
+					<t id="s6_22" word="dealing" pos="VBG" />
+					<t id="s6_23" word="when" pos="WRB" />
+					<t id="s6_24" word="it" pos="PRP" />
+					<t id="s6_25" word="is" pos="VBZ" />
+					<t id="s6_26" word="not" pos="RB" />
+					<t id="s6_27" word="expressed" pos="VBN" />
+					<t id="s6_28" word="by" pos="IN" />
+					<t id="s6_29" word="clear" pos="JJ" />
+					<t id="s6_30" word="and" pos="CC" />
+					<t id="s6_31" word="unequivocal" pos="JJ" />
+					<t id="s6_32" word="contract" pos="NN" />
+					<t id="s6_33" word="language" pos="NN" />
+					<t id="s6_34" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s6_503" cat="NP" >
+						<edge idref="s6_3" label="--" />
+						<edge idref="s6_4" label="--" />
+					</nt>
+					<nt id="s6_505" cat="NP" >
+						<edge idref="s6_6" label="--" />
+					</nt>
+					<nt id="s6_504" cat="PP" >
+						<edge idref="s6_5" label="--" />
+						<edge idref="s6_505" label="--" />
+					</nt>
+					<nt id="s6_502" cat="NP" >
+						<edge idref="s6_503" label="--" />
+						<edge idref="s6_504" label="--" />
+					</nt>
+					<nt id="s6_501" cat="PP" >
+						<edge idref="s6_2" label="--" />
+						<edge idref="s6_502" label="--" />
+					</nt>
+					<nt id="s6_507" cat="NP" >
+						<edge idref="s6_8" label="--" />
+						<edge idref="s6_9" label="--" />
+					</nt>
+					<nt id="s6_509" cat="NP" >
+						<edge idref="s6_11" label="--" />
+					</nt>
+					<nt id="s6_508" cat="PP" >
+						<edge idref="s6_10" label="--" />
+						<edge idref="s6_509" label="--" />
+					</nt>
+					<nt id="s6_506" cat="NP" >
+						<edge idref="s6_507" label="--" />
+						<edge idref="s6_508" label="--" />
+					</nt>
+					<nt id="s6_511" cat="ADVP" >
+						<edge idref="s6_12" label="--" />
+					</nt>
+					<nt id="s6_519" cat="NP" >
+						<edge idref="s6_19" label="--" />
+						<edge idref="s6_20" label="--" />
+					</nt>
+					<nt id="s6_524" cat="WHADVP" >
+						<edge idref="s6_23" label="--" />
+					</nt>
+					<nt id="s6_526" cat="NP" >
+						<edge idref="s6_24" label="--" />
+					</nt>
+					<nt id="s6_531" cat="ADJP" >
+						<edge idref="s6_29" label="--" />
+						<edge idref="s6_30" label="--" />
+						<edge idref="s6_31" label="--" />
+					</nt>
+					<nt id="s6_530" cat="NP" >
+						<edge idref="s6_531" label="--" />
+						<edge idref="s6_32" label="--" />
+						<edge idref="s6_33" label="--" />
+					</nt>
+					<nt id="s6_529" cat="PP" >
+						<edge idref="s6_28" label="--" />
+						<edge idref="s6_530" label="--" />
+					</nt>
+					<nt id="s6_528" cat="VP" >
+						<edge idref="s6_27" label="--" />
+						<edge idref="s6_529" label="--" />
+					</nt>
+					<nt id="s6_527" cat="VP" >
+						<edge idref="s6_25" label="--" />
+						<edge idref="s6_26" label="--" />
+						<edge idref="s6_528" label="--" />
+					</nt>
+					<nt id="s6_525" cat="S" >
+						<edge idref="s6_526" label="--" />
+						<edge idref="s6_527" label="--" />
+					</nt>
+					<nt id="s6_523" cat="SBAR" >
+						<edge idref="s6_524" label="--" />
+						<edge idref="s6_525" label="--" />
+					</nt>
+					<nt id="s6_522" cat="VP" >
+						<edge idref="s6_22" label="--" />
+						<edge idref="s6_523" label="--" />
+					</nt>
+					<nt id="s6_521" cat="S" >
+						<edge idref="s6_522" label="--" />
+					</nt>
+					<nt id="s6_520" cat="PP" >
+						<edge idref="s6_21" label="--" />
+						<edge idref="s6_521" label="--" />
+					</nt>
+					<nt id="s6_518" cat="NP" >
+						<edge idref="s6_519" label="--" />
+						<edge idref="s6_520" label="--" />
+					</nt>
+					<nt id="s6_517" cat="PP" >
+						<edge idref="s6_18" label="--" />
+						<edge idref="s6_518" label="--" />
+					</nt>
+					<nt id="s6_516" cat="VP" >
+						<edge idref="s6_17" label="--" />
+						<edge idref="s6_517" label="--" />
+					</nt>
+					<nt id="s6_515" cat="VP" >
+						<edge idref="s6_16" label="--" />
+						<edge idref="s6_516" label="--" />
+					</nt>
+					<nt id="s6_514" cat="VP" >
+						<edge idref="s6_14" label="--" />
+						<edge idref="s6_15" label="--" />
+						<edge idref="s6_515" label="--" />
+					</nt>
+					<nt id="s6_513" cat="S" >
+						<edge idref="s6_514" label="--" />
+					</nt>
+					<nt id="s6_512" cat="SBAR" >
+						<edge idref="s6_513" label="--" />
+					</nt>
+					<nt id="s6_510" cat="VP" >
+						<edge idref="s6_511" label="--" />
+						<edge idref="s6_13" label="--" />
+						<edge idref="s6_512" label="--" />
+					</nt>
+					<nt id="s6_500" cat="S" >
+						<edge idref="s6_1" label="--" />
+						<edge idref="s6_501" label="--" />
+						<edge idref="s6_7" label="--" />
+						<edge idref="s6_506" label="--" />
+						<edge idref="s6_510" label="--" />
+						<edge idref="s6_34" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s7" >
+			<graph root="s7_500" >
+				<terminals>
+					<t id="s7_1" word="We" pos="PRP" />
+					<t id="s7_2" word="therefore" pos="VBP" />
+					<t id="s7_3" word="grant" pos="JJ" />
+					<t id="s7_4" word="transfer" pos="NN" />
+					<t id="s7_5" word="and" pos="CC" />
+					<t id="s7_6" word="affirm" pos="VB" />
+					<t id="s7_7" word="the" pos="DT" />
+					<t id="s7_8" word="trial" pos="NN" />
+					<t id="s7_9" word="courtÍs" pos="NN" />
+					<t id="s7_10" word="grant" pos="NN" />
+					<t id="s7_11" word="of" pos="IN" />
+					<t id="s7_12" word="sum-mary" pos="JJ" />
+					<t id="s7_13" word="judgment" pos="NN" />
+					<t id="s7_14" word="for" pos="IN" />
+					<t id="s7_15" word="the" pos="DT" />
+					<t id="s7_16" word="Commission" pos="NNP" />
+					<t id="s7_17" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s7_501" cat="NP" >
+						<edge idref="s7_1" label="--" />
+					</nt>
+					<nt id="s7_504" cat="NP" >
+						<edge idref="s7_3" label="--" />
+						<edge idref="s7_4" label="--" />
+					</nt>
+					<nt id="s7_503" cat="VP" >
+						<edge idref="s7_2" label="--" />
+						<edge idref="s7_504" label="--" />
+					</nt>
+					<nt id="s7_507" cat="NP" >
+						<edge idref="s7_7" label="--" />
+						<edge idref="s7_8" label="--" />
+						<edge idref="s7_9" label="--" />
+						<edge idref="s7_10" label="--" />
+					</nt>
+					<nt id="s7_509" cat="NP" >
+						<edge idref="s7_12" label="--" />
+						<edge idref="s7_13" label="--" />
+					</nt>
+					<nt id="s7_508" cat="PP" >
+						<edge idref="s7_11" label="--" />
+						<edge idref="s7_509" label="--" />
+					</nt>
+					<nt id="s7_506" cat="NP" >
+						<edge idref="s7_507" label="--" />
+						<edge idref="s7_508" label="--" />
+					</nt>
+					<nt id="s7_511" cat="NP" >
+						<edge idref="s7_15" label="--" />
+						<edge idref="s7_16" label="--" />
+					</nt>
+					<nt id="s7_510" cat="PP" >
+						<edge idref="s7_14" label="--" />
+						<edge idref="s7_511" label="--" />
+					</nt>
+					<nt id="s7_505" cat="VP" >
+						<edge idref="s7_6" label="--" />
+						<edge idref="s7_506" label="--" />
+						<edge idref="s7_510" label="--" />
+					</nt>
+					<nt id="s7_502" cat="VP" >
+						<edge idref="s7_503" label="--" />
+						<edge idref="s7_5" label="--" />
+						<edge idref="s7_505" label="--" />
+					</nt>
+					<nt id="s7_500" cat="S" >
+						<edge idref="s7_501" label="--" />
+						<edge idref="s7_502" label="--" />
+						<edge idref="s7_17" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s8" >
+			<graph root="s8_500" >
+				<terminals>
+					<t id="s8_1" word="Indiana" pos="NNP" />
+					<t id="s8_2" word="has" pos="VBZ" />
+					<t id="s8_3" word="held" pos="VBN" />
+					<t id="s8_4" word="its" pos="PRP$" />
+					<t id="s8_5" word="famed" pos="JJ" />
+					<t id="s8_6" word="State" pos="NNP" />
+					<t id="s8_7" word="Fair" pos="NNP" />
+					<t id="s8_8" word="nearly" pos="RB" />
+					<t id="s8_9" word="every" pos="DT" />
+					<t id="s8_10" word="year" pos="NN" />
+					<t id="s8_11" word="since" pos="IN" />
+					<t id="s8_12" word="1852" pos="CD" />
+					<t id="s8_13" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s8_501" cat="NP" >
+						<edge idref="s8_1" label="--" />
+					</nt>
+					<nt id="s8_504" cat="NP" >
+						<edge idref="s8_4" label="--" />
+						<edge idref="s8_5" label="--" />
+						<edge idref="s8_6" label="--" />
+						<edge idref="s8_7" label="--" />
+					</nt>
+					<nt id="s8_505" cat="NP" >
+						<edge idref="s8_8" label="--" />
+						<edge idref="s8_9" label="--" />
+						<edge idref="s8_10" label="--" />
+					</nt>
+					<nt id="s8_507" cat="NP" >
+						<edge idref="s8_12" label="--" />
+					</nt>
+					<nt id="s8_506" cat="PP" >
+						<edge idref="s8_11" label="--" />
+						<edge idref="s8_507" label="--" />
+					</nt>
+					<nt id="s8_503" cat="VP" >
+						<edge idref="s8_3" label="--" />
+						<edge idref="s8_504" label="--" />
+						<edge idref="s8_505" label="--" />
+						<edge idref="s8_506" label="--" />
+					</nt>
+					<nt id="s8_502" cat="VP" >
+						<edge idref="s8_2" label="--" />
+						<edge idref="s8_503" label="--" />
+					</nt>
+					<nt id="s8_500" cat="S" >
+						<edge idref="s8_501" label="--" />
+						<edge idref="s8_502" label="--" />
+						<edge idref="s8_13" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s9" >
+			<graph root="s9_500" >
+				<terminals>
+					<t id="s9_1" word="An" pos="DT" />
+					<t id="s9_2" word="evolving" pos="VBG" />
+					<t id="s9_3" word="Hoosier" pos="NNP" />
+					<t id="s9_4" word="tradition" pos="NN" />
+					<t id="s9_5" word="," pos="," />
+					<t id="s9_6" word="the" pos="DT" />
+					<t id="s9_7" word="Fair" pos="NNP" />
+					<t id="s9_8" word="has" pos="VBZ" />
+					<t id="s9_9" word="become" pos="VBN" />
+					<t id="s9_10" word="more" pos="JJR" />
+					<t id="s9_11" word="than" pos="IN" />
+					<t id="s9_12" word="just" pos="RB" />
+					<t id="s9_13" word="an" pos="DT" />
+					<t id="s9_14" word="agricultural" pos="JJ" />
+					<t id="s9_15" word="exposition" pos="NN" />
+					<t id="s9_16" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s9_501" cat="NP" >
+						<edge idref="s9_1" label="--" />
+						<edge idref="s9_2" label="--" />
+						<edge idref="s9_3" label="--" />
+						<edge idref="s9_4" label="--" />
+					</nt>
+					<nt id="s9_502" cat="NP" >
+						<edge idref="s9_6" label="--" />
+						<edge idref="s9_7" label="--" />
+					</nt>
+					<nt id="s9_506" cat="ADJP" >
+						<edge idref="s9_10" label="--" />
+					</nt>
+					<nt id="s9_508" cat="NP" >
+						<edge idref="s9_12" label="--" />
+						<edge idref="s9_13" label="--" />
+						<edge idref="s9_14" label="--" />
+						<edge idref="s9_15" label="--" />
+					</nt>
+					<nt id="s9_507" cat="PP" >
+						<edge idref="s9_11" label="--" />
+						<edge idref="s9_508" label="--" />
+					</nt>
+					<nt id="s9_505" cat="ADJP" >
+						<edge idref="s9_506" label="--" />
+						<edge idref="s9_507" label="--" />
+					</nt>
+					<nt id="s9_504" cat="VP" >
+						<edge idref="s9_9" label="--" />
+						<edge idref="s9_505" label="--" />
+					</nt>
+					<nt id="s9_503" cat="VP" >
+						<edge idref="s9_8" label="--" />
+						<edge idref="s9_504" label="--" />
+					</nt>
+					<nt id="s9_500" cat="S" >
+						<edge idref="s9_501" label="--" />
+						<edge idref="s9_5" label="--" />
+						<edge idref="s9_502" label="--" />
+						<edge idref="s9_503" label="--" />
+						<edge idref="s9_16" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s10" >
+			<graph root="s10_500" >
+				<terminals>
+					<t id="s10_1" word="It" pos="PRP" />
+					<t id="s10_2" word="is" pos="VBZ" />
+					<t id="s10_3" word="now" pos="RB" />
+					<t id="s10_4" word="a" pos="DT" />
+					<t id="s10_5" word="major" pos="JJ" />
+					<t id="s10_6" word="commercial" pos="JJ" />
+					<t id="s10_7" word="event" pos="NN" />
+					<t id="s10_8" word="for" pos="IN" />
+					<t id="s10_9" word="the" pos="DT" />
+					<t id="s10_10" word="general" pos="JJ" />
+					<t id="s10_11" word="public" pos="NN" />
+					<t id="s10_12" word="," pos="," />
+					<t id="s10_13" word="attracting" pos="VBG" />
+					<t id="s10_14" word="rural" pos="JJ" />
+					<t id="s10_15" word="and" pos="CC" />
+					<t id="s10_16" word="urban" pos="JJ" />
+					<t id="s10_17" word="Hoosiers" pos="NNP" />
+					<t id="s10_18" word="alike„featuring" pos="VBG" />
+					<t id="s10_19" word="concerts" pos="NNS" />
+					<t id="s10_20" word="," pos="," />
+					<t id="s10_21" word="tractor" pos="NN" />
+					<t id="s10_22" word="pulls" pos="NNS" />
+					<t id="s10_23" word="," pos="," />
+					<t id="s10_24" word="demolition" pos="NN" />
+					<t id="s10_25" word="derbies" pos="NNS" />
+					<t id="s10_26" word="," pos="," />
+					<t id="s10_27" word="monster" pos="NN" />
+					<t id="s10_28" word="truck" pos="NN" />
+					<t id="s10_29" word="shows" pos="NNS" />
+					<t id="s10_30" word="," pos="," />
+					<t id="s10_31" word="and" pos="CC" />
+					<t id="s10_32" word="a" pos="DT" />
+					<t id="s10_33" word="seemingly" pos="RB" />
+					<t id="s10_34" word="boundless" pos="JJ" />
+					<t id="s10_35" word="supply" pos="NN" />
+					<t id="s10_36" word="of" pos="IN" />
+					<t id="s10_37" word="food" pos="NN" />
+					<t id="s10_38" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s10_501" cat="NP" >
+						<edge idref="s10_1" label="--" />
+					</nt>
+					<nt id="s10_503" cat="ADVP" >
+						<edge idref="s10_3" label="--" />
+					</nt>
+					<nt id="s10_505" cat="NP" >
+						<edge idref="s10_4" label="--" />
+						<edge idref="s10_5" label="--" />
+						<edge idref="s10_6" label="--" />
+						<edge idref="s10_7" label="--" />
+					</nt>
+					<nt id="s10_507" cat="NP" >
+						<edge idref="s10_9" label="--" />
+						<edge idref="s10_10" label="--" />
+						<edge idref="s10_11" label="--" />
+					</nt>
+					<nt id="s10_506" cat="PP" >
+						<edge idref="s10_8" label="--" />
+						<edge idref="s10_507" label="--" />
+					</nt>
+					<nt id="s10_504" cat="NP" >
+						<edge idref="s10_505" label="--" />
+						<edge idref="s10_506" label="--" />
+					</nt>
+					<nt id="s10_511" cat="NP" >
+						<edge idref="s10_14" label="--" />
+						<edge idref="s10_15" label="--" />
+						<edge idref="s10_16" label="--" />
+						<edge idref="s10_17" label="--" />
+						<edge idref="s10_18" label="--" />
+						<edge idref="s10_19" label="--" />
+					</nt>
+					<nt id="s10_512" cat="NP" >
+						<edge idref="s10_21" label="--" />
+						<edge idref="s10_22" label="--" />
+					</nt>
+					<nt id="s10_513" cat="NP" >
+						<edge idref="s10_24" label="--" />
+						<edge idref="s10_25" label="--" />
+					</nt>
+					<nt id="s10_514" cat="NP" >
+						<edge idref="s10_27" label="--" />
+						<edge idref="s10_28" label="--" />
+						<edge idref="s10_29" label="--" />
+					</nt>
+					<nt id="s10_517" cat="ADJP" >
+						<edge idref="s10_33" label="--" />
+						<edge idref="s10_34" label="--" />
+					</nt>
+					<nt id="s10_516" cat="NP" >
+						<edge idref="s10_32" label="--" />
+						<edge idref="s10_517" label="--" />
+						<edge idref="s10_35" label="--" />
+					</nt>
+					<nt id="s10_519" cat="NP" >
+						<edge idref="s10_37" label="--" />
+					</nt>
+					<nt id="s10_518" cat="PP" >
+						<edge idref="s10_36" label="--" />
+						<edge idref="s10_519" label="--" />
+					</nt>
+					<nt id="s10_515" cat="NP" >
+						<edge idref="s10_516" label="--" />
+						<edge idref="s10_518" label="--" />
+					</nt>
+					<nt id="s10_510" cat="NP" >
+						<edge idref="s10_511" label="--" />
+						<edge idref="s10_20" label="--" />
+						<edge idref="s10_512" label="--" />
+						<edge idref="s10_23" label="--" />
+						<edge idref="s10_513" label="--" />
+						<edge idref="s10_26" label="--" />
+						<edge idref="s10_514" label="--" />
+						<edge idref="s10_30" label="--" />
+						<edge idref="s10_31" label="--" />
+						<edge idref="s10_515" label="--" />
+					</nt>
+					<nt id="s10_509" cat="VP" >
+						<edge idref="s10_13" label="--" />
+						<edge idref="s10_510" label="--" />
+					</nt>
+					<nt id="s10_508" cat="S" >
+						<edge idref="s10_509" label="--" />
+					</nt>
+					<nt id="s10_502" cat="VP" >
+						<edge idref="s10_2" label="--" />
+						<edge idref="s10_503" label="--" />
+						<edge idref="s10_504" label="--" />
+						<edge idref="s10_12" label="--" />
+						<edge idref="s10_508" label="--" />
+					</nt>
+					<nt id="s10_500" cat="S" >
+						<edge idref="s10_501" label="--" />
+						<edge idref="s10_502" label="--" />
+						<edge idref="s10_38" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s11" >
+			<graph root="s11_500" >
+				<terminals>
+					<t id="s11_1" word="The" pos="DT" />
+					<t id="s11_2" word="Indiana" pos="NNP" />
+					<t id="s11_3" word="State" pos="NNP" />
+					<t id="s11_4" word="Fair" pos="NNP" />
+					<t id="s11_5" word="Commission" pos="NNP" />
+					<t id="s11_6" word="manages" pos="VBZ" />
+					<t id="s11_7" word="the" pos="DT" />
+					<t id="s11_8" word="Fair" pos="NNP" />
+					<t id="s11_9" word="," pos="," />
+					<t id="s11_10" word="and" pos="CC" />
+					<t id="s11_11" word="by" pos="IN" />
+					<t id="s11_12" word="extension" pos="NN" />
+					<t id="s11_13" word="," pos="," />
+					<t id="s11_14" word="the" pos="DT" />
+					<t id="s11_15" word="concerts" pos="NNS" />
+					<t id="s11_16" word="and" pos="CC" />
+					<t id="s11_17" word="other" pos="JJ" />
+					<t id="s11_18" word="major" pos="JJ" />
+					<t id="s11_19" word="events" pos="NNS" />
+					<t id="s11_20" word="that" pos="WDT" />
+					<t id="s11_21" word="take" pos="VBP" />
+					<t id="s11_22" word="place" pos="NN" />
+					<t id="s11_23" word="at" pos="IN" />
+					<t id="s11_24" word="the" pos="DT" />
+					<t id="s11_25" word="Fair" pos="NNP" />
+					<t id="s11_26" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s11_501" cat="NP" >
+						<edge idref="s11_1" label="--" />
+						<edge idref="s11_2" label="--" />
+						<edge idref="s11_3" label="--" />
+						<edge idref="s11_4" label="--" />
+						<edge idref="s11_5" label="--" />
+					</nt>
+					<nt id="s11_504" cat="NP" >
+						<edge idref="s11_7" label="--" />
+						<edge idref="s11_8" label="--" />
+					</nt>
+					<nt id="s11_507" cat="NP" >
+						<edge idref="s11_12" label="--" />
+					</nt>
+					<nt id="s11_508" cat="NP" >
+						<edge idref="s11_14" label="--" />
+						<edge idref="s11_15" label="--" />
+					</nt>
+					<nt id="s11_510" cat="NP" >
+						<edge idref="s11_17" label="--" />
+						<edge idref="s11_18" label="--" />
+						<edge idref="s11_19" label="--" />
+					</nt>
+					<nt id="s11_512" cat="WHNP" >
+						<edge idref="s11_20" label="--" />
+					</nt>
+					<nt id="s11_515" cat="NP" >
+						<edge idref="s11_22" label="--" />
+					</nt>
+					<nt id="s11_517" cat="NP" >
+						<edge idref="s11_24" label="--" />
+						<edge idref="s11_25" label="--" />
+					</nt>
+					<nt id="s11_516" cat="PP" >
+						<edge idref="s11_23" label="--" />
+						<edge idref="s11_517" label="--" />
+					</nt>
+					<nt id="s11_514" cat="VP" >
+						<edge idref="s11_21" label="--" />
+						<edge idref="s11_515" label="--" />
+						<edge idref="s11_516" label="--" />
+					</nt>
+					<nt id="s11_513" cat="S" >
+						<edge idref="s11_514" label="--" />
+					</nt>
+					<nt id="s11_511" cat="SBAR" >
+						<edge idref="s11_512" label="--" />
+						<edge idref="s11_513" label="--" />
+					</nt>
+					<nt id="s11_509" cat="NP" >
+						<edge idref="s11_510" label="--" />
+						<edge idref="s11_511" label="--" />
+					</nt>
+					<nt id="s11_506" cat="NP" >
+						<edge idref="s11_507" label="--" />
+						<edge idref="s11_13" label="--" />
+						<edge idref="s11_508" label="--" />
+						<edge idref="s11_16" label="--" />
+						<edge idref="s11_509" label="--" />
+					</nt>
+					<nt id="s11_505" cat="PP" >
+						<edge idref="s11_11" label="--" />
+						<edge idref="s11_506" label="--" />
+					</nt>
+					<nt id="s11_503" cat="NP" >
+						<edge idref="s11_504" label="--" />
+						<edge idref="s11_9" label="--" />
+						<edge idref="s11_10" label="--" />
+						<edge idref="s11_505" label="--" />
+					</nt>
+					<nt id="s11_502" cat="VP" >
+						<edge idref="s11_6" label="--" />
+						<edge idref="s11_503" label="--" />
+					</nt>
+					<nt id="s11_500" cat="S" >
+						<edge idref="s11_501" label="--" />
+						<edge idref="s11_502" label="--" />
+						<edge idref="s11_26" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s12" >
+			<graph root="s12_500" >
+				<terminals>
+					<t id="s12_1" word="Since" pos="IN" />
+					<t id="s12_2" word="the" pos="DT" />
+					<t id="s12_3" word="1990s" pos="CD" />
+					<t id="s12_4" word="," pos="," />
+					<t id="s12_5" word="the" pos="DT" />
+					<t id="s12_6" word="Commission" pos="NNP" />
+					<t id="s12_7" word="uti-lized" pos="JJ" />
+					<t id="s12_8" word="Mid-America" pos="NNP" />
+					<t id="s12_9" word="Sound" pos="NNP" />
+					<t id="s12_10" word="to" pos="TO" />
+					<t id="s12_11" word="provide" pos="VB" />
+					<t id="s12_12" word="equipment" pos="NN" />
+					<t id="s12_13" word="and" pos="CC" />
+					<t id="s12_14" word="services" pos="NNS" />
+					<t id="s12_15" word="for" pos="IN" />
+					<t id="s12_16" word="those" pos="DT" />
+					<t id="s12_17" word="concerts" pos="NNS" />
+					<t id="s12_18" word="and" pos="CC" />
+					<t id="s12_19" word="events" pos="NNS" />
+					<t id="s12_20" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s12_502" cat="NP" >
+						<edge idref="s12_2" label="--" />
+						<edge idref="s12_3" label="--" />
+					</nt>
+					<nt id="s12_501" cat="PP" >
+						<edge idref="s12_1" label="--" />
+						<edge idref="s12_502" label="--" />
+					</nt>
+					<nt id="s12_503" cat="NP" >
+						<edge idref="s12_5" label="--" />
+						<edge idref="s12_6" label="--" />
+						<edge idref="s12_7" label="--" />
+						<edge idref="s12_8" label="--" />
+						<edge idref="s12_9" label="--" />
+					</nt>
+					<nt id="s12_506" cat="NP" >
+						<edge idref="s12_12" label="--" />
+						<edge idref="s12_13" label="--" />
+						<edge idref="s12_14" label="--" />
+					</nt>
+					<nt id="s12_508" cat="NP" >
+						<edge idref="s12_16" label="--" />
+						<edge idref="s12_17" label="--" />
+						<edge idref="s12_18" label="--" />
+						<edge idref="s12_19" label="--" />
+					</nt>
+					<nt id="s12_507" cat="PP" >
+						<edge idref="s12_15" label="--" />
+						<edge idref="s12_508" label="--" />
+					</nt>
+					<nt id="s12_505" cat="VP" >
+						<edge idref="s12_11" label="--" />
+						<edge idref="s12_506" label="--" />
+						<edge idref="s12_507" label="--" />
+					</nt>
+					<nt id="s12_504" cat="VP" >
+						<edge idref="s12_10" label="--" />
+						<edge idref="s12_505" label="--" />
+					</nt>
+					<nt id="s12_500" cat="S" >
+						<edge idref="s12_501" label="--" />
+						<edge idref="s12_4" label="--" />
+						<edge idref="s12_503" label="--" />
+						<edge idref="s12_504" label="--" />
+						<edge idref="s12_20" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s13" >
+			<graph root="s13_500" >
+				<terminals>
+					<t id="s13_1" word="That" pos="DT" />
+					<t id="s13_2" word="equipment" pos="NN" />
+					<t id="s13_3" word="often" pos="RB" />
+					<t id="s13_4" word="included" pos="VBD" />
+					<t id="s13_5" word="a" pos="DT" />
+					<t id="s13_6" word="temporary" pos="JJ" />
+					<t id="s13_7" word="roof" pos="NN" />
+					<t id="s13_8" word="for" pos="IN" />
+					<t id="s13_9" word="the" pos="DT" />
+					<t id="s13_10" word="grandstand" pos="NN" />
+					<t id="s13_11" word="stage" pos="NN" />
+					<t id="s13_12" word="," pos="," />
+					<t id="s13_13" word="speakers" pos="NNS" />
+					<t id="s13_14" word="," pos="," />
+					<t id="s13_15" word="and" pos="CC" />
+					<t id="s13_16" word="lights" pos="NNS" />
+					<t id="s13_17" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s13_501" cat="NP" >
+						<edge idref="s13_1" label="--" />
+						<edge idref="s13_2" label="--" />
+					</nt>
+					<nt id="s13_502" cat="ADVP" >
+						<edge idref="s13_3" label="--" />
+					</nt>
+					<nt id="s13_505" cat="NP" >
+						<edge idref="s13_5" label="--" />
+						<edge idref="s13_6" label="--" />
+						<edge idref="s13_7" label="--" />
+					</nt>
+					<nt id="s13_508" cat="NP" >
+						<edge idref="s13_9" label="--" />
+						<edge idref="s13_10" label="--" />
+						<edge idref="s13_11" label="--" />
+					</nt>
+					<nt id="s13_509" cat="NP" >
+						<edge idref="s13_13" label="--" />
+					</nt>
+					<nt id="s13_510" cat="NP" >
+						<edge idref="s13_16" label="--" />
+					</nt>
+					<nt id="s13_507" cat="NP" >
+						<edge idref="s13_508" label="--" />
+						<edge idref="s13_12" label="--" />
+						<edge idref="s13_509" label="--" />
+						<edge idref="s13_14" label="--" />
+						<edge idref="s13_15" label="--" />
+						<edge idref="s13_510" label="--" />
+					</nt>
+					<nt id="s13_506" cat="PP" >
+						<edge idref="s13_8" label="--" />
+						<edge idref="s13_507" label="--" />
+					</nt>
+					<nt id="s13_504" cat="NP" >
+						<edge idref="s13_505" label="--" />
+						<edge idref="s13_506" label="--" />
+					</nt>
+					<nt id="s13_503" cat="VP" >
+						<edge idref="s13_4" label="--" />
+						<edge idref="s13_504" label="--" />
+					</nt>
+					<nt id="s13_500" cat="S" >
+						<edge idref="s13_501" label="--" />
+						<edge idref="s13_502" label="--" />
+						<edge idref="s13_503" label="--" />
+						<edge idref="s13_17" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s14" >
+			<graph root="s14_500" >
+				<terminals>
+					<t id="s14_1" word="During" pos="IN" />
+					<t id="s14_2" word="the" pos="DT" />
+					<t id="s14_3" word="last" pos="JJ" />
+					<t id="s14_4" word="ten" pos="JJ" />
+					<t id="s14_5" word="years" pos="NNS" />
+					<t id="s14_6" word="of" pos="IN" />
+					<t id="s14_7" word="their" pos="PRP$" />
+					<t id="s14_8" word="relationship" pos="NN" />
+					<t id="s14_9" word="," pos="," />
+					<t id="s14_10" word="the" pos="DT" />
+					<t id="s14_11" word="Commission" pos="NNP" />
+					<t id="s14_12" word="and" pos="CC" />
+					<t id="s14_13" word="Mid-America" pos="NNP" />
+					<t id="s14_14" word="followed" pos="VBD" />
+					<t id="s14_15" word="a" pos="DT" />
+					<t id="s14_16" word="standard" pos="JJ" />
+					<t id="s14_17" word="routine" pos="NN" />
+					<t id="s14_18" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s14_503" cat="NP" >
+						<edge idref="s14_2" label="--" />
+						<edge idref="s14_3" label="--" />
+						<edge idref="s14_4" label="--" />
+						<edge idref="s14_5" label="--" />
+					</nt>
+					<nt id="s14_505" cat="NP" >
+						<edge idref="s14_7" label="--" />
+						<edge idref="s14_8" label="--" />
+					</nt>
+					<nt id="s14_504" cat="PP" >
+						<edge idref="s14_6" label="--" />
+						<edge idref="s14_505" label="--" />
+					</nt>
+					<nt id="s14_502" cat="NP" >
+						<edge idref="s14_503" label="--" />
+						<edge idref="s14_504" label="--" />
+					</nt>
+					<nt id="s14_501" cat="PP" >
+						<edge idref="s14_1" label="--" />
+						<edge idref="s14_502" label="--" />
+					</nt>
+					<nt id="s14_508" cat="NX" >
+						<edge idref="s14_11" label="--" />
+					</nt>
+					<nt id="s14_509" cat="NX" >
+						<edge idref="s14_13" label="--" />
+					</nt>
+					<nt id="s14_507" cat="NX" >
+						<edge idref="s14_508" label="--" />
+						<edge idref="s14_12" label="--" />
+						<edge idref="s14_509" label="--" />
+					</nt>
+					<nt id="s14_506" cat="NP" >
+						<edge idref="s14_10" label="--" />
+						<edge idref="s14_507" label="--" />
+					</nt>
+					<nt id="s14_511" cat="NP" >
+						<edge idref="s14_15" label="--" />
+						<edge idref="s14_16" label="--" />
+						<edge idref="s14_17" label="--" />
+					</nt>
+					<nt id="s14_510" cat="VP" >
+						<edge idref="s14_14" label="--" />
+						<edge idref="s14_511" label="--" />
+					</nt>
+					<nt id="s14_500" cat="S" >
+						<edge idref="s14_501" label="--" />
+						<edge idref="s14_9" label="--" />
+						<edge idref="s14_506" label="--" />
+						<edge idref="s14_510" label="--" />
+						<edge idref="s14_18" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s15" >
+			<graph root="s15_500" >
+				<terminals>
+					<t id="s15_1" word="Before" pos="IN" />
+					<t id="s15_2" word="each" pos="DT" />
+					<t id="s15_3" word="Fair" pos="NNP" />
+					<t id="s15_4" word="," pos="," />
+					<t id="s15_5" word="they" pos="PRP" />
+					<t id="s15_6" word="agreed" pos="VBD" />
+					<t id="s15_7" word="on" pos="IN" />
+					<t id="s15_8" word="the" pos="DT" />
+					<t id="s15_9" word="equipment" pos="NN" />
+					<t id="s15_10" word="to" pos="TO" />
+					<t id="s15_11" word="be" pos="VB" />
+					<t id="s15_12" word="delivered" pos="VBN" />
+					<t id="s15_13" word="and" pos="CC" />
+					<t id="s15_14" word="the" pos="DT" />
+					<t id="s15_15" word="corre-sponding" pos="JJ" />
+					<t id="s15_16" word="prices" pos="NNS" />
+					<t id="s15_17" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s15_502" cat="NP" >
+						<edge idref="s15_2" label="--" />
+						<edge idref="s15_3" label="--" />
+					</nt>
+					<nt id="s15_501" cat="PP" >
+						<edge idref="s15_1" label="--" />
+						<edge idref="s15_502" label="--" />
+					</nt>
+					<nt id="s15_503" cat="NP" >
+						<edge idref="s15_5" label="--" />
+					</nt>
+					<nt id="s15_511" cat="VP" >
+						<edge idref="s15_12" label="--" />
+					</nt>
+					<nt id="s15_510" cat="VP" >
+						<edge idref="s15_11" label="--" />
+						<edge idref="s15_511" label="--" />
+					</nt>
+					<nt id="s15_509" cat="VP" >
+						<edge idref="s15_10" label="--" />
+						<edge idref="s15_510" label="--" />
+					</nt>
+					<nt id="s15_508" cat="S" >
+						<edge idref="s15_509" label="--" />
+					</nt>
+					<nt id="s15_507" cat="NP" >
+						<edge idref="s15_8" label="--" />
+						<edge idref="s15_9" label="--" />
+						<edge idref="s15_508" label="--" />
+					</nt>
+					<nt id="s15_512" cat="NP" >
+						<edge idref="s15_14" label="--" />
+						<edge idref="s15_15" label="--" />
+						<edge idref="s15_16" label="--" />
+					</nt>
+					<nt id="s15_506" cat="NP" >
+						<edge idref="s15_507" label="--" />
+						<edge idref="s15_13" label="--" />
+						<edge idref="s15_512" label="--" />
+					</nt>
+					<nt id="s15_505" cat="PP" >
+						<edge idref="s15_7" label="--" />
+						<edge idref="s15_506" label="--" />
+					</nt>
+					<nt id="s15_504" cat="VP" >
+						<edge idref="s15_6" label="--" />
+						<edge idref="s15_505" label="--" />
+					</nt>
+					<nt id="s15_500" cat="S" >
+						<edge idref="s15_501" label="--" />
+						<edge idref="s15_4" label="--" />
+						<edge idref="s15_503" label="--" />
+						<edge idref="s15_504" label="--" />
+						<edge idref="s15_17" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s16" >
+			<graph root="s16_500" >
+				<terminals>
+					<t id="s16_1" word="Then" pos="RB" />
+					<t id="s16_2" word="after" pos="IN" />
+					<t id="s16_3" word="the" pos="DT" />
+					<t id="s16_4" word="Fair" pos="NNP" />
+					<t id="s16_5" word="," pos="," />
+					<t id="s16_6" word="Mid-America" pos="NNP" />
+					<t id="s16_7" word="would" pos="MD" />
+					<t id="s16_8" word="collect" pos="VB" />
+					<t id="s16_9" word="the" pos="DT" />
+					<t id="s16_10" word="equipment" pos="NN" />
+					<t id="s16_11" word="and" pos="CC" />
+					<t id="s16_12" word="submit" pos="VB" />
+					<t id="s16_13" word="a" pos="DT" />
+					<t id="s16_14" word="blank" pos="JJ" />
+					<t id="s16_15" word="claim" pos="NN" />
+					<t id="s16_16" word="voucher" pos="PRP$" />
+					<t id="s16_17" word="form,1" pos="NN" />
+					<t id="s16_18" word="with" pos="IN" />
+					<t id="s16_19" word="invoices" pos="NNS" />
+					<t id="s16_20" word="for" pos="IN" />
+					<t id="s16_21" word="the" pos="DT" />
+					<t id="s16_22" word="rentals" pos="NNS" />
+					<t id="s16_23" word="attached" pos="VBN" />
+					<t id="s16_24" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s16_502" cat="ADVP" >
+						<edge idref="s16_1" label="--" />
+					</nt>
+					<nt id="s16_503" cat="NP" >
+						<edge idref="s16_3" label="--" />
+						<edge idref="s16_4" label="--" />
+					</nt>
+					<nt id="s16_501" cat="PP" >
+						<edge idref="s16_502" label="--" />
+						<edge idref="s16_2" label="--" />
+						<edge idref="s16_503" label="--" />
+					</nt>
+					<nt id="s16_504" cat="NP" >
+						<edge idref="s16_6" label="--" />
+					</nt>
+					<nt id="s16_508" cat="NP" >
+						<edge idref="s16_9" label="--" />
+						<edge idref="s16_10" label="--" />
+					</nt>
+					<nt id="s16_507" cat="VP" >
+						<edge idref="s16_8" label="--" />
+						<edge idref="s16_508" label="--" />
+					</nt>
+					<nt id="s16_510" cat="NP" >
+						<edge idref="s16_13" label="--" />
+						<edge idref="s16_14" label="--" />
+						<edge idref="s16_15" label="--" />
+					</nt>
+					<nt id="s16_509" cat="VP" >
+						<edge idref="s16_12" label="--" />
+						<edge idref="s16_510" label="--" />
+					</nt>
+					<nt id="s16_511" cat="NP" >
+						<edge idref="s16_16" label="--" />
+						<edge idref="s16_17" label="--" />
+					</nt>
+					<nt id="s16_514" cat="NP" >
+						<edge idref="s16_19" label="--" />
+					</nt>
+					<nt id="s16_517" cat="NP" >
+						<edge idref="s16_21" label="--" />
+						<edge idref="s16_22" label="--" />
+					</nt>
+					<nt id="s16_518" cat="VP" >
+						<edge idref="s16_23" label="--" />
+					</nt>
+					<nt id="s16_516" cat="NP" >
+						<edge idref="s16_517" label="--" />
+						<edge idref="s16_518" label="--" />
+					</nt>
+					<nt id="s16_515" cat="PP" >
+						<edge idref="s16_20" label="--" />
+						<edge idref="s16_516" label="--" />
+					</nt>
+					<nt id="s16_513" cat="NP" >
+						<edge idref="s16_514" label="--" />
+						<edge idref="s16_515" label="--" />
+					</nt>
+					<nt id="s16_512" cat="PP" >
+						<edge idref="s16_18" label="--" />
+						<edge idref="s16_513" label="--" />
+					</nt>
+					<nt id="s16_506" cat="VP" >
+						<edge idref="s16_507" label="--" />
+						<edge idref="s16_11" label="--" />
+						<edge idref="s16_509" label="--" />
+						<edge idref="s16_511" label="--" />
+						<edge idref="s16_512" label="--" />
+					</nt>
+					<nt id="s16_505" cat="VP" >
+						<edge idref="s16_7" label="--" />
+						<edge idref="s16_506" label="--" />
+					</nt>
+					<nt id="s16_500" cat="S" >
+						<edge idref="s16_501" label="--" />
+						<edge idref="s16_5" label="--" />
+						<edge idref="s16_504" label="--" />
+						<edge idref="s16_505" label="--" />
+						<edge idref="s16_24" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s17" >
+			<graph root="s17_500" >
+				<terminals>
+					<t id="s17_1" word="The" pos="DT" />
+					<t id="s17_2" word="Commission" pos="NNP" />
+					<t id="s17_3" word="would" pos="MD" />
+					<t id="s17_4" word="then" pos="RB" />
+					<t id="s17_5" word="verify" pos="VB" />
+					<t id="s17_6" word="whether" pos="IN" />
+					<t id="s17_7" word="all" pos="PDT" />
+					<t id="s17_8" word="the" pos="DT" />
+					<t id="s17_9" word="invoiced" pos="JJ" />
+					<t id="s17_10" word="items" pos="NNS" />
+					<t id="s17_11" word="had" pos="VBD" />
+					<t id="s17_12" word="actually" pos="RB" />
+					<t id="s17_13" word="been" pos="VBN" />
+					<t id="s17_14" word="provided" pos="VBN" />
+					<t id="s17_15" word="and" pos="CC" />
+					<t id="s17_16" word="," pos="," />
+					<t id="s17_17" word="if" pos="IN" />
+					<t id="s17_18" word="so" pos="RB" />
+					<t id="s17_19" word="," pos="," />
+					<t id="s17_20" word="sign" pos="VBD" />
+					<t id="s17_21" word="the" pos="DT" />
+					<t id="s17_22" word="claim" pos="NN" />
+					<t id="s17_23" word="voucher" pos="NN" />
+					<t id="s17_24" word="to" pos="TO" />
+					<t id="s17_25" word="authorize" pos="VB" />
+					<t id="s17_26" word="payment" pos="NN" />
+					<t id="s17_27" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s17_501" cat="NP" >
+						<edge idref="s17_1" label="--" />
+						<edge idref="s17_2" label="--" />
+					</nt>
+					<nt id="s17_504" cat="ADVP" >
+						<edge idref="s17_4" label="--" />
+					</nt>
+					<nt id="s17_508" cat="NP" >
+						<edge idref="s17_7" label="--" />
+						<edge idref="s17_8" label="--" />
+						<edge idref="s17_9" label="--" />
+						<edge idref="s17_10" label="--" />
+					</nt>
+					<nt id="s17_510" cat="ADVP" >
+						<edge idref="s17_12" label="--" />
+					</nt>
+					<nt id="s17_512" cat="VP" >
+						<edge idref="s17_14" label="--" />
+					</nt>
+					<nt id="s17_511" cat="VP" >
+						<edge idref="s17_13" label="--" />
+						<edge idref="s17_512" label="--" />
+					</nt>
+					<nt id="s17_509" cat="VP" >
+						<edge idref="s17_11" label="--" />
+						<edge idref="s17_510" label="--" />
+						<edge idref="s17_511" label="--" />
+					</nt>
+					<nt id="s17_507" cat="S" >
+						<edge idref="s17_508" label="--" />
+						<edge idref="s17_509" label="--" />
+					</nt>
+					<nt id="s17_506" cat="SBAR" >
+						<edge idref="s17_6" label="--" />
+						<edge idref="s17_507" label="--" />
+					</nt>
+					<nt id="s17_505" cat="VP" >
+						<edge idref="s17_5" label="--" />
+						<edge idref="s17_506" label="--" />
+					</nt>
+					<nt id="s17_503" cat="VP" >
+						<edge idref="s17_3" label="--" />
+						<edge idref="s17_504" label="--" />
+						<edge idref="s17_505" label="--" />
+					</nt>
+					<nt id="s17_516" cat="ADVP" >
+						<edge idref="s17_18" label="--" />
+					</nt>
+					<nt id="s17_515" cat="FRAG" >
+						<edge idref="s17_516" label="--" />
+					</nt>
+					<nt id="s17_514" cat="SBAR" >
+						<edge idref="s17_17" label="--" />
+						<edge idref="s17_515" label="--" />
+					</nt>
+					<nt id="s17_513" cat="PRN" >
+						<edge idref="s17_16" label="--" />
+						<edge idref="s17_514" label="--" />
+						<edge idref="s17_19" label="--" />
+					</nt>
+					<nt id="s17_518" cat="NP" >
+						<edge idref="s17_21" label="--" />
+						<edge idref="s17_22" label="--" />
+						<edge idref="s17_23" label="--" />
+					</nt>
+					<nt id="s17_522" cat="NP" >
+						<edge idref="s17_26" label="--" />
+					</nt>
+					<nt id="s17_521" cat="VP" >
+						<edge idref="s17_25" label="--" />
+						<edge idref="s17_522" label="--" />
+					</nt>
+					<nt id="s17_520" cat="VP" >
+						<edge idref="s17_24" label="--" />
+						<edge idref="s17_521" label="--" />
+					</nt>
+					<nt id="s17_519" cat="S" >
+						<edge idref="s17_520" label="--" />
+					</nt>
+					<nt id="s17_517" cat="VP" >
+						<edge idref="s17_20" label="--" />
+						<edge idref="s17_518" label="--" />
+						<edge idref="s17_519" label="--" />
+					</nt>
+					<nt id="s17_502" cat="VP" >
+						<edge idref="s17_503" label="--" />
+						<edge idref="s17_15" label="--" />
+						<edge idref="s17_513" label="--" />
+						<edge idref="s17_517" label="--" />
+					</nt>
+					<nt id="s17_500" cat="S" >
+						<edge idref="s17_501" label="--" />
+						<edge idref="s17_502" label="--" />
+						<edge idref="s17_27" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s18" >
+			<graph root="s18_500" >
+				<terminals>
+					<t id="s18_1" word="All" pos="DT" />
+					<t id="s18_2" word="told" pos="VBD" />
+					<t id="s18_3" word="," pos="," />
+					<t id="s18_4" word="the" pos="DT" />
+					<t id="s18_5" word="parties" pos="NNS" />
+					<t id="s18_6" word="followed" pos="VBD" />
+					<t id="s18_7" word="this" pos="DT" />
+					<t id="s18_8" word="course" pos="NN" />
+					<t id="s18_9" word="of" pos="IN" />
+					<t id="s18_10" word="dealing" pos="VBG" />
+					<t id="s18_11" word="more" pos="JJR" />
+					<t id="s18_12" word="than" pos="IN" />
+					<t id="s18_13" word="a" pos="DT" />
+					<t id="s18_14" word="hundred" pos="JJ" />
+					<t id="s18_15" word="times" pos="NNS" />
+					<t id="s18_16" word="over" pos="IN" />
+					<t id="s18_17" word="those" pos="DT" />
+					<t id="s18_18" word="ten" pos="JJ" />
+					<t id="s18_19" word="years" pos="NNS" />
+					<t id="s18_20" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s18_502" cat="NP" >
+						<edge idref="s18_1" label="--" />
+					</nt>
+					<nt id="s18_503" cat="VP" >
+						<edge idref="s18_2" label="--" />
+					</nt>
+					<nt id="s18_501" cat="S" >
+						<edge idref="s18_502" label="--" />
+						<edge idref="s18_503" label="--" />
+					</nt>
+					<nt id="s18_504" cat="NP" >
+						<edge idref="s18_4" label="--" />
+						<edge idref="s18_5" label="--" />
+					</nt>
+					<nt id="s18_507" cat="NP" >
+						<edge idref="s18_7" label="--" />
+						<edge idref="s18_8" label="--" />
+					</nt>
+					<nt id="s18_512" cat="QP" >
+						<edge idref="s18_11" label="--" />
+						<edge idref="s18_12" label="--" />
+						<edge idref="s18_13" label="--" />
+						<edge idref="s18_14" label="--" />
+					</nt>
+					<nt id="s18_511" cat="NP" >
+						<edge idref="s18_512" label="--" />
+						<edge idref="s18_15" label="--" />
+					</nt>
+					<nt id="s18_514" cat="NP" >
+						<edge idref="s18_17" label="--" />
+						<edge idref="s18_18" label="--" />
+						<edge idref="s18_19" label="--" />
+					</nt>
+					<nt id="s18_513" cat="PP" >
+						<edge idref="s18_16" label="--" />
+						<edge idref="s18_514" label="--" />
+					</nt>
+					<nt id="s18_510" cat="VP" >
+						<edge idref="s18_10" label="--" />
+						<edge idref="s18_511" label="--" />
+						<edge idref="s18_513" label="--" />
+					</nt>
+					<nt id="s18_509" cat="S" >
+						<edge idref="s18_510" label="--" />
+					</nt>
+					<nt id="s18_508" cat="PP" >
+						<edge idref="s18_9" label="--" />
+						<edge idref="s18_509" label="--" />
+					</nt>
+					<nt id="s18_506" cat="NP" >
+						<edge idref="s18_507" label="--" />
+						<edge idref="s18_508" label="--" />
+					</nt>
+					<nt id="s18_505" cat="VP" >
+						<edge idref="s18_6" label="--" />
+						<edge idref="s18_506" label="--" />
+					</nt>
+					<nt id="s18_500" cat="S" >
+						<edge idref="s18_501" label="--" />
+						<edge idref="s18_3" label="--" />
+						<edge idref="s18_504" label="--" />
+						<edge idref="s18_505" label="--" />
+						<edge idref="s18_20" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s19" >
+			<graph root="s19_500" >
+				<terminals>
+					<t id="s19_1" word="Tragedy" pos="NNP" />
+					<t id="s19_2" word="struck" pos="VBD" />
+					<t id="s19_3" word="on" pos="IN" />
+					<t id="s19_4" word="the" pos="DT" />
+					<t id="s19_5" word="night" pos="NN" />
+					<t id="s19_6" word="of" pos="IN" />
+					<t id="s19_7" word="August" pos="NNP" />
+					<t id="s19_8" word="13" pos="CD" />
+					<t id="s19_9" word="," pos="," />
+					<t id="s19_10" word="2011" pos="CD" />
+					<t id="s19_11" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s19_501" cat="NP" >
+						<edge idref="s19_1" label="--" />
+					</nt>
+					<nt id="s19_505" cat="NP" >
+						<edge idref="s19_4" label="--" />
+						<edge idref="s19_5" label="--" />
+					</nt>
+					<nt id="s19_507" cat="NP" >
+						<edge idref="s19_7" label="--" />
+						<edge idref="s19_8" label="--" />
+						<edge idref="s19_9" label="--" />
+						<edge idref="s19_10" label="--" />
+					</nt>
+					<nt id="s19_506" cat="PP" >
+						<edge idref="s19_6" label="--" />
+						<edge idref="s19_507" label="--" />
+					</nt>
+					<nt id="s19_504" cat="NP" >
+						<edge idref="s19_505" label="--" />
+						<edge idref="s19_506" label="--" />
+					</nt>
+					<nt id="s19_503" cat="PP" >
+						<edge idref="s19_3" label="--" />
+						<edge idref="s19_504" label="--" />
+					</nt>
+					<nt id="s19_502" cat="VP" >
+						<edge idref="s19_2" label="--" />
+						<edge idref="s19_503" label="--" />
+					</nt>
+					<nt id="s19_500" cat="S" >
+						<edge idref="s19_501" label="--" />
+						<edge idref="s19_502" label="--" />
+						<edge idref="s19_11" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s20" >
+			<graph root="s20_500" >
+				<terminals>
+					<t id="s20_1" word="Just" pos="RB" />
+					<t id="s20_2" word="prior" pos="RB" />
+					<t id="s20_3" word="to" pos="TO" />
+					<t id="s20_4" word="the" pos="DT" />
+					<t id="s20_5" word="Sugarland" pos="NNP" />
+					<t id="s20_6" word="concert" pos="NN" />
+					<t id="s20_7" word="at" pos="IN" />
+					<t id="s20_8" word="the" pos="DT" />
+					<t id="s20_9" word="grandstand" pos="NN" />
+					<t id="s20_10" word="stage" pos="NN" />
+					<t id="s20_11" word="," pos="," />
+					<t id="s20_12" word="strong" pos="JJ" />
+					<t id="s20_13" word="winds" pos="NNS" />
+					<t id="s20_14" word="approached" pos="VBD" />
+					<t id="s20_15" word="the" pos="DT" />
+					<t id="s20_16" word="Fairgrounds" pos="NNP" />
+					<t id="s20_17" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s20_504" cat="NP" >
+						<edge idref="s20_4" label="--" />
+						<edge idref="s20_5" label="--" />
+						<edge idref="s20_6" label="--" />
+					</nt>
+					<nt id="s20_506" cat="NP" >
+						<edge idref="s20_8" label="--" />
+						<edge idref="s20_9" label="--" />
+						<edge idref="s20_10" label="--" />
+					</nt>
+					<nt id="s20_505" cat="PP" >
+						<edge idref="s20_7" label="--" />
+						<edge idref="s20_506" label="--" />
+					</nt>
+					<nt id="s20_503" cat="NP" >
+						<edge idref="s20_504" label="--" />
+						<edge idref="s20_505" label="--" />
+					</nt>
+					<nt id="s20_502" cat="PP" >
+						<edge idref="s20_3" label="--" />
+						<edge idref="s20_503" label="--" />
+					</nt>
+					<nt id="s20_501" cat="ADVP" >
+						<edge idref="s20_1" label="--" />
+						<edge idref="s20_2" label="--" />
+						<edge idref="s20_502" label="--" />
+					</nt>
+					<nt id="s20_507" cat="NP" >
+						<edge idref="s20_12" label="--" />
+						<edge idref="s20_13" label="--" />
+					</nt>
+					<nt id="s20_509" cat="NP" >
+						<edge idref="s20_15" label="--" />
+						<edge idref="s20_16" label="--" />
+					</nt>
+					<nt id="s20_508" cat="VP" >
+						<edge idref="s20_14" label="--" />
+						<edge idref="s20_509" label="--" />
+					</nt>
+					<nt id="s20_500" cat="S" >
+						<edge idref="s20_501" label="--" />
+						<edge idref="s20_11" label="--" />
+						<edge idref="s20_507" label="--" />
+						<edge idref="s20_508" label="--" />
+						<edge idref="s20_17" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s21" >
+			<graph root="s21_500" >
+				<terminals>
+					<t id="s21_1" word="While" pos="IN" />
+					<t id="s21_2" word="Mid-AmericaÍs" pos="JJ" />
+					<t id="s21_3" word="on-site" pos="JJ" />
+					<t id="s21_4" word="technicians" pos="NNS" />
+					<t id="s21_5" word="worked" pos="VBN" />
+					<t id="s21_6" word="to" pos="TO" />
+					<t id="s21_7" word="remove" pos="VB" />
+					<t id="s21_8" word="equipment" pos="NN" />
+					<t id="s21_9" word="hanging" pos="VBG" />
+					<t id="s21_10" word="from" pos="IN" />
+					<t id="s21_11" word="Mid-AmericaÍs" pos="NNP" />
+					<t id="s21_12" word="roof" pos="NN" />
+					<t id="s21_13" word="," pos="," />
+					<t id="s21_14" word="the" pos="DT" />
+					<t id="s21_15" word="roof" pos="NN" />
+					<t id="s21_16" word="collapsed" pos="VBD" />
+					<t id="s21_17" word="," pos="," />
+					<t id="s21_18" word="killing" pos="VBG" />
+					<t id="s21_19" word="seven" pos="CD" />
+					<t id="s21_20" word="people" pos="NNS" />
+					<t id="s21_21" word="and" pos="CC" />
+					<t id="s21_22" word="injuring" pos="VBG" />
+					<t id="s21_23" word="many" pos="JJ" />
+					<t id="s21_24" word="more" pos="JJR" />
+					<t id="s21_25" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s21_503" cat="NP" >
+						<edge idref="s21_2" label="--" />
+						<edge idref="s21_3" label="--" />
+						<edge idref="s21_4" label="--" />
+					</nt>
+					<nt id="s21_509" cat="NP" >
+						<edge idref="s21_8" label="--" />
+					</nt>
+					<nt id="s21_512" cat="NP" >
+						<edge idref="s21_11" label="--" />
+						<edge idref="s21_12" label="--" />
+					</nt>
+					<nt id="s21_511" cat="PP" >
+						<edge idref="s21_10" label="--" />
+						<edge idref="s21_512" label="--" />
+					</nt>
+					<nt id="s21_510" cat="VP" >
+						<edge idref="s21_9" label="--" />
+						<edge idref="s21_511" label="--" />
+					</nt>
+					<nt id="s21_508" cat="NP" >
+						<edge idref="s21_509" label="--" />
+						<edge idref="s21_510" label="--" />
+					</nt>
+					<nt id="s21_507" cat="VP" >
+						<edge idref="s21_7" label="--" />
+						<edge idref="s21_508" label="--" />
+					</nt>
+					<nt id="s21_506" cat="VP" >
+						<edge idref="s21_6" label="--" />
+						<edge idref="s21_507" label="--" />
+					</nt>
+					<nt id="s21_505" cat="S" >
+						<edge idref="s21_506" label="--" />
+					</nt>
+					<nt id="s21_504" cat="VP" >
+						<edge idref="s21_5" label="--" />
+						<edge idref="s21_505" label="--" />
+					</nt>
+					<nt id="s21_502" cat="S" >
+						<edge idref="s21_503" label="--" />
+						<edge idref="s21_504" label="--" />
+					</nt>
+					<nt id="s21_501" cat="SBAR" >
+						<edge idref="s21_1" label="--" />
+						<edge idref="s21_502" label="--" />
+					</nt>
+					<nt id="s21_513" cat="NP" >
+						<edge idref="s21_14" label="--" />
+						<edge idref="s21_15" label="--" />
+					</nt>
+					<nt id="s21_518" cat="NP" >
+						<edge idref="s21_19" label="--" />
+						<edge idref="s21_20" label="--" />
+					</nt>
+					<nt id="s21_517" cat="VP" >
+						<edge idref="s21_18" label="--" />
+						<edge idref="s21_518" label="--" />
+					</nt>
+					<nt id="s21_520" cat="NP" >
+						<edge idref="s21_23" label="--" />
+						<edge idref="s21_24" label="--" />
+					</nt>
+					<nt id="s21_519" cat="VP" >
+						<edge idref="s21_22" label="--" />
+						<edge idref="s21_520" label="--" />
+					</nt>
+					<nt id="s21_516" cat="VP" >
+						<edge idref="s21_517" label="--" />
+						<edge idref="s21_21" label="--" />
+						<edge idref="s21_519" label="--" />
+					</nt>
+					<nt id="s21_515" cat="S" >
+						<edge idref="s21_516" label="--" />
+					</nt>
+					<nt id="s21_514" cat="VP" >
+						<edge idref="s21_16" label="--" />
+						<edge idref="s21_17" label="--" />
+						<edge idref="s21_515" label="--" />
+					</nt>
+					<nt id="s21_500" cat="S" >
+						<edge idref="s21_501" label="--" />
+						<edge idref="s21_13" label="--" />
+						<edge idref="s21_513" label="--" />
+						<edge idref="s21_514" label="--" />
+						<edge idref="s21_25" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s22" >
+			<graph root="s22_500" >
+				<terminals>
+					<t id="s22_1" word="Shortly" pos="RB" />
+					<t id="s22_2" word="thereafter" pos="RB" />
+					<t id="s22_3" word="," pos="," />
+					<t id="s22_4" word="the" pos="DT" />
+					<t id="s22_5" word="victims" pos="NNS" />
+					<t id="s22_6" word="and" pos="CC" />
+					<t id="s22_7" word="families" pos="NNS" />
+					<t id="s22_8" word="filed" pos="VBN" />
+					<t id="s22_9" word="law-suits" pos="NNS" />
+					<t id="s22_10" word="naming" pos="VBG" />
+					<t id="s22_11" word="several" pos="JJ" />
+					<t id="s22_12" word="defendants" pos="NNS" />
+					<t id="s22_13" word="," pos="," />
+					<t id="s22_14" word="including" pos="VBG" />
+					<t id="s22_15" word="Mid-America" pos="NNP" />
+					<t id="s22_16" word="and" pos="CC" />
+					<t id="s22_17" word="the" pos="DT" />
+					<t id="s22_18" word="Commission" pos="NNP" />
+					<t id="s22_19" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s22_501" cat="ADVP" >
+						<edge idref="s22_1" label="--" />
+						<edge idref="s22_2" label="--" />
+					</nt>
+					<nt id="s22_502" cat="NP" >
+						<edge idref="s22_4" label="--" />
+						<edge idref="s22_5" label="--" />
+						<edge idref="s22_6" label="--" />
+						<edge idref="s22_7" label="--" />
+					</nt>
+					<nt id="s22_505" cat="NP" >
+						<edge idref="s22_9" label="--" />
+					</nt>
+					<nt id="s22_508" cat="NP" >
+						<edge idref="s22_11" label="--" />
+						<edge idref="s22_12" label="--" />
+					</nt>
+					<nt id="s22_510" cat="NP" >
+						<edge idref="s22_15" label="--" />
+						<edge idref="s22_16" label="--" />
+						<edge idref="s22_17" label="--" />
+						<edge idref="s22_18" label="--" />
+					</nt>
+					<nt id="s22_509" cat="PP" >
+						<edge idref="s22_14" label="--" />
+						<edge idref="s22_510" label="--" />
+					</nt>
+					<nt id="s22_507" cat="NP" >
+						<edge idref="s22_508" label="--" />
+						<edge idref="s22_13" label="--" />
+						<edge idref="s22_509" label="--" />
+					</nt>
+					<nt id="s22_506" cat="VP" >
+						<edge idref="s22_10" label="--" />
+						<edge idref="s22_507" label="--" />
+					</nt>
+					<nt id="s22_504" cat="NP" >
+						<edge idref="s22_505" label="--" />
+						<edge idref="s22_506" label="--" />
+					</nt>
+					<nt id="s22_503" cat="VP" >
+						<edge idref="s22_8" label="--" />
+						<edge idref="s22_504" label="--" />
+					</nt>
+					<nt id="s22_500" cat="S" >
+						<edge idref="s22_501" label="--" />
+						<edge idref="s22_3" label="--" />
+						<edge idref="s22_502" label="--" />
+						<edge idref="s22_503" label="--" />
+						<edge idref="s22_19" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s23" >
+			<graph root="s23_500" >
+				<terminals>
+					<t id="s23_1" word="Then" pos="RB" />
+					<t id="s23_2" word="," pos="," />
+					<t id="s23_3" word="on" pos="IN" />
+					<t id="s23_4" word="December" pos="NNP" />
+					<t id="s23_5" word="7" pos="CD" />
+					<t id="s23_6" word="," pos="," />
+					<t id="s23_7" word="2011" pos="CD" />
+					<t id="s23_8" word="," pos="," />
+					<t id="s23_9" word="while" pos="IN" />
+					<t id="s23_10" word="those" pos="DT" />
+					<t id="s23_11" word="lawsuits" pos="NNS" />
+					<t id="s23_12" word="were" pos="VBD" />
+					<t id="s23_13" word="still" pos="RB" />
+					<t id="s23_14" word="pending" pos="VBG" />
+					<t id="s23_15" word="," pos="," />
+					<t id="s23_16" word="Mid-America" pos="NNP" />
+					<t id="s23_17" word="sent" pos="VBD" />
+					<t id="s23_18" word="the" pos="DT" />
+					<t id="s23_19" word="Commission" pos="NNP" />
+					<t id="s23_20" word="a" pos="DT" />
+					<t id="s23_21" word="two-sided" pos="JJ" />
+					<t id="s23_22" word="invoice" pos="NN" />
+					<t id="s23_23" word="for" pos="IN" />
+					<t id="s23_24" word="the" pos="DT" />
+					<t id="s23_25" word="lease" pos="NN" />
+					<t id="s23_26" word="of" pos="IN" />
+					<t id="s23_27" word="the" pos="DT" />
+					<t id="s23_28" word="collapsed" pos="JJ" />
+					<t id="s23_29" word="roof" pos="NN" />
+					<t id="s23_30" word="and" pos="CC" />
+					<t id="s23_31" word="services" pos="NNS" />
+					<t id="s23_32" word="provided" pos="VBN" />
+					<t id="s23_33" word="," pos="," />
+					<t id="s23_34" word="along" pos="IN" />
+					<t id="s23_35" word="with" pos="IN" />
+					<t id="s23_36" word="the" pos="DT" />
+					<t id="s23_37" word="single-sided" pos="JJ" />
+					<t id="s23_38" word="claim" pos="NN" />
+					<t id="s23_39" word="voucher" pos="NN" />
+					<t id="s23_40" word="form" pos="NN" />
+					<t id="s23_41" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s23_501" cat="ADVP" >
+						<edge idref="s23_1" label="--" />
+					</nt>
+					<nt id="s23_503" cat="NP" >
+						<edge idref="s23_4" label="--" />
+						<edge idref="s23_5" label="--" />
+						<edge idref="s23_6" label="--" />
+						<edge idref="s23_7" label="--" />
+					</nt>
+					<nt id="s23_502" cat="PP" >
+						<edge idref="s23_3" label="--" />
+						<edge idref="s23_503" label="--" />
+					</nt>
+					<nt id="s23_506" cat="NP" >
+						<edge idref="s23_10" label="--" />
+						<edge idref="s23_11" label="--" />
+					</nt>
+					<nt id="s23_508" cat="ADVP" >
+						<edge idref="s23_13" label="--" />
+					</nt>
+					<nt id="s23_509" cat="ADJP" >
+						<edge idref="s23_14" label="--" />
+					</nt>
+					<nt id="s23_507" cat="VP" >
+						<edge idref="s23_12" label="--" />
+						<edge idref="s23_508" label="--" />
+						<edge idref="s23_509" label="--" />
+					</nt>
+					<nt id="s23_505" cat="S" >
+						<edge idref="s23_506" label="--" />
+						<edge idref="s23_507" label="--" />
+					</nt>
+					<nt id="s23_504" cat="SBAR" >
+						<edge idref="s23_9" label="--" />
+						<edge idref="s23_505" label="--" />
+					</nt>
+					<nt id="s23_510" cat="NP" >
+						<edge idref="s23_16" label="--" />
+					</nt>
+					<nt id="s23_514" cat="NP" >
+						<edge idref="s23_18" label="--" />
+						<edge idref="s23_19" label="--" />
+					</nt>
+					<nt id="s23_516" cat="NP" >
+						<edge idref="s23_20" label="--" />
+						<edge idref="s23_21" label="--" />
+						<edge idref="s23_22" label="--" />
+					</nt>
+					<nt id="s23_518" cat="NP" >
+						<edge idref="s23_24" label="--" />
+						<edge idref="s23_25" label="--" />
+					</nt>
+					<nt id="s23_517" cat="PP" >
+						<edge idref="s23_23" label="--" />
+						<edge idref="s23_518" label="--" />
+					</nt>
+					<nt id="s23_521" cat="NP" >
+						<edge idref="s23_27" label="--" />
+						<edge idref="s23_28" label="--" />
+						<edge idref="s23_29" label="--" />
+						<edge idref="s23_30" label="--" />
+						<edge idref="s23_31" label="--" />
+					</nt>
+					<nt id="s23_522" cat="VP" >
+						<edge idref="s23_32" label="--" />
+					</nt>
+					<nt id="s23_520" cat="NP" >
+						<edge idref="s23_521" label="--" />
+						<edge idref="s23_522" label="--" />
+					</nt>
+					<nt id="s23_519" cat="PP" >
+						<edge idref="s23_26" label="--" />
+						<edge idref="s23_520" label="--" />
+					</nt>
+					<nt id="s23_515" cat="NP" >
+						<edge idref="s23_516" label="--" />
+						<edge idref="s23_517" label="--" />
+						<edge idref="s23_519" label="--" />
+					</nt>
+					<nt id="s23_513" cat="NP" >
+						<edge idref="s23_514" label="--" />
+						<edge idref="s23_515" label="--" />
+					</nt>
+					<nt id="s23_525" cat="NP" >
+						<edge idref="s23_36" label="--" />
+						<edge idref="s23_37" label="--" />
+						<edge idref="s23_38" label="--" />
+						<edge idref="s23_39" label="--" />
+						<edge idref="s23_40" label="--" />
+					</nt>
+					<nt id="s23_524" cat="PP" >
+						<edge idref="s23_35" label="--" />
+						<edge idref="s23_525" label="--" />
+					</nt>
+					<nt id="s23_523" cat="PP" >
+						<edge idref="s23_34" label="--" />
+						<edge idref="s23_524" label="--" />
+					</nt>
+					<nt id="s23_512" cat="NP" >
+						<edge idref="s23_513" label="--" />
+						<edge idref="s23_33" label="--" />
+						<edge idref="s23_523" label="--" />
+					</nt>
+					<nt id="s23_511" cat="VP" >
+						<edge idref="s23_17" label="--" />
+						<edge idref="s23_512" label="--" />
+					</nt>
+					<nt id="s23_500" cat="S" >
+						<edge idref="s23_501" label="--" />
+						<edge idref="s23_2" label="--" />
+						<edge idref="s23_502" label="--" />
+						<edge idref="s23_8" label="--" />
+						<edge idref="s23_504" label="--" />
+						<edge idref="s23_15" label="--" />
+						<edge idref="s23_510" label="--" />
+						<edge idref="s23_511" label="--" />
+						<edge idref="s23_41" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s24" >
+			<graph root="s24_500" >
+				<terminals>
+					<t id="s24_1" word="Above" pos="IN" />
+					<t id="s24_2" word="the" pos="DT" />
+					<t id="s24_3" word="CommissionÍs" pos="NNP" />
+					<t id="s24_4" word="signature" pos="NN" />
+					<t id="s24_5" word="," pos="," />
+					<t id="s24_6" word="the" pos="DT" />
+					<t id="s24_7" word="voucher" pos="NN" />
+					<t id="s24_8" word="contained" pos="VBD" />
+					<t id="s24_9" word="certifications" pos="NNS" />
+					<t id="s24_10" word="ñthat" pos="IN" />
+					<t id="s24_11" word="the" pos="DT" />
+					<t id="s24_12" word="attached" pos="JJ" />
+					<t id="s24_13" word="invoice" pos="NN" />
+					<t id="s24_14" word="is" pos="VBZ" />
+					<t id="s24_15" word="true" pos="JJ" />
+					<t id="s24_16" word="and" pos="CC" />
+					<t id="s24_17" word="correctî" pos="NN" />
+					<t id="s24_18" word="and" pos="CC" />
+					<t id="s24_19" word="ñin" pos="JJ" />
+					<t id="s24_20" word="accordance" pos="NN" />
+					<t id="s24_21" word="with" pos="IN" />
+					<t id="s24_22" word="contract.î" pos="NN" />
+				</terminals>
+				<nonterminals>
+					<nt id="s24_502" cat="NP" >
+						<edge idref="s24_2" label="--" />
+						<edge idref="s24_3" label="--" />
+						<edge idref="s24_4" label="--" />
+					</nt>
+					<nt id="s24_501" cat="PP" >
+						<edge idref="s24_1" label="--" />
+						<edge idref="s24_502" label="--" />
+					</nt>
+					<nt id="s24_503" cat="NP" >
+						<edge idref="s24_6" label="--" />
+						<edge idref="s24_7" label="--" />
+					</nt>
+					<nt id="s24_508" cat="NP" >
+						<edge idref="s24_11" label="--" />
+						<edge idref="s24_12" label="--" />
+						<edge idref="s24_13" label="--" />
+					</nt>
+					<nt id="s24_511" cat="NP" >
+						<edge idref="s24_15" label="--" />
+						<edge idref="s24_16" label="--" />
+						<edge idref="s24_17" label="--" />
+						<edge idref="s24_18" label="--" />
+						<edge idref="s24_19" label="--" />
+						<edge idref="s24_20" label="--" />
+					</nt>
+					<nt id="s24_513" cat="NP" >
+						<edge idref="s24_22" label="--" />
+					</nt>
+					<nt id="s24_512" cat="PP" >
+						<edge idref="s24_21" label="--" />
+						<edge idref="s24_513" label="--" />
+					</nt>
+					<nt id="s24_510" cat="NP" >
+						<edge idref="s24_511" label="--" />
+						<edge idref="s24_512" label="--" />
+					</nt>
+					<nt id="s24_509" cat="VP" >
+						<edge idref="s24_14" label="--" />
+						<edge idref="s24_510" label="--" />
+					</nt>
+					<nt id="s24_507" cat="S" >
+						<edge idref="s24_508" label="--" />
+						<edge idref="s24_509" label="--" />
+					</nt>
+					<nt id="s24_506" cat="SBAR" >
+						<edge idref="s24_10" label="--" />
+						<edge idref="s24_507" label="--" />
+					</nt>
+					<nt id="s24_505" cat="NP" >
+						<edge idref="s24_9" label="--" />
+						<edge idref="s24_506" label="--" />
+					</nt>
+					<nt id="s24_504" cat="VP" >
+						<edge idref="s24_8" label="--" />
+						<edge idref="s24_505" label="--" />
+					</nt>
+					<nt id="s24_500" cat="S" >
+						<edge idref="s24_501" label="--" />
+						<edge idref="s24_5" label="--" />
+						<edge idref="s24_503" label="--" />
+						<edge idref="s24_504" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s25" >
+			<graph root="s25_500" >
+				<terminals>
+					<t id="s25_1" word="The" pos="DT" />
+					<t id="s25_2" word="Commission" pos="NNP" />
+					<t id="s25_3" word="signed" pos="VBD" />
+					<t id="s25_4" word="the" pos="DT" />
+					<t id="s25_5" word="voucher" pos="NN" />
+					<t id="s25_6" word="and" pos="CC" />
+					<t id="s25_7" word="authorized" pos="JJ" />
+					<t id="s25_8" word="payment" pos="NN" />
+					<t id="s25_9" word="," pos="," />
+					<t id="s25_10" word="which" pos="WDT" />
+					<t id="s25_11" word="it" pos="PRP" />
+					<t id="s25_12" word="remitted" pos="VBD" />
+					<t id="s25_13" word="via" pos="IN" />
+					<t id="s25_14" word="check" pos="NN" />
+					<t id="s25_15" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s25_501" cat="NP" >
+						<edge idref="s25_1" label="--" />
+						<edge idref="s25_2" label="--" />
+					</nt>
+					<nt id="s25_504" cat="NP" >
+						<edge idref="s25_4" label="--" />
+						<edge idref="s25_5" label="--" />
+						<edge idref="s25_6" label="--" />
+						<edge idref="s25_7" label="--" />
+						<edge idref="s25_8" label="--" />
+					</nt>
+					<nt id="s25_506" cat="WHNP" >
+						<edge idref="s25_10" label="--" />
+					</nt>
+					<nt id="s25_508" cat="NP" >
+						<edge idref="s25_11" label="--" />
+					</nt>
+					<nt id="s25_511" cat="NP" >
+						<edge idref="s25_14" label="--" />
+					</nt>
+					<nt id="s25_510" cat="PP" >
+						<edge idref="s25_13" label="--" />
+						<edge idref="s25_511" label="--" />
+					</nt>
+					<nt id="s25_509" cat="VP" >
+						<edge idref="s25_12" label="--" />
+						<edge idref="s25_510" label="--" />
+					</nt>
+					<nt id="s25_507" cat="S" >
+						<edge idref="s25_508" label="--" />
+						<edge idref="s25_509" label="--" />
+					</nt>
+					<nt id="s25_505" cat="SBAR" >
+						<edge idref="s25_506" label="--" />
+						<edge idref="s25_507" label="--" />
+					</nt>
+					<nt id="s25_503" cat="NP" >
+						<edge idref="s25_504" label="--" />
+						<edge idref="s25_9" label="--" />
+						<edge idref="s25_505" label="--" />
+					</nt>
+					<nt id="s25_502" cat="VP" >
+						<edge idref="s25_3" label="--" />
+						<edge idref="s25_503" label="--" />
+					</nt>
+					<nt id="s25_500" cat="S" >
+						<edge idref="s25_501" label="--" />
+						<edge idref="s25_502" label="--" />
+						<edge idref="s25_15" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s26" >
+			<graph root="s26_500" >
+				<terminals>
+					<t id="s26_1" word="In" pos="IN" />
+					<t id="s26_2" word="March" pos="NNP" />
+					<t id="s26_3" word="2012" pos="CD" />
+					<t id="s26_4" word="," pos="," />
+					<t id="s26_5" word="Mid-America" pos="NNP" />
+					<t id="s26_6" word="filed" pos="VBD" />
+					<t id="s26_7" word="a" pos="DT" />
+					<t id="s26_8" word="third-party" pos="JJ" />
+					<t id="s26_9" word="lawsuit" pos="NN" />
+					<t id="s26_10" word="against" pos="IN" />
+					<t id="s26_11" word="the" pos="DT" />
+					<t id="s26_12" word="Commission" pos="NNP" />
+					<t id="s26_13" word="," pos="," />
+					<t id="s26_14" word="claiming" pos="VBG" />
+					<t id="s26_15" word="that" pos="IN" />
+					<t id="s26_16" word="two" pos="CD" />
+					<t id="s26_17" word="sentences" pos="NNS" />
+					<t id="s26_18" word="located" pos="VBN" />
+					<t id="s26_19" word="on" pos="IN" />
+					<t id="s26_20" word="the" pos="DT" />
+					<t id="s26_21" word="back" pos="NN" />
+					<t id="s26_22" word="of" pos="IN" />
+					<t id="s26_23" word="the" pos="DT" />
+					<t id="s26_24" word="December" pos="NNP" />
+					<t id="s26_25" word="2011" pos="CD" />
+					<t id="s26_26" word="invoice" pos="NN" />
+					<t id="s26_27" word="entitled" pos="VBD" />
+					<t id="s26_28" word="it" pos="PRP" />
+					<t id="s26_29" word="to" pos="TO" />
+					<t id="s26_30" word="indemnification" pos="VB" />
+					<t id="s26_31" word="for" pos="IN" />
+					<t id="s26_32" word="its" pos="PRP$" />
+					<t id="s26_33" word="own" pos="JJ" />
+					<t id="s26_34" word="negligence" pos="NN" />
+					<t id="s26_35" word="in" pos="IN" />
+					<t id="s26_36" word="relation" pos="NN" />
+					<t id="s26_37" word="to" pos="TO" />
+					<t id="s26_38" word="the" pos="DT" />
+					<t id="s26_39" word="August" pos="NNP" />
+					<t id="s26_40" word="2011" pos="CD" />
+					<t id="s26_41" word="roof" pos="NN" />
+					<t id="s26_42" word="collapse" pos="NN" />
+					<t id="s26_43" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s26_502" cat="NP" >
+						<edge idref="s26_2" label="--" />
+						<edge idref="s26_3" label="--" />
+					</nt>
+					<nt id="s26_501" cat="PP" >
+						<edge idref="s26_1" label="--" />
+						<edge idref="s26_502" label="--" />
+					</nt>
+					<nt id="s26_503" cat="NP" >
+						<edge idref="s26_5" label="--" />
+					</nt>
+					<nt id="s26_505" cat="NP" >
+						<edge idref="s26_7" label="--" />
+						<edge idref="s26_8" label="--" />
+						<edge idref="s26_9" label="--" />
+					</nt>
+					<nt id="s26_507" cat="NP" >
+						<edge idref="s26_11" label="--" />
+						<edge idref="s26_12" label="--" />
+					</nt>
+					<nt id="s26_506" cat="PP" >
+						<edge idref="s26_10" label="--" />
+						<edge idref="s26_507" label="--" />
+					</nt>
+					<nt id="s26_513" cat="NP" >
+						<edge idref="s26_16" label="--" />
+						<edge idref="s26_17" label="--" />
+					</nt>
+					<nt id="s26_517" cat="NP" >
+						<edge idref="s26_20" label="--" />
+						<edge idref="s26_21" label="--" />
+					</nt>
+					<nt id="s26_520" cat="NAC" >
+						<edge idref="s26_24" label="--" />
+						<edge idref="s26_25" label="--" />
+					</nt>
+					<nt id="s26_519" cat="NP" >
+						<edge idref="s26_23" label="--" />
+						<edge idref="s26_520" label="--" />
+						<edge idref="s26_26" label="--" />
+					</nt>
+					<nt id="s26_518" cat="PP" >
+						<edge idref="s26_22" label="--" />
+						<edge idref="s26_519" label="--" />
+					</nt>
+					<nt id="s26_516" cat="NP" >
+						<edge idref="s26_517" label="--" />
+						<edge idref="s26_518" label="--" />
+					</nt>
+					<nt id="s26_515" cat="PP" >
+						<edge idref="s26_19" label="--" />
+						<edge idref="s26_516" label="--" />
+					</nt>
+					<nt id="s26_514" cat="VP" >
+						<edge idref="s26_18" label="--" />
+						<edge idref="s26_515" label="--" />
+					</nt>
+					<nt id="s26_512" cat="NP" >
+						<edge idref="s26_513" label="--" />
+						<edge idref="s26_514" label="--" />
+					</nt>
+					<nt id="s26_522" cat="NP" >
+						<edge idref="s26_28" label="--" />
+					</nt>
+					<nt id="s26_528" cat="NP" >
+						<edge idref="s26_32" label="--" />
+						<edge idref="s26_33" label="--" />
+						<edge idref="s26_34" label="--" />
+					</nt>
+					<nt id="s26_531" cat="NP" >
+						<edge idref="s26_36" label="--" />
+					</nt>
+					<nt id="s26_534" cat="NAC" >
+						<edge idref="s26_39" label="--" />
+						<edge idref="s26_40" label="--" />
+					</nt>
+					<nt id="s26_533" cat="NP" >
+						<edge idref="s26_38" label="--" />
+						<edge idref="s26_534" label="--" />
+						<edge idref="s26_41" label="--" />
+						<edge idref="s26_42" label="--" />
+					</nt>
+					<nt id="s26_532" cat="PP" >
+						<edge idref="s26_37" label="--" />
+						<edge idref="s26_533" label="--" />
+					</nt>
+					<nt id="s26_530" cat="NP" >
+						<edge idref="s26_531" label="--" />
+						<edge idref="s26_532" label="--" />
+					</nt>
+					<nt id="s26_529" cat="PP" >
+						<edge idref="s26_35" label="--" />
+						<edge idref="s26_530" label="--" />
+					</nt>
+					<nt id="s26_527" cat="NP" >
+						<edge idref="s26_528" label="--" />
+						<edge idref="s26_529" label="--" />
+					</nt>
+					<nt id="s26_526" cat="PP" >
+						<edge idref="s26_31" label="--" />
+						<edge idref="s26_527" label="--" />
+					</nt>
+					<nt id="s26_525" cat="VP" >
+						<edge idref="s26_30" label="--" />
+						<edge idref="s26_526" label="--" />
+					</nt>
+					<nt id="s26_524" cat="VP" >
+						<edge idref="s26_29" label="--" />
+						<edge idref="s26_525" label="--" />
+					</nt>
+					<nt id="s26_523" cat="S" >
+						<edge idref="s26_524" label="--" />
+					</nt>
+					<nt id="s26_521" cat="VP" >
+						<edge idref="s26_27" label="--" />
+						<edge idref="s26_522" label="--" />
+						<edge idref="s26_523" label="--" />
+					</nt>
+					<nt id="s26_511" cat="S" >
+						<edge idref="s26_512" label="--" />
+						<edge idref="s26_521" label="--" />
+					</nt>
+					<nt id="s26_510" cat="SBAR" >
+						<edge idref="s26_15" label="--" />
+						<edge idref="s26_511" label="--" />
+					</nt>
+					<nt id="s26_509" cat="VP" >
+						<edge idref="s26_14" label="--" />
+						<edge idref="s26_510" label="--" />
+					</nt>
+					<nt id="s26_508" cat="S" >
+						<edge idref="s26_509" label="--" />
+					</nt>
+					<nt id="s26_504" cat="VP" >
+						<edge idref="s26_6" label="--" />
+						<edge idref="s26_505" label="--" />
+						<edge idref="s26_506" label="--" />
+						<edge idref="s26_13" label="--" />
+						<edge idref="s26_508" label="--" />
+					</nt>
+					<nt id="s26_500" cat="S" >
+						<edge idref="s26_501" label="--" />
+						<edge idref="s26_4" label="--" />
+						<edge idref="s26_503" label="--" />
+						<edge idref="s26_504" label="--" />
+						<edge idref="s26_43" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s27" >
+			<graph root="s27_500" >
+				<terminals>
+					<t id="s27_1" word="One" pos="CD" />
+					<t id="s27_2" word="of" pos="IN" />
+					<t id="s27_3" word="the" pos="DT" />
+					<t id="s27_4" word="two" pos="CD" />
+					<t id="s27_5" word="sentences" pos="NNS" />
+					<t id="s27_6" word="," pos="," />
+					<t id="s27_7" word="located" pos="VBN" />
+					<t id="s27_8" word="under" pos="IN" />
+					<t id="s27_9" word="a" pos="DT" />
+					<t id="s27_10" word="heading" pos="NN" />
+					<t id="s27_11" word="entitled" pos="VBN" />
+					<t id="s27_12" word="ñRentals" pos="NNS" />
+					<t id="s27_13" word="," pos="," />
+					<t id="s27_14" word="î" pos="RB" />
+					<t id="s27_15" word="read" pos="VBN" />
+					<t id="s27_16" word="as" pos="IN" />
+					<t id="s27_17" word="follows" pos="VBZ" />
+					<t id="s27_18" word=":" pos=":" />
+					<t id="s27_19" word="[" pos="VB" />
+					<t id="s27_20" word="The" pos="DT" />
+					<t id="s27_21" word="Commission" pos="NNP" />
+					<t id="s27_22" word="]" pos="NNP" />
+					<t id="s27_23" word="assumes" pos="VBZ" />
+					<t id="s27_24" word="risks" pos="NNS" />
+					<t id="s27_25" word="inherent" pos="JJ" />
+					<t id="s27_26" word="in" pos="IN" />
+					<t id="s27_27" word="the" pos="DT" />
+					<t id="s27_28" word="operation" pos="NN" />
+					<t id="s27_29" word="and" pos="CC" />
+					<t id="s27_30" word="use" pos="NN" />
+					<t id="s27_31" word="of" pos="IN" />
+					<t id="s27_32" word="the" pos="DT" />
+					<t id="s27_33" word="equipment" pos="NN" />
+					<t id="s27_34" word="and" pos="CC" />
+					<t id="s27_35" word="agrees" pos="VBZ" />
+					<t id="s27_36" word="to" pos="TO" />
+					<t id="s27_37" word="assume" pos="VB" />
+					<t id="s27_38" word="the" pos="DT" />
+					<t id="s27_39" word="entire" pos="JJ" />
+					<t id="s27_40" word="responsibility" pos="NN" />
+					<t id="s27_41" word="for" pos="IN" />
+					<t id="s27_42" word="the" pos="DT" />
+					<t id="s27_43" word="defense" pos="NN" />
+					<t id="s27_44" word="of" pos="IN" />
+					<t id="s27_45" word="," pos="," />
+					<t id="s27_46" word="and" pos="CC" />
+					<t id="s27_47" word="to" pos="TO" />
+					<t id="s27_48" word="pay" pos="VB" />
+					<t id="s27_49" word="," pos="," />
+					<t id="s27_50" word="indemnify" pos="VB" />
+					<t id="s27_51" word="and" pos="CC" />
+					<t id="s27_52" word="hold" pos="VB" />
+					<t id="s27_53" word="[" pos="JJ" />
+					<t id="s27_54" word="Mid-America" pos="NNP" />
+					<t id="s27_55" word="]" pos="NNP" />
+					<t id="s27_56" word="harmless" pos="NN" />
+					<t id="s27_57" word="from" pos="IN" />
+					<t id="s27_58" word="and" pos="CC" />
+					<t id="s27_59" word="hereby" pos="NN" />
+					<t id="s27_60" word="releases" pos="NNS" />
+					<t id="s27_61" word="[" pos="VBP" />
+					<t id="s27_62" word="Mid-America" pos="NNP" />
+					<t id="s27_63" word="]" pos="NN" />
+					<t id="s27_64" word="from" pos="IN" />
+					<t id="s27_65" word="any" pos="DT" />
+					<t id="s27_66" word="and" pos="CC" />
+					<t id="s27_67" word="all" pos="DT" />
+					<t id="s27_68" word="claims" pos="NNS" />
+					<t id="s27_69" word="for" pos="IN" />
+					<t id="s27_70" word="damage" pos="NN" />
+					<t id="s27_71" word="to" pos="TO" />
+					<t id="s27_72" word="property" pos="NN" />
+					<t id="s27_73" word="or" pos="CC" />
+					<t id="s27_74" word="bodily" pos="RB" />
+					<t id="s27_75" word="injury" pos="VB" />
+					<t id="s27_76" word="resulting" pos="VBG" />
+					<t id="s27_77" word="from" pos="IN" />
+					<t id="s27_78" word="the" pos="DT" />
+					<t id="s27_79" word="use" pos="NN" />
+					<t id="s27_80" word="," pos="," />
+					<t id="s27_81" word="operation" pos="NN" />
+					<t id="s27_82" word="or" pos="CC" />
+					<t id="s27_83" word="possession" pos="NN" />
+					<t id="s27_84" word="of" pos="IN" />
+					<t id="s27_85" word="the" pos="DT" />
+					<t id="s27_86" word="equipment" pos="NN" />
+					<t id="s27_87" word="," pos="," />
+					<t id="s27_88" word="whether" pos="IN" />
+					<t id="s27_89" word="or" pos="CC" />
+					<t id="s27_90" word="not" pos="RB" />
+					<t id="s27_91" word="it" pos="PRP" />
+					<t id="s27_92" word="be" pos="VB" />
+					<t id="s27_93" word="claimed" pos="VBN" />
+					<t id="s27_94" word="or" pos="CC" />
+					<t id="s27_95" word="held" pos="VBN" />
+					<t id="s27_96" word="that" pos="IN" />
+					<t id="s27_97" word="such" pos="JJ" />
+					<t id="s27_98" word="damage" pos="NN" />
+					<t id="s27_99" word="or" pos="CC" />
+					<t id="s27_100" word="injury" pos="NN" />
+					<t id="s27_101" word="resulted" pos="VBN" />
+					<t id="s27_102" word="in" pos="IN" />
+					<t id="s27_103" word="whole" pos="JJ" />
+					<t id="s27_104" word="or" pos="CC" />
+					<t id="s27_105" word="in" pos="IN" />
+					<t id="s27_106" word="part" pos="NN" />
+					<t id="s27_107" word="from" pos="IN" />
+					<t id="s27_108" word="[" pos="JJ" />
+					<t id="s27_109" word="Mid-AmericaÍs" pos="NNP" />
+					<t id="s27_110" word="]" pos="NNP" />
+					<t id="s27_111" word="negligence" pos="NN" />
+					<t id="s27_112" word="," pos="," />
+					<t id="s27_113" word="from" pos="IN" />
+					<t id="s27_114" word="the" pos="DT" />
+					<t id="s27_115" word="condition" pos="NN" />
+					<t id="s27_116" word="of" pos="IN" />
+					<t id="s27_117" word="the" pos="DT" />
+					<t id="s27_118" word="equipment" pos="NN" />
+					<t id="s27_119" word="or" pos="CC" />
+					<t id="s27_120" word="from" pos="IN" />
+					<t id="s27_121" word="any" pos="DT" />
+					<t id="s27_122" word="cause" pos="NN" />
+					<t id="s27_123" word="," pos="," />
+					<t id="s27_124" word="[" pos="VBP" />
+					<t id="s27_125" word="the" pos="DT" />
+					<t id="s27_126" word="Commission" pos="NNP" />
+					<t id="s27_127" word="]" pos="NNP" />
+					<t id="s27_128" word="agrees" pos="VBZ" />
+					<t id="s27_129" word="that" pos="IN" />
+					<t id="s27_130" word="no" pos="DT" />
+					<t id="s27_131" word="warranties" pos="NNS" />
+					<t id="s27_132" word="," pos="," />
+					<t id="s27_133" word="expressed" pos="VBD" />
+					<t id="s27_134" word="or" pos="CC" />
+					<t id="s27_135" word="implied" pos="VBN" />
+					<t id="s27_136" word="have" pos="VBP" />
+					<t id="s27_137" word="been" pos="VBN" />
+					<t id="s27_138" word="made" pos="VBN" />
+					<t id="s27_139" word="in" pos="IN" />
+					<t id="s27_140" word="connection" pos="NN" />
+					<t id="s27_141" word="with" pos="IN" />
+					<t id="s27_142" word="this" pos="DT" />
+					<t id="s27_143" word="rental" pos="NN" />
+					<t id="s27_144" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s27_503" cat="NP" >
+						<edge idref="s27_1" label="--" />
+					</nt>
+					<nt id="s27_505" cat="NP" >
+						<edge idref="s27_3" label="--" />
+						<edge idref="s27_4" label="--" />
+						<edge idref="s27_5" label="--" />
+					</nt>
+					<nt id="s27_504" cat="PP" >
+						<edge idref="s27_2" label="--" />
+						<edge idref="s27_505" label="--" />
+					</nt>
+					<nt id="s27_502" cat="NP" >
+						<edge idref="s27_503" label="--" />
+						<edge idref="s27_504" label="--" />
+					</nt>
+					<nt id="s27_510" cat="NP" >
+						<edge idref="s27_9" label="--" />
+						<edge idref="s27_10" label="--" />
+					</nt>
+					<nt id="s27_512" cat="NP" >
+						<edge idref="s27_12" label="--" />
+					</nt>
+					<nt id="s27_514" cat="ADVP" >
+						<edge idref="s27_14" label="--" />
+					</nt>
+					<nt id="s27_523" cat="NP" >
+						<edge idref="s27_20" label="--" />
+						<edge idref="s27_21" label="--" />
+					</nt>
+					<nt id="s27_527" cat="NP" >
+						<edge idref="s27_22" label="--" />
+					</nt>
+					<nt id="s27_532" cat="NP" >
+						<edge idref="s27_24" label="--" />
+					</nt>
+					<nt id="s27_535" cat="NP" >
+						<edge idref="s27_27" label="--" />
+						<edge idref="s27_28" label="--" />
+					</nt>
+					<nt id="s27_534" cat="PP" >
+						<edge idref="s27_26" label="--" />
+						<edge idref="s27_535" label="--" />
+					</nt>
+					<nt id="s27_533" cat="ADJP" >
+						<edge idref="s27_25" label="--" />
+						<edge idref="s27_534" label="--" />
+					</nt>
+					<nt id="s27_531" cat="NP" >
+						<edge idref="s27_532" label="--" />
+						<edge idref="s27_533" label="--" />
+					</nt>
+					<nt id="s27_537" cat="NP" >
+						<edge idref="s27_30" label="--" />
+					</nt>
+					<nt id="s27_539" cat="NP" >
+						<edge idref="s27_32" label="--" />
+						<edge idref="s27_33" label="--" />
+					</nt>
+					<nt id="s27_538" cat="PP" >
+						<edge idref="s27_31" label="--" />
+						<edge idref="s27_539" label="--" />
+					</nt>
+					<nt id="s27_536" cat="NP" >
+						<edge idref="s27_537" label="--" />
+						<edge idref="s27_538" label="--" />
+					</nt>
+					<nt id="s27_530" cat="NP" >
+						<edge idref="s27_531" label="--" />
+						<edge idref="s27_29" label="--" />
+						<edge idref="s27_536" label="--" />
+					</nt>
+					<nt id="s27_529" cat="VP" >
+						<edge idref="s27_23" label="--" />
+						<edge idref="s27_530" label="--" />
+					</nt>
+					<nt id="s27_546" cat="NP" >
+						<edge idref="s27_38" label="--" />
+						<edge idref="s27_39" label="--" />
+						<edge idref="s27_40" label="--" />
+					</nt>
+					<nt id="s27_548" cat="NP" >
+						<edge idref="s27_42" label="--" />
+						<edge idref="s27_43" label="--" />
+					</nt>
+					<nt id="s27_547" cat="PP" >
+						<edge idref="s27_41" label="--" />
+						<edge idref="s27_548" label="--" />
+					</nt>
+					<nt id="s27_545" cat="NP" >
+						<edge idref="s27_546" label="--" />
+						<edge idref="s27_547" label="--" />
+					</nt>
+					<nt id="s27_549" cat="PP" >
+						<edge idref="s27_44" label="--" />
+					</nt>
+					<nt id="s27_544" cat="VP" >
+						<edge idref="s27_37" label="--" />
+						<edge idref="s27_545" label="--" />
+						<edge idref="s27_549" label="--" />
+					</nt>
+					<nt id="s27_543" cat="VP" >
+						<edge idref="s27_36" label="--" />
+						<edge idref="s27_544" label="--" />
+					</nt>
+					<nt id="s27_553" cat="NP" >
+						<edge idref="s27_53" label="--" />
+						<edge idref="s27_54" label="--" />
+						<edge idref="s27_55" label="--" />
+						<edge idref="s27_56" label="--" />
+					</nt>
+					<nt id="s27_554" cat="PP" >
+						<edge idref="s27_57" label="--" />
+					</nt>
+					<nt id="s27_552" cat="VP" >
+						<edge idref="s27_52" label="--" />
+						<edge idref="s27_553" label="--" />
+						<edge idref="s27_554" label="--" />
+					</nt>
+					<nt id="s27_551" cat="VP" >
+						<edge idref="s27_48" label="--" />
+						<edge idref="s27_49" label="--" />
+						<edge idref="s27_50" label="--" />
+						<edge idref="s27_51" label="--" />
+						<edge idref="s27_552" label="--" />
+					</nt>
+					<nt id="s27_550" cat="VP" >
+						<edge idref="s27_47" label="--" />
+						<edge idref="s27_551" label="--" />
+					</nt>
+					<nt id="s27_542" cat="VP" >
+						<edge idref="s27_543" label="--" />
+						<edge idref="s27_45" label="--" />
+						<edge idref="s27_46" label="--" />
+						<edge idref="s27_550" label="--" />
+					</nt>
+					<nt id="s27_541" cat="S" >
+						<edge idref="s27_542" label="--" />
+					</nt>
+					<nt id="s27_540" cat="VP" >
+						<edge idref="s27_35" label="--" />
+						<edge idref="s27_541" label="--" />
+					</nt>
+					<nt id="s27_528" cat="VP" >
+						<edge idref="s27_529" label="--" />
+						<edge idref="s27_34" label="--" />
+						<edge idref="s27_540" label="--" />
+					</nt>
+					<nt id="s27_526" cat="S" >
+						<edge idref="s27_527" label="--" />
+						<edge idref="s27_528" label="--" />
+					</nt>
+					<nt id="s27_556" cat="NP" >
+						<edge idref="s27_59" label="--" />
+						<edge idref="s27_60" label="--" />
+					</nt>
+					<nt id="s27_558" cat="NP" >
+						<edge idref="s27_62" label="--" />
+						<edge idref="s27_63" label="--" />
+					</nt>
+					<nt id="s27_560" cat="NP" >
+						<edge idref="s27_65" label="--" />
+					</nt>
+					<nt id="s27_559" cat="PP" >
+						<edge idref="s27_64" label="--" />
+						<edge idref="s27_560" label="--" />
+					</nt>
+					<nt id="s27_557" cat="VP" >
+						<edge idref="s27_61" label="--" />
+						<edge idref="s27_558" label="--" />
+						<edge idref="s27_559" label="--" />
+					</nt>
+					<nt id="s27_555" cat="S" >
+						<edge idref="s27_556" label="--" />
+						<edge idref="s27_557" label="--" />
+					</nt>
+					<nt id="s27_525" cat="S" >
+						<edge idref="s27_526" label="--" />
+						<edge idref="s27_58" label="--" />
+						<edge idref="s27_555" label="--" />
+					</nt>
+					<nt id="s27_524" cat="SBAR" >
+						<edge idref="s27_525" label="--" />
+					</nt>
+					<nt id="s27_522" cat="NP" >
+						<edge idref="s27_523" label="--" />
+						<edge idref="s27_524" label="--" />
+					</nt>
+					<nt id="s27_561" cat="NP" >
+						<edge idref="s27_67" label="--" />
+						<edge idref="s27_68" label="--" />
+					</nt>
+					<nt id="s27_521" cat="NP" >
+						<edge idref="s27_522" label="--" />
+						<edge idref="s27_66" label="--" />
+						<edge idref="s27_561" label="--" />
+					</nt>
+					<nt id="s27_564" cat="NP" >
+						<edge idref="s27_70" label="--" />
+					</nt>
+					<nt id="s27_566" cat="NP" >
+						<edge idref="s27_72" label="--" />
+					</nt>
+					<nt id="s27_565" cat="PP" >
+						<edge idref="s27_71" label="--" />
+						<edge idref="s27_566" label="--" />
+					</nt>
+					<nt id="s27_563" cat="NP" >
+						<edge idref="s27_564" label="--" />
+						<edge idref="s27_565" label="--" />
+					</nt>
+					<nt id="s27_562" cat="PP" >
+						<edge idref="s27_69" label="--" />
+						<edge idref="s27_563" label="--" />
+					</nt>
+					<nt id="s27_520" cat="VP" >
+						<edge idref="s27_19" label="--" />
+						<edge idref="s27_521" label="--" />
+						<edge idref="s27_562" label="--" />
+					</nt>
+					<nt id="s27_568" cat="ADVP" >
+						<edge idref="s27_74" label="--" />
+					</nt>
+					<nt id="s27_573" cat="NP" >
+						<edge idref="s27_78" label="--" />
+						<edge idref="s27_79" label="--" />
+					</nt>
+					<nt id="s27_572" cat="PP" >
+						<edge idref="s27_77" label="--" />
+						<edge idref="s27_573" label="--" />
+					</nt>
+					<nt id="s27_571" cat="VP" >
+						<edge idref="s27_76" label="--" />
+						<edge idref="s27_572" label="--" />
+					</nt>
+					<nt id="s27_570" cat="S" >
+						<edge idref="s27_571" label="--" />
+					</nt>
+					<nt id="s27_575" cat="NP" >
+						<edge idref="s27_81" label="--" />
+						<edge idref="s27_82" label="--" />
+						<edge idref="s27_83" label="--" />
+					</nt>
+					<nt id="s27_577" cat="NP" >
+						<edge idref="s27_85" label="--" />
+						<edge idref="s27_86" label="--" />
+					</nt>
+					<nt id="s27_576" cat="PP" >
+						<edge idref="s27_84" label="--" />
+						<edge idref="s27_577" label="--" />
+					</nt>
+					<nt id="s27_574" cat="NP" >
+						<edge idref="s27_575" label="--" />
+						<edge idref="s27_576" label="--" />
+					</nt>
+					<nt id="s27_569" cat="NP" >
+						<edge idref="s27_570" label="--" />
+						<edge idref="s27_80" label="--" />
+						<edge idref="s27_574" label="--" />
+					</nt>
+					<nt id="s27_567" cat="VP" >
+						<edge idref="s27_568" label="--" />
+						<edge idref="s27_75" label="--" />
+						<edge idref="s27_569" label="--" />
+					</nt>
+					<nt id="s27_519" cat="VP" >
+						<edge idref="s27_520" label="--" />
+						<edge idref="s27_73" label="--" />
+						<edge idref="s27_567" label="--" />
+					</nt>
+					<nt id="s27_518" cat="S" >
+						<edge idref="s27_519" label="--" />
+					</nt>
+					<nt id="s27_517" cat="VP" >
+						<edge idref="s27_17" label="--" />
+						<edge idref="s27_18" label="--" />
+						<edge idref="s27_518" label="--" />
+					</nt>
+					<nt id="s27_516" cat="S" >
+						<edge idref="s27_517" label="--" />
+					</nt>
+					<nt id="s27_515" cat="SBAR" >
+						<edge idref="s27_16" label="--" />
+						<edge idref="s27_516" label="--" />
+					</nt>
+					<nt id="s27_513" cat="VP" >
+						<edge idref="s27_514" label="--" />
+						<edge idref="s27_15" label="--" />
+						<edge idref="s27_515" label="--" />
+					</nt>
+					<nt id="s27_580" cat="NP" >
+						<edge idref="s27_91" label="--" />
+					</nt>
+					<nt id="s27_585" cat="NP" >
+						<edge idref="s27_97" label="--" />
+						<edge idref="s27_98" label="--" />
+						<edge idref="s27_99" label="--" />
+						<edge idref="s27_100" label="--" />
+					</nt>
+					<nt id="s27_588" cat="ADJP" >
+						<edge idref="s27_103" label="--" />
+					</nt>
+					<nt id="s27_587" cat="PP" >
+						<edge idref="s27_102" label="--" />
+						<edge idref="s27_588" label="--" />
+					</nt>
+					<nt id="s27_586" cat="VP" >
+						<edge idref="s27_101" label="--" />
+						<edge idref="s27_587" label="--" />
+					</nt>
+					<nt id="s27_584" cat="S" >
+						<edge idref="s27_585" label="--" />
+						<edge idref="s27_586" label="--" />
+					</nt>
+					<nt id="s27_583" cat="SBAR" >
+						<edge idref="s27_96" label="--" />
+						<edge idref="s27_584" label="--" />
+					</nt>
+					<nt id="s27_582" cat="VP" >
+						<edge idref="s27_93" label="--" />
+						<edge idref="s27_94" label="--" />
+						<edge idref="s27_95" label="--" />
+						<edge idref="s27_583" label="--" />
+					</nt>
+					<nt id="s27_581" cat="VP" >
+						<edge idref="s27_92" label="--" />
+						<edge idref="s27_582" label="--" />
+					</nt>
+					<nt id="s27_579" cat="S" >
+						<edge idref="s27_580" label="--" />
+						<edge idref="s27_581" label="--" />
+					</nt>
+					<nt id="s27_578" cat="SBAR" >
+						<edge idref="s27_88" label="--" />
+						<edge idref="s27_89" label="--" />
+						<edge idref="s27_90" label="--" />
+						<edge idref="s27_579" label="--" />
+					</nt>
+					<nt id="s27_511" cat="VP" >
+						<edge idref="s27_11" label="--" />
+						<edge idref="s27_512" label="--" />
+						<edge idref="s27_13" label="--" />
+						<edge idref="s27_513" label="--" />
+						<edge idref="s27_87" label="--" />
+						<edge idref="s27_578" label="--" />
+					</nt>
+					<nt id="s27_509" cat="NP" >
+						<edge idref="s27_510" label="--" />
+						<edge idref="s27_511" label="--" />
+					</nt>
+					<nt id="s27_508" cat="PP" >
+						<edge idref="s27_8" label="--" />
+						<edge idref="s27_509" label="--" />
+					</nt>
+					<nt id="s27_592" cat="NP" >
+						<edge idref="s27_106" label="--" />
+					</nt>
+					<nt id="s27_594" cat="NP" >
+						<edge idref="s27_108" label="--" />
+						<edge idref="s27_109" label="--" />
+						<edge idref="s27_110" label="--" />
+						<edge idref="s27_111" label="--" />
+					</nt>
+					<nt id="s27_593" cat="PP" >
+						<edge idref="s27_107" label="--" />
+						<edge idref="s27_594" label="--" />
+					</nt>
+					<nt id="s27_591" cat="NP" >
+						<edge idref="s27_592" label="--" />
+						<edge idref="s27_593" label="--" />
+					</nt>
+					<nt id="s27_590" cat="PP" >
+						<edge idref="s27_105" label="--" />
+						<edge idref="s27_591" label="--" />
+					</nt>
+					<nt id="s27_597" cat="NP" >
+						<edge idref="s27_114" label="--" />
+						<edge idref="s27_115" label="--" />
+					</nt>
+					<nt id="s27_599" cat="NP" >
+						<edge idref="s27_117" label="--" />
+						<edge idref="s27_118" label="--" />
+					</nt>
+					<nt id="s27_598" cat="PP" >
+						<edge idref="s27_116" label="--" />
+						<edge idref="s27_599" label="--" />
+					</nt>
+					<nt id="s27_596" cat="NP" >
+						<edge idref="s27_597" label="--" />
+						<edge idref="s27_598" label="--" />
+					</nt>
+					<nt id="s27_595" cat="PP" >
+						<edge idref="s27_113" label="--" />
+						<edge idref="s27_596" label="--" />
+					</nt>
+					<nt id="s27_601" cat="NP" >
+						<edge idref="s27_121" label="--" />
+						<edge idref="s27_122" label="--" />
+					</nt>
+					<nt id="s27_600" cat="PP" >
+						<edge idref="s27_120" label="--" />
+						<edge idref="s27_601" label="--" />
+					</nt>
+					<nt id="s27_589" cat="PP" >
+						<edge idref="s27_590" label="--" />
+						<edge idref="s27_112" label="--" />
+						<edge idref="s27_595" label="--" />
+						<edge idref="s27_119" label="--" />
+						<edge idref="s27_600" label="--" />
+					</nt>
+					<nt id="s27_507" cat="PP" >
+						<edge idref="s27_508" label="--" />
+						<edge idref="s27_104" label="--" />
+						<edge idref="s27_589" label="--" />
+					</nt>
+					<nt id="s27_506" cat="VP" >
+						<edge idref="s27_7" label="--" />
+						<edge idref="s27_507" label="--" />
+					</nt>
+					<nt id="s27_501" cat="NP" >
+						<edge idref="s27_502" label="--" />
+						<edge idref="s27_6" label="--" />
+						<edge idref="s27_506" label="--" />
+						<edge idref="s27_123" label="--" />
+					</nt>
+					<nt id="s27_605" cat="NP" >
+						<edge idref="s27_125" label="--" />
+						<edge idref="s27_126" label="--" />
+						<edge idref="s27_127" label="--" />
+					</nt>
+					<nt id="s27_610" cat="NP" >
+						<edge idref="s27_130" label="--" />
+						<edge idref="s27_131" label="--" />
+					</nt>
+					<nt id="s27_612" cat="VP" >
+						<edge idref="s27_133" label="--" />
+					</nt>
+					<nt id="s27_613" cat="VP" >
+						<edge idref="s27_135" label="--" />
+					</nt>
+					<nt id="s27_611" cat="VP" >
+						<edge idref="s27_612" label="--" />
+						<edge idref="s27_134" label="--" />
+						<edge idref="s27_613" label="--" />
+					</nt>
+					<nt id="s27_609" cat="NP" >
+						<edge idref="s27_610" label="--" />
+						<edge idref="s27_132" label="--" />
+						<edge idref="s27_611" label="--" />
+					</nt>
+					<nt id="s27_619" cat="NP" >
+						<edge idref="s27_140" label="--" />
+					</nt>
+					<nt id="s27_621" cat="NP" >
+						<edge idref="s27_142" label="--" />
+						<edge idref="s27_143" label="--" />
+					</nt>
+					<nt id="s27_620" cat="PP" >
+						<edge idref="s27_141" label="--" />
+						<edge idref="s27_621" label="--" />
+					</nt>
+					<nt id="s27_618" cat="NP" >
+						<edge idref="s27_619" label="--" />
+						<edge idref="s27_620" label="--" />
+					</nt>
+					<nt id="s27_617" cat="PP" >
+						<edge idref="s27_139" label="--" />
+						<edge idref="s27_618" label="--" />
+					</nt>
+					<nt id="s27_616" cat="VP" >
+						<edge idref="s27_138" label="--" />
+						<edge idref="s27_617" label="--" />
+					</nt>
+					<nt id="s27_615" cat="VP" >
+						<edge idref="s27_137" label="--" />
+						<edge idref="s27_616" label="--" />
+					</nt>
+					<nt id="s27_614" cat="VP" >
+						<edge idref="s27_136" label="--" />
+						<edge idref="s27_615" label="--" />
+					</nt>
+					<nt id="s27_608" cat="S" >
+						<edge idref="s27_609" label="--" />
+						<edge idref="s27_614" label="--" />
+					</nt>
+					<nt id="s27_607" cat="SBAR" >
+						<edge idref="s27_129" label="--" />
+						<edge idref="s27_608" label="--" />
+					</nt>
+					<nt id="s27_606" cat="VP" >
+						<edge idref="s27_128" label="--" />
+						<edge idref="s27_607" label="--" />
+					</nt>
+					<nt id="s27_604" cat="S" >
+						<edge idref="s27_605" label="--" />
+						<edge idref="s27_606" label="--" />
+					</nt>
+					<nt id="s27_603" cat="SBAR" >
+						<edge idref="s27_604" label="--" />
+					</nt>
+					<nt id="s27_602" cat="VP" >
+						<edge idref="s27_124" label="--" />
+						<edge idref="s27_603" label="--" />
+					</nt>
+					<nt id="s27_500" cat="S" >
+						<edge idref="s27_501" label="--" />
+						<edge idref="s27_602" label="--" />
+						<edge idref="s27_144" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s28" >
+			<graph root="s28_500" >
+				<terminals>
+					<t id="s28_1" word="The" pos="DT" />
+					<t id="s28_2" word="other" pos="JJ" />
+					<t id="s28_3" word="sentence" pos="NN" />
+					<t id="s28_4" word="," pos="," />
+					<t id="s28_5" word="located" pos="VBN" />
+					<t id="s28_6" word="under" pos="IN" />
+					<t id="s28_7" word="the" pos="DT" />
+					<t id="s28_8" word="ñShowsî" pos="NNP" />
+					<t id="s28_9" word="heading" pos="NN" />
+					<t id="s28_10" word="," pos="," />
+					<t id="s28_11" word="set" pos="VBN" />
+					<t id="s28_12" word="forth" pos="NN" />
+					<t id="s28_13" word="essentially" pos="RB" />
+					<t id="s28_14" word="the" pos="DT" />
+					<t id="s28_15" word="same" pos="JJ" />
+					<t id="s28_16" word="language" pos="NN" />
+					<t id="s28_17" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s28_502" cat="NP" >
+						<edge idref="s28_1" label="--" />
+						<edge idref="s28_2" label="--" />
+						<edge idref="s28_3" label="--" />
+					</nt>
+					<nt id="s28_505" cat="NP" >
+						<edge idref="s28_7" label="--" />
+						<edge idref="s28_8" label="--" />
+						<edge idref="s28_9" label="--" />
+					</nt>
+					<nt id="s28_504" cat="PP" >
+						<edge idref="s28_6" label="--" />
+						<edge idref="s28_505" label="--" />
+					</nt>
+					<nt id="s28_503" cat="VP" >
+						<edge idref="s28_5" label="--" />
+						<edge idref="s28_504" label="--" />
+					</nt>
+					<nt id="s28_501" cat="NP" >
+						<edge idref="s28_502" label="--" />
+						<edge idref="s28_4" label="--" />
+						<edge idref="s28_503" label="--" />
+						<edge idref="s28_10" label="--" />
+					</nt>
+					<nt id="s28_507" cat="NP" >
+						<edge idref="s28_12" label="--" />
+					</nt>
+					<nt id="s28_508" cat="ADVP" >
+						<edge idref="s28_13" label="--" />
+					</nt>
+					<nt id="s28_509" cat="NP" >
+						<edge idref="s28_14" label="--" />
+						<edge idref="s28_15" label="--" />
+						<edge idref="s28_16" label="--" />
+					</nt>
+					<nt id="s28_506" cat="VP" >
+						<edge idref="s28_11" label="--" />
+						<edge idref="s28_507" label="--" />
+						<edge idref="s28_508" label="--" />
+						<edge idref="s28_509" label="--" />
+					</nt>
+					<nt id="s28_500" cat="S" >
+						<edge idref="s28_501" label="--" />
+						<edge idref="s28_506" label="--" />
+						<edge idref="s28_17" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s29" >
+			<graph root="s29_500" >
+				<terminals>
+					<t id="s29_1" word="Mid-America" pos="NNP" />
+					<t id="s29_2" word="and" pos="CC" />
+					<t id="s29_3" word="the" pos="DT" />
+					<t id="s29_4" word="Commission" pos="NNP" />
+					<t id="s29_5" word="proceeded" pos="VBD" />
+					<t id="s29_6" word="to" pos="TO" />
+					<t id="s29_7" word="file" pos="VB" />
+					<t id="s29_8" word="cross-motions" pos="NNS" />
+					<t id="s29_9" word="for" pos="IN" />
+					<t id="s29_10" word="summary" pos="JJ" />
+					<t id="s29_11" word="judgment" pos="NN" />
+					<t id="s29_12" word="," pos="," />
+					<t id="s29_13" word="taking" pos="VBG" />
+					<t id="s29_14" word="opposite" pos="JJ" />
+					<t id="s29_15" word="positions" pos="NNS" />
+					<t id="s29_16" word="about" pos="IN" />
+					<t id="s29_17" word="whether" pos="IN" />
+					<t id="s29_18" word="the" pos="DT" />
+					<t id="s29_19" word="December" pos="NNP" />
+					<t id="s29_20" word="2011" pos="CD" />
+					<t id="s29_21" word="invoiceÍs" pos="NN" />
+					<t id="s29_22" word="indemnity" pos="NN" />
+					<t id="s29_23" word="language" pos="NN" />
+					<t id="s29_24" word="applied" pos="VBD" />
+					<t id="s29_25" word="retroactively" pos="RB" />
+					<t id="s29_26" word="to" pos="TO" />
+					<t id="s29_27" word="the" pos="DT" />
+					<t id="s29_28" word="August" pos="NNP" />
+					<t id="s29_29" word="2011" pos="CD" />
+					<t id="s29_30" word="roof" pos="NN" />
+					<t id="s29_31" word="collapse" pos="NN" />
+					<t id="s29_32" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s29_501" cat="NP" >
+						<edge idref="s29_1" label="--" />
+						<edge idref="s29_2" label="--" />
+						<edge idref="s29_3" label="--" />
+						<edge idref="s29_4" label="--" />
+					</nt>
+					<nt id="s29_506" cat="NP" >
+						<edge idref="s29_8" label="--" />
+					</nt>
+					<nt id="s29_508" cat="NP" >
+						<edge idref="s29_10" label="--" />
+						<edge idref="s29_11" label="--" />
+					</nt>
+					<nt id="s29_507" cat="PP" >
+						<edge idref="s29_9" label="--" />
+						<edge idref="s29_508" label="--" />
+					</nt>
+					<nt id="s29_505" cat="VP" >
+						<edge idref="s29_7" label="--" />
+						<edge idref="s29_506" label="--" />
+						<edge idref="s29_507" label="--" />
+					</nt>
+					<nt id="s29_504" cat="VP" >
+						<edge idref="s29_6" label="--" />
+						<edge idref="s29_505" label="--" />
+					</nt>
+					<nt id="s29_503" cat="S" >
+						<edge idref="s29_504" label="--" />
+					</nt>
+					<nt id="s29_512" cat="NP" >
+						<edge idref="s29_14" label="--" />
+						<edge idref="s29_15" label="--" />
+					</nt>
+					<nt id="s29_517" cat="NAC" >
+						<edge idref="s29_19" label="--" />
+						<edge idref="s29_20" label="--" />
+					</nt>
+					<nt id="s29_516" cat="NP" >
+						<edge idref="s29_18" label="--" />
+						<edge idref="s29_517" label="--" />
+						<edge idref="s29_21" label="--" />
+						<edge idref="s29_22" label="--" />
+						<edge idref="s29_23" label="--" />
+					</nt>
+					<nt id="s29_519" cat="ADVP" >
+						<edge idref="s29_25" label="--" />
+					</nt>
+					<nt id="s29_522" cat="NAC" >
+						<edge idref="s29_28" label="--" />
+						<edge idref="s29_29" label="--" />
+					</nt>
+					<nt id="s29_521" cat="NP" >
+						<edge idref="s29_27" label="--" />
+						<edge idref="s29_522" label="--" />
+						<edge idref="s29_30" label="--" />
+						<edge idref="s29_31" label="--" />
+					</nt>
+					<nt id="s29_520" cat="PP" >
+						<edge idref="s29_26" label="--" />
+						<edge idref="s29_521" label="--" />
+					</nt>
+					<nt id="s29_518" cat="VP" >
+						<edge idref="s29_24" label="--" />
+						<edge idref="s29_519" label="--" />
+						<edge idref="s29_520" label="--" />
+					</nt>
+					<nt id="s29_515" cat="S" >
+						<edge idref="s29_516" label="--" />
+						<edge idref="s29_518" label="--" />
+					</nt>
+					<nt id="s29_514" cat="SBAR" >
+						<edge idref="s29_17" label="--" />
+						<edge idref="s29_515" label="--" />
+					</nt>
+					<nt id="s29_513" cat="PP" >
+						<edge idref="s29_16" label="--" />
+						<edge idref="s29_514" label="--" />
+					</nt>
+					<nt id="s29_511" cat="NP" >
+						<edge idref="s29_512" label="--" />
+						<edge idref="s29_513" label="--" />
+					</nt>
+					<nt id="s29_510" cat="VP" >
+						<edge idref="s29_13" label="--" />
+						<edge idref="s29_511" label="--" />
+					</nt>
+					<nt id="s29_509" cat="S" >
+						<edge idref="s29_510" label="--" />
+					</nt>
+					<nt id="s29_502" cat="VP" >
+						<edge idref="s29_5" label="--" />
+						<edge idref="s29_503" label="--" />
+						<edge idref="s29_12" label="--" />
+						<edge idref="s29_509" label="--" />
+					</nt>
+					<nt id="s29_500" cat="S" >
+						<edge idref="s29_501" label="--" />
+						<edge idref="s29_502" label="--" />
+						<edge idref="s29_32" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s30" >
+			<graph root="s30_500" >
+				<terminals>
+					<t id="s30_1" word="The" pos="DT" />
+					<t id="s30_2" word="trial" pos="NN" />
+					<t id="s30_3" word="court" pos="NN" />
+					<t id="s30_4" word="granted" pos="VBD" />
+					<t id="s30_5" word="the" pos="DT" />
+					<t id="s30_6" word="CommissionÍs" pos="NNP" />
+					<t id="s30_7" word="motion" pos="NN" />
+					<t id="s30_8" word="," pos="," />
+					<t id="s30_9" word="and" pos="CC" />
+					<t id="s30_10" word="Mid-America" pos="NNP" />
+					<t id="s30_11" word="appealed" pos="VBD" />
+					<t id="s30_12" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s30_502" cat="NP" >
+						<edge idref="s30_1" label="--" />
+						<edge idref="s30_2" label="--" />
+						<edge idref="s30_3" label="--" />
+					</nt>
+					<nt id="s30_504" cat="NP" >
+						<edge idref="s30_5" label="--" />
+						<edge idref="s30_6" label="--" />
+						<edge idref="s30_7" label="--" />
+					</nt>
+					<nt id="s30_503" cat="VP" >
+						<edge idref="s30_4" label="--" />
+						<edge idref="s30_504" label="--" />
+					</nt>
+					<nt id="s30_501" cat="S" >
+						<edge idref="s30_502" label="--" />
+						<edge idref="s30_503" label="--" />
+					</nt>
+					<nt id="s30_506" cat="NP" >
+						<edge idref="s30_10" label="--" />
+					</nt>
+					<nt id="s30_507" cat="VP" >
+						<edge idref="s30_11" label="--" />
+					</nt>
+					<nt id="s30_505" cat="S" >
+						<edge idref="s30_506" label="--" />
+						<edge idref="s30_507" label="--" />
+					</nt>
+					<nt id="s30_500" cat="S" >
+						<edge idref="s30_501" label="--" />
+						<edge idref="s30_8" label="--" />
+						<edge idref="s30_9" label="--" />
+						<edge idref="s30_505" label="--" />
+						<edge idref="s30_12" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s31" >
+			<graph root="s31_500" >
+				<terminals>
+					<t id="s31_1" word="A" pos="NNP" />
+					<t id="s31_2" word="divided" pos="JJ" />
+					<t id="s31_3" word="Court" pos="NNP" />
+					<t id="s31_4" word="of" pos="IN" />
+					<t id="s31_5" word="Appeals" pos="NNPS" />
+					<t id="s31_6" word="reversed" pos="VBD" />
+					<t id="s31_7" word="and" pos="CC" />
+					<t id="s31_8" word="remanded" pos="VBD" />
+					<t id="s31_9" word="," pos="," />
+					<t id="s31_10" word="finding" pos="VBG" />
+					<t id="s31_11" word="that" pos="IN" />
+					<t id="s31_12" word="genuine" pos="JJ" />
+					<t id="s31_13" word="issues" pos="NNS" />
+					<t id="s31_14" word="of" pos="IN" />
+					<t id="s31_15" word="material" pos="NN" />
+					<t id="s31_16" word="fact" pos="NN" />
+					<t id="s31_17" word="existed" pos="VBD" />
+					<t id="s31_18" word="regarding" pos="VBG" />
+					<t id="s31_19" word="whether" pos="IN" />
+					<t id="s31_20" word="the" pos="DT" />
+					<t id="s31_21" word="Commission" pos="NNP" />
+					<t id="s31_22" word="knowingly" pos="RB" />
+					<t id="s31_23" word="and" pos="CC" />
+					<t id="s31_24" word="willingly" pos="RB" />
+					<t id="s31_25" word="agreed" pos="VBD" />
+					<t id="s31_26" word="to" pos="TO" />
+					<t id="s31_27" word="indemnify" pos="VB" />
+					<t id="s31_28" word="Mid-America" pos="NNP" />
+					<t id="s31_29" word="for" pos="IN" />
+					<t id="s31_30" word="the" pos="DT" />
+					<t id="s31_31" word="roof" pos="NN" />
+					<t id="s31_32" word="collapse" pos="NN" />
+					<t id="s31_33" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s31_502" cat="NP" >
+						<edge idref="s31_1" label="--" />
+						<edge idref="s31_2" label="--" />
+						<edge idref="s31_3" label="--" />
+					</nt>
+					<nt id="s31_504" cat="NP" >
+						<edge idref="s31_5" label="--" />
+					</nt>
+					<nt id="s31_503" cat="PP" >
+						<edge idref="s31_4" label="--" />
+						<edge idref="s31_504" label="--" />
+					</nt>
+					<nt id="s31_501" cat="NP" >
+						<edge idref="s31_502" label="--" />
+						<edge idref="s31_503" label="--" />
+					</nt>
+					<nt id="s31_511" cat="NP" >
+						<edge idref="s31_12" label="--" />
+						<edge idref="s31_13" label="--" />
+					</nt>
+					<nt id="s31_513" cat="NP" >
+						<edge idref="s31_15" label="--" />
+						<edge idref="s31_16" label="--" />
+					</nt>
+					<nt id="s31_512" cat="PP" >
+						<edge idref="s31_14" label="--" />
+						<edge idref="s31_513" label="--" />
+					</nt>
+					<nt id="s31_510" cat="NP" >
+						<edge idref="s31_511" label="--" />
+						<edge idref="s31_512" label="--" />
+					</nt>
+					<nt id="s31_519" cat="NP" >
+						<edge idref="s31_20" label="--" />
+						<edge idref="s31_21" label="--" />
+					</nt>
+					<nt id="s31_518" cat="PP" >
+						<edge idref="s31_19" label="--" />
+						<edge idref="s31_519" label="--" />
+					</nt>
+					<nt id="s31_520" cat="ADVP" >
+						<edge idref="s31_22" label="--" />
+					</nt>
+					<nt id="s31_517" cat="VP" >
+						<edge idref="s31_18" label="--" />
+						<edge idref="s31_518" label="--" />
+						<edge idref="s31_520" label="--" />
+					</nt>
+					<nt id="s31_516" cat="S" >
+						<edge idref="s31_517" label="--" />
+					</nt>
+					<nt id="s31_515" cat="VP" >
+						<edge idref="s31_17" label="--" />
+						<edge idref="s31_516" label="--" />
+					</nt>
+					<nt id="s31_521" cat="ADVP" >
+						<edge idref="s31_24" label="--" />
+					</nt>
+					<nt id="s31_526" cat="NP" >
+						<edge idref="s31_28" label="--" />
+					</nt>
+					<nt id="s31_528" cat="NP" >
+						<edge idref="s31_30" label="--" />
+						<edge idref="s31_31" label="--" />
+						<edge idref="s31_32" label="--" />
+					</nt>
+					<nt id="s31_527" cat="PP" >
+						<edge idref="s31_29" label="--" />
+						<edge idref="s31_528" label="--" />
+					</nt>
+					<nt id="s31_525" cat="VP" >
+						<edge idref="s31_27" label="--" />
+						<edge idref="s31_526" label="--" />
+						<edge idref="s31_527" label="--" />
+					</nt>
+					<nt id="s31_524" cat="VP" >
+						<edge idref="s31_26" label="--" />
+						<edge idref="s31_525" label="--" />
+					</nt>
+					<nt id="s31_523" cat="S" >
+						<edge idref="s31_524" label="--" />
+					</nt>
+					<nt id="s31_522" cat="VP" >
+						<edge idref="s31_25" label="--" />
+						<edge idref="s31_523" label="--" />
+					</nt>
+					<nt id="s31_514" cat="VP" >
+						<edge idref="s31_515" label="--" />
+						<edge idref="s31_23" label="--" />
+						<edge idref="s31_521" label="--" />
+						<edge idref="s31_522" label="--" />
+					</nt>
+					<nt id="s31_509" cat="S" >
+						<edge idref="s31_510" label="--" />
+						<edge idref="s31_514" label="--" />
+					</nt>
+					<nt id="s31_508" cat="SBAR" >
+						<edge idref="s31_11" label="--" />
+						<edge idref="s31_509" label="--" />
+					</nt>
+					<nt id="s31_507" cat="VP" >
+						<edge idref="s31_10" label="--" />
+						<edge idref="s31_508" label="--" />
+					</nt>
+					<nt id="s31_506" cat="S" >
+						<edge idref="s31_507" label="--" />
+					</nt>
+					<nt id="s31_505" cat="VP" >
+						<edge idref="s31_6" label="--" />
+						<edge idref="s31_7" label="--" />
+						<edge idref="s31_8" label="--" />
+						<edge idref="s31_9" label="--" />
+						<edge idref="s31_506" label="--" />
+					</nt>
+					<nt id="s31_500" cat="S" >
+						<edge idref="s31_501" label="--" />
+						<edge idref="s31_505" label="--" />
+						<edge idref="s31_33" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s32" >
+			<graph root="s32_500" >
+				<terminals>
+					<t id="s32_1" word="In" pos="IN" />
+					<t id="s32_2" word="re" pos="JJ" />
+					<t id="s32_3" word="Ind" pos="NNP" />
+					<t id="s32_4" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s32_502" cat="NP" >
+						<edge idref="s32_2" label="--" />
+						<edge idref="s32_3" label="--" />
+					</nt>
+					<nt id="s32_501" cat="PP" >
+						<edge idref="s32_1" label="--" />
+						<edge idref="s32_502" label="--" />
+					</nt>
+					<nt id="s32_500" cat="FRAG" >
+						<edge idref="s32_501" label="--" />
+						<edge idref="s32_4" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s33" >
+			<graph root="s33_500" >
+				<terminals>
+					<t id="s33_1" word="State" pos="NNP" />
+					<t id="s33_2" word="Fair" pos="NNP" />
+					<t id="s33_3" word="Litigation" pos="NNP" />
+					<t id="s33_4" word="," pos="," />
+					<t id="s33_5" word="28" pos="CD" />
+					<t id="s33_6" word="N.E.3d" pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s33_501" cat="NP" >
+						<edge idref="s33_1" label="--" />
+						<edge idref="s33_2" label="--" />
+						<edge idref="s33_3" label="--" />
+					</nt>
+					<nt id="s33_502" cat="NP" >
+						<edge idref="s33_5" label="--" />
+					</nt>
+					<nt id="s33_503" cat="NP" >
+						<edge idref="s33_6" label="--" />
+					</nt>
+					<nt id="s33_500" cat="NP" >
+						<edge idref="s33_501" label="--" />
+						<edge idref="s33_4" label="--" />
+						<edge idref="s33_502" label="--" />
+						<edge idref="s33_503" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s34" >
+			<graph root="s34_500" >
+				<terminals>
+					<t id="s34_1" word="333" pos="CD" />
+					<t id="s34_2" word="," pos="," />
+					<t id="s34_3" word="343" pos="CD" />
+					<t id="s34_4" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s34_501" cat="NP" >
+						<edge idref="s34_3" label="--" />
+					</nt>
+					<nt id="s34_500" cat="NP" >
+						<edge idref="s34_1" label="--" />
+						<edge idref="s34_2" label="--" />
+						<edge idref="s34_501" label="--" />
+						<edge idref="s34_4" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s35" >
+			<graph root="s35_500" >
+				<terminals>
+					<t id="s35_1" word="As" pos="IN" />
+					<t id="s35_2" word="we" pos="PRP" />
+					<t id="s35_3" word="have" pos="VBP" />
+					<t id="s35_4" word="recently" pos="RB" />
+					<t id="s35_5" word="reiterated" pos="VBN" />
+					<t id="s35_6" word="," pos="," />
+					<t id="s35_7" word="summary" pos="JJ" />
+					<t id="s35_8" word="judgment" pos="NN" />
+					<t id="s35_9" word="imposes" pos="VBZ" />
+					<t id="s35_10" word="a" pos="DT" />
+					<t id="s35_11" word="heavy" pos="JJ" />
+					<t id="s35_12" word="factual" pos="JJ" />
+					<t id="s35_13" word="burden" pos="NN" />
+					<t id="s35_14" word="on" pos="IN" />
+					<t id="s35_15" word="the" pos="DT" />
+					<t id="s35_16" word="moving" pos="VBG" />
+					<t id="s35_17" word="party„and" pos="NN" />
+					<t id="s35_18" word="a" pos="DT" />
+					<t id="s35_19" word="correspondingly" pos="RB" />
+					<t id="s35_20" word="light" pos="JJ" />
+					<t id="s35_21" word="burden" pos="NN" />
+					<t id="s35_22" word="for" pos="IN" />
+					<t id="s35_23" word="the" pos="DT" />
+					<t id="s35_24" word="non-movantÍs" pos="JJ" />
+					<t id="s35_25" word="response„because" pos="NN" />
+					<t id="s35_26" word="ñIndiana" pos="NNP" />
+					<t id="s35_27" word="consciously" pos="RB" />
+					<t id="s35_28" word="errs" pos="VBZ" />
+					<t id="s35_29" word="on" pos="IN" />
+					<t id="s35_30" word="the" pos="DT" />
+					<t id="s35_31" word="side" pos="NN" />
+					<t id="s35_32" word="of" pos="IN" />
+					<t id="s35_33" word="letting" pos="VBG" />
+					<t id="s35_34" word="marginal" pos="JJ" />
+					<t id="s35_35" word="cases" pos="NNS" />
+					<t id="s35_36" word="proceed" pos="VBP" />
+					<t id="s35_37" word="to" pos="TO" />
+					<t id="s35_38" word="trial" pos="NN" />
+					<t id="s35_39" word="on" pos="IN" />
+					<t id="s35_40" word="the" pos="DT" />
+					<t id="s35_41" word="merits" pos="NNS" />
+					<t id="s35_42" word="," pos="," />
+					<t id="s35_43" word="rather" pos="RB" />
+					<t id="s35_44" word="than" pos="IN" />
+					<t id="s35_45" word="risk" pos="VB" />
+					<t id="s35_46" word="short-circuiting" pos="JJ" />
+					<t id="s35_47" word="meritorious" pos="JJ" />
+					<t id="s35_48" word="claims.î" pos="NN" />
+				</terminals>
+				<nonterminals>
+					<nt id="s35_503" cat="NP" >
+						<edge idref="s35_2" label="--" />
+					</nt>
+					<nt id="s35_505" cat="ADVP" >
+						<edge idref="s35_4" label="--" />
+					</nt>
+					<nt id="s35_506" cat="VP" >
+						<edge idref="s35_5" label="--" />
+					</nt>
+					<nt id="s35_504" cat="VP" >
+						<edge idref="s35_3" label="--" />
+						<edge idref="s35_505" label="--" />
+						<edge idref="s35_506" label="--" />
+					</nt>
+					<nt id="s35_502" cat="S" >
+						<edge idref="s35_503" label="--" />
+						<edge idref="s35_504" label="--" />
+					</nt>
+					<nt id="s35_501" cat="SBAR" >
+						<edge idref="s35_1" label="--" />
+						<edge idref="s35_502" label="--" />
+					</nt>
+					<nt id="s35_507" cat="NP" >
+						<edge idref="s35_7" label="--" />
+						<edge idref="s35_8" label="--" />
+					</nt>
+					<nt id="s35_509" cat="NP" >
+						<edge idref="s35_10" label="--" />
+						<edge idref="s35_11" label="--" />
+						<edge idref="s35_12" label="--" />
+						<edge idref="s35_13" label="--" />
+					</nt>
+					<nt id="s35_512" cat="NP" >
+						<edge idref="s35_15" label="--" />
+						<edge idref="s35_16" label="--" />
+						<edge idref="s35_17" label="--" />
+					</nt>
+					<nt id="s35_517" cat="ADJP" >
+						<edge idref="s35_19" label="--" />
+						<edge idref="s35_20" label="--" />
+					</nt>
+					<nt id="s35_516" cat="NP" >
+						<edge idref="s35_18" label="--" />
+						<edge idref="s35_517" label="--" />
+						<edge idref="s35_21" label="--" />
+					</nt>
+					<nt id="s35_519" cat="NP" >
+						<edge idref="s35_23" label="--" />
+						<edge idref="s35_24" label="--" />
+						<edge idref="s35_25" label="--" />
+					</nt>
+					<nt id="s35_518" cat="PP" >
+						<edge idref="s35_22" label="--" />
+						<edge idref="s35_519" label="--" />
+					</nt>
+					<nt id="s35_522" cat="NP" >
+						<edge idref="s35_26" label="--" />
+					</nt>
+					<nt id="s35_523" cat="ADVP" >
+						<edge idref="s35_27" label="--" />
+					</nt>
+					<nt id="s35_527" cat="NP" >
+						<edge idref="s35_30" label="--" />
+						<edge idref="s35_31" label="--" />
+					</nt>
+					<nt id="s35_531" cat="NP" >
+						<edge idref="s35_34" label="--" />
+						<edge idref="s35_35" label="--" />
+					</nt>
+					<nt id="s35_530" cat="VP" >
+						<edge idref="s35_33" label="--" />
+						<edge idref="s35_531" label="--" />
+					</nt>
+					<nt id="s35_529" cat="S" >
+						<edge idref="s35_530" label="--" />
+					</nt>
+					<nt id="s35_528" cat="PP" >
+						<edge idref="s35_32" label="--" />
+						<edge idref="s35_529" label="--" />
+					</nt>
+					<nt id="s35_526" cat="NP" >
+						<edge idref="s35_527" label="--" />
+						<edge idref="s35_528" label="--" />
+					</nt>
+					<nt id="s35_525" cat="PP" >
+						<edge idref="s35_29" label="--" />
+						<edge idref="s35_526" label="--" />
+					</nt>
+					<nt id="s35_524" cat="VP" >
+						<edge idref="s35_28" label="--" />
+						<edge idref="s35_525" label="--" />
+					</nt>
+					<nt id="s35_521" cat="S" >
+						<edge idref="s35_522" label="--" />
+						<edge idref="s35_523" label="--" />
+						<edge idref="s35_524" label="--" />
+					</nt>
+					<nt id="s35_520" cat="SBAR" >
+						<edge idref="s35_521" label="--" />
+					</nt>
+					<nt id="s35_515" cat="NP" >
+						<edge idref="s35_516" label="--" />
+						<edge idref="s35_518" label="--" />
+						<edge idref="s35_520" label="--" />
+					</nt>
+					<nt id="s35_534" cat="NP" >
+						<edge idref="s35_38" label="--" />
+					</nt>
+					<nt id="s35_533" cat="PP" >
+						<edge idref="s35_37" label="--" />
+						<edge idref="s35_534" label="--" />
+					</nt>
+					<nt id="s35_536" cat="NP" >
+						<edge idref="s35_40" label="--" />
+						<edge idref="s35_41" label="--" />
+					</nt>
+					<nt id="s35_535" cat="PP" >
+						<edge idref="s35_39" label="--" />
+						<edge idref="s35_536" label="--" />
+					</nt>
+					<nt id="s35_540" cat="NP" >
+						<edge idref="s35_46" label="--" />
+						<edge idref="s35_47" label="--" />
+						<edge idref="s35_48" label="--" />
+					</nt>
+					<nt id="s35_539" cat="VP" >
+						<edge idref="s35_45" label="--" />
+						<edge idref="s35_540" label="--" />
+					</nt>
+					<nt id="s35_538" cat="S" >
+						<edge idref="s35_539" label="--" />
+					</nt>
+					<nt id="s35_537" cat="PP" >
+						<edge idref="s35_43" label="--" />
+						<edge idref="s35_44" label="--" />
+						<edge idref="s35_538" label="--" />
+					</nt>
+					<nt id="s35_532" cat="VP" >
+						<edge idref="s35_36" label="--" />
+						<edge idref="s35_533" label="--" />
+						<edge idref="s35_535" label="--" />
+						<edge idref="s35_42" label="--" />
+						<edge idref="s35_537" label="--" />
+					</nt>
+					<nt id="s35_514" cat="S" >
+						<edge idref="s35_515" label="--" />
+						<edge idref="s35_532" label="--" />
+					</nt>
+					<nt id="s35_513" cat="SBAR" >
+						<edge idref="s35_514" label="--" />
+					</nt>
+					<nt id="s35_511" cat="NP" >
+						<edge idref="s35_512" label="--" />
+						<edge idref="s35_513" label="--" />
+					</nt>
+					<nt id="s35_510" cat="PP" >
+						<edge idref="s35_14" label="--" />
+						<edge idref="s35_511" label="--" />
+					</nt>
+					<nt id="s35_508" cat="VP" >
+						<edge idref="s35_9" label="--" />
+						<edge idref="s35_509" label="--" />
+						<edge idref="s35_510" label="--" />
+					</nt>
+					<nt id="s35_500" cat="S" >
+						<edge idref="s35_501" label="--" />
+						<edge idref="s35_6" label="--" />
+						<edge idref="s35_507" label="--" />
+						<edge idref="s35_508" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s36" >
+			<graph root="s36_500" >
+				<terminals>
+					<t id="s36_1" word="Hughley" pos="NNP" />
+					<t id="s36_2" word="v." pos="NN" />
+				</terminals>
+				<nonterminals>
+					<nt id="s36_501" cat="NP" >
+						<edge idref="s36_1" label="--" />
+					</nt>
+					<nt id="s36_502" cat="NP" >
+						<edge idref="s36_2" label="--" />
+					</nt>
+					<nt id="s36_500" cat="NP" >
+						<edge idref="s36_501" label="--" />
+						<edge idref="s36_502" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s37" >
+			<graph root="s37_500" >
+				<terminals>
+					<t id="s37_1" word="State" pos="NNP" />
+					<t id="s37_2" word="," pos="," />
+					<t id="s37_3" word="15" pos="CD" />
+					<t id="s37_4" word="N.E.3d" pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s37_501" cat="NP" >
+						<edge idref="s37_4" label="--" />
+					</nt>
+					<nt id="s37_500" cat="NP" >
+						<edge idref="s37_1" label="--" />
+						<edge idref="s37_2" label="--" />
+						<edge idref="s37_3" label="--" />
+						<edge idref="s37_501" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s38" >
+			<graph root="s38_500" >
+				<terminals>
+					<t id="s38_1" word="1000" pos="CD" />
+					<t id="s38_2" word="," pos="," />
+					<t id="s38_3" word="1004" pos="CD" />
+					<t id="s38_4" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s38_501" cat="NP" >
+						<edge idref="s38_3" label="--" />
+					</nt>
+					<nt id="s38_500" cat="NP" >
+						<edge idref="s38_1" label="--" />
+						<edge idref="s38_2" label="--" />
+						<edge idref="s38_501" label="--" />
+						<edge idref="s38_4" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s39" >
+			<graph root="s39_500" >
+				<terminals>
+					<t id="s39_1" word="By" pos="IN" />
+					<t id="s39_2" word="definition" pos="NN" />
+					<t id="s39_3" word="," pos="," />
+					<t id="s39_4" word="cases" pos="NNS" />
+					<t id="s39_5" word="that" pos="IN" />
+					<t id="s39_6" word="hinge" pos="VBP" />
+					<t id="s39_7" word="upon" pos="IN" />
+					<t id="s39_8" word="disputed" pos="VBN" />
+					<t id="s39_9" word="facts" pos="NNS" />
+					<t id="s39_10" word="are" pos="VBP" />
+					<t id="s39_11" word="inappropriate" pos="JJ" />
+					<t id="s39_12" word="for" pos="IN" />
+					<t id="s39_13" word="summary" pos="JJ" />
+					<t id="s39_14" word="judgment" pos="NN" />
+					<t id="s39_15" word="," pos="," />
+					<t id="s39_16" word="because" pos="IN" />
+					<t id="s39_17" word="ñweighing" pos="VBG" />
+					<t id="s39_18" word="[" pos="JJ" />
+					<t id="s39_19" word="evidence" pos="NN" />
+					<t id="s39_20" word="]" pos="NNP" />
+					<t id="s39_21" word="„no" pos="NNP" />
+					<t id="s39_22" word="matter" pos="NN" />
+					<t id="s39_23" word="how" pos="WRB" />
+					<t id="s39_24" word="decisively" pos="RB" />
+					<t id="s39_25" word="the" pos="DT" />
+					<t id="s39_26" word="scales" pos="NNS" />
+					<t id="s39_27" word="may" pos="MD" />
+					<t id="s39_28" word="seem" pos="VB" />
+					<t id="s39_29" word="to" pos="TO" />
+					<t id="s39_30" word="tip„" pos="VB" />
+					<t id="s39_31" word="[" pos="NNP" />
+					<t id="s39_32" word="is" pos="VBZ" />
+					<t id="s39_33" word="]" pos="FW" />
+					<t id="s39_34" word="a" pos="DT" />
+					<t id="s39_35" word="matter" pos="NN" />
+					<t id="s39_36" word="for" pos="IN" />
+					<t id="s39_37" word="trial" pos="NN" />
+					<t id="s39_38" word="," pos="," />
+					<t id="s39_39" word="not" pos="RB" />
+					<t id="s39_40" word="summary" pos="JJ" />
+					<t id="s39_41" word="judgment.î" pos="NN" />
+				</terminals>
+				<nonterminals>
+					<nt id="s39_502" cat="NP" >
+						<edge idref="s39_2" label="--" />
+					</nt>
+					<nt id="s39_501" cat="PP" >
+						<edge idref="s39_1" label="--" />
+						<edge idref="s39_502" label="--" />
+					</nt>
+					<nt id="s39_504" cat="NP" >
+						<edge idref="s39_4" label="--" />
+					</nt>
+					<nt id="s39_506" cat="WHNP" >
+						<edge idref="s39_5" label="--" />
+					</nt>
+					<nt id="s39_510" cat="NP" >
+						<edge idref="s39_8" label="--" />
+						<edge idref="s39_9" label="--" />
+					</nt>
+					<nt id="s39_509" cat="PP" >
+						<edge idref="s39_7" label="--" />
+						<edge idref="s39_510" label="--" />
+					</nt>
+					<nt id="s39_508" cat="VP" >
+						<edge idref="s39_6" label="--" />
+						<edge idref="s39_509" label="--" />
+					</nt>
+					<nt id="s39_507" cat="S" >
+						<edge idref="s39_508" label="--" />
+					</nt>
+					<nt id="s39_505" cat="SBAR" >
+						<edge idref="s39_506" label="--" />
+						<edge idref="s39_507" label="--" />
+					</nt>
+					<nt id="s39_503" cat="NP" >
+						<edge idref="s39_504" label="--" />
+						<edge idref="s39_505" label="--" />
+					</nt>
+					<nt id="s39_514" cat="NP" >
+						<edge idref="s39_13" label="--" />
+						<edge idref="s39_14" label="--" />
+					</nt>
+					<nt id="s39_513" cat="PP" >
+						<edge idref="s39_12" label="--" />
+						<edge idref="s39_514" label="--" />
+					</nt>
+					<nt id="s39_512" cat="ADJP" >
+						<edge idref="s39_11" label="--" />
+						<edge idref="s39_513" label="--" />
+					</nt>
+					<nt id="s39_519" cat="NP" >
+						<edge idref="s39_18" label="--" />
+						<edge idref="s39_19" label="--" />
+						<edge idref="s39_20" label="--" />
+						<edge idref="s39_21" label="--" />
+						<edge idref="s39_22" label="--" />
+					</nt>
+					<nt id="s39_521" cat="WHADVP" >
+						<edge idref="s39_23" label="--" />
+						<edge idref="s39_24" label="--" />
+					</nt>
+					<nt id="s39_523" cat="NP" >
+						<edge idref="s39_25" label="--" />
+						<edge idref="s39_26" label="--" />
+					</nt>
+					<nt id="s39_529" cat="NP" >
+						<edge idref="s39_31" label="--" />
+					</nt>
+					<nt id="s39_528" cat="VP" >
+						<edge idref="s39_30" label="--" />
+						<edge idref="s39_529" label="--" />
+					</nt>
+					<nt id="s39_527" cat="VP" >
+						<edge idref="s39_29" label="--" />
+						<edge idref="s39_528" label="--" />
+					</nt>
+					<nt id="s39_526" cat="S" >
+						<edge idref="s39_527" label="--" />
+					</nt>
+					<nt id="s39_525" cat="VP" >
+						<edge idref="s39_28" label="--" />
+						<edge idref="s39_526" label="--" />
+					</nt>
+					<nt id="s39_524" cat="VP" >
+						<edge idref="s39_27" label="--" />
+						<edge idref="s39_525" label="--" />
+					</nt>
+					<nt id="s39_522" cat="S" >
+						<edge idref="s39_523" label="--" />
+						<edge idref="s39_524" label="--" />
+					</nt>
+					<nt id="s39_520" cat="SBAR" >
+						<edge idref="s39_521" label="--" />
+						<edge idref="s39_522" label="--" />
+					</nt>
+					<nt id="s39_518" cat="VP" >
+						<edge idref="s39_17" label="--" />
+						<edge idref="s39_519" label="--" />
+						<edge idref="s39_520" label="--" />
+					</nt>
+					<nt id="s39_517" cat="S" >
+						<edge idref="s39_518" label="--" />
+					</nt>
+					<nt id="s39_532" cat="NP" >
+						<edge idref="s39_33" label="--" />
+					</nt>
+					<nt id="s39_534" cat="NP" >
+						<edge idref="s39_34" label="--" />
+						<edge idref="s39_35" label="--" />
+					</nt>
+					<nt id="s39_537" cat="NP" >
+						<edge idref="s39_37" label="--" />
+					</nt>
+					<nt id="s39_538" cat="NP" >
+						<edge idref="s39_40" label="--" />
+						<edge idref="s39_41" label="--" />
+					</nt>
+					<nt id="s39_536" cat="NP" >
+						<edge idref="s39_537" label="--" />
+						<edge idref="s39_38" label="--" />
+						<edge idref="s39_39" label="--" />
+						<edge idref="s39_538" label="--" />
+					</nt>
+					<nt id="s39_535" cat="PP" >
+						<edge idref="s39_36" label="--" />
+						<edge idref="s39_536" label="--" />
+					</nt>
+					<nt id="s39_533" cat="NP" >
+						<edge idref="s39_534" label="--" />
+						<edge idref="s39_535" label="--" />
+					</nt>
+					<nt id="s39_531" cat="NP" >
+						<edge idref="s39_532" label="--" />
+						<edge idref="s39_533" label="--" />
+					</nt>
+					<nt id="s39_530" cat="VP" >
+						<edge idref="s39_32" label="--" />
+						<edge idref="s39_531" label="--" />
+					</nt>
+					<nt id="s39_516" cat="S" >
+						<edge idref="s39_517" label="--" />
+						<edge idref="s39_530" label="--" />
+					</nt>
+					<nt id="s39_515" cat="SBAR" >
+						<edge idref="s39_16" label="--" />
+						<edge idref="s39_516" label="--" />
+					</nt>
+					<nt id="s39_511" cat="VP" >
+						<edge idref="s39_10" label="--" />
+						<edge idref="s39_512" label="--" />
+						<edge idref="s39_15" label="--" />
+						<edge idref="s39_515" label="--" />
+					</nt>
+					<nt id="s39_500" cat="S" >
+						<edge idref="s39_501" label="--" />
+						<edge idref="s39_3" label="--" />
+						<edge idref="s39_503" label="--" />
+						<edge idref="s39_511" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s40" >
+			<graph root="s40_500" >
+				<terminals>
+					<t id="s40_1" word="Id" pos="NNP" />
+					<t id="s40_2" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s40_500" cat="X" >
+						<edge idref="s40_1" label="--" />
+						<edge idref="s40_2" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s41" >
+			<graph root="s41_500" >
+				<terminals>
+					<t id="s41_1" word="at" pos="IN" />
+					<t id="s41_2" word="1005_06" pos="CD" />
+					<t id="s41_3" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s41_503" cat="NP" >
+						<edge idref="s41_2" label="--" />
+					</nt>
+					<nt id="s41_502" cat="PP" >
+						<edge idref="s41_1" label="--" />
+						<edge idref="s41_503" label="--" />
+					</nt>
+					<nt id="s41_501" cat="VP" >
+						<edge idref="s41_502" label="--" />
+					</nt>
+					<nt id="s41_500" cat="S" >
+						<edge idref="s41_501" label="--" />
+						<edge idref="s41_3" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s42" >
+			<graph root="s42_500" >
+				<terminals>
+					<t id="s42_1" word="By" pos="IN" />
+					<t id="s42_2" word="contrast" pos="NN" />
+					<t id="s42_3" word="," pos="," />
+					<t id="s42_4" word="matters" pos="NNS" />
+					<t id="s42_5" word="of" pos="IN" />
+					<t id="s42_6" word="contract" pos="NN" />
+					<t id="s42_7" word="interpretation" pos="NN" />
+					<t id="s42_8" word="are" pos="VBP" />
+					<t id="s42_9" word="ñparticularly" pos="JJ" />
+					<t id="s42_10" word="well-suited" pos="JJ" />
+					<t id="s42_11" word="for" pos="IN" />
+					<t id="s42_12" word="de" pos="FW" />
+					<t id="s42_13" word="novo" pos="FW" />
+					<t id="s42_14" word="appellate" pos="JJ" />
+					<t id="s42_15" word="review" pos="NN" />
+					<t id="s42_16" word="," pos="," />
+					<t id="s42_17" word="î" pos="NN" />
+					<t id="s42_18" word="because" pos="IN" />
+					<t id="s42_19" word="they" pos="PRP" />
+					<t id="s42_20" word="ñgenerally" pos="RB" />
+					<t id="s42_21" word="present" pos="JJ" />
+					<t id="s42_22" word="[" pos="NNP" />
+					<t id="s42_23" word="]" pos="NNP" />
+					<t id="s42_24" word="questions" pos="NNS" />
+					<t id="s42_25" word="purely" pos="RB" />
+					<t id="s42_26" word="of" pos="IN" />
+					<t id="s42_27" word="law.î" pos="JJ" />
+				</terminals>
+				<nonterminals>
+					<nt id="s42_502" cat="NP" >
+						<edge idref="s42_2" label="--" />
+					</nt>
+					<nt id="s42_501" cat="PP" >
+						<edge idref="s42_1" label="--" />
+						<edge idref="s42_502" label="--" />
+					</nt>
+					<nt id="s42_504" cat="NP" >
+						<edge idref="s42_4" label="--" />
+					</nt>
+					<nt id="s42_506" cat="NP" >
+						<edge idref="s42_6" label="--" />
+						<edge idref="s42_7" label="--" />
+					</nt>
+					<nt id="s42_505" cat="PP" >
+						<edge idref="s42_5" label="--" />
+						<edge idref="s42_506" label="--" />
+					</nt>
+					<nt id="s42_503" cat="NP" >
+						<edge idref="s42_504" label="--" />
+						<edge idref="s42_505" label="--" />
+					</nt>
+					<nt id="s42_511" cat="ADJP" >
+						<edge idref="s42_12" label="--" />
+						<edge idref="s42_13" label="--" />
+					</nt>
+					<nt id="s42_510" cat="NP" >
+						<edge idref="s42_511" label="--" />
+						<edge idref="s42_14" label="--" />
+						<edge idref="s42_15" label="--" />
+					</nt>
+					<nt id="s42_509" cat="PP" >
+						<edge idref="s42_11" label="--" />
+						<edge idref="s42_510" label="--" />
+					</nt>
+					<nt id="s42_514" cat="NP" >
+						<edge idref="s42_19" label="--" />
+					</nt>
+					<nt id="s42_515" cat="ADJP" >
+						<edge idref="s42_20" label="--" />
+						<edge idref="s42_21" label="--" />
+					</nt>
+					<nt id="s42_513" cat="S" >
+						<edge idref="s42_514" label="--" />
+						<edge idref="s42_515" label="--" />
+					</nt>
+					<nt id="s42_512" cat="SBAR" >
+						<edge idref="s42_18" label="--" />
+						<edge idref="s42_513" label="--" />
+					</nt>
+					<nt id="s42_516" cat="NP" >
+						<edge idref="s42_22" label="--" />
+						<edge idref="s42_23" label="--" />
+						<edge idref="s42_24" label="--" />
+					</nt>
+					<nt id="s42_517" cat="CONJP" >
+						<edge idref="s42_25" label="--" />
+						<edge idref="s42_26" label="--" />
+					</nt>
+					<nt id="s42_518" cat="ADJP" >
+						<edge idref="s42_27" label="--" />
+					</nt>
+					<nt id="s42_508" cat="UCP" >
+						<edge idref="s42_9" label="--" />
+						<edge idref="s42_10" label="--" />
+						<edge idref="s42_509" label="--" />
+						<edge idref="s42_16" label="--" />
+						<edge idref="s42_17" label="--" />
+						<edge idref="s42_512" label="--" />
+						<edge idref="s42_516" label="--" />
+						<edge idref="s42_517" label="--" />
+						<edge idref="s42_518" label="--" />
+					</nt>
+					<nt id="s42_507" cat="VP" >
+						<edge idref="s42_8" label="--" />
+						<edge idref="s42_508" label="--" />
+					</nt>
+					<nt id="s42_500" cat="S" >
+						<edge idref="s42_501" label="--" />
+						<edge idref="s42_3" label="--" />
+						<edge idref="s42_503" label="--" />
+						<edge idref="s42_507" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s43" >
+			<graph root="s43_500" >
+				<terminals>
+					<t id="s43_1" word="Holiday" pos="NNP" />
+					<t id="s43_2" word="Hospitality" pos="NNP" />
+					<t id="s43_3" word="Franchising" pos="NNP" />
+					<t id="s43_4" word="," pos="," />
+					<t id="s43_5" word="Inc." pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s43_500" cat="NP" >
+						<edge idref="s43_1" label="--" />
+						<edge idref="s43_2" label="--" />
+						<edge idref="s43_3" label="--" />
+						<edge idref="s43_4" label="--" />
+						<edge idref="s43_5" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s44" >
+			<graph root="s44_500" >
+				<terminals>
+					<t id="s44_1" word="v." pos="VBD" />
+				</terminals>
+				<nonterminals>
+					<nt id="s44_500" cat="X" >
+						<edge idref="s44_1" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s45" >
+			<graph root="s45_500" >
+				<terminals>
+					<t id="s45_1" word="AMCO" pos="NNP" />
+					<t id="s45_2" word="Ins" pos="NNP" />
+					<t id="s45_3" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s45_500" cat="NP" >
+						<edge idref="s45_1" label="--" />
+						<edge idref="s45_2" label="--" />
+						<edge idref="s45_3" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s46" >
+			<graph root="s46_500" >
+				<terminals>
+					<t id="s46_1" word="Co." pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s46_500" cat="NP" >
+						<edge idref="s46_1" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s47" >
+			<graph root="s47_500" >
+				<terminals>
+					<t id="s47_1" word="," pos="," />
+					<t id="s47_2" word="983" pos="CD" />
+					<t id="s47_3" word="N.E.2d" pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s47_502" cat="NP" >
+						<edge idref="s47_2" label="--" />
+					</nt>
+					<nt id="s47_503" cat="ADJP" >
+						<edge idref="s47_3" label="--" />
+					</nt>
+					<nt id="s47_501" cat="S" >
+						<edge idref="s47_502" label="--" />
+						<edge idref="s47_503" label="--" />
+					</nt>
+					<nt id="s47_500" cat="PRN" >
+						<edge idref="s47_1" label="--" />
+						<edge idref="s47_501" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s48" >
+			<graph root="s48_500" >
+				<terminals>
+					<t id="s48_1" word="574" pos="CD" />
+					<t id="s48_2" word="," pos="," />
+					<t id="s48_3" word="577" pos="CD" />
+					<t id="s48_4" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s48_501" cat="NP" >
+						<edge idref="s48_3" label="--" />
+					</nt>
+					<nt id="s48_500" cat="NP" >
+						<edge idref="s48_1" label="--" />
+						<edge idref="s48_2" label="--" />
+						<edge idref="s48_501" label="--" />
+						<edge idref="s48_4" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s49" >
+			<graph root="s49_500" >
+				<terminals>
+					<t id="s49_1" word="A" pos="DT" />
+					<t id="s49_2" word="contract" pos="NN" />
+					<t id="s49_3" word="may" pos="MD" />
+					<t id="s49_4" word="be" pos="VB" />
+					<t id="s49_5" word="construed" pos="VBN" />
+					<t id="s49_6" word="on" pos="IN" />
+					<t id="s49_7" word="summary" pos="JJ" />
+					<t id="s49_8" word="judgment" pos="NN" />
+					<t id="s49_9" word="if" pos="IN" />
+					<t id="s49_10" word="it" pos="PRP" />
+					<t id="s49_11" word="ñis" pos="VBZ" />
+					<t id="s49_12" word="not" pos="RB" />
+					<t id="s49_13" word="ambiguous" pos="JJ" />
+					<t id="s49_14" word="or" pos="CC" />
+					<t id="s49_15" word="uncertain" pos="JJ" />
+					<t id="s49_16" word="," pos="," />
+					<t id="s49_17" word="î" pos="''" />
+					<t id="s49_18" word="or" pos="CC" />
+					<t id="s49_19" word="if" pos="IN" />
+					<t id="s49_20" word="ñthe" pos="VBN" />
+					<t id="s49_21" word="contract" pos="NN" />
+					<t id="s49_22" word="ambiguity" pos="NN" />
+					<t id="s49_23" word="," pos="," />
+					<t id="s49_24" word="if" pos="IN" />
+					<t id="s49_25" word="one" pos="CD" />
+					<t id="s49_26" word="exists" pos="VBZ" />
+					<t id="s49_27" word="," pos="," />
+					<t id="s49_28" word="can" pos="MD" />
+					<t id="s49_29" word="be" pos="VB" />
+					<t id="s49_30" word="resolved" pos="VBN" />
+					<t id="s49_31" word="without" pos="IN" />
+					<t id="s49_32" word="the" pos="DT" />
+					<t id="s49_33" word="aid" pos="NN" />
+					<t id="s49_34" word="of" pos="IN" />
+					<t id="s49_35" word="a" pos="DT" />
+					<t id="s49_36" word="factual" pos="JJ" />
+					<t id="s49_37" word="determination.î" pos="NN" />
+				</terminals>
+				<nonterminals>
+					<nt id="s49_501" cat="NP" >
+						<edge idref="s49_1" label="--" />
+						<edge idref="s49_2" label="--" />
+					</nt>
+					<nt id="s49_506" cat="NP" >
+						<edge idref="s49_7" label="--" />
+						<edge idref="s49_8" label="--" />
+					</nt>
+					<nt id="s49_505" cat="PP" >
+						<edge idref="s49_6" label="--" />
+						<edge idref="s49_506" label="--" />
+					</nt>
+					<nt id="s49_510" cat="NP" >
+						<edge idref="s49_10" label="--" />
+					</nt>
+					<nt id="s49_512" cat="ADJP" >
+						<edge idref="s49_13" label="--" />
+						<edge idref="s49_14" label="--" />
+						<edge idref="s49_15" label="--" />
+					</nt>
+					<nt id="s49_511" cat="VP" >
+						<edge idref="s49_11" label="--" />
+						<edge idref="s49_12" label="--" />
+						<edge idref="s49_512" label="--" />
+					</nt>
+					<nt id="s49_509" cat="S" >
+						<edge idref="s49_510" label="--" />
+						<edge idref="s49_511" label="--" />
+					</nt>
+					<nt id="s49_508" cat="SBAR" >
+						<edge idref="s49_9" label="--" />
+						<edge idref="s49_509" label="--" />
+					</nt>
+					<nt id="s49_515" cat="NP" >
+						<edge idref="s49_20" label="--" />
+						<edge idref="s49_21" label="--" />
+						<edge idref="s49_22" label="--" />
+					</nt>
+					<nt id="s49_518" cat="NP" >
+						<edge idref="s49_25" label="--" />
+					</nt>
+					<nt id="s49_519" cat="VP" >
+						<edge idref="s49_26" label="--" />
+					</nt>
+					<nt id="s49_517" cat="S" >
+						<edge idref="s49_518" label="--" />
+						<edge idref="s49_519" label="--" />
+					</nt>
+					<nt id="s49_516" cat="SBAR" >
+						<edge idref="s49_24" label="--" />
+						<edge idref="s49_517" label="--" />
+					</nt>
+					<nt id="s49_525" cat="NP" >
+						<edge idref="s49_32" label="--" />
+						<edge idref="s49_33" label="--" />
+					</nt>
+					<nt id="s49_527" cat="NP" >
+						<edge idref="s49_35" label="--" />
+						<edge idref="s49_36" label="--" />
+						<edge idref="s49_37" label="--" />
+					</nt>
+					<nt id="s49_526" cat="PP" >
+						<edge idref="s49_34" label="--" />
+						<edge idref="s49_527" label="--" />
+					</nt>
+					<nt id="s49_524" cat="NP" >
+						<edge idref="s49_525" label="--" />
+						<edge idref="s49_526" label="--" />
+					</nt>
+					<nt id="s49_523" cat="PP" >
+						<edge idref="s49_31" label="--" />
+						<edge idref="s49_524" label="--" />
+					</nt>
+					<nt id="s49_522" cat="VP" >
+						<edge idref="s49_30" label="--" />
+						<edge idref="s49_523" label="--" />
+					</nt>
+					<nt id="s49_521" cat="VP" >
+						<edge idref="s49_29" label="--" />
+						<edge idref="s49_522" label="--" />
+					</nt>
+					<nt id="s49_520" cat="VP" >
+						<edge idref="s49_28" label="--" />
+						<edge idref="s49_521" label="--" />
+					</nt>
+					<nt id="s49_514" cat="S" >
+						<edge idref="s49_515" label="--" />
+						<edge idref="s49_23" label="--" />
+						<edge idref="s49_516" label="--" />
+						<edge idref="s49_27" label="--" />
+						<edge idref="s49_520" label="--" />
+					</nt>
+					<nt id="s49_513" cat="SBAR" >
+						<edge idref="s49_19" label="--" />
+						<edge idref="s49_514" label="--" />
+					</nt>
+					<nt id="s49_507" cat="SBAR" >
+						<edge idref="s49_508" label="--" />
+						<edge idref="s49_16" label="--" />
+						<edge idref="s49_17" label="--" />
+						<edge idref="s49_18" label="--" />
+						<edge idref="s49_513" label="--" />
+					</nt>
+					<nt id="s49_504" cat="VP" >
+						<edge idref="s49_5" label="--" />
+						<edge idref="s49_505" label="--" />
+						<edge idref="s49_507" label="--" />
+					</nt>
+					<nt id="s49_503" cat="VP" >
+						<edge idref="s49_4" label="--" />
+						<edge idref="s49_504" label="--" />
+					</nt>
+					<nt id="s49_502" cat="VP" >
+						<edge idref="s49_3" label="--" />
+						<edge idref="s49_503" label="--" />
+					</nt>
+					<nt id="s49_500" cat="S" >
+						<edge idref="s49_501" label="--" />
+						<edge idref="s49_502" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s50" >
+			<graph root="s50_500" >
+				<terminals>
+					<t id="s50_1" word="Warrick" pos="NNP" />
+					<t id="s50_2" word="County" pos="NNP" />
+					<t id="s50_3" word="ex" pos="NN" />
+					<t id="s50_4" word="rel" pos="NN" />
+					<t id="s50_5" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s50_501" cat="NP" >
+						<edge idref="s50_1" label="--" />
+						<edge idref="s50_2" label="--" />
+					</nt>
+					<nt id="s50_502" cat="NP" >
+						<edge idref="s50_3" label="--" />
+						<edge idref="s50_4" label="--" />
+					</nt>
+					<nt id="s50_500" cat="NP" >
+						<edge idref="s50_501" label="--" />
+						<edge idref="s50_502" label="--" />
+						<edge idref="s50_5" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s51" >
+			<graph root="s51_500" >
+				<terminals>
+					<t id="s51_1" word="Conner" pos="NNP" />
+					<t id="s51_2" word="v." pos="NN" />
+				</terminals>
+				<nonterminals>
+					<nt id="s51_500" cat="NP" >
+						<edge idref="s51_1" label="--" />
+						<edge idref="s51_2" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s52" >
+			<graph root="s52_500" >
+				<terminals>
+					<t id="s52_1" word="Hill" pos="NNP" />
+					<t id="s52_2" word="," pos="," />
+					<t id="s52_3" word="973" pos="CD" />
+					<t id="s52_4" word="N.E.2d" pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s52_501" cat="NP" >
+						<edge idref="s52_1" label="--" />
+					</nt>
+					<nt id="s52_502" cat="NP" >
+						<edge idref="s52_3" label="--" />
+					</nt>
+					<nt id="s52_503" cat="NP" >
+						<edge idref="s52_4" label="--" />
+					</nt>
+					<nt id="s52_500" cat="NP" >
+						<edge idref="s52_501" label="--" />
+						<edge idref="s52_2" label="--" />
+						<edge idref="s52_502" label="--" />
+						<edge idref="s52_503" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s53" >
+			<graph root="s53_500" >
+				<terminals>
+					<t id="s53_1" word="1138" pos="CD" />
+					<t id="s53_2" word="," pos="," />
+					<t id="s53_3" word="1144" pos="CD" />
+					<t id="s53_4" word="," pos="," />
+					<t id="s53_5" word="trans" pos="NNS" />
+					<t id="s53_6" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s53_501" cat="NP" >
+						<edge idref="s53_1" label="--" />
+					</nt>
+					<nt id="s53_502" cat="NP" >
+						<edge idref="s53_5" label="--" />
+					</nt>
+					<nt id="s53_500" cat="NP" >
+						<edge idref="s53_501" label="--" />
+						<edge idref="s53_2" label="--" />
+						<edge idref="s53_3" label="--" />
+						<edge idref="s53_4" label="--" />
+						<edge idref="s53_502" label="--" />
+						<edge idref="s53_6" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s54" >
+			<graph root="s54_500" >
+				<terminals>
+					<t id="s54_1" word="denied" pos="VBN" />
+					<t id="s54_2" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s54_501" cat="VP" >
+						<edge idref="s54_1" label="--" />
+					</nt>
+					<nt id="s54_500" cat="S" >
+						<edge idref="s54_501" label="--" />
+						<edge idref="s54_2" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s55" >
+			<graph root="s55_500" >
+				<terminals>
+					<t id="s55_1" word="The" pos="DT" />
+					<t id="s55_2" word="meaning" pos="NN" />
+					<t id="s55_3" word="of" pos="IN" />
+					<t id="s55_4" word="a" pos="DT" />
+					<t id="s55_5" word="contract" pos="NN" />
+					<t id="s55_6" word="is" pos="VBZ" />
+					<t id="s55_7" word="a" pos="DT" />
+					<t id="s55_8" word="question" pos="NN" />
+					<t id="s55_9" word="for" pos="IN" />
+					<t id="s55_10" word="the" pos="DT" />
+					<t id="s55_11" word="factfinder" pos="NN" />
+					<t id="s55_12" word="," pos="," />
+					<t id="s55_13" word="precluding" pos="VBG" />
+					<t id="s55_14" word="summary" pos="JJ" />
+					<t id="s55_15" word="judgment" pos="NN" />
+					<t id="s55_16" word="," pos="," />
+					<t id="s55_17" word="only" pos="RB" />
+					<t id="s55_18" word="where" pos="WRB" />
+					<t id="s55_19" word="interpreting" pos="VBG" />
+					<t id="s55_20" word="an" pos="DT" />
+					<t id="s55_21" word="ambiguity" pos="NN" />
+					<t id="s55_22" word="requires" pos="VBZ" />
+					<t id="s55_23" word="extrinsic" pos="JJ" />
+					<t id="s55_24" word="evidence" pos="NN" />
+					<t id="s55_25" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s55_502" cat="NP" >
+						<edge idref="s55_1" label="--" />
+						<edge idref="s55_2" label="--" />
+					</nt>
+					<nt id="s55_504" cat="NP" >
+						<edge idref="s55_4" label="--" />
+						<edge idref="s55_5" label="--" />
+					</nt>
+					<nt id="s55_503" cat="PP" >
+						<edge idref="s55_3" label="--" />
+						<edge idref="s55_504" label="--" />
+					</nt>
+					<nt id="s55_501" cat="NP" >
+						<edge idref="s55_502" label="--" />
+						<edge idref="s55_503" label="--" />
+					</nt>
+					<nt id="s55_507" cat="NP" >
+						<edge idref="s55_7" label="--" />
+						<edge idref="s55_8" label="--" />
+					</nt>
+					<nt id="s55_509" cat="NP" >
+						<edge idref="s55_10" label="--" />
+						<edge idref="s55_11" label="--" />
+					</nt>
+					<nt id="s55_508" cat="PP" >
+						<edge idref="s55_9" label="--" />
+						<edge idref="s55_509" label="--" />
+					</nt>
+					<nt id="s55_506" cat="NP" >
+						<edge idref="s55_507" label="--" />
+						<edge idref="s55_508" label="--" />
+					</nt>
+					<nt id="s55_512" cat="NP" >
+						<edge idref="s55_14" label="--" />
+						<edge idref="s55_15" label="--" />
+					</nt>
+					<nt id="s55_511" cat="VP" >
+						<edge idref="s55_13" label="--" />
+						<edge idref="s55_512" label="--" />
+					</nt>
+					<nt id="s55_510" cat="S" >
+						<edge idref="s55_511" label="--" />
+					</nt>
+					<nt id="s55_514" cat="WHADVP" >
+						<edge idref="s55_17" label="--" />
+						<edge idref="s55_18" label="--" />
+					</nt>
+					<nt id="s55_518" cat="NP" >
+						<edge idref="s55_20" label="--" />
+						<edge idref="s55_21" label="--" />
+					</nt>
+					<nt id="s55_517" cat="VP" >
+						<edge idref="s55_19" label="--" />
+						<edge idref="s55_518" label="--" />
+					</nt>
+					<nt id="s55_516" cat="S" >
+						<edge idref="s55_517" label="--" />
+					</nt>
+					<nt id="s55_520" cat="NP" >
+						<edge idref="s55_23" label="--" />
+						<edge idref="s55_24" label="--" />
+					</nt>
+					<nt id="s55_519" cat="VP" >
+						<edge idref="s55_22" label="--" />
+						<edge idref="s55_520" label="--" />
+					</nt>
+					<nt id="s55_515" cat="S" >
+						<edge idref="s55_516" label="--" />
+						<edge idref="s55_519" label="--" />
+					</nt>
+					<nt id="s55_513" cat="SBAR" >
+						<edge idref="s55_514" label="--" />
+						<edge idref="s55_515" label="--" />
+					</nt>
+					<nt id="s55_505" cat="VP" >
+						<edge idref="s55_6" label="--" />
+						<edge idref="s55_506" label="--" />
+						<edge idref="s55_12" label="--" />
+						<edge idref="s55_510" label="--" />
+						<edge idref="s55_16" label="--" />
+						<edge idref="s55_513" label="--" />
+					</nt>
+					<nt id="s55_500" cat="S" >
+						<edge idref="s55_501" label="--" />
+						<edge idref="s55_505" label="--" />
+						<edge idref="s55_25" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s56" >
+			<graph root="s56_500" >
+				<terminals>
+					<t id="s56_1" word="Tate" pos="NNP" />
+					<t id="s56_2" word="v." pos="NN" />
+				</terminals>
+				<nonterminals>
+					<nt id="s56_501" cat="NP" >
+						<edge idref="s56_1" label="--" />
+					</nt>
+					<nt id="s56_502" cat="NP" >
+						<edge idref="s56_2" label="--" />
+					</nt>
+					<nt id="s56_500" cat="NP" >
+						<edge idref="s56_501" label="--" />
+						<edge idref="s56_502" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s57" >
+			<graph root="s57_500" >
+				<terminals>
+					<t id="s57_1" word="Secura" pos="NNP" />
+					<t id="s57_2" word="Ins." pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s57_500" cat="NP" >
+						<edge idref="s57_1" label="--" />
+						<edge idref="s57_2" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s58" >
+			<graph root="s58_500" >
+				<terminals>
+					<t id="s58_1" word="," pos="," />
+					<t id="s58_2" word="587" pos="CD" />
+					<t id="s58_3" word="N.E.2d" pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s58_502" cat="NP" >
+						<edge idref="s58_2" label="--" />
+					</nt>
+					<nt id="s58_503" cat="ADJP" >
+						<edge idref="s58_3" label="--" />
+					</nt>
+					<nt id="s58_501" cat="S" >
+						<edge idref="s58_502" label="--" />
+						<edge idref="s58_503" label="--" />
+					</nt>
+					<nt id="s58_500" cat="PRN" >
+						<edge idref="s58_1" label="--" />
+						<edge idref="s58_501" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s59" >
+			<graph root="s59_500" >
+				<terminals>
+					<t id="s59_1" word="665" pos="CD" />
+					<t id="s59_2" word="," pos="," />
+					<t id="s59_3" word="668" pos="CD" />
+					<t id="s59_4" word="." pos="." />
+				</terminals>
+				<nonterminals>
+					<nt id="s59_501" cat="NP" >
+						<edge idref="s59_3" label="--" />
+					</nt>
+					<nt id="s59_500" cat="NP" >
+						<edge idref="s59_1" label="--" />
+						<edge idref="s59_2" label="--" />
+						<edge idref="s59_501" label="--" />
+						<edge idref="s59_4" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s60" >
+			<graph root="s60_500" >
+				<terminals>
+					<t id="s60_1" word="Moreover" pos="RB" />
+					<t id="s60_2" word="," pos="," />
+					<t id="s60_3" word="our" pos="PRP$" />
+					<t id="s60_4" word="standard" pos="NN" />
+					<t id="s60_5" word="of" pos="IN" />
+					<t id="s60_6" word="review" pos="NN" />
+					<t id="s60_7" word="remains" pos="NNS" />
+					<t id="s60_8" word="unchanged" pos="JJ" />
+					<t id="s60_9" word="when" pos="WRB" />
+					<t id="s60_10" word="," pos="," />
+					<t id="s60_11" word="as" pos="IN" />
+					<t id="s60_12" word="here" pos="RB" />
+					<t id="s60_13" word="," pos="," />
+					<t id="s60_14" word="the" pos="DT" />
+					<t id="s60_15" word="parties" pos="NNS" />
+					<t id="s60_16" word="file" pos="VBP" />
+					<t id="s60_17" word="cross-motions" pos="NNS" />
+					<t id="s60_18" word="for" pos="IN" />
+					<t id="s60_19" word="summary" pos="JJ" />
+					<t id="s60_20" word="judgment„we" pos="NN" />
+					<t id="s60_21" word="simply" pos="RB" />
+					<t id="s60_22" word="ñconsider" pos="VB" />
+					<t id="s60_23" word="each" pos="DT" />
+					<t id="s60_24" word="motion" pos="NN" />
+					<t id="s60_25" word="separately" pos="RB" />
+					<t id="s60_26" word="to" pos="TO" />
+					<t id="s60_27" word="determine" pos="VB" />
+					<t id="s60_28" word="whether" pos="IN" />
+					<t id="s60_29" word="the" pos="DT" />
+					<t id="s60_30" word="moving" pos="VBG" />
+					<t id="s60_31" word="party" pos="NN" />
+					<t id="s60_32" word="is" pos="VBZ" />
+					<t id="s60_33" word="entitled" pos="VBN" />
+					<t id="s60_34" word="to" pos="TO" />
+					<t id="s60_35" word="judgment" pos="NN" />
+					<t id="s60_36" word="as" pos="IN" />
+					<t id="s60_37" word="a" pos="DT" />
+					<t id="s60_38" word="matter" pos="NN" />
+					<t id="s60_39" word="of" pos="IN" />
+					<t id="s60_40" word="law.î" pos="JJ" />
+				</terminals>
+				<nonterminals>
+					<nt id="s60_501" cat="ADVP" >
+						<edge idref="s60_1" label="--" />
+					</nt>
+					<nt id="s60_503" cat="NP" >
+						<edge idref="s60_3" label="--" />
+						<edge idref="s60_4" label="--" />
+					</nt>
+					<nt id="s60_506" cat="NP" >
+						<edge idref="s60_6" label="--" />
+						<edge idref="s60_7" label="--" />
+					</nt>
+					<nt id="s60_507" cat="ADJP" >
+						<edge idref="s60_8" label="--" />
+					</nt>
+					<nt id="s60_509" cat="WHADVP" >
+						<edge idref="s60_9" label="--" />
+					</nt>
+					<nt id="s60_513" cat="ADJP" >
+						<edge idref="s60_12" label="--" />
+					</nt>
+					<nt id="s60_512" cat="S" >
+						<edge idref="s60_513" label="--" />
+					</nt>
+					<nt id="s60_511" cat="SBAR" >
+						<edge idref="s60_11" label="--" />
+						<edge idref="s60_512" label="--" />
+					</nt>
+					<nt id="s60_514" cat="NP" >
+						<edge idref="s60_14" label="--" />
+						<edge idref="s60_15" label="--" />
+					</nt>
+					<nt id="s60_516" cat="NP" >
+						<edge idref="s60_17" label="--" />
+					</nt>
+					<nt id="s60_518" cat="NP" >
+						<edge idref="s60_19" label="--" />
+						<edge idref="s60_20" label="--" />
+					</nt>
+					<nt id="s60_517" cat="PP" >
+						<edge idref="s60_18" label="--" />
+						<edge idref="s60_518" label="--" />
+					</nt>
+					<nt id="s60_515" cat="VP" >
+						<edge idref="s60_16" label="--" />
+						<edge idref="s60_516" label="--" />
+						<edge idref="s60_517" label="--" />
+					</nt>
+					<nt id="s60_510" cat="S" >
+						<edge idref="s60_511" label="--" />
+						<edge idref="s60_13" label="--" />
+						<edge idref="s60_514" label="--" />
+						<edge idref="s60_515" label="--" />
+					</nt>
+					<nt id="s60_508" cat="SBAR" >
+						<edge idref="s60_509" label="--" />
+						<edge idref="s60_10" label="--" />
+						<edge idref="s60_510" label="--" />
+					</nt>
+					<nt id="s60_505" cat="NP" >
+						<edge idref="s60_506" label="--" />
+						<edge idref="s60_507" label="--" />
+						<edge idref="s60_508" label="--" />
+					</nt>
+					<nt id="s60_504" cat="PP" >
+						<edge idref="s60_5" label="--" />
+						<edge idref="s60_505" label="--" />
+					</nt>
+					<nt id="s60_502" cat="NP" >
+						<edge idref="s60_503" label="--" />
+						<edge idref="s60_504" label="--" />
+					</nt>
+					<nt id="s60_520" cat="ADVP" >
+						<edge idref="s60_21" label="--" />
+					</nt>
+					<nt id="s60_521" cat="NP" >
+						<edge idref="s60_23" label="--" />
+						<edge idref="s60_24" label="--" />
+					</nt>
+					<nt id="s60_522" cat="ADVP" >
+						<edge idref="s60_25" label="--" />
+					</nt>
+					<nt id="s60_528" cat="NP" >
+						<edge idref="s60_29" label="--" />
+						<edge idref="s60_30" label="--" />
+						<edge idref="s60_31" label="--" />
+					</nt>
+					<nt id="s60_532" cat="NP" >
+						<edge idref="s60_35" label="--" />
+					</nt>
+					<nt id="s60_531" cat="PP" >
+						<edge idref="s60_34" label="--" />
+						<edge idref="s60_532" label="--" />
+					</nt>
+					<nt id="s60_535" cat="NP" >
+						<edge idref="s60_37" label="--" />
+						<edge idref="s60_38" label="--" />
+					</nt>
+					<nt id="s60_537" cat="NP" >
+						<edge idref="s60_40" label="--" />
+					</nt>
+					<nt id="s60_536" cat="PP" >
+						<edge idref="s60_39" label="--" />
+						<edge idref="s60_537" label="--" />
+					</nt>
+					<nt id="s60_534" cat="NP" >
+						<edge idref="s60_535" label="--" />
+						<edge idref="s60_536" label="--" />
+					</nt>
+					<nt id="s60_533" cat="PP" >
+						<edge idref="s60_36" label="--" />
+						<edge idref="s60_534" label="--" />
+					</nt>
+					<nt id="s60_530" cat="VP" >
+						<edge idref="s60_33" label="--" />
+						<edge idref="s60_531" label="--" />
+						<edge idref="s60_533" label="--" />
+					</nt>
+					<nt id="s60_529" cat="VP" >
+						<edge idref="s60_32" label="--" />
+						<edge idref="s60_530" label="--" />
+					</nt>
+					<nt id="s60_527" cat="S" >
+						<edge idref="s60_528" label="--" />
+						<edge idref="s60_529" label="--" />
+					</nt>
+					<nt id="s60_526" cat="SBAR" >
+						<edge idref="s60_28" label="--" />
+						<edge idref="s60_527" label="--" />
+					</nt>
+					<nt id="s60_525" cat="VP" >
+						<edge idref="s60_27" label="--" />
+						<edge idref="s60_526" label="--" />
+					</nt>
+					<nt id="s60_524" cat="VP" >
+						<edge idref="s60_26" label="--" />
+						<edge idref="s60_525" label="--" />
+					</nt>
+					<nt id="s60_523" cat="S" >
+						<edge idref="s60_524" label="--" />
+					</nt>
+					<nt id="s60_519" cat="VP" >
+						<edge idref="s60_520" label="--" />
+						<edge idref="s60_22" label="--" />
+						<edge idref="s60_521" label="--" />
+						<edge idref="s60_522" label="--" />
+						<edge idref="s60_523" label="--" />
+					</nt>
+					<nt id="s60_500" cat="S" >
+						<edge idref="s60_501" label="--" />
+						<edge idref="s60_2" label="--" />
+						<edge idref="s60_502" label="--" />
+						<edge idref="s60_519" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s61" >
+			<graph root="s61_500" >
+				<terminals>
+					<t id="s61_1" word="SCI" pos="NNP" />
+					<t id="s61_2" word="Propane" pos="NNP" />
+					<t id="s61_3" word="," pos="," />
+					<t id="s61_4" word="LLC" pos="NNP" />
+					<t id="s61_5" word="v." pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s61_500" cat="NP" >
+						<edge idref="s61_1" label="--" />
+						<edge idref="s61_2" label="--" />
+						<edge idref="s61_3" label="--" />
+						<edge idref="s61_4" label="--" />
+						<edge idref="s61_5" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+		<s id="s62" >
+			<graph root="s62_500" >
+				<terminals>
+					<t id="s62_1" word="Frederick" pos="NNP" />
+					<t id="s62_2" word="," pos="," />
+					<t id="s62_3" word="39" pos="CD" />
+					<t id="s62_4" word="N.E.3d" pos="NNP" />
+				</terminals>
+				<nonterminals>
+					<nt id="s62_501" cat="NP" >
+						<edge idref="s62_1" label="--" />
+					</nt>
+					<nt id="s62_502" cat="NP" >
+						<edge idref="s62_3" label="--" />
+					</nt>
+					<nt id="s62_503" cat="NP" >
+						<edge idref="s62_4" label="--" />
+					</nt>
+					<nt id="s62_500" cat="NP" >
+						<edge idref="s62_501" label="--" />
+						<edge idref="s62_2" label="--" />
+						<edge idref="s62_502" label="--" />
+						<edge idref="s62_503" label="--" />
+					</nt>
+				</nonterminals>
+			</graph>
+		</s>
+	</body>
+</corpus>

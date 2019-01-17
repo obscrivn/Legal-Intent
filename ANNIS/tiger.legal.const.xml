@@ -1,0 +1,3799 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE paula SYSTEM "paula_struct.dtd">
+
+
+<paula version="1.0">
+<header paula_id="tiger.legal_const"/>
+
+<structList xmlns:xlink="http://www.w3.org/1999/xlink" type="const">
+<struct id="const_1">
+<rel id="rel_1" type="edge" xlink:href="tiger.legal.tok.xml#tok_1"/><!-- Indiana -->
+<rel id="rel_2" type="edge" xlink:href="tiger.legal.tok.xml#tok_2"/><!-- courts -->
+</struct>
+<struct id="const_2">
+<rel id="rel_3" type="edge" xlink:href="tiger.legal.tok.xml#tok_3"/><!-- strictly -->
+</struct>
+<struct id="const_3">
+<rel id="rel_4" type="edge" xlink:href="tiger.legal.tok.xml#tok_8"/><!-- a -->
+<rel id="rel_5" type="edge" xlink:href="tiger.legal.tok.xml#tok_9"/><!-- party -->
+</struct>
+<struct id="const_4">
+<rel id="rel_6" type="edge" xlink:href="tiger.legal.tok.xml#tok_11"/><!-- its -->
+<rel id="rel_7" type="edge" xlink:href="tiger.legal.tok.xml#tok_12"/><!-- own -->
+<rel id="rel_8" type="edge" xlink:href="tiger.legal.tok.xml#tok_13"/><!-- negligenceârecognizing -->
+</struct>
+<struct id="const_5">
+<rel id="rel_9" type="edge" xlink:href="tiger.legal.tok.xml#tok_15"/><!-- a -->
+<rel id="rel_10" type="edge" xlink:href="tiger.legal.tok.xml#tok_16"/><!-- party -->
+</struct>
+<struct id="const_6">
+<rel id="rel_11" type="edge" xlink:href="tiger.legal.tok.xml#tok_19"/><!-- lightly -->
+</struct>
+<struct id="const_7">
+<rel id="rel_12" type="edge" xlink:href="tiger.legal.tok.xml#tok_21"/><!-- liability -->
+</struct>
+<struct id="const_8">
+<rel id="rel_13" type="edge" xlink:href="tiger.legal.tok.xml#tok_23"/><!-- someone -->
+</struct>
+<struct id="const_9">
+<rel id="rel_14" type="edge" xlink:href="tiger.legal.tok.xml#tok_22"/><!-- for -->
+<rel id="rel_15" type="edge" xlink:href="#const_8"/>
+</struct>
+<struct id="const_10">
+<rel id="rel_16" type="edge" xlink:href="tiger.legal.tok.xml#tok_20"/><!-- accept -->
+<rel id="rel_17" type="edge" xlink:href="#const_7"/>
+<rel id="rel_18" type="edge" xlink:href="#const_9"/>
+</struct>
+<struct id="const_11">
+<rel id="rel_19" type="edge" xlink:href="tiger.legal.tok.xml#tok_24"/><!-- elseÃs -->
+</struct>
+<struct id="const_12">
+<rel id="rel_20" type="edge" xlink:href="tiger.legal.tok.xml#tok_25"/><!-- negligence -->
+</struct>
+<struct id="const_13">
+<rel id="rel_21" type="edge" xlink:href="#const_6"/>
+<rel id="rel_22" type="edge" xlink:href="#const_10"/>
+<rel id="rel_23" type="edge" xlink:href="#const_11"/>
+<rel id="rel_24" type="edge" xlink:href="#const_12"/>
+</struct>
+<struct id="const_14">
+<rel id="rel_25" type="edge" xlink:href="tiger.legal.tok.xml#tok_17"/><!-- would -->
+<rel id="rel_26" type="edge" xlink:href="tiger.legal.tok.xml#tok_18"/><!-- not -->
+<rel id="rel_27" type="edge" xlink:href="#const_13"/>
+</struct>
+<struct id="const_15">
+<rel id="rel_28" type="edge" xlink:href="#const_5"/>
+<rel id="rel_29" type="edge" xlink:href="#const_14"/>
+</struct>
+<struct id="const_16">
+<rel id="rel_30" type="edge" xlink:href="tiger.legal.tok.xml#tok_14"/><!-- that -->
+<rel id="rel_31" type="edge" xlink:href="#const_15"/>
+</struct>
+<struct id="const_17">
+<rel id="rel_32" type="edge" xlink:href="#const_4"/>
+<rel id="rel_33" type="edge" xlink:href="#const_16"/>
+</struct>
+<struct id="const_18">
+<rel id="rel_34" type="edge" xlink:href="tiger.legal.tok.xml#tok_10"/><!-- against -->
+<rel id="rel_35" type="edge" xlink:href="#const_17"/>
+</struct>
+<struct id="const_19">
+<rel id="rel_36" type="edge" xlink:href="#const_3"/>
+<rel id="rel_37" type="edge" xlink:href="#const_18"/>
+</struct>
+<struct id="const_20">
+<rel id="rel_38" type="edge" xlink:href="tiger.legal.tok.xml#tok_7"/><!-- indemnify -->
+<rel id="rel_39" type="edge" xlink:href="#const_19"/>
+</struct>
+<struct id="const_21">
+<rel id="rel_40" type="edge" xlink:href="tiger.legal.tok.xml#tok_6"/><!-- to -->
+<rel id="rel_41" type="edge" xlink:href="#const_20"/>
+</struct>
+<struct id="const_22">
+<rel id="rel_42" type="edge" xlink:href="#const_21"/>
+</struct>
+<struct id="const_23">
+<rel id="rel_43" type="edge" xlink:href="tiger.legal.tok.xml#tok_5"/><!-- contracts -->
+<rel id="rel_44" type="edge" xlink:href="#const_22"/>
+</struct>
+<struct id="const_24">
+<rel id="rel_45" type="edge" xlink:href="tiger.legal.tok.xml#tok_4"/><!-- construe -->
+<rel id="rel_46" type="edge" xlink:href="#const_23"/>
+</struct>
+<struct id="const_25">
+<rel id="rel_47" type="edge" xlink:href="#const_1"/>
+<rel id="rel_48" type="edge" xlink:href="#const_2"/>
+<rel id="rel_49" type="edge" xlink:href="#const_24"/>
+<rel id="rel_50" type="edge" xlink:href="tiger.legal.tok.xml#tok_26"/><!-- . -->
+</struct>
+<struct id="const_26">
+<rel id="rel_51" type="edge" xlink:href="tiger.legal.tok.xml#tok_27"/><!-- Thus -->
+</struct>
+<struct id="const_27">
+<rel id="rel_52" type="edge" xlink:href="tiger.legal.tok.xml#tok_29"/><!-- indemnity -->
+<rel id="rel_53" type="edge" xlink:href="tiger.legal.tok.xml#tok_30"/><!-- clauses -->
+</struct>
+<struct id="const_28">
+<rel id="rel_54" type="edge" xlink:href="tiger.legal.tok.xml#tok_33"/><!-- the -->
+<rel id="rel_55" type="edge" xlink:href="tiger.legal.tok.xml#tok_34"/><!-- partiesÃ -->
+<rel id="rel_56" type="edge" xlink:href="tiger.legal.tok.xml#tok_35"/><!-- intent -->
+</struct>
+<struct id="const_29">
+<rel id="rel_57" type="edge" xlink:href="tiger.legal.tok.xml#tok_39"/><!-- clear -->
+<rel id="rel_58" type="edge" xlink:href="tiger.legal.tok.xml#tok_40"/><!-- and -->
+<rel id="rel_59" type="edge" xlink:href="tiger.legal.tok.xml#tok_41"/><!-- unequivocal -->
+</struct>
+<struct id="const_30">
+<rel id="rel_60" type="edge" xlink:href="#const_29"/>
+<rel id="rel_61" type="edge" xlink:href="tiger.legal.tok.xml#tok_42"/><!-- language -->
+</struct>
+<struct id="const_31">
+<rel id="rel_62" type="edge" xlink:href="tiger.legal.tok.xml#tok_38"/><!-- in -->
+<rel id="rel_63" type="edge" xlink:href="#const_30"/>
+</struct>
+<struct id="const_32">
+<rel id="rel_64" type="edge" xlink:href="tiger.legal.tok.xml#tok_37"/><!-- indemnify -->
+<rel id="rel_65" type="edge" xlink:href="#const_31"/>
+</struct>
+<struct id="const_33">
+<rel id="rel_66" type="edge" xlink:href="tiger.legal.tok.xml#tok_36"/><!-- to -->
+<rel id="rel_67" type="edge" xlink:href="#const_32"/>
+</struct>
+<struct id="const_34">
+<rel id="rel_68" type="edge" xlink:href="#const_33"/>
+</struct>
+<struct id="const_35">
+<rel id="rel_69" type="edge" xlink:href="tiger.legal.tok.xml#tok_32"/><!-- state -->
+<rel id="rel_70" type="edge" xlink:href="#const_28"/>
+<rel id="rel_71" type="edge" xlink:href="#const_34"/>
+</struct>
+<struct id="const_36">
+<rel id="rel_72" type="edge" xlink:href="tiger.legal.tok.xml#tok_31"/><!-- must -->
+<rel id="rel_73" type="edge" xlink:href="#const_35"/>
+</struct>
+<struct id="const_37">
+<rel id="rel_74" type="edge" xlink:href="#const_26"/>
+<rel id="rel_75" type="edge" xlink:href="tiger.legal.tok.xml#tok_28"/><!-- , -->
+<rel id="rel_76" type="edge" xlink:href="#const_27"/>
+<rel id="rel_77" type="edge" xlink:href="#const_36"/>
+<rel id="rel_78" type="edge" xlink:href="tiger.legal.tok.xml#tok_43"/><!-- . -->
+</struct>
+<struct id="const_38">
+<rel id="rel_79" type="edge" xlink:href="tiger.legal.tok.xml#tok_44"/><!-- Otherwise -->
+</struct>
+<struct id="const_39">
+<rel id="rel_80" type="edge" xlink:href="tiger.legal.tok.xml#tok_46"/><!-- we -->
+</struct>
+<struct id="const_40">
+<rel id="rel_81" type="edge" xlink:href="tiger.legal.tok.xml#tok_51"/><!-- knowing -->
+<rel id="rel_82" type="edge" xlink:href="tiger.legal.tok.xml#tok_52"/><!-- and -->
+<rel id="rel_83" type="edge" xlink:href="tiger.legal.tok.xml#tok_53"/><!-- willing -->
+</struct>
+<struct id="const_41">
+<rel id="rel_84" type="edge" xlink:href="tiger.legal.tok.xml#tok_56"/><!-- indemnify -->
+</struct>
+<struct id="const_42">
+<rel id="rel_85" type="edge" xlink:href="tiger.legal.tok.xml#tok_55"/><!-- to -->
+<rel id="rel_86" type="edge" xlink:href="#const_41"/>
+</struct>
+<struct id="const_43">
+<rel id="rel_87" type="edge" xlink:href="#const_42"/>
+</struct>
+<struct id="const_44">
+<rel id="rel_88" type="edge" xlink:href="tiger.legal.tok.xml#tok_50"/><!-- a -->
+<rel id="rel_89" type="edge" xlink:href="#const_40"/>
+<rel id="rel_90" type="edge" xlink:href="tiger.legal.tok.xml#tok_54"/><!-- agreement -->
+<rel id="rel_91" type="edge" xlink:href="#const_43"/>
+</struct>
+<struct id="const_45">
+<rel id="rel_92" type="edge" xlink:href="tiger.legal.tok.xml#tok_49"/><!-- find -->
+<rel id="rel_93" type="edge" xlink:href="#const_44"/>
+</struct>
+<struct id="const_46">
+<rel id="rel_94" type="edge" xlink:href="tiger.legal.tok.xml#tok_47"/><!-- will -->
+<rel id="rel_95" type="edge" xlink:href="tiger.legal.tok.xml#tok_48"/><!-- not -->
+<rel id="rel_96" type="edge" xlink:href="#const_45"/>
+</struct>
+<struct id="const_47">
+<rel id="rel_97" type="edge" xlink:href="#const_38"/>
+<rel id="rel_98" type="edge" xlink:href="tiger.legal.tok.xml#tok_45"/><!-- , -->
+<rel id="rel_99" type="edge" xlink:href="#const_39"/>
+<rel id="rel_100" type="edge" xlink:href="#const_46"/>
+<rel id="rel_101" type="edge" xlink:href="tiger.legal.tok.xml#tok_57"/><!-- . -->
+</struct>
+<struct id="const_48">
+<rel id="rel_102" type="edge" xlink:href="tiger.legal.tok.xml#tok_59"/><!-- the -->
+<rel id="rel_103" type="edge" xlink:href="tiger.legal.tok.xml#tok_60"/><!-- need -->
+</struct>
+<struct id="const_49">
+<rel id="rel_104" type="edge" xlink:href="tiger.legal.tok.xml#tok_62"/><!-- explicit -->
+<rel id="rel_105" type="edge" xlink:href="tiger.legal.tok.xml#tok_63"/><!-- language -->
+</struct>
+<struct id="const_50">
+<rel id="rel_106" type="edge" xlink:href="tiger.legal.tok.xml#tok_61"/><!-- for -->
+<rel id="rel_107" type="edge" xlink:href="#const_49"/>
+</struct>
+<struct id="const_51">
+<rel id="rel_108" type="edge" xlink:href="#const_48"/>
+<rel id="rel_109" type="edge" xlink:href="#const_50"/>
+</struct>
+<struct id="const_52">
+<rel id="rel_110" type="edge" xlink:href="tiger.legal.tok.xml#tok_65"/><!-- especially -->
+<rel id="rel_111" type="edge" xlink:href="tiger.legal.tok.xml#tok_66"/><!-- important -->
+</struct>
+<struct id="const_53">
+<rel id="rel_112" type="edge" xlink:href="tiger.legal.tok.xml#tok_67"/><!-- when -->
+</struct>
+<struct id="const_54">
+<rel id="rel_113" type="edge" xlink:href="tiger.legal.tok.xml#tok_68"/><!-- an -->
+<rel id="rel_114" type="edge" xlink:href="tiger.legal.tok.xml#tok_69"/><!-- agreement -->
+</struct>
+<struct id="const_55">
+<rel id="rel_115" type="edge" xlink:href="tiger.legal.tok.xml#tok_71"/><!-- retroactive -->
+<rel id="rel_116" type="edge" xlink:href="tiger.legal.tok.xml#tok_72"/><!-- indemnityâsince -->
+</struct>
+<struct id="const_56">
+<rel id="rel_117" type="edge" xlink:href="tiger.legal.tok.xml#tok_73"/><!-- even -->
+</struct>
+<struct id="const_57">
+<rel id="rel_118" type="edge" xlink:href="tiger.legal.tok.xml#tok_75"/><!-- insurance -->
+<rel id="rel_119" type="edge" xlink:href="tiger.legal.tok.xml#tok_76"/><!-- contracts -->
+</struct>
+<struct id="const_58">
+<rel id="rel_120" type="edge" xlink:href="tiger.legal.tok.xml#tok_78"/><!-- where -->
+</struct>
+<struct id="const_59">
+<rel id="rel_121" type="edge" xlink:href="tiger.legal.tok.xml#tok_79"/><!-- indemnity -->
+</struct>
+<struct id="const_60">
+<rel id="rel_122" type="edge" xlink:href="tiger.legal.tok.xml#tok_81"/><!-- the -->
+<rel id="rel_123" type="edge" xlink:href="tiger.legal.tok.xml#tok_82"/><!-- central -->
+<rel id="rel_124" type="edge" xlink:href="tiger.legal.tok.xml#tok_83"/><!-- purpose -->
+</struct>
+<struct id="const_61">
+<rel id="rel_125" type="edge" xlink:href="tiger.legal.tok.xml#tok_80"/><!-- is -->
+<rel id="rel_126" type="edge" xlink:href="#const_60"/>
+</struct>
+<struct id="const_62">
+<rel id="rel_127" type="edge" xlink:href="#const_59"/>
+<rel id="rel_128" type="edge" xlink:href="#const_61"/>
+</struct>
+<struct id="const_63">
+<rel id="rel_129" type="edge" xlink:href="#const_58"/>
+<rel id="rel_130" type="edge" xlink:href="#const_62"/>
+</struct>
+<struct id="const_64">
+<rel id="rel_131" type="edge" xlink:href="#const_57"/>
+<rel id="rel_132" type="edge" xlink:href="tiger.legal.tok.xml#tok_77"/><!-- , -->
+<rel id="rel_133" type="edge" xlink:href="#const_63"/>
+</struct>
+<struct id="const_65">
+<rel id="rel_134" type="edge" xlink:href="#const_56"/>
+<rel id="rel_135" type="edge" xlink:href="tiger.legal.tok.xml#tok_74"/><!-- in -->
+<rel id="rel_136" type="edge" xlink:href="#const_64"/>
+</struct>
+<struct id="const_66">
+<rel id="rel_137" type="edge" xlink:href="tiger.legal.tok.xml#tok_70"/><!-- involves -->
+<rel id="rel_138" type="edge" xlink:href="#const_55"/>
+<rel id="rel_139" type="edge" xlink:href="#const_65"/>
+</struct>
+<struct id="const_67">
+<rel id="rel_140" type="edge" xlink:href="#const_54"/>
+<rel id="rel_141" type="edge" xlink:href="#const_66"/>
+</struct>
+<struct id="const_68">
+<rel id="rel_142" type="edge" xlink:href="#const_53"/>
+<rel id="rel_143" type="edge" xlink:href="#const_67"/>
+</struct>
+<struct id="const_69">
+<rel id="rel_144" type="edge" xlink:href="tiger.legal.tok.xml#tok_64"/><!-- is -->
+<rel id="rel_145" type="edge" xlink:href="#const_52"/>
+<rel id="rel_146" type="edge" xlink:href="#const_68"/>
+</struct>
+<struct id="const_70">
+<rel id="rel_147" type="edge" xlink:href="#const_51"/>
+<rel id="rel_148" type="edge" xlink:href="#const_69"/>
+</struct>
+<struct id="const_71">
+<rel id="rel_149" type="edge" xlink:href="tiger.legal.tok.xml#tok_85"/><!-- we -->
+</struct>
+<struct id="const_72">
+<rel id="rel_150" type="edge" xlink:href="tiger.legal.tok.xml#tok_88"/><!-- insurers -->
+</struct>
+<struct id="const_73">
+<rel id="rel_151" type="edge" xlink:href="tiger.legal.tok.xml#tok_92"/><!-- liability -->
+</struct>
+<struct id="const_74">
+<rel id="rel_152" type="edge" xlink:href="tiger.legal.tok.xml#tok_94"/><!-- a -->
+<rel id="rel_153" type="edge" xlink:href="tiger.legal.tok.xml#tok_95"/><!-- known -->
+<rel id="rel_154" type="edge" xlink:href="tiger.legal.tok.xml#tok_96"/><!-- , -->
+<rel id="rel_155" type="edge" xlink:href="tiger.legal.tok.xml#tok_97"/><!-- existing -->
+<rel id="rel_156" type="edge" xlink:href="tiger.legal.tok.xml#tok_98"/><!-- loss -->
+</struct>
+<struct id="const_75">
+<rel id="rel_157" type="edge" xlink:href="tiger.legal.tok.xml#tok_93"/><!-- for -->
+<rel id="rel_158" type="edge" xlink:href="#const_74"/>
+</struct>
+<struct id="const_76">
+<rel id="rel_159" type="edge" xlink:href="tiger.legal.tok.xml#tok_91"/><!-- accept -->
+<rel id="rel_160" type="edge" xlink:href="#const_73"/>
+<rel id="rel_161" type="edge" xlink:href="#const_75"/>
+</struct>
+<struct id="const_77">
+<rel id="rel_162" type="edge" xlink:href="tiger.legal.tok.xml#tok_89"/><!-- would -->
+<rel id="rel_163" type="edge" xlink:href="tiger.legal.tok.xml#tok_90"/><!-- not -->
+<rel id="rel_164" type="edge" xlink:href="#const_76"/>
+</struct>
+<struct id="const_78">
+<rel id="rel_165" type="edge" xlink:href="#const_72"/>
+<rel id="rel_166" type="edge" xlink:href="#const_77"/>
+</struct>
+<struct id="const_79">
+<rel id="rel_167" type="edge" xlink:href="tiger.legal.tok.xml#tok_87"/><!-- that -->
+<rel id="rel_168" type="edge" xlink:href="#const_78"/>
+</struct>
+<struct id="const_80">
+<rel id="rel_169" type="edge" xlink:href="tiger.legal.tok.xml#tok_86"/><!-- presume -->
+<rel id="rel_170" type="edge" xlink:href="#const_79"/>
+</struct>
+<struct id="const_81">
+<rel id="rel_171" type="edge" xlink:href="#const_71"/>
+<rel id="rel_172" type="edge" xlink:href="#const_80"/>
+</struct>
+<struct id="const_82">
+<rel id="rel_173" type="edge" xlink:href="tiger.legal.tok.xml#tok_58"/><!-- And -->
+<rel id="rel_174" type="edge" xlink:href="#const_70"/>
+<rel id="rel_175" type="edge" xlink:href="tiger.legal.tok.xml#tok_84"/><!-- , -->
+<rel id="rel_176" type="edge" xlink:href="#const_81"/>
+<rel id="rel_177" type="edge" xlink:href="tiger.legal.tok.xml#tok_99"/><!-- . -->
+</struct>
+<struct id="const_83">
+<rel id="rel_178" type="edge" xlink:href="tiger.legal.tok.xml#tok_100"/><!-- Here -->
+</struct>
+<struct id="const_84">
+<rel id="rel_179" type="edge" xlink:href="tiger.legal.tok.xml#tok_102"/><!-- Mid_America -->
+<rel id="rel_180" type="edge" xlink:href="tiger.legal.tok.xml#tok_103"/><!-- Sound -->
+</struct>
+<struct id="const_85">
+<rel id="rel_181" type="edge" xlink:href="tiger.legal.tok.xml#tok_106"/><!-- the -->
+<rel id="rel_182" type="edge" xlink:href="tiger.legal.tok.xml#tok_107"/><!-- Indiana -->
+<rel id="rel_183" type="edge" xlink:href="tiger.legal.tok.xml#tok_108"/><!-- State -->
+<rel id="rel_184" type="edge" xlink:href="tiger.legal.tok.xml#tok_109"/><!-- Fair -->
+<rel id="rel_185" type="edge" xlink:href="tiger.legal.tok.xml#tok_110"/><!-- Commission -->
+</struct>
+<struct id="const_86">
+<rel id="rel_186" type="edge" xlink:href="tiger.legal.tok.xml#tok_112"/><!-- liability -->
+</struct>
+<struct id="const_87">
+<rel id="rel_187" type="edge" xlink:href="tiger.legal.tok.xml#tok_114"/><!-- an -->
+<rel id="rel_188" type="edge" xlink:href="tiger.legal.tok.xml#tok_115"/><!-- existing -->
+<rel id="rel_189" type="edge" xlink:href="tiger.legal.tok.xml#tok_116"/><!-- , -->
+<rel id="rel_190" type="edge" xlink:href="tiger.legal.tok.xml#tok_117"/><!-- catastrophic -->
+<rel id="rel_191" type="edge" xlink:href="tiger.legal.tok.xml#tok_118"/><!-- lossânot -->
+</struct>
+<struct id="const_88">
+<rel id="rel_192" type="edge" xlink:href="tiger.legal.tok.xml#tok_120"/><!-- explicit -->
+<rel id="rel_193" type="edge" xlink:href="tiger.legal.tok.xml#tok_121"/><!-- contract -->
+<rel id="rel_194" type="edge" xlink:href="tiger.legal.tok.xml#tok_122"/><!-- language -->
+</struct>
+<struct id="const_89">
+<rel id="rel_195" type="edge" xlink:href="tiger.legal.tok.xml#tok_125"/><!-- retroactive -->
+<rel id="rel_196" type="edge" xlink:href="tiger.legal.tok.xml#tok_126"/><!-- indemnification -->
+</struct>
+<struct id="const_90">
+<rel id="rel_197" type="edge" xlink:href="tiger.legal.tok.xml#tok_124"/><!-- for -->
+<rel id="rel_198" type="edge" xlink:href="#const_89"/>
+</struct>
+<struct id="const_91">
+<rel id="rel_199" type="edge" xlink:href="tiger.legal.tok.xml#tok_130"/><!-- a -->
+<rel id="rel_200" type="edge" xlink:href="tiger.legal.tok.xml#tok_131"/><!-- years_long -->
+<rel id="rel_201" type="edge" xlink:href="tiger.legal.tok.xml#tok_132"/><!-- course -->
+</struct>
+<struct id="const_92">
+<rel id="rel_202" type="edge" xlink:href="tiger.legal.tok.xml#tok_134"/><!-- conduct -->
+</struct>
+<struct id="const_93">
+<rel id="rel_203" type="edge" xlink:href="tiger.legal.tok.xml#tok_137"/><!-- invoices -->
+</struct>
+<struct id="const_94">
+<rel id="rel_204" type="edge" xlink:href="tiger.legal.tok.xml#tok_138"/><!-- that -->
+</struct>
+<struct id="const_95">
+<rel id="rel_205" type="edge" xlink:href="tiger.legal.tok.xml#tok_141"/><!-- indemnity -->
+<rel id="rel_206" type="edge" xlink:href="tiger.legal.tok.xml#tok_142"/><!-- language -->
+</struct>
+<struct id="const_96">
+<rel id="rel_207" type="edge" xlink:href="tiger.legal.tok.xml#tok_144"/><!-- the -->
+<rel id="rel_208" type="edge" xlink:href="tiger.legal.tok.xml#tok_145"/><!-- back -->
+</struct>
+<struct id="const_97">
+<rel id="rel_209" type="edge" xlink:href="tiger.legal.tok.xml#tok_143"/><!-- on -->
+<rel id="rel_210" type="edge" xlink:href="#const_96"/>
+</struct>
+<struct id="const_98">
+<rel id="rel_211" type="edge" xlink:href="tiger.legal.tok.xml#tok_140"/><!-- standard -->
+<rel id="rel_212" type="edge" xlink:href="#const_95"/>
+<rel id="rel_213" type="edge" xlink:href="#const_97"/>
+</struct>
+<struct id="const_99">
+<rel id="rel_214" type="edge" xlink:href="tiger.legal.tok.xml#tok_139"/><!-- had -->
+<rel id="rel_215" type="edge" xlink:href="#const_98"/>
+</struct>
+<struct id="const_100">
+<rel id="rel_216" type="edge" xlink:href="#const_99"/>
+</struct>
+<struct id="const_101">
+<rel id="rel_217" type="edge" xlink:href="#const_94"/>
+<rel id="rel_218" type="edge" xlink:href="#const_100"/>
+</struct>
+<struct id="const_102">
+<rel id="rel_219" type="edge" xlink:href="#const_93"/>
+<rel id="rel_220" type="edge" xlink:href="#const_101"/>
+</struct>
+<struct id="const_103">
+<rel id="rel_221" type="edge" xlink:href="tiger.legal.tok.xml#tok_136"/><!-- paying -->
+<rel id="rel_222" type="edge" xlink:href="#const_102"/>
+</struct>
+<struct id="const_104">
+<rel id="rel_223" type="edge" xlink:href="#const_103"/>
+</struct>
+<struct id="const_105">
+<rel id="rel_224" type="edge" xlink:href="tiger.legal.tok.xml#tok_135"/><!-- in -->
+<rel id="rel_225" type="edge" xlink:href="#const_104"/>
+</struct>
+<struct id="const_106">
+<rel id="rel_226" type="edge" xlink:href="#const_92"/>
+<rel id="rel_227" type="edge" xlink:href="#const_105"/>
+</struct>
+<struct id="const_107">
+<rel id="rel_228" type="edge" xlink:href="tiger.legal.tok.xml#tok_133"/><!-- of -->
+<rel id="rel_229" type="edge" xlink:href="#const_106"/>
+</struct>
+<struct id="const_108">
+<rel id="rel_230" type="edge" xlink:href="#const_91"/>
+<rel id="rel_231" type="edge" xlink:href="#const_107"/>
+</struct>
+<struct id="const_109">
+<rel id="rel_232" type="edge" xlink:href="tiger.legal.tok.xml#tok_129"/><!-- through -->
+<rel id="rel_233" type="edge" xlink:href="#const_108"/>
+</struct>
+<struct id="const_110">
+<rel id="rel_234" type="edge" xlink:href="#const_90"/>
+<rel id="rel_235" type="edge" xlink:href="tiger.legal.tok.xml#tok_127"/><!-- , -->
+<rel id="rel_236" type="edge" xlink:href="tiger.legal.tok.xml#tok_128"/><!-- but -->
+<rel id="rel_237" type="edge" xlink:href="#const_109"/>
+</struct>
+<struct id="const_111">
+<rel id="rel_238" type="edge" xlink:href="tiger.legal.tok.xml#tok_123"/><!-- calling -->
+<rel id="rel_239" type="edge" xlink:href="#const_110"/>
+</struct>
+<struct id="const_112">
+<rel id="rel_240" type="edge" xlink:href="#const_88"/>
+<rel id="rel_241" type="edge" xlink:href="#const_111"/>
+</struct>
+<struct id="const_113">
+<rel id="rel_242" type="edge" xlink:href="tiger.legal.tok.xml#tok_119"/><!-- through -->
+<rel id="rel_243" type="edge" xlink:href="#const_112"/>
+</struct>
+<struct id="const_114">
+<rel id="rel_244" type="edge" xlink:href="#const_87"/>
+<rel id="rel_245" type="edge" xlink:href="#const_113"/>
+</struct>
+<struct id="const_115">
+<rel id="rel_246" type="edge" xlink:href="tiger.legal.tok.xml#tok_113"/><!-- for -->
+<rel id="rel_247" type="edge" xlink:href="#const_114"/>
+</struct>
+<struct id="const_116">
+<rel id="rel_248" type="edge" xlink:href="tiger.legal.tok.xml#tok_111"/><!-- accepted -->
+<rel id="rel_249" type="edge" xlink:href="#const_86"/>
+<rel id="rel_250" type="edge" xlink:href="#const_115"/>
+</struct>
+<struct id="const_117">
+<rel id="rel_251" type="edge" xlink:href="#const_85"/>
+<rel id="rel_252" type="edge" xlink:href="#const_116"/>
+</struct>
+<struct id="const_118">
+<rel id="rel_253" type="edge" xlink:href="tiger.legal.tok.xml#tok_105"/><!-- that -->
+<rel id="rel_254" type="edge" xlink:href="#const_117"/>
+</struct>
+<struct id="const_119">
+<rel id="rel_255" type="edge" xlink:href="tiger.legal.tok.xml#tok_104"/><!-- argues -->
+<rel id="rel_256" type="edge" xlink:href="#const_118"/>
+</struct>
+<struct id="const_120">
+<rel id="rel_257" type="edge" xlink:href="#const_83"/>
+<rel id="rel_258" type="edge" xlink:href="tiger.legal.tok.xml#tok_101"/><!-- , -->
+<rel id="rel_259" type="edge" xlink:href="#const_84"/>
+<rel id="rel_260" type="edge" xlink:href="#const_119"/>
+<rel id="rel_261" type="edge" xlink:href="tiger.legal.tok.xml#tok_146"/><!-- . -->
+</struct>
+<struct id="const_121">
+<rel id="rel_262" type="edge" xlink:href="tiger.legal.tok.xml#tok_149"/><!-- a -->
+<rel id="rel_263" type="edge" xlink:href="tiger.legal.tok.xml#tok_150"/><!-- matter -->
+</struct>
+<struct id="const_122">
+<rel id="rel_264" type="edge" xlink:href="tiger.legal.tok.xml#tok_152"/><!-- law -->
+</struct>
+<struct id="const_123">
+<rel id="rel_265" type="edge" xlink:href="tiger.legal.tok.xml#tok_151"/><!-- of -->
+<rel id="rel_266" type="edge" xlink:href="#const_122"/>
+</struct>
+<struct id="const_124">
+<rel id="rel_267" type="edge" xlink:href="#const_121"/>
+<rel id="rel_268" type="edge" xlink:href="#const_123"/>
+</struct>
+<struct id="const_125">
+<rel id="rel_269" type="edge" xlink:href="tiger.legal.tok.xml#tok_148"/><!-- as -->
+<rel id="rel_270" type="edge" xlink:href="#const_124"/>
+</struct>
+<struct id="const_126">
+<rel id="rel_271" type="edge" xlink:href="tiger.legal.tok.xml#tok_154"/><!-- a -->
+<rel id="rel_272" type="edge" xlink:href="tiger.legal.tok.xml#tok_155"/><!-- form -->
+</struct>
+<struct id="const_127">
+<rel id="rel_273" type="edge" xlink:href="tiger.legal.tok.xml#tok_157"/><!-- liability -->
+</struct>
+<struct id="const_128">
+<rel id="rel_274" type="edge" xlink:href="tiger.legal.tok.xml#tok_156"/><!-- of -->
+<rel id="rel_275" type="edge" xlink:href="#const_127"/>
+</struct>
+<struct id="const_129">
+<rel id="rel_276" type="edge" xlink:href="#const_126"/>
+<rel id="rel_277" type="edge" xlink:href="#const_128"/>
+</struct>
+<struct id="const_130">
+<rel id="rel_278" type="edge" xlink:href="tiger.legal.tok.xml#tok_158"/><!-- so -->
+</struct>
+<struct id="const_131">
+<rel id="rel_279" type="edge" xlink:href="tiger.legal.tok.xml#tok_165"/><!-- a -->
+<rel id="rel_280" type="edge" xlink:href="tiger.legal.tok.xml#tok_166"/><!-- course -->
+</struct>
+<struct id="const_132">
+<rel id="rel_281" type="edge" xlink:href="tiger.legal.tok.xml#tok_169"/><!-- when -->
+</struct>
+<struct id="const_133">
+<rel id="rel_282" type="edge" xlink:href="tiger.legal.tok.xml#tok_170"/><!-- it -->
+</struct>
+<struct id="const_134">
+<rel id="rel_283" type="edge" xlink:href="tiger.legal.tok.xml#tok_175"/><!-- clear -->
+<rel id="rel_284" type="edge" xlink:href="tiger.legal.tok.xml#tok_176"/><!-- and -->
+<rel id="rel_285" type="edge" xlink:href="tiger.legal.tok.xml#tok_177"/><!-- unequivocal -->
+</struct>
+<struct id="const_135">
+<rel id="rel_286" type="edge" xlink:href="#const_134"/>
+<rel id="rel_287" type="edge" xlink:href="tiger.legal.tok.xml#tok_178"/><!-- contract -->
+<rel id="rel_288" type="edge" xlink:href="tiger.legal.tok.xml#tok_179"/><!-- language -->
+</struct>
+<struct id="const_136">
+<rel id="rel_289" type="edge" xlink:href="tiger.legal.tok.xml#tok_174"/><!-- by -->
+<rel id="rel_290" type="edge" xlink:href="#const_135"/>
+</struct>
+<struct id="const_137">
+<rel id="rel_291" type="edge" xlink:href="tiger.legal.tok.xml#tok_173"/><!-- expressed -->
+<rel id="rel_292" type="edge" xlink:href="#const_136"/>
+</struct>
+<struct id="const_138">
+<rel id="rel_293" type="edge" xlink:href="tiger.legal.tok.xml#tok_171"/><!-- is -->
+<rel id="rel_294" type="edge" xlink:href="tiger.legal.tok.xml#tok_172"/><!-- not -->
+<rel id="rel_295" type="edge" xlink:href="#const_137"/>
+</struct>
+<struct id="const_139">
+<rel id="rel_296" type="edge" xlink:href="#const_133"/>
+<rel id="rel_297" type="edge" xlink:href="#const_138"/>
+</struct>
+<struct id="const_140">
+<rel id="rel_298" type="edge" xlink:href="#const_132"/>
+<rel id="rel_299" type="edge" xlink:href="#const_139"/>
+</struct>
+<struct id="const_141">
+<rel id="rel_300" type="edge" xlink:href="tiger.legal.tok.xml#tok_168"/><!-- dealing -->
+<rel id="rel_301" type="edge" xlink:href="#const_140"/>
+</struct>
+<struct id="const_142">
+<rel id="rel_302" type="edge" xlink:href="#const_141"/>
+</struct>
+<struct id="const_143">
+<rel id="rel_303" type="edge" xlink:href="tiger.legal.tok.xml#tok_167"/><!-- of -->
+<rel id="rel_304" type="edge" xlink:href="#const_142"/>
+</struct>
+<struct id="const_144">
+<rel id="rel_305" type="edge" xlink:href="#const_131"/>
+<rel id="rel_306" type="edge" xlink:href="#const_143"/>
+</struct>
+<struct id="const_145">
+<rel id="rel_307" type="edge" xlink:href="tiger.legal.tok.xml#tok_164"/><!-- from -->
+<rel id="rel_308" type="edge" xlink:href="#const_144"/>
+</struct>
+<struct id="const_146">
+<rel id="rel_309" type="edge" xlink:href="tiger.legal.tok.xml#tok_163"/><!-- implied -->
+<rel id="rel_310" type="edge" xlink:href="#const_145"/>
+</struct>
+<struct id="const_147">
+<rel id="rel_311" type="edge" xlink:href="tiger.legal.tok.xml#tok_162"/><!-- be -->
+<rel id="rel_312" type="edge" xlink:href="#const_146"/>
+</struct>
+<struct id="const_148">
+<rel id="rel_313" type="edge" xlink:href="tiger.legal.tok.xml#tok_160"/><!-- can -->
+<rel id="rel_314" type="edge" xlink:href="tiger.legal.tok.xml#tok_161"/><!-- not -->
+<rel id="rel_315" type="edge" xlink:href="#const_147"/>
+</struct>
+<struct id="const_149">
+<rel id="rel_316" type="edge" xlink:href="#const_148"/>
+</struct>
+<struct id="const_150">
+<rel id="rel_317" type="edge" xlink:href="#const_149"/>
+</struct>
+<struct id="const_151">
+<rel id="rel_318" type="edge" xlink:href="#const_130"/>
+<rel id="rel_319" type="edge" xlink:href="tiger.legal.tok.xml#tok_159"/><!-- disfavored -->
+<rel id="rel_320" type="edge" xlink:href="#const_150"/>
+</struct>
+<struct id="const_152">
+<rel id="rel_321" type="edge" xlink:href="tiger.legal.tok.xml#tok_147"/><!-- But -->
+<rel id="rel_322" type="edge" xlink:href="#const_125"/>
+<rel id="rel_323" type="edge" xlink:href="tiger.legal.tok.xml#tok_153"/><!-- , -->
+<rel id="rel_324" type="edge" xlink:href="#const_129"/>
+<rel id="rel_325" type="edge" xlink:href="#const_151"/>
+<rel id="rel_326" type="edge" xlink:href="tiger.legal.tok.xml#tok_180"/><!-- . -->
+</struct>
+<struct id="const_153">
+<rel id="rel_327" type="edge" xlink:href="tiger.legal.tok.xml#tok_181"/><!-- We -->
+</struct>
+<struct id="const_154">
+<rel id="rel_328" type="edge" xlink:href="tiger.legal.tok.xml#tok_183"/><!-- grant -->
+<rel id="rel_329" type="edge" xlink:href="tiger.legal.tok.xml#tok_184"/><!-- transfer -->
+</struct>
+<struct id="const_155">
+<rel id="rel_330" type="edge" xlink:href="tiger.legal.tok.xml#tok_182"/><!-- therefore -->
+<rel id="rel_331" type="edge" xlink:href="#const_154"/>
+</struct>
+<struct id="const_156">
+<rel id="rel_332" type="edge" xlink:href="tiger.legal.tok.xml#tok_187"/><!-- the -->
+<rel id="rel_333" type="edge" xlink:href="tiger.legal.tok.xml#tok_188"/><!-- trial -->
+<rel id="rel_334" type="edge" xlink:href="tiger.legal.tok.xml#tok_189"/><!-- courtÃs -->
+<rel id="rel_335" type="edge" xlink:href="tiger.legal.tok.xml#tok_190"/><!-- grant -->
+</struct>
+<struct id="const_157">
+<rel id="rel_336" type="edge" xlink:href="tiger.legal.tok.xml#tok_192"/><!-- sum_mary -->
+<rel id="rel_337" type="edge" xlink:href="tiger.legal.tok.xml#tok_193"/><!-- judgment -->
+</struct>
+<struct id="const_158">
+<rel id="rel_338" type="edge" xlink:href="tiger.legal.tok.xml#tok_191"/><!-- of -->
+<rel id="rel_339" type="edge" xlink:href="#const_157"/>
+</struct>
+<struct id="const_159">
+<rel id="rel_340" type="edge" xlink:href="#const_156"/>
+<rel id="rel_341" type="edge" xlink:href="#const_158"/>
+</struct>
+<struct id="const_160">
+<rel id="rel_342" type="edge" xlink:href="tiger.legal.tok.xml#tok_195"/><!-- the -->
+<rel id="rel_343" type="edge" xlink:href="tiger.legal.tok.xml#tok_196"/><!-- Commission -->
+</struct>
+<struct id="const_161">
+<rel id="rel_344" type="edge" xlink:href="tiger.legal.tok.xml#tok_194"/><!-- for -->
+<rel id="rel_345" type="edge" xlink:href="#const_160"/>
+</struct>
+<struct id="const_162">
+<rel id="rel_346" type="edge" xlink:href="tiger.legal.tok.xml#tok_186"/><!-- affirm -->
+<rel id="rel_347" type="edge" xlink:href="#const_159"/>
+<rel id="rel_348" type="edge" xlink:href="#const_161"/>
+</struct>
+<struct id="const_163">
+<rel id="rel_349" type="edge" xlink:href="#const_155"/>
+<rel id="rel_350" type="edge" xlink:href="tiger.legal.tok.xml#tok_185"/><!-- and -->
+<rel id="rel_351" type="edge" xlink:href="#const_162"/>
+</struct>
+<struct id="const_164">
+<rel id="rel_352" type="edge" xlink:href="#const_153"/>
+<rel id="rel_353" type="edge" xlink:href="#const_163"/>
+<rel id="rel_354" type="edge" xlink:href="tiger.legal.tok.xml#tok_197"/><!-- . -->
+</struct>
+<struct id="const_165">
+<rel id="rel_355" type="edge" xlink:href="tiger.legal.tok.xml#tok_198"/><!-- Indiana -->
+</struct>
+<struct id="const_166">
+<rel id="rel_356" type="edge" xlink:href="tiger.legal.tok.xml#tok_201"/><!-- its -->
+<rel id="rel_357" type="edge" xlink:href="tiger.legal.tok.xml#tok_202"/><!-- famed -->
+<rel id="rel_358" type="edge" xlink:href="tiger.legal.tok.xml#tok_203"/><!-- State -->
+<rel id="rel_359" type="edge" xlink:href="tiger.legal.tok.xml#tok_204"/><!-- Fair -->
+</struct>
+<struct id="const_167">
+<rel id="rel_360" type="edge" xlink:href="tiger.legal.tok.xml#tok_205"/><!-- nearly -->
+<rel id="rel_361" type="edge" xlink:href="tiger.legal.tok.xml#tok_206"/><!-- every -->
+<rel id="rel_362" type="edge" xlink:href="tiger.legal.tok.xml#tok_207"/><!-- year -->
+</struct>
+<struct id="const_168">
+<rel id="rel_363" type="edge" xlink:href="tiger.legal.tok.xml#tok_209"/><!-- 1852 -->
+</struct>
+<struct id="const_169">
+<rel id="rel_364" type="edge" xlink:href="tiger.legal.tok.xml#tok_208"/><!-- since -->
+<rel id="rel_365" type="edge" xlink:href="#const_168"/>
+</struct>
+<struct id="const_170">
+<rel id="rel_366" type="edge" xlink:href="tiger.legal.tok.xml#tok_200"/><!-- held -->
+<rel id="rel_367" type="edge" xlink:href="#const_166"/>
+<rel id="rel_368" type="edge" xlink:href="#const_167"/>
+<rel id="rel_369" type="edge" xlink:href="#const_169"/>
+</struct>
+<struct id="const_171">
+<rel id="rel_370" type="edge" xlink:href="tiger.legal.tok.xml#tok_199"/><!-- has -->
+<rel id="rel_371" type="edge" xlink:href="#const_170"/>
+</struct>
+<struct id="const_172">
+<rel id="rel_372" type="edge" xlink:href="#const_165"/>
+<rel id="rel_373" type="edge" xlink:href="#const_171"/>
+<rel id="rel_374" type="edge" xlink:href="tiger.legal.tok.xml#tok_210"/><!-- . -->
+</struct>
+<struct id="const_173">
+<rel id="rel_375" type="edge" xlink:href="tiger.legal.tok.xml#tok_211"/><!-- An -->
+<rel id="rel_376" type="edge" xlink:href="tiger.legal.tok.xml#tok_212"/><!-- evolving -->
+<rel id="rel_377" type="edge" xlink:href="tiger.legal.tok.xml#tok_213"/><!-- Hoosier -->
+<rel id="rel_378" type="edge" xlink:href="tiger.legal.tok.xml#tok_214"/><!-- tradition -->
+</struct>
+<struct id="const_174">
+<rel id="rel_379" type="edge" xlink:href="tiger.legal.tok.xml#tok_216"/><!-- the -->
+<rel id="rel_380" type="edge" xlink:href="tiger.legal.tok.xml#tok_217"/><!-- Fair -->
+</struct>
+<struct id="const_175">
+<rel id="rel_381" type="edge" xlink:href="tiger.legal.tok.xml#tok_220"/><!-- more -->
+</struct>
+<struct id="const_176">
+<rel id="rel_382" type="edge" xlink:href="tiger.legal.tok.xml#tok_222"/><!-- just -->
+<rel id="rel_383" type="edge" xlink:href="tiger.legal.tok.xml#tok_223"/><!-- an -->
+<rel id="rel_384" type="edge" xlink:href="tiger.legal.tok.xml#tok_224"/><!-- agricultural -->
+<rel id="rel_385" type="edge" xlink:href="tiger.legal.tok.xml#tok_225"/><!-- exposition -->
+</struct>
+<struct id="const_177">
+<rel id="rel_386" type="edge" xlink:href="tiger.legal.tok.xml#tok_221"/><!-- than -->
+<rel id="rel_387" type="edge" xlink:href="#const_176"/>
+</struct>
+<struct id="const_178">
+<rel id="rel_388" type="edge" xlink:href="#const_175"/>
+<rel id="rel_389" type="edge" xlink:href="#const_177"/>
+</struct>
+<struct id="const_179">
+<rel id="rel_390" type="edge" xlink:href="tiger.legal.tok.xml#tok_219"/><!-- become -->
+<rel id="rel_391" type="edge" xlink:href="#const_178"/>
+</struct>
+<struct id="const_180">
+<rel id="rel_392" type="edge" xlink:href="tiger.legal.tok.xml#tok_218"/><!-- has -->
+<rel id="rel_393" type="edge" xlink:href="#const_179"/>
+</struct>
+<struct id="const_181">
+<rel id="rel_394" type="edge" xlink:href="#const_173"/>
+<rel id="rel_395" type="edge" xlink:href="tiger.legal.tok.xml#tok_215"/><!-- , -->
+<rel id="rel_396" type="edge" xlink:href="#const_174"/>
+<rel id="rel_397" type="edge" xlink:href="#const_180"/>
+<rel id="rel_398" type="edge" xlink:href="tiger.legal.tok.xml#tok_226"/><!-- . -->
+</struct>
+<struct id="const_182">
+<rel id="rel_399" type="edge" xlink:href="tiger.legal.tok.xml#tok_227"/><!-- It -->
+</struct>
+<struct id="const_183">
+<rel id="rel_400" type="edge" xlink:href="tiger.legal.tok.xml#tok_229"/><!-- now -->
+</struct>
+<struct id="const_184">
+<rel id="rel_401" type="edge" xlink:href="tiger.legal.tok.xml#tok_230"/><!-- a -->
+<rel id="rel_402" type="edge" xlink:href="tiger.legal.tok.xml#tok_231"/><!-- major -->
+<rel id="rel_403" type="edge" xlink:href="tiger.legal.tok.xml#tok_232"/><!-- commercial -->
+<rel id="rel_404" type="edge" xlink:href="tiger.legal.tok.xml#tok_233"/><!-- event -->
+</struct>
+<struct id="const_185">
+<rel id="rel_405" type="edge" xlink:href="tiger.legal.tok.xml#tok_235"/><!-- the -->
+<rel id="rel_406" type="edge" xlink:href="tiger.legal.tok.xml#tok_236"/><!-- general -->
+<rel id="rel_407" type="edge" xlink:href="tiger.legal.tok.xml#tok_237"/><!-- public -->
+</struct>
+<struct id="const_186">
+<rel id="rel_408" type="edge" xlink:href="tiger.legal.tok.xml#tok_234"/><!-- for -->
+<rel id="rel_409" type="edge" xlink:href="#const_185"/>
+</struct>
+<struct id="const_187">
+<rel id="rel_410" type="edge" xlink:href="#const_184"/>
+<rel id="rel_411" type="edge" xlink:href="#const_186"/>
+</struct>
+<struct id="const_188">
+<rel id="rel_412" type="edge" xlink:href="tiger.legal.tok.xml#tok_240"/><!-- rural -->
+<rel id="rel_413" type="edge" xlink:href="tiger.legal.tok.xml#tok_241"/><!-- and -->
+<rel id="rel_414" type="edge" xlink:href="tiger.legal.tok.xml#tok_242"/><!-- urban -->
+<rel id="rel_415" type="edge" xlink:href="tiger.legal.tok.xml#tok_243"/><!-- Hoosiers -->
+<rel id="rel_416" type="edge" xlink:href="tiger.legal.tok.xml#tok_244"/><!-- alikeâfeaturing -->
+<rel id="rel_417" type="edge" xlink:href="tiger.legal.tok.xml#tok_245"/><!-- concerts -->
+</struct>
+<struct id="const_189">
+<rel id="rel_418" type="edge" xlink:href="tiger.legal.tok.xml#tok_247"/><!-- tractor -->
+<rel id="rel_419" type="edge" xlink:href="tiger.legal.tok.xml#tok_248"/><!-- pulls -->
+</struct>
+<struct id="const_190">
+<rel id="rel_420" type="edge" xlink:href="tiger.legal.tok.xml#tok_250"/><!-- demolition -->
+<rel id="rel_421" type="edge" xlink:href="tiger.legal.tok.xml#tok_251"/><!-- derbies -->
+</struct>
+<struct id="const_191">
+<rel id="rel_422" type="edge" xlink:href="tiger.legal.tok.xml#tok_253"/><!-- monster -->
+<rel id="rel_423" type="edge" xlink:href="tiger.legal.tok.xml#tok_254"/><!-- truck -->
+<rel id="rel_424" type="edge" xlink:href="tiger.legal.tok.xml#tok_255"/><!-- shows -->
+</struct>
+<struct id="const_192">
+<rel id="rel_425" type="edge" xlink:href="tiger.legal.tok.xml#tok_259"/><!-- seemingly -->
+<rel id="rel_426" type="edge" xlink:href="tiger.legal.tok.xml#tok_260"/><!-- boundless -->
+</struct>
+<struct id="const_193">
+<rel id="rel_427" type="edge" xlink:href="tiger.legal.tok.xml#tok_258"/><!-- a -->
+<rel id="rel_428" type="edge" xlink:href="#const_192"/>
+<rel id="rel_429" type="edge" xlink:href="tiger.legal.tok.xml#tok_261"/><!-- supply -->
+</struct>
+<struct id="const_194">
+<rel id="rel_430" type="edge" xlink:href="tiger.legal.tok.xml#tok_263"/><!-- food -->
+</struct>
+<struct id="const_195">
+<rel id="rel_431" type="edge" xlink:href="tiger.legal.tok.xml#tok_262"/><!-- of -->
+<rel id="rel_432" type="edge" xlink:href="#const_194"/>
+</struct>
+<struct id="const_196">
+<rel id="rel_433" type="edge" xlink:href="#const_193"/>
+<rel id="rel_434" type="edge" xlink:href="#const_195"/>
+</struct>
+<struct id="const_197">
+<rel id="rel_435" type="edge" xlink:href="#const_188"/>
+<rel id="rel_436" type="edge" xlink:href="tiger.legal.tok.xml#tok_246"/><!-- , -->
+<rel id="rel_437" type="edge" xlink:href="#const_189"/>
+<rel id="rel_438" type="edge" xlink:href="tiger.legal.tok.xml#tok_249"/><!-- , -->
+<rel id="rel_439" type="edge" xlink:href="#const_190"/>
+<rel id="rel_440" type="edge" xlink:href="tiger.legal.tok.xml#tok_252"/><!-- , -->
+<rel id="rel_441" type="edge" xlink:href="#const_191"/>
+<rel id="rel_442" type="edge" xlink:href="tiger.legal.tok.xml#tok_256"/><!-- , -->
+<rel id="rel_443" type="edge" xlink:href="tiger.legal.tok.xml#tok_257"/><!-- and -->
+<rel id="rel_444" type="edge" xlink:href="#const_196"/>
+</struct>
+<struct id="const_198">
+<rel id="rel_445" type="edge" xlink:href="tiger.legal.tok.xml#tok_239"/><!-- attracting -->
+<rel id="rel_446" type="edge" xlink:href="#const_197"/>
+</struct>
+<struct id="const_199">
+<rel id="rel_447" type="edge" xlink:href="#const_198"/>
+</struct>
+<struct id="const_200">
+<rel id="rel_448" type="edge" xlink:href="tiger.legal.tok.xml#tok_228"/><!-- is -->
+<rel id="rel_449" type="edge" xlink:href="#const_183"/>
+<rel id="rel_450" type="edge" xlink:href="#const_187"/>
+<rel id="rel_451" type="edge" xlink:href="tiger.legal.tok.xml#tok_238"/><!-- , -->
+<rel id="rel_452" type="edge" xlink:href="#const_199"/>
+</struct>
+<struct id="const_201">
+<rel id="rel_453" type="edge" xlink:href="#const_182"/>
+<rel id="rel_454" type="edge" xlink:href="#const_200"/>
+<rel id="rel_455" type="edge" xlink:href="tiger.legal.tok.xml#tok_264"/><!-- . -->
+</struct>
+<struct id="const_202">
+<rel id="rel_456" type="edge" xlink:href="tiger.legal.tok.xml#tok_265"/><!-- The -->
+<rel id="rel_457" type="edge" xlink:href="tiger.legal.tok.xml#tok_266"/><!-- Indiana -->
+<rel id="rel_458" type="edge" xlink:href="tiger.legal.tok.xml#tok_267"/><!-- State -->
+<rel id="rel_459" type="edge" xlink:href="tiger.legal.tok.xml#tok_268"/><!-- Fair -->
+<rel id="rel_460" type="edge" xlink:href="tiger.legal.tok.xml#tok_269"/><!-- Commission -->
+</struct>
+<struct id="const_203">
+<rel id="rel_461" type="edge" xlink:href="tiger.legal.tok.xml#tok_271"/><!-- the -->
+<rel id="rel_462" type="edge" xlink:href="tiger.legal.tok.xml#tok_272"/><!-- Fair -->
+</struct>
+<struct id="const_204">
+<rel id="rel_463" type="edge" xlink:href="tiger.legal.tok.xml#tok_276"/><!-- extension -->
+</struct>
+<struct id="const_205">
+<rel id="rel_464" type="edge" xlink:href="tiger.legal.tok.xml#tok_278"/><!-- the -->
+<rel id="rel_465" type="edge" xlink:href="tiger.legal.tok.xml#tok_279"/><!-- concerts -->
+</struct>
+<struct id="const_206">
+<rel id="rel_466" type="edge" xlink:href="tiger.legal.tok.xml#tok_281"/><!-- other -->
+<rel id="rel_467" type="edge" xlink:href="tiger.legal.tok.xml#tok_282"/><!-- major -->
+<rel id="rel_468" type="edge" xlink:href="tiger.legal.tok.xml#tok_283"/><!-- events -->
+</struct>
+<struct id="const_207">
+<rel id="rel_469" type="edge" xlink:href="tiger.legal.tok.xml#tok_284"/><!-- that -->
+</struct>
+<struct id="const_208">
+<rel id="rel_470" type="edge" xlink:href="tiger.legal.tok.xml#tok_286"/><!-- place -->
+</struct>
+<struct id="const_209">
+<rel id="rel_471" type="edge" xlink:href="tiger.legal.tok.xml#tok_288"/><!-- the -->
+<rel id="rel_472" type="edge" xlink:href="tiger.legal.tok.xml#tok_289"/><!-- Fair -->
+</struct>
+<struct id="const_210">
+<rel id="rel_473" type="edge" xlink:href="tiger.legal.tok.xml#tok_287"/><!-- at -->
+<rel id="rel_474" type="edge" xlink:href="#const_209"/>
+</struct>
+<struct id="const_211">
+<rel id="rel_475" type="edge" xlink:href="tiger.legal.tok.xml#tok_285"/><!-- take -->
+<rel id="rel_476" type="edge" xlink:href="#const_208"/>
+<rel id="rel_477" type="edge" xlink:href="#const_210"/>
+</struct>
+<struct id="const_212">
+<rel id="rel_478" type="edge" xlink:href="#const_211"/>
+</struct>
+<struct id="const_213">
+<rel id="rel_479" type="edge" xlink:href="#const_207"/>
+<rel id="rel_480" type="edge" xlink:href="#const_212"/>
+</struct>
+<struct id="const_214">
+<rel id="rel_481" type="edge" xlink:href="#const_206"/>
+<rel id="rel_482" type="edge" xlink:href="#const_213"/>
+</struct>
+<struct id="const_215">
+<rel id="rel_483" type="edge" xlink:href="#const_204"/>
+<rel id="rel_484" type="edge" xlink:href="tiger.legal.tok.xml#tok_277"/><!-- , -->
+<rel id="rel_485" type="edge" xlink:href="#const_205"/>
+<rel id="rel_486" type="edge" xlink:href="tiger.legal.tok.xml#tok_280"/><!-- and -->
+<rel id="rel_487" type="edge" xlink:href="#const_214"/>
+</struct>
+<struct id="const_216">
+<rel id="rel_488" type="edge" xlink:href="tiger.legal.tok.xml#tok_275"/><!-- by -->
+<rel id="rel_489" type="edge" xlink:href="#const_215"/>
+</struct>
+<struct id="const_217">
+<rel id="rel_490" type="edge" xlink:href="#const_203"/>
+<rel id="rel_491" type="edge" xlink:href="tiger.legal.tok.xml#tok_273"/><!-- , -->
+<rel id="rel_492" type="edge" xlink:href="tiger.legal.tok.xml#tok_274"/><!-- and -->
+<rel id="rel_493" type="edge" xlink:href="#const_216"/>
+</struct>
+<struct id="const_218">
+<rel id="rel_494" type="edge" xlink:href="tiger.legal.tok.xml#tok_270"/><!-- manages -->
+<rel id="rel_495" type="edge" xlink:href="#const_217"/>
+</struct>
+<struct id="const_219">
+<rel id="rel_496" type="edge" xlink:href="#const_202"/>
+<rel id="rel_497" type="edge" xlink:href="#const_218"/>
+<rel id="rel_498" type="edge" xlink:href="tiger.legal.tok.xml#tok_290"/><!-- . -->
+</struct>
+<struct id="const_220">
+<rel id="rel_499" type="edge" xlink:href="tiger.legal.tok.xml#tok_292"/><!-- the -->
+<rel id="rel_500" type="edge" xlink:href="tiger.legal.tok.xml#tok_293"/><!-- 1990s -->
+</struct>
+<struct id="const_221">
+<rel id="rel_501" type="edge" xlink:href="tiger.legal.tok.xml#tok_291"/><!-- Since -->
+<rel id="rel_502" type="edge" xlink:href="#const_220"/>
+</struct>
+<struct id="const_222">
+<rel id="rel_503" type="edge" xlink:href="tiger.legal.tok.xml#tok_295"/><!-- the -->
+<rel id="rel_504" type="edge" xlink:href="tiger.legal.tok.xml#tok_296"/><!-- Commission -->
+<rel id="rel_505" type="edge" xlink:href="tiger.legal.tok.xml#tok_297"/><!-- uti_lized -->
+<rel id="rel_506" type="edge" xlink:href="tiger.legal.tok.xml#tok_298"/><!-- Mid_America -->
+<rel id="rel_507" type="edge" xlink:href="tiger.legal.tok.xml#tok_299"/><!-- Sound -->
+</struct>
+<struct id="const_223">
+<rel id="rel_508" type="edge" xlink:href="tiger.legal.tok.xml#tok_302"/><!-- equipment -->
+<rel id="rel_509" type="edge" xlink:href="tiger.legal.tok.xml#tok_303"/><!-- and -->
+<rel id="rel_510" type="edge" xlink:href="tiger.legal.tok.xml#tok_304"/><!-- services -->
+</struct>
+<struct id="const_224">
+<rel id="rel_511" type="edge" xlink:href="tiger.legal.tok.xml#tok_306"/><!-- those -->
+<rel id="rel_512" type="edge" xlink:href="tiger.legal.tok.xml#tok_307"/><!-- concerts -->
+<rel id="rel_513" type="edge" xlink:href="tiger.legal.tok.xml#tok_308"/><!-- and -->
+<rel id="rel_514" type="edge" xlink:href="tiger.legal.tok.xml#tok_309"/><!-- events -->
+</struct>
+<struct id="const_225">
+<rel id="rel_515" type="edge" xlink:href="tiger.legal.tok.xml#tok_305"/><!-- for -->
+<rel id="rel_516" type="edge" xlink:href="#const_224"/>
+</struct>
+<struct id="const_226">
+<rel id="rel_517" type="edge" xlink:href="tiger.legal.tok.xml#tok_301"/><!-- provide -->
+<rel id="rel_518" type="edge" xlink:href="#const_223"/>
+<rel id="rel_519" type="edge" xlink:href="#const_225"/>
+</struct>
+<struct id="const_227">
+<rel id="rel_520" type="edge" xlink:href="tiger.legal.tok.xml#tok_300"/><!-- to -->
+<rel id="rel_521" type="edge" xlink:href="#const_226"/>
+</struct>
+<struct id="const_228">
+<rel id="rel_522" type="edge" xlink:href="#const_221"/>
+<rel id="rel_523" type="edge" xlink:href="tiger.legal.tok.xml#tok_294"/><!-- , -->
+<rel id="rel_524" type="edge" xlink:href="#const_222"/>
+<rel id="rel_525" type="edge" xlink:href="#const_227"/>
+<rel id="rel_526" type="edge" xlink:href="tiger.legal.tok.xml#tok_310"/><!-- . -->
+</struct>
+<struct id="const_229">
+<rel id="rel_527" type="edge" xlink:href="tiger.legal.tok.xml#tok_311"/><!-- That -->
+<rel id="rel_528" type="edge" xlink:href="tiger.legal.tok.xml#tok_312"/><!-- equipment -->
+</struct>
+<struct id="const_230">
+<rel id="rel_529" type="edge" xlink:href="tiger.legal.tok.xml#tok_313"/><!-- often -->
+</struct>
+<struct id="const_231">
+<rel id="rel_530" type="edge" xlink:href="tiger.legal.tok.xml#tok_315"/><!-- a -->
+<rel id="rel_531" type="edge" xlink:href="tiger.legal.tok.xml#tok_316"/><!-- temporary -->
+<rel id="rel_532" type="edge" xlink:href="tiger.legal.tok.xml#tok_317"/><!-- roof -->
+</struct>
+<struct id="const_232">
+<rel id="rel_533" type="edge" xlink:href="tiger.legal.tok.xml#tok_319"/><!-- the -->
+<rel id="rel_534" type="edge" xlink:href="tiger.legal.tok.xml#tok_320"/><!-- grandstand -->
+<rel id="rel_535" type="edge" xlink:href="tiger.legal.tok.xml#tok_321"/><!-- stage -->
+</struct>
+<struct id="const_233">
+<rel id="rel_536" type="edge" xlink:href="tiger.legal.tok.xml#tok_323"/><!-- speakers -->
+</struct>
+<struct id="const_234">
+<rel id="rel_537" type="edge" xlink:href="tiger.legal.tok.xml#tok_326"/><!-- lights -->
+</struct>
+<struct id="const_235">
+<rel id="rel_538" type="edge" xlink:href="#const_232"/>
+<rel id="rel_539" type="edge" xlink:href="tiger.legal.tok.xml#tok_322"/><!-- , -->
+<rel id="rel_540" type="edge" xlink:href="#const_233"/>
+<rel id="rel_541" type="edge" xlink:href="tiger.legal.tok.xml#tok_324"/><!-- , -->
+<rel id="rel_542" type="edge" xlink:href="tiger.legal.tok.xml#tok_325"/><!-- and -->
+<rel id="rel_543" type="edge" xlink:href="#const_234"/>
+</struct>
+<struct id="const_236">
+<rel id="rel_544" type="edge" xlink:href="tiger.legal.tok.xml#tok_318"/><!-- for -->
+<rel id="rel_545" type="edge" xlink:href="#const_235"/>
+</struct>
+<struct id="const_237">
+<rel id="rel_546" type="edge" xlink:href="#const_231"/>
+<rel id="rel_547" type="edge" xlink:href="#const_236"/>
+</struct>
+<struct id="const_238">
+<rel id="rel_548" type="edge" xlink:href="tiger.legal.tok.xml#tok_314"/><!-- included -->
+<rel id="rel_549" type="edge" xlink:href="#const_237"/>
+</struct>
+<struct id="const_239">
+<rel id="rel_550" type="edge" xlink:href="#const_229"/>
+<rel id="rel_551" type="edge" xlink:href="#const_230"/>
+<rel id="rel_552" type="edge" xlink:href="#const_238"/>
+<rel id="rel_553" type="edge" xlink:href="tiger.legal.tok.xml#tok_327"/><!-- . -->
+</struct>
+<struct id="const_240">
+<rel id="rel_554" type="edge" xlink:href="tiger.legal.tok.xml#tok_329"/><!-- the -->
+<rel id="rel_555" type="edge" xlink:href="tiger.legal.tok.xml#tok_330"/><!-- last -->
+<rel id="rel_556" type="edge" xlink:href="tiger.legal.tok.xml#tok_331"/><!-- ten -->
+<rel id="rel_557" type="edge" xlink:href="tiger.legal.tok.xml#tok_332"/><!-- years -->
+</struct>
+<struct id="const_241">
+<rel id="rel_558" type="edge" xlink:href="tiger.legal.tok.xml#tok_334"/><!-- their -->
+<rel id="rel_559" type="edge" xlink:href="tiger.legal.tok.xml#tok_335"/><!-- relationship -->
+</struct>
+<struct id="const_242">
+<rel id="rel_560" type="edge" xlink:href="tiger.legal.tok.xml#tok_333"/><!-- of -->
+<rel id="rel_561" type="edge" xlink:href="#const_241"/>
+</struct>
+<struct id="const_243">
+<rel id="rel_562" type="edge" xlink:href="#const_240"/>
+<rel id="rel_563" type="edge" xlink:href="#const_242"/>
+</struct>
+<struct id="const_244">
+<rel id="rel_564" type="edge" xlink:href="tiger.legal.tok.xml#tok_328"/><!-- During -->
+<rel id="rel_565" type="edge" xlink:href="#const_243"/>
+</struct>
+<struct id="const_245">
+<rel id="rel_566" type="edge" xlink:href="tiger.legal.tok.xml#tok_338"/><!-- Commission -->
+</struct>
+<struct id="const_246">
+<rel id="rel_567" type="edge" xlink:href="tiger.legal.tok.xml#tok_340"/><!-- Mid_America -->
+</struct>
+<struct id="const_247">
+<rel id="rel_568" type="edge" xlink:href="#const_245"/>
+<rel id="rel_569" type="edge" xlink:href="tiger.legal.tok.xml#tok_339"/><!-- and -->
+<rel id="rel_570" type="edge" xlink:href="#const_246"/>
+</struct>
+<struct id="const_248">
+<rel id="rel_571" type="edge" xlink:href="tiger.legal.tok.xml#tok_337"/><!-- the -->
+<rel id="rel_572" type="edge" xlink:href="#const_247"/>
+</struct>
+<struct id="const_249">
+<rel id="rel_573" type="edge" xlink:href="tiger.legal.tok.xml#tok_342"/><!-- a -->
+<rel id="rel_574" type="edge" xlink:href="tiger.legal.tok.xml#tok_343"/><!-- standard -->
+<rel id="rel_575" type="edge" xlink:href="tiger.legal.tok.xml#tok_344"/><!-- routine -->
+</struct>
+<struct id="const_250">
+<rel id="rel_576" type="edge" xlink:href="tiger.legal.tok.xml#tok_341"/><!-- followed -->
+<rel id="rel_577" type="edge" xlink:href="#const_249"/>
+</struct>
+<struct id="const_251">
+<rel id="rel_578" type="edge" xlink:href="#const_244"/>
+<rel id="rel_579" type="edge" xlink:href="tiger.legal.tok.xml#tok_336"/><!-- , -->
+<rel id="rel_580" type="edge" xlink:href="#const_248"/>
+<rel id="rel_581" type="edge" xlink:href="#const_250"/>
+<rel id="rel_582" type="edge" xlink:href="tiger.legal.tok.xml#tok_345"/><!-- . -->
+</struct>
+<struct id="const_252">
+<rel id="rel_583" type="edge" xlink:href="tiger.legal.tok.xml#tok_347"/><!-- each -->
+<rel id="rel_584" type="edge" xlink:href="tiger.legal.tok.xml#tok_348"/><!-- Fair -->
+</struct>
+<struct id="const_253">
+<rel id="rel_585" type="edge" xlink:href="tiger.legal.tok.xml#tok_346"/><!-- Before -->
+<rel id="rel_586" type="edge" xlink:href="#const_252"/>
+</struct>
+<struct id="const_254">
+<rel id="rel_587" type="edge" xlink:href="tiger.legal.tok.xml#tok_350"/><!-- they -->
+</struct>
+<struct id="const_255">
+<rel id="rel_588" type="edge" xlink:href="tiger.legal.tok.xml#tok_357"/><!-- delivered -->
+</struct>
+<struct id="const_256">
+<rel id="rel_589" type="edge" xlink:href="tiger.legal.tok.xml#tok_356"/><!-- be -->
+<rel id="rel_590" type="edge" xlink:href="#const_255"/>
+</struct>
+<struct id="const_257">
+<rel id="rel_591" type="edge" xlink:href="tiger.legal.tok.xml#tok_355"/><!-- to -->
+<rel id="rel_592" type="edge" xlink:href="#const_256"/>
+</struct>
+<struct id="const_258">
+<rel id="rel_593" type="edge" xlink:href="#const_257"/>
+</struct>
+<struct id="const_259">
+<rel id="rel_594" type="edge" xlink:href="tiger.legal.tok.xml#tok_353"/><!-- the -->
+<rel id="rel_595" type="edge" xlink:href="tiger.legal.tok.xml#tok_354"/><!-- equipment -->
+<rel id="rel_596" type="edge" xlink:href="#const_258"/>
+</struct>
+<struct id="const_260">
+<rel id="rel_597" type="edge" xlink:href="tiger.legal.tok.xml#tok_359"/><!-- the -->
+<rel id="rel_598" type="edge" xlink:href="tiger.legal.tok.xml#tok_360"/><!-- corre_sponding -->
+<rel id="rel_599" type="edge" xlink:href="tiger.legal.tok.xml#tok_361"/><!-- prices -->
+</struct>
+<struct id="const_261">
+<rel id="rel_600" type="edge" xlink:href="#const_259"/>
+<rel id="rel_601" type="edge" xlink:href="tiger.legal.tok.xml#tok_358"/><!-- and -->
+<rel id="rel_602" type="edge" xlink:href="#const_260"/>
+</struct>
+<struct id="const_262">
+<rel id="rel_603" type="edge" xlink:href="tiger.legal.tok.xml#tok_352"/><!-- on -->
+<rel id="rel_604" type="edge" xlink:href="#const_261"/>
+</struct>
+<struct id="const_263">
+<rel id="rel_605" type="edge" xlink:href="tiger.legal.tok.xml#tok_351"/><!-- agreed -->
+<rel id="rel_606" type="edge" xlink:href="#const_262"/>
+</struct>
+<struct id="const_264">
+<rel id="rel_607" type="edge" xlink:href="#const_253"/>
+<rel id="rel_608" type="edge" xlink:href="tiger.legal.tok.xml#tok_349"/><!-- , -->
+<rel id="rel_609" type="edge" xlink:href="#const_254"/>
+<rel id="rel_610" type="edge" xlink:href="#const_263"/>
+<rel id="rel_611" type="edge" xlink:href="tiger.legal.tok.xml#tok_362"/><!-- . -->
+</struct>
+<struct id="const_265">
+<rel id="rel_612" type="edge" xlink:href="tiger.legal.tok.xml#tok_363"/><!-- Then -->
+</struct>
+<struct id="const_266">
+<rel id="rel_613" type="edge" xlink:href="tiger.legal.tok.xml#tok_365"/><!-- the -->
+<rel id="rel_614" type="edge" xlink:href="tiger.legal.tok.xml#tok_366"/><!-- Fair -->
+</struct>
+<struct id="const_267">
+<rel id="rel_615" type="edge" xlink:href="#const_265"/>
+<rel id="rel_616" type="edge" xlink:href="tiger.legal.tok.xml#tok_364"/><!-- after -->
+<rel id="rel_617" type="edge" xlink:href="#const_266"/>
+</struct>
+<struct id="const_268">
+<rel id="rel_618" type="edge" xlink:href="tiger.legal.tok.xml#tok_368"/><!-- Mid_America -->
+</struct>
+<struct id="const_269">
+<rel id="rel_619" type="edge" xlink:href="tiger.legal.tok.xml#tok_371"/><!-- the -->
+<rel id="rel_620" type="edge" xlink:href="tiger.legal.tok.xml#tok_372"/><!-- equipment -->
+</struct>
+<struct id="const_270">
+<rel id="rel_621" type="edge" xlink:href="tiger.legal.tok.xml#tok_370"/><!-- collect -->
+<rel id="rel_622" type="edge" xlink:href="#const_269"/>
+</struct>
+<struct id="const_271">
+<rel id="rel_623" type="edge" xlink:href="tiger.legal.tok.xml#tok_375"/><!-- a -->
+<rel id="rel_624" type="edge" xlink:href="tiger.legal.tok.xml#tok_376"/><!-- blank -->
+<rel id="rel_625" type="edge" xlink:href="tiger.legal.tok.xml#tok_377"/><!-- claim -->
+</struct>
+<struct id="const_272">
+<rel id="rel_626" type="edge" xlink:href="tiger.legal.tok.xml#tok_374"/><!-- submit -->
+<rel id="rel_627" type="edge" xlink:href="#const_271"/>
+</struct>
+<struct id="const_273">
+<rel id="rel_628" type="edge" xlink:href="tiger.legal.tok.xml#tok_378"/><!-- voucher -->
+<rel id="rel_629" type="edge" xlink:href="tiger.legal.tok.xml#tok_379"/><!-- form,1 -->
+</struct>
+<struct id="const_274">
+<rel id="rel_630" type="edge" xlink:href="tiger.legal.tok.xml#tok_381"/><!-- invoices -->
+</struct>
+<struct id="const_275">
+<rel id="rel_631" type="edge" xlink:href="tiger.legal.tok.xml#tok_383"/><!-- the -->
+<rel id="rel_632" type="edge" xlink:href="tiger.legal.tok.xml#tok_384"/><!-- rentals -->
+</struct>
+<struct id="const_276">
+<rel id="rel_633" type="edge" xlink:href="tiger.legal.tok.xml#tok_385"/><!-- attached -->
+</struct>
+<struct id="const_277">
+<rel id="rel_634" type="edge" xlink:href="#const_275"/>
+<rel id="rel_635" type="edge" xlink:href="#const_276"/>
+</struct>
+<struct id="const_278">
+<rel id="rel_636" type="edge" xlink:href="tiger.legal.tok.xml#tok_382"/><!-- for -->
+<rel id="rel_637" type="edge" xlink:href="#const_277"/>
+</struct>
+<struct id="const_279">
+<rel id="rel_638" type="edge" xlink:href="#const_274"/>
+<rel id="rel_639" type="edge" xlink:href="#const_278"/>
+</struct>
+<struct id="const_280">
+<rel id="rel_640" type="edge" xlink:href="tiger.legal.tok.xml#tok_380"/><!-- with -->
+<rel id="rel_641" type="edge" xlink:href="#const_279"/>
+</struct>
+<struct id="const_281">
+<rel id="rel_642" type="edge" xlink:href="#const_270"/>
+<rel id="rel_643" type="edge" xlink:href="tiger.legal.tok.xml#tok_373"/><!-- and -->
+<rel id="rel_644" type="edge" xlink:href="#const_272"/>
+<rel id="rel_645" type="edge" xlink:href="#const_273"/>
+<rel id="rel_646" type="edge" xlink:href="#const_280"/>
+</struct>
+<struct id="const_282">
+<rel id="rel_647" type="edge" xlink:href="tiger.legal.tok.xml#tok_369"/><!-- would -->
+<rel id="rel_648" type="edge" xlink:href="#const_281"/>
+</struct>
+<struct id="const_283">
+<rel id="rel_649" type="edge" xlink:href="#const_267"/>
+<rel id="rel_650" type="edge" xlink:href="tiger.legal.tok.xml#tok_367"/><!-- , -->
+<rel id="rel_651" type="edge" xlink:href="#const_268"/>
+<rel id="rel_652" type="edge" xlink:href="#const_282"/>
+<rel id="rel_653" type="edge" xlink:href="tiger.legal.tok.xml#tok_386"/><!-- . -->
+</struct>
+<struct id="const_284">
+<rel id="rel_654" type="edge" xlink:href="tiger.legal.tok.xml#tok_387"/><!-- The -->
+<rel id="rel_655" type="edge" xlink:href="tiger.legal.tok.xml#tok_388"/><!-- Commission -->
+</struct>
+<struct id="const_285">
+<rel id="rel_656" type="edge" xlink:href="tiger.legal.tok.xml#tok_390"/><!-- then -->
+</struct>
+<struct id="const_286">
+<rel id="rel_657" type="edge" xlink:href="tiger.legal.tok.xml#tok_393"/><!-- all -->
+<rel id="rel_658" type="edge" xlink:href="tiger.legal.tok.xml#tok_394"/><!-- the -->
+<rel id="rel_659" type="edge" xlink:href="tiger.legal.tok.xml#tok_395"/><!-- invoiced -->
+<rel id="rel_660" type="edge" xlink:href="tiger.legal.tok.xml#tok_396"/><!-- items -->
+</struct>
+<struct id="const_287">
+<rel id="rel_661" type="edge" xlink:href="tiger.legal.tok.xml#tok_398"/><!-- actually -->
+</struct>
+<struct id="const_288">
+<rel id="rel_662" type="edge" xlink:href="tiger.legal.tok.xml#tok_400"/><!-- provided -->
+</struct>
+<struct id="const_289">
+<rel id="rel_663" type="edge" xlink:href="tiger.legal.tok.xml#tok_399"/><!-- been -->
+<rel id="rel_664" type="edge" xlink:href="#const_288"/>
+</struct>
+<struct id="const_290">
+<rel id="rel_665" type="edge" xlink:href="tiger.legal.tok.xml#tok_397"/><!-- had -->
+<rel id="rel_666" type="edge" xlink:href="#const_287"/>
+<rel id="rel_667" type="edge" xlink:href="#const_289"/>
+</struct>
+<struct id="const_291">
+<rel id="rel_668" type="edge" xlink:href="#const_286"/>
+<rel id="rel_669" type="edge" xlink:href="#const_290"/>
+</struct>
+<struct id="const_292">
+<rel id="rel_670" type="edge" xlink:href="tiger.legal.tok.xml#tok_392"/><!-- whether -->
+<rel id="rel_671" type="edge" xlink:href="#const_291"/>
+</struct>
+<struct id="const_293">
+<rel id="rel_672" type="edge" xlink:href="tiger.legal.tok.xml#tok_391"/><!-- verify -->
+<rel id="rel_673" type="edge" xlink:href="#const_292"/>
+</struct>
+<struct id="const_294">
+<rel id="rel_674" type="edge" xlink:href="tiger.legal.tok.xml#tok_389"/><!-- would -->
+<rel id="rel_675" type="edge" xlink:href="#const_285"/>
+<rel id="rel_676" type="edge" xlink:href="#const_293"/>
+</struct>
+<struct id="const_295">
+<rel id="rel_677" type="edge" xlink:href="tiger.legal.tok.xml#tok_404"/><!-- so -->
+</struct>
+<struct id="const_296">
+<rel id="rel_678" type="edge" xlink:href="#const_295"/>
+</struct>
+<struct id="const_297">
+<rel id="rel_679" type="edge" xlink:href="tiger.legal.tok.xml#tok_403"/><!-- if -->
+<rel id="rel_680" type="edge" xlink:href="#const_296"/>
+</struct>
+<struct id="const_298">
+<rel id="rel_681" type="edge" xlink:href="tiger.legal.tok.xml#tok_402"/><!-- , -->
+<rel id="rel_682" type="edge" xlink:href="#const_297"/>
+<rel id="rel_683" type="edge" xlink:href="tiger.legal.tok.xml#tok_405"/><!-- , -->
+</struct>
+<struct id="const_299">
+<rel id="rel_684" type="edge" xlink:href="tiger.legal.tok.xml#tok_407"/><!-- the -->
+<rel id="rel_685" type="edge" xlink:href="tiger.legal.tok.xml#tok_408"/><!-- claim -->
+<rel id="rel_686" type="edge" xlink:href="tiger.legal.tok.xml#tok_409"/><!-- voucher -->
+</struct>
+<struct id="const_300">
+<rel id="rel_687" type="edge" xlink:href="tiger.legal.tok.xml#tok_412"/><!-- payment -->
+</struct>
+<struct id="const_301">
+<rel id="rel_688" type="edge" xlink:href="tiger.legal.tok.xml#tok_411"/><!-- authorize -->
+<rel id="rel_689" type="edge" xlink:href="#const_300"/>
+</struct>
+<struct id="const_302">
+<rel id="rel_690" type="edge" xlink:href="tiger.legal.tok.xml#tok_410"/><!-- to -->
+<rel id="rel_691" type="edge" xlink:href="#const_301"/>
+</struct>
+<struct id="const_303">
+<rel id="rel_692" type="edge" xlink:href="#const_302"/>
+</struct>
+<struct id="const_304">
+<rel id="rel_693" type="edge" xlink:href="tiger.legal.tok.xml#tok_406"/><!-- sign -->
+<rel id="rel_694" type="edge" xlink:href="#const_299"/>
+<rel id="rel_695" type="edge" xlink:href="#const_303"/>
+</struct>
+<struct id="const_305">
+<rel id="rel_696" type="edge" xlink:href="#const_294"/>
+<rel id="rel_697" type="edge" xlink:href="tiger.legal.tok.xml#tok_401"/><!-- and -->
+<rel id="rel_698" type="edge" xlink:href="#const_298"/>
+<rel id="rel_699" type="edge" xlink:href="#const_304"/>
+</struct>
+<struct id="const_306">
+<rel id="rel_700" type="edge" xlink:href="#const_284"/>
+<rel id="rel_701" type="edge" xlink:href="#const_305"/>
+<rel id="rel_702" type="edge" xlink:href="tiger.legal.tok.xml#tok_413"/><!-- . -->
+</struct>
+<struct id="const_307">
+<rel id="rel_703" type="edge" xlink:href="tiger.legal.tok.xml#tok_414"/><!-- All -->
+</struct>
+<struct id="const_308">
+<rel id="rel_704" type="edge" xlink:href="tiger.legal.tok.xml#tok_415"/><!-- told -->
+</struct>
+<struct id="const_309">
+<rel id="rel_705" type="edge" xlink:href="#const_307"/>
+<rel id="rel_706" type="edge" xlink:href="#const_308"/>
+</struct>
+<struct id="const_310">
+<rel id="rel_707" type="edge" xlink:href="tiger.legal.tok.xml#tok_417"/><!-- the -->
+<rel id="rel_708" type="edge" xlink:href="tiger.legal.tok.xml#tok_418"/><!-- parties -->
+</struct>
+<struct id="const_311">
+<rel id="rel_709" type="edge" xlink:href="tiger.legal.tok.xml#tok_420"/><!-- this -->
+<rel id="rel_710" type="edge" xlink:href="tiger.legal.tok.xml#tok_421"/><!-- course -->
+</struct>
+<struct id="const_312">
+<rel id="rel_711" type="edge" xlink:href="tiger.legal.tok.xml#tok_424"/><!-- more -->
+<rel id="rel_712" type="edge" xlink:href="tiger.legal.tok.xml#tok_425"/><!-- than -->
+<rel id="rel_713" type="edge" xlink:href="tiger.legal.tok.xml#tok_426"/><!-- a -->
+<rel id="rel_714" type="edge" xlink:href="tiger.legal.tok.xml#tok_427"/><!-- hundred -->
+</struct>
+<struct id="const_313">
+<rel id="rel_715" type="edge" xlink:href="#const_312"/>
+<rel id="rel_716" type="edge" xlink:href="tiger.legal.tok.xml#tok_428"/><!-- times -->
+</struct>
+<struct id="const_314">
+<rel id="rel_717" type="edge" xlink:href="tiger.legal.tok.xml#tok_430"/><!-- those -->
+<rel id="rel_718" type="edge" xlink:href="tiger.legal.tok.xml#tok_431"/><!-- ten -->
+<rel id="rel_719" type="edge" xlink:href="tiger.legal.tok.xml#tok_432"/><!-- years -->
+</struct>
+<struct id="const_315">
+<rel id="rel_720" type="edge" xlink:href="tiger.legal.tok.xml#tok_429"/><!-- over -->
+<rel id="rel_721" type="edge" xlink:href="#const_314"/>
+</struct>
+<struct id="const_316">
+<rel id="rel_722" type="edge" xlink:href="tiger.legal.tok.xml#tok_423"/><!-- dealing -->
+<rel id="rel_723" type="edge" xlink:href="#const_313"/>
+<rel id="rel_724" type="edge" xlink:href="#const_315"/>
+</struct>
+<struct id="const_317">
+<rel id="rel_725" type="edge" xlink:href="#const_316"/>
+</struct>
+<struct id="const_318">
+<rel id="rel_726" type="edge" xlink:href="tiger.legal.tok.xml#tok_422"/><!-- of -->
+<rel id="rel_727" type="edge" xlink:href="#const_317"/>
+</struct>
+<struct id="const_319">
+<rel id="rel_728" type="edge" xlink:href="#const_311"/>
+<rel id="rel_729" type="edge" xlink:href="#const_318"/>
+</struct>
+<struct id="const_320">
+<rel id="rel_730" type="edge" xlink:href="tiger.legal.tok.xml#tok_419"/><!-- followed -->
+<rel id="rel_731" type="edge" xlink:href="#const_319"/>
+</struct>
+<struct id="const_321">
+<rel id="rel_732" type="edge" xlink:href="#const_309"/>
+<rel id="rel_733" type="edge" xlink:href="tiger.legal.tok.xml#tok_416"/><!-- , -->
+<rel id="rel_734" type="edge" xlink:href="#const_310"/>
+<rel id="rel_735" type="edge" xlink:href="#const_320"/>
+<rel id="rel_736" type="edge" xlink:href="tiger.legal.tok.xml#tok_433"/><!-- . -->
+</struct>
+<struct id="const_322">
+<rel id="rel_737" type="edge" xlink:href="tiger.legal.tok.xml#tok_434"/><!-- Tragedy -->
+</struct>
+<struct id="const_323">
+<rel id="rel_738" type="edge" xlink:href="tiger.legal.tok.xml#tok_437"/><!-- the -->
+<rel id="rel_739" type="edge" xlink:href="tiger.legal.tok.xml#tok_438"/><!-- night -->
+</struct>
+<struct id="const_324">
+<rel id="rel_740" type="edge" xlink:href="tiger.legal.tok.xml#tok_440"/><!-- August -->
+<rel id="rel_741" type="edge" xlink:href="tiger.legal.tok.xml#tok_441"/><!-- 13 -->
+<rel id="rel_742" type="edge" xlink:href="tiger.legal.tok.xml#tok_442"/><!-- , -->
+<rel id="rel_743" type="edge" xlink:href="tiger.legal.tok.xml#tok_443"/><!-- 2011 -->
+</struct>
+<struct id="const_325">
+<rel id="rel_744" type="edge" xlink:href="tiger.legal.tok.xml#tok_439"/><!-- of -->
+<rel id="rel_745" type="edge" xlink:href="#const_324"/>
+</struct>
+<struct id="const_326">
+<rel id="rel_746" type="edge" xlink:href="#const_323"/>
+<rel id="rel_747" type="edge" xlink:href="#const_325"/>
+</struct>
+<struct id="const_327">
+<rel id="rel_748" type="edge" xlink:href="tiger.legal.tok.xml#tok_436"/><!-- on -->
+<rel id="rel_749" type="edge" xlink:href="#const_326"/>
+</struct>
+<struct id="const_328">
+<rel id="rel_750" type="edge" xlink:href="tiger.legal.tok.xml#tok_435"/><!-- struck -->
+<rel id="rel_751" type="edge" xlink:href="#const_327"/>
+</struct>
+<struct id="const_329">
+<rel id="rel_752" type="edge" xlink:href="#const_322"/>
+<rel id="rel_753" type="edge" xlink:href="#const_328"/>
+<rel id="rel_754" type="edge" xlink:href="tiger.legal.tok.xml#tok_444"/><!-- . -->
+</struct>
+<struct id="const_330">
+<rel id="rel_755" type="edge" xlink:href="tiger.legal.tok.xml#tok_448"/><!-- the -->
+<rel id="rel_756" type="edge" xlink:href="tiger.legal.tok.xml#tok_449"/><!-- Sugarland -->
+<rel id="rel_757" type="edge" xlink:href="tiger.legal.tok.xml#tok_450"/><!-- concert -->
+</struct>
+<struct id="const_331">
+<rel id="rel_758" type="edge" xlink:href="tiger.legal.tok.xml#tok_452"/><!-- the -->
+<rel id="rel_759" type="edge" xlink:href="tiger.legal.tok.xml#tok_453"/><!-- grandstand -->
+<rel id="rel_760" type="edge" xlink:href="tiger.legal.tok.xml#tok_454"/><!-- stage -->
+</struct>
+<struct id="const_332">
+<rel id="rel_761" type="edge" xlink:href="tiger.legal.tok.xml#tok_451"/><!-- at -->
+<rel id="rel_762" type="edge" xlink:href="#const_331"/>
+</struct>
+<struct id="const_333">
+<rel id="rel_763" type="edge" xlink:href="#const_330"/>
+<rel id="rel_764" type="edge" xlink:href="#const_332"/>
+</struct>
+<struct id="const_334">
+<rel id="rel_765" type="edge" xlink:href="tiger.legal.tok.xml#tok_447"/><!-- to -->
+<rel id="rel_766" type="edge" xlink:href="#const_333"/>
+</struct>
+<struct id="const_335">
+<rel id="rel_767" type="edge" xlink:href="tiger.legal.tok.xml#tok_445"/><!-- Just -->
+<rel id="rel_768" type="edge" xlink:href="tiger.legal.tok.xml#tok_446"/><!-- prior -->
+<rel id="rel_769" type="edge" xlink:href="#const_334"/>
+</struct>
+<struct id="const_336">
+<rel id="rel_770" type="edge" xlink:href="tiger.legal.tok.xml#tok_456"/><!-- strong -->
+<rel id="rel_771" type="edge" xlink:href="tiger.legal.tok.xml#tok_457"/><!-- winds -->
+</struct>
+<struct id="const_337">
+<rel id="rel_772" type="edge" xlink:href="tiger.legal.tok.xml#tok_459"/><!-- the -->
+<rel id="rel_773" type="edge" xlink:href="tiger.legal.tok.xml#tok_460"/><!-- Fairgrounds -->
+</struct>
+<struct id="const_338">
+<rel id="rel_774" type="edge" xlink:href="tiger.legal.tok.xml#tok_458"/><!-- approached -->
+<rel id="rel_775" type="edge" xlink:href="#const_337"/>
+</struct>
+<struct id="const_339">
+<rel id="rel_776" type="edge" xlink:href="#const_335"/>
+<rel id="rel_777" type="edge" xlink:href="tiger.legal.tok.xml#tok_455"/><!-- , -->
+<rel id="rel_778" type="edge" xlink:href="#const_336"/>
+<rel id="rel_779" type="edge" xlink:href="#const_338"/>
+<rel id="rel_780" type="edge" xlink:href="tiger.legal.tok.xml#tok_461"/><!-- . -->
+</struct>
+<struct id="const_340">
+<rel id="rel_781" type="edge" xlink:href="tiger.legal.tok.xml#tok_463"/><!-- Mid_AmericaÃs -->
+<rel id="rel_782" type="edge" xlink:href="tiger.legal.tok.xml#tok_464"/><!-- on_site -->
+<rel id="rel_783" type="edge" xlink:href="tiger.legal.tok.xml#tok_465"/><!-- technicians -->
+</struct>
+<struct id="const_341">
+<rel id="rel_784" type="edge" xlink:href="tiger.legal.tok.xml#tok_469"/><!-- equipment -->
+</struct>
+<struct id="const_342">
+<rel id="rel_785" type="edge" xlink:href="tiger.legal.tok.xml#tok_472"/><!-- Mid_AmericaÃs -->
+<rel id="rel_786" type="edge" xlink:href="tiger.legal.tok.xml#tok_473"/><!-- roof -->
+</struct>
+<struct id="const_343">
+<rel id="rel_787" type="edge" xlink:href="tiger.legal.tok.xml#tok_471"/><!-- from -->
+<rel id="rel_788" type="edge" xlink:href="#const_342"/>
+</struct>
+<struct id="const_344">
+<rel id="rel_789" type="edge" xlink:href="tiger.legal.tok.xml#tok_470"/><!-- hanging -->
+<rel id="rel_790" type="edge" xlink:href="#const_343"/>
+</struct>
+<struct id="const_345">
+<rel id="rel_791" type="edge" xlink:href="#const_341"/>
+<rel id="rel_792" type="edge" xlink:href="#const_344"/>
+</struct>
+<struct id="const_346">
+<rel id="rel_793" type="edge" xlink:href="tiger.legal.tok.xml#tok_468"/><!-- remove -->
+<rel id="rel_794" type="edge" xlink:href="#const_345"/>
+</struct>
+<struct id="const_347">
+<rel id="rel_795" type="edge" xlink:href="tiger.legal.tok.xml#tok_467"/><!-- to -->
+<rel id="rel_796" type="edge" xlink:href="#const_346"/>
+</struct>
+<struct id="const_348">
+<rel id="rel_797" type="edge" xlink:href="#const_347"/>
+</struct>
+<struct id="const_349">
+<rel id="rel_798" type="edge" xlink:href="tiger.legal.tok.xml#tok_466"/><!-- worked -->
+<rel id="rel_799" type="edge" xlink:href="#const_348"/>
+</struct>
+<struct id="const_350">
+<rel id="rel_800" type="edge" xlink:href="#const_340"/>
+<rel id="rel_801" type="edge" xlink:href="#const_349"/>
+</struct>
+<struct id="const_351">
+<rel id="rel_802" type="edge" xlink:href="tiger.legal.tok.xml#tok_462"/><!-- While -->
+<rel id="rel_803" type="edge" xlink:href="#const_350"/>
+</struct>
+<struct id="const_352">
+<rel id="rel_804" type="edge" xlink:href="tiger.legal.tok.xml#tok_475"/><!-- the -->
+<rel id="rel_805" type="edge" xlink:href="tiger.legal.tok.xml#tok_476"/><!-- roof -->
+</struct>
+<struct id="const_353">
+<rel id="rel_806" type="edge" xlink:href="tiger.legal.tok.xml#tok_480"/><!-- seven -->
+<rel id="rel_807" type="edge" xlink:href="tiger.legal.tok.xml#tok_481"/><!-- people -->
+</struct>
+<struct id="const_354">
+<rel id="rel_808" type="edge" xlink:href="tiger.legal.tok.xml#tok_479"/><!-- killing -->
+<rel id="rel_809" type="edge" xlink:href="#const_353"/>
+</struct>
+<struct id="const_355">
+<rel id="rel_810" type="edge" xlink:href="tiger.legal.tok.xml#tok_484"/><!-- many -->
+<rel id="rel_811" type="edge" xlink:href="tiger.legal.tok.xml#tok_485"/><!-- more -->
+</struct>
+<struct id="const_356">
+<rel id="rel_812" type="edge" xlink:href="tiger.legal.tok.xml#tok_483"/><!-- injuring -->
+<rel id="rel_813" type="edge" xlink:href="#const_355"/>
+</struct>
+<struct id="const_357">
+<rel id="rel_814" type="edge" xlink:href="#const_354"/>
+<rel id="rel_815" type="edge" xlink:href="tiger.legal.tok.xml#tok_482"/><!-- and -->
+<rel id="rel_816" type="edge" xlink:href="#const_356"/>
+</struct>
+<struct id="const_358">
+<rel id="rel_817" type="edge" xlink:href="#const_357"/>
+</struct>
+<struct id="const_359">
+<rel id="rel_818" type="edge" xlink:href="tiger.legal.tok.xml#tok_477"/><!-- collapsed -->
+<rel id="rel_819" type="edge" xlink:href="tiger.legal.tok.xml#tok_478"/><!-- , -->
+<rel id="rel_820" type="edge" xlink:href="#const_358"/>
+</struct>
+<struct id="const_360">
+<rel id="rel_821" type="edge" xlink:href="#const_351"/>
+<rel id="rel_822" type="edge" xlink:href="tiger.legal.tok.xml#tok_474"/><!-- , -->
+<rel id="rel_823" type="edge" xlink:href="#const_352"/>
+<rel id="rel_824" type="edge" xlink:href="#const_359"/>
+<rel id="rel_825" type="edge" xlink:href="tiger.legal.tok.xml#tok_486"/><!-- . -->
+</struct>
+<struct id="const_361">
+<rel id="rel_826" type="edge" xlink:href="tiger.legal.tok.xml#tok_487"/><!-- Shortly -->
+<rel id="rel_827" type="edge" xlink:href="tiger.legal.tok.xml#tok_488"/><!-- thereafter -->
+</struct>
+<struct id="const_362">
+<rel id="rel_828" type="edge" xlink:href="tiger.legal.tok.xml#tok_490"/><!-- the -->
+<rel id="rel_829" type="edge" xlink:href="tiger.legal.tok.xml#tok_491"/><!-- victims -->
+<rel id="rel_830" type="edge" xlink:href="tiger.legal.tok.xml#tok_492"/><!-- and -->
+<rel id="rel_831" type="edge" xlink:href="tiger.legal.tok.xml#tok_493"/><!-- families -->
+</struct>
+<struct id="const_363">
+<rel id="rel_832" type="edge" xlink:href="tiger.legal.tok.xml#tok_495"/><!-- law_suits -->
+</struct>
+<struct id="const_364">
+<rel id="rel_833" type="edge" xlink:href="tiger.legal.tok.xml#tok_497"/><!-- several -->
+<rel id="rel_834" type="edge" xlink:href="tiger.legal.tok.xml#tok_498"/><!-- defendants -->
+</struct>
+<struct id="const_365">
+<rel id="rel_835" type="edge" xlink:href="tiger.legal.tok.xml#tok_501"/><!-- Mid_America -->
+<rel id="rel_836" type="edge" xlink:href="tiger.legal.tok.xml#tok_502"/><!-- and -->
+<rel id="rel_837" type="edge" xlink:href="tiger.legal.tok.xml#tok_503"/><!-- the -->
+<rel id="rel_838" type="edge" xlink:href="tiger.legal.tok.xml#tok_504"/><!-- Commission -->
+</struct>
+<struct id="const_366">
+<rel id="rel_839" type="edge" xlink:href="tiger.legal.tok.xml#tok_500"/><!-- including -->
+<rel id="rel_840" type="edge" xlink:href="#const_365"/>
+</struct>
+<struct id="const_367">
+<rel id="rel_841" type="edge" xlink:href="#const_364"/>
+<rel id="rel_842" type="edge" xlink:href="tiger.legal.tok.xml#tok_499"/><!-- , -->
+<rel id="rel_843" type="edge" xlink:href="#const_366"/>
+</struct>
+<struct id="const_368">
+<rel id="rel_844" type="edge" xlink:href="tiger.legal.tok.xml#tok_496"/><!-- naming -->
+<rel id="rel_845" type="edge" xlink:href="#const_367"/>
+</struct>
+<struct id="const_369">
+<rel id="rel_846" type="edge" xlink:href="#const_363"/>
+<rel id="rel_847" type="edge" xlink:href="#const_368"/>
+</struct>
+<struct id="const_370">
+<rel id="rel_848" type="edge" xlink:href="tiger.legal.tok.xml#tok_494"/><!-- filed -->
+<rel id="rel_849" type="edge" xlink:href="#const_369"/>
+</struct>
+<struct id="const_371">
+<rel id="rel_850" type="edge" xlink:href="#const_361"/>
+<rel id="rel_851" type="edge" xlink:href="tiger.legal.tok.xml#tok_489"/><!-- , -->
+<rel id="rel_852" type="edge" xlink:href="#const_362"/>
+<rel id="rel_853" type="edge" xlink:href="#const_370"/>
+<rel id="rel_854" type="edge" xlink:href="tiger.legal.tok.xml#tok_505"/><!-- . -->
+</struct>
+<struct id="const_372">
+<rel id="rel_855" type="edge" xlink:href="tiger.legal.tok.xml#tok_506"/><!-- Then -->
+</struct>
+<struct id="const_373">
+<rel id="rel_856" type="edge" xlink:href="tiger.legal.tok.xml#tok_509"/><!-- December -->
+<rel id="rel_857" type="edge" xlink:href="tiger.legal.tok.xml#tok_510"/><!-- 7 -->
+<rel id="rel_858" type="edge" xlink:href="tiger.legal.tok.xml#tok_511"/><!-- , -->
+<rel id="rel_859" type="edge" xlink:href="tiger.legal.tok.xml#tok_512"/><!-- 2011 -->
+</struct>
+<struct id="const_374">
+<rel id="rel_860" type="edge" xlink:href="tiger.legal.tok.xml#tok_508"/><!-- on -->
+<rel id="rel_861" type="edge" xlink:href="#const_373"/>
+</struct>
+<struct id="const_375">
+<rel id="rel_862" type="edge" xlink:href="tiger.legal.tok.xml#tok_515"/><!-- those -->
+<rel id="rel_863" type="edge" xlink:href="tiger.legal.tok.xml#tok_516"/><!-- lawsuits -->
+</struct>
+<struct id="const_376">
+<rel id="rel_864" type="edge" xlink:href="tiger.legal.tok.xml#tok_518"/><!-- still -->
+</struct>
+<struct id="const_377">
+<rel id="rel_865" type="edge" xlink:href="tiger.legal.tok.xml#tok_519"/><!-- pending -->
+</struct>
+<struct id="const_378">
+<rel id="rel_866" type="edge" xlink:href="tiger.legal.tok.xml#tok_517"/><!-- were -->
+<rel id="rel_867" type="edge" xlink:href="#const_376"/>
+<rel id="rel_868" type="edge" xlink:href="#const_377"/>
+</struct>
+<struct id="const_379">
+<rel id="rel_869" type="edge" xlink:href="#const_375"/>
+<rel id="rel_870" type="edge" xlink:href="#const_378"/>
+</struct>
+<struct id="const_380">
+<rel id="rel_871" type="edge" xlink:href="tiger.legal.tok.xml#tok_514"/><!-- while -->
+<rel id="rel_872" type="edge" xlink:href="#const_379"/>
+</struct>
+<struct id="const_381">
+<rel id="rel_873" type="edge" xlink:href="tiger.legal.tok.xml#tok_521"/><!-- Mid_America -->
+</struct>
+<struct id="const_382">
+<rel id="rel_874" type="edge" xlink:href="tiger.legal.tok.xml#tok_523"/><!-- the -->
+<rel id="rel_875" type="edge" xlink:href="tiger.legal.tok.xml#tok_524"/><!-- Commission -->
+</struct>
+<struct id="const_383">
+<rel id="rel_876" type="edge" xlink:href="tiger.legal.tok.xml#tok_525"/><!-- a -->
+<rel id="rel_877" type="edge" xlink:href="tiger.legal.tok.xml#tok_526"/><!-- two_sided -->
+<rel id="rel_878" type="edge" xlink:href="tiger.legal.tok.xml#tok_527"/><!-- invoice -->
+</struct>
+<struct id="const_384">
+<rel id="rel_879" type="edge" xlink:href="tiger.legal.tok.xml#tok_529"/><!-- the -->
+<rel id="rel_880" type="edge" xlink:href="tiger.legal.tok.xml#tok_530"/><!-- lease -->
+</struct>
+<struct id="const_385">
+<rel id="rel_881" type="edge" xlink:href="tiger.legal.tok.xml#tok_528"/><!-- for -->
+<rel id="rel_882" type="edge" xlink:href="#const_384"/>
+</struct>
+<struct id="const_386">
+<rel id="rel_883" type="edge" xlink:href="tiger.legal.tok.xml#tok_532"/><!-- the -->
+<rel id="rel_884" type="edge" xlink:href="tiger.legal.tok.xml#tok_533"/><!-- collapsed -->
+<rel id="rel_885" type="edge" xlink:href="tiger.legal.tok.xml#tok_534"/><!-- roof -->
+<rel id="rel_886" type="edge" xlink:href="tiger.legal.tok.xml#tok_535"/><!-- and -->
+<rel id="rel_887" type="edge" xlink:href="tiger.legal.tok.xml#tok_536"/><!-- services -->
+</struct>
+<struct id="const_387">
+<rel id="rel_888" type="edge" xlink:href="tiger.legal.tok.xml#tok_537"/><!-- provided -->
+</struct>
+<struct id="const_388">
+<rel id="rel_889" type="edge" xlink:href="#const_386"/>
+<rel id="rel_890" type="edge" xlink:href="#const_387"/>
+</struct>
+<struct id="const_389">
+<rel id="rel_891" type="edge" xlink:href="tiger.legal.tok.xml#tok_531"/><!-- of -->
+<rel id="rel_892" type="edge" xlink:href="#const_388"/>
+</struct>
+<struct id="const_390">
+<rel id="rel_893" type="edge" xlink:href="#const_383"/>
+<rel id="rel_894" type="edge" xlink:href="#const_385"/>
+<rel id="rel_895" type="edge" xlink:href="#const_389"/>
+</struct>
+<struct id="const_391">
+<rel id="rel_896" type="edge" xlink:href="#const_382"/>
+<rel id="rel_897" type="edge" xlink:href="#const_390"/>
+</struct>
+<struct id="const_392">
+<rel id="rel_898" type="edge" xlink:href="tiger.legal.tok.xml#tok_541"/><!-- the -->
+<rel id="rel_899" type="edge" xlink:href="tiger.legal.tok.xml#tok_542"/><!-- single_sided -->
+<rel id="rel_900" type="edge" xlink:href="tiger.legal.tok.xml#tok_543"/><!-- claim -->
+<rel id="rel_901" type="edge" xlink:href="tiger.legal.tok.xml#tok_544"/><!-- voucher -->
+<rel id="rel_902" type="edge" xlink:href="tiger.legal.tok.xml#tok_545"/><!-- form -->
+</struct>
+<struct id="const_393">
+<rel id="rel_903" type="edge" xlink:href="tiger.legal.tok.xml#tok_540"/><!-- with -->
+<rel id="rel_904" type="edge" xlink:href="#const_392"/>
+</struct>
+<struct id="const_394">
+<rel id="rel_905" type="edge" xlink:href="tiger.legal.tok.xml#tok_539"/><!-- along -->
+<rel id="rel_906" type="edge" xlink:href="#const_393"/>
+</struct>
+<struct id="const_395">
+<rel id="rel_907" type="edge" xlink:href="#const_391"/>
+<rel id="rel_908" type="edge" xlink:href="tiger.legal.tok.xml#tok_538"/><!-- , -->
+<rel id="rel_909" type="edge" xlink:href="#const_394"/>
+</struct>
+<struct id="const_396">
+<rel id="rel_910" type="edge" xlink:href="tiger.legal.tok.xml#tok_522"/><!-- sent -->
+<rel id="rel_911" type="edge" xlink:href="#const_395"/>
+</struct>
+<struct id="const_397">
+<rel id="rel_912" type="edge" xlink:href="#const_372"/>
+<rel id="rel_913" type="edge" xlink:href="tiger.legal.tok.xml#tok_507"/><!-- , -->
+<rel id="rel_914" type="edge" xlink:href="#const_374"/>
+<rel id="rel_915" type="edge" xlink:href="tiger.legal.tok.xml#tok_513"/><!-- , -->
+<rel id="rel_916" type="edge" xlink:href="#const_380"/>
+<rel id="rel_917" type="edge" xlink:href="tiger.legal.tok.xml#tok_520"/><!-- , -->
+<rel id="rel_918" type="edge" xlink:href="#const_381"/>
+<rel id="rel_919" type="edge" xlink:href="#const_396"/>
+<rel id="rel_920" type="edge" xlink:href="tiger.legal.tok.xml#tok_546"/><!-- . -->
+</struct>
+<struct id="const_398">
+<rel id="rel_921" type="edge" xlink:href="tiger.legal.tok.xml#tok_548"/><!-- the -->
+<rel id="rel_922" type="edge" xlink:href="tiger.legal.tok.xml#tok_549"/><!-- CommissionÃs -->
+<rel id="rel_923" type="edge" xlink:href="tiger.legal.tok.xml#tok_550"/><!-- signature -->
+</struct>
+<struct id="const_399">
+<rel id="rel_924" type="edge" xlink:href="tiger.legal.tok.xml#tok_547"/><!-- Above -->
+<rel id="rel_925" type="edge" xlink:href="#const_398"/>
+</struct>
+<struct id="const_400">
+<rel id="rel_926" type="edge" xlink:href="tiger.legal.tok.xml#tok_552"/><!-- the -->
+<rel id="rel_927" type="edge" xlink:href="tiger.legal.tok.xml#tok_553"/><!-- voucher -->
+</struct>
+<struct id="const_401">
+<rel id="rel_928" type="edge" xlink:href="tiger.legal.tok.xml#tok_557"/><!-- the -->
+<rel id="rel_929" type="edge" xlink:href="tiger.legal.tok.xml#tok_558"/><!-- attached -->
+<rel id="rel_930" type="edge" xlink:href="tiger.legal.tok.xml#tok_559"/><!-- invoice -->
+</struct>
+<struct id="const_402">
+<rel id="rel_931" type="edge" xlink:href="tiger.legal.tok.xml#tok_561"/><!-- true -->
+<rel id="rel_932" type="edge" xlink:href="tiger.legal.tok.xml#tok_562"/><!-- and -->
+<rel id="rel_933" type="edge" xlink:href="tiger.legal.tok.xml#tok_563"/><!-- correctÃ® -->
+<rel id="rel_934" type="edge" xlink:href="tiger.legal.tok.xml#tok_564"/><!-- and -->
+<rel id="rel_935" type="edge" xlink:href="tiger.legal.tok.xml#tok_565"/><!-- Ã±in -->
+<rel id="rel_936" type="edge" xlink:href="tiger.legal.tok.xml#tok_566"/><!-- accordance -->
+</struct>
+<struct id="const_403">
+<rel id="rel_937" type="edge" xlink:href="tiger.legal.tok.xml#tok_568"/><!-- contract.Ã® -->
+</struct>
+<struct id="const_404">
+<rel id="rel_938" type="edge" xlink:href="tiger.legal.tok.xml#tok_567"/><!-- with -->
+<rel id="rel_939" type="edge" xlink:href="#const_403"/>
+</struct>
+<struct id="const_405">
+<rel id="rel_940" type="edge" xlink:href="#const_402"/>
+<rel id="rel_941" type="edge" xlink:href="#const_404"/>
+</struct>
+<struct id="const_406">
+<rel id="rel_942" type="edge" xlink:href="tiger.legal.tok.xml#tok_560"/><!-- is -->
+<rel id="rel_943" type="edge" xlink:href="#const_405"/>
+</struct>
+<struct id="const_407">
+<rel id="rel_944" type="edge" xlink:href="#const_401"/>
+<rel id="rel_945" type="edge" xlink:href="#const_406"/>
+</struct>
+<struct id="const_408">
+<rel id="rel_946" type="edge" xlink:href="tiger.legal.tok.xml#tok_556"/><!-- Ã±that -->
+<rel id="rel_947" type="edge" xlink:href="#const_407"/>
+</struct>
+<struct id="const_409">
+<rel id="rel_948" type="edge" xlink:href="tiger.legal.tok.xml#tok_555"/><!-- certifications -->
+<rel id="rel_949" type="edge" xlink:href="#const_408"/>
+</struct>
+<struct id="const_410">
+<rel id="rel_950" type="edge" xlink:href="tiger.legal.tok.xml#tok_554"/><!-- contained -->
+<rel id="rel_951" type="edge" xlink:href="#const_409"/>
+</struct>
+<struct id="const_411">
+<rel id="rel_952" type="edge" xlink:href="#const_399"/>
+<rel id="rel_953" type="edge" xlink:href="tiger.legal.tok.xml#tok_551"/><!-- , -->
+<rel id="rel_954" type="edge" xlink:href="#const_400"/>
+<rel id="rel_955" type="edge" xlink:href="#const_410"/>
+</struct>
+<struct id="const_412">
+<rel id="rel_956" type="edge" xlink:href="tiger.legal.tok.xml#tok_569"/><!-- The -->
+<rel id="rel_957" type="edge" xlink:href="tiger.legal.tok.xml#tok_570"/><!-- Commission -->
+</struct>
+<struct id="const_413">
+<rel id="rel_958" type="edge" xlink:href="tiger.legal.tok.xml#tok_572"/><!-- the -->
+<rel id="rel_959" type="edge" xlink:href="tiger.legal.tok.xml#tok_573"/><!-- voucher -->
+<rel id="rel_960" type="edge" xlink:href="tiger.legal.tok.xml#tok_574"/><!-- and -->
+<rel id="rel_961" type="edge" xlink:href="tiger.legal.tok.xml#tok_575"/><!-- authorized -->
+<rel id="rel_962" type="edge" xlink:href="tiger.legal.tok.xml#tok_576"/><!-- payment -->
+</struct>
+<struct id="const_414">
+<rel id="rel_963" type="edge" xlink:href="tiger.legal.tok.xml#tok_578"/><!-- which -->
+</struct>
+<struct id="const_415">
+<rel id="rel_964" type="edge" xlink:href="tiger.legal.tok.xml#tok_579"/><!-- it -->
+</struct>
+<struct id="const_416">
+<rel id="rel_965" type="edge" xlink:href="tiger.legal.tok.xml#tok_582"/><!-- check -->
+</struct>
+<struct id="const_417">
+<rel id="rel_966" type="edge" xlink:href="tiger.legal.tok.xml#tok_581"/><!-- via -->
+<rel id="rel_967" type="edge" xlink:href="#const_416"/>
+</struct>
+<struct id="const_418">
+<rel id="rel_968" type="edge" xlink:href="tiger.legal.tok.xml#tok_580"/><!-- remitted -->
+<rel id="rel_969" type="edge" xlink:href="#const_417"/>
+</struct>
+<struct id="const_419">
+<rel id="rel_970" type="edge" xlink:href="#const_415"/>
+<rel id="rel_971" type="edge" xlink:href="#const_418"/>
+</struct>
+<struct id="const_420">
+<rel id="rel_972" type="edge" xlink:href="#const_414"/>
+<rel id="rel_973" type="edge" xlink:href="#const_419"/>
+</struct>
+<struct id="const_421">
+<rel id="rel_974" type="edge" xlink:href="#const_413"/>
+<rel id="rel_975" type="edge" xlink:href="tiger.legal.tok.xml#tok_577"/><!-- , -->
+<rel id="rel_976" type="edge" xlink:href="#const_420"/>
+</struct>
+<struct id="const_422">
+<rel id="rel_977" type="edge" xlink:href="tiger.legal.tok.xml#tok_571"/><!-- signed -->
+<rel id="rel_978" type="edge" xlink:href="#const_421"/>
+</struct>
+<struct id="const_423">
+<rel id="rel_979" type="edge" xlink:href="#const_412"/>
+<rel id="rel_980" type="edge" xlink:href="#const_422"/>
+<rel id="rel_981" type="edge" xlink:href="tiger.legal.tok.xml#tok_583"/><!-- . -->
+</struct>
+<struct id="const_424">
+<rel id="rel_982" type="edge" xlink:href="tiger.legal.tok.xml#tok_585"/><!-- March -->
+<rel id="rel_983" type="edge" xlink:href="tiger.legal.tok.xml#tok_586"/><!-- 2012 -->
+</struct>
+<struct id="const_425">
+<rel id="rel_984" type="edge" xlink:href="tiger.legal.tok.xml#tok_584"/><!-- In -->
+<rel id="rel_985" type="edge" xlink:href="#const_424"/>
+</struct>
+<struct id="const_426">
+<rel id="rel_986" type="edge" xlink:href="tiger.legal.tok.xml#tok_588"/><!-- Mid_America -->
+</struct>
+<struct id="const_427">
+<rel id="rel_987" type="edge" xlink:href="tiger.legal.tok.xml#tok_590"/><!-- a -->
+<rel id="rel_988" type="edge" xlink:href="tiger.legal.tok.xml#tok_591"/><!-- third_party -->
+<rel id="rel_989" type="edge" xlink:href="tiger.legal.tok.xml#tok_592"/><!-- lawsuit -->
+</struct>
+<struct id="const_428">
+<rel id="rel_990" type="edge" xlink:href="tiger.legal.tok.xml#tok_594"/><!-- the -->
+<rel id="rel_991" type="edge" xlink:href="tiger.legal.tok.xml#tok_595"/><!-- Commission -->
+</struct>
+<struct id="const_429">
+<rel id="rel_992" type="edge" xlink:href="tiger.legal.tok.xml#tok_593"/><!-- against -->
+<rel id="rel_993" type="edge" xlink:href="#const_428"/>
+</struct>
+<struct id="const_430">
+<rel id="rel_994" type="edge" xlink:href="tiger.legal.tok.xml#tok_599"/><!-- two -->
+<rel id="rel_995" type="edge" xlink:href="tiger.legal.tok.xml#tok_600"/><!-- sentences -->
+</struct>
+<struct id="const_431">
+<rel id="rel_996" type="edge" xlink:href="tiger.legal.tok.xml#tok_603"/><!-- the -->
+<rel id="rel_997" type="edge" xlink:href="tiger.legal.tok.xml#tok_604"/><!-- back -->
+</struct>
+<struct id="const_432">
+<rel id="rel_998" type="edge" xlink:href="tiger.legal.tok.xml#tok_607"/><!-- December -->
+<rel id="rel_999" type="edge" xlink:href="tiger.legal.tok.xml#tok_608"/><!-- 2011 -->
+</struct>
+<struct id="const_433">
+<rel id="rel_1000" type="edge" xlink:href="tiger.legal.tok.xml#tok_606"/><!-- the -->
+<rel id="rel_1001" type="edge" xlink:href="#const_432"/>
+<rel id="rel_1002" type="edge" xlink:href="tiger.legal.tok.xml#tok_609"/><!-- invoice -->
+</struct>
+<struct id="const_434">
+<rel id="rel_1003" type="edge" xlink:href="tiger.legal.tok.xml#tok_605"/><!-- of -->
+<rel id="rel_1004" type="edge" xlink:href="#const_433"/>
+</struct>
+<struct id="const_435">
+<rel id="rel_1005" type="edge" xlink:href="#const_431"/>
+<rel id="rel_1006" type="edge" xlink:href="#const_434"/>
+</struct>
+<struct id="const_436">
+<rel id="rel_1007" type="edge" xlink:href="tiger.legal.tok.xml#tok_602"/><!-- on -->
+<rel id="rel_1008" type="edge" xlink:href="#const_435"/>
+</struct>
+<struct id="const_437">
+<rel id="rel_1009" type="edge" xlink:href="tiger.legal.tok.xml#tok_601"/><!-- located -->
+<rel id="rel_1010" type="edge" xlink:href="#const_436"/>
+</struct>
+<struct id="const_438">
+<rel id="rel_1011" type="edge" xlink:href="#const_430"/>
+<rel id="rel_1012" type="edge" xlink:href="#const_437"/>
+</struct>
+<struct id="const_439">
+<rel id="rel_1013" type="edge" xlink:href="tiger.legal.tok.xml#tok_611"/><!-- it -->
+</struct>
+<struct id="const_440">
+<rel id="rel_1014" type="edge" xlink:href="tiger.legal.tok.xml#tok_615"/><!-- its -->
+<rel id="rel_1015" type="edge" xlink:href="tiger.legal.tok.xml#tok_616"/><!-- own -->
+<rel id="rel_1016" type="edge" xlink:href="tiger.legal.tok.xml#tok_617"/><!-- negligence -->
+</struct>
+<struct id="const_441">
+<rel id="rel_1017" type="edge" xlink:href="tiger.legal.tok.xml#tok_619"/><!-- relation -->
+</struct>
+<struct id="const_442">
+<rel id="rel_1018" type="edge" xlink:href="tiger.legal.tok.xml#tok_622"/><!-- August -->
+<rel id="rel_1019" type="edge" xlink:href="tiger.legal.tok.xml#tok_623"/><!-- 2011 -->
+</struct>
+<struct id="const_443">
+<rel id="rel_1020" type="edge" xlink:href="tiger.legal.tok.xml#tok_621"/><!-- the -->
+<rel id="rel_1021" type="edge" xlink:href="#const_442"/>
+<rel id="rel_1022" type="edge" xlink:href="tiger.legal.tok.xml#tok_624"/><!-- roof -->
+<rel id="rel_1023" type="edge" xlink:href="tiger.legal.tok.xml#tok_625"/><!-- collapse -->
+</struct>
+<struct id="const_444">
+<rel id="rel_1024" type="edge" xlink:href="tiger.legal.tok.xml#tok_620"/><!-- to -->
+<rel id="rel_1025" type="edge" xlink:href="#const_443"/>
+</struct>
+<struct id="const_445">
+<rel id="rel_1026" type="edge" xlink:href="#const_441"/>
+<rel id="rel_1027" type="edge" xlink:href="#const_444"/>
+</struct>
+<struct id="const_446">
+<rel id="rel_1028" type="edge" xlink:href="tiger.legal.tok.xml#tok_618"/><!-- in -->
+<rel id="rel_1029" type="edge" xlink:href="#const_445"/>
+</struct>
+<struct id="const_447">
+<rel id="rel_1030" type="edge" xlink:href="#const_440"/>
+<rel id="rel_1031" type="edge" xlink:href="#const_446"/>
+</struct>
+<struct id="const_448">
+<rel id="rel_1032" type="edge" xlink:href="tiger.legal.tok.xml#tok_614"/><!-- for -->
+<rel id="rel_1033" type="edge" xlink:href="#const_447"/>
+</struct>
+<struct id="const_449">
+<rel id="rel_1034" type="edge" xlink:href="tiger.legal.tok.xml#tok_613"/><!-- indemnification -->
+<rel id="rel_1035" type="edge" xlink:href="#const_448"/>
+</struct>
+<struct id="const_450">
+<rel id="rel_1036" type="edge" xlink:href="tiger.legal.tok.xml#tok_612"/><!-- to -->
+<rel id="rel_1037" type="edge" xlink:href="#const_449"/>
+</struct>
+<struct id="const_451">
+<rel id="rel_1038" type="edge" xlink:href="#const_450"/>
+</struct>
+<struct id="const_452">
+<rel id="rel_1039" type="edge" xlink:href="tiger.legal.tok.xml#tok_610"/><!-- entitled -->
+<rel id="rel_1040" type="edge" xlink:href="#const_439"/>
+<rel id="rel_1041" type="edge" xlink:href="#const_451"/>
+</struct>
+<struct id="const_453">
+<rel id="rel_1042" type="edge" xlink:href="#const_438"/>
+<rel id="rel_1043" type="edge" xlink:href="#const_452"/>
+</struct>
+<struct id="const_454">
+<rel id="rel_1044" type="edge" xlink:href="tiger.legal.tok.xml#tok_598"/><!-- that -->
+<rel id="rel_1045" type="edge" xlink:href="#const_453"/>
+</struct>
+<struct id="const_455">
+<rel id="rel_1046" type="edge" xlink:href="tiger.legal.tok.xml#tok_597"/><!-- claiming -->
+<rel id="rel_1047" type="edge" xlink:href="#const_454"/>
+</struct>
+<struct id="const_456">
+<rel id="rel_1048" type="edge" xlink:href="#const_455"/>
+</struct>
+<struct id="const_457">
+<rel id="rel_1049" type="edge" xlink:href="tiger.legal.tok.xml#tok_589"/><!-- filed -->
+<rel id="rel_1050" type="edge" xlink:href="#const_427"/>
+<rel id="rel_1051" type="edge" xlink:href="#const_429"/>
+<rel id="rel_1052" type="edge" xlink:href="tiger.legal.tok.xml#tok_596"/><!-- , -->
+<rel id="rel_1053" type="edge" xlink:href="#const_456"/>
+</struct>
+<struct id="const_458">
+<rel id="rel_1054" type="edge" xlink:href="#const_425"/>
+<rel id="rel_1055" type="edge" xlink:href="tiger.legal.tok.xml#tok_587"/><!-- , -->
+<rel id="rel_1056" type="edge" xlink:href="#const_426"/>
+<rel id="rel_1057" type="edge" xlink:href="#const_457"/>
+<rel id="rel_1058" type="edge" xlink:href="tiger.legal.tok.xml#tok_626"/><!-- . -->
+</struct>
+<struct id="const_459">
+<rel id="rel_1059" type="edge" xlink:href="tiger.legal.tok.xml#tok_627"/><!-- One -->
+</struct>
+<struct id="const_460">
+<rel id="rel_1060" type="edge" xlink:href="tiger.legal.tok.xml#tok_629"/><!-- the -->
+<rel id="rel_1061" type="edge" xlink:href="tiger.legal.tok.xml#tok_630"/><!-- two -->
+<rel id="rel_1062" type="edge" xlink:href="tiger.legal.tok.xml#tok_631"/><!-- sentences -->
+</struct>
+<struct id="const_461">
+<rel id="rel_1063" type="edge" xlink:href="tiger.legal.tok.xml#tok_628"/><!-- of -->
+<rel id="rel_1064" type="edge" xlink:href="#const_460"/>
+</struct>
+<struct id="const_462">
+<rel id="rel_1065" type="edge" xlink:href="#const_459"/>
+<rel id="rel_1066" type="edge" xlink:href="#const_461"/>
+</struct>
+<struct id="const_463">
+<rel id="rel_1067" type="edge" xlink:href="tiger.legal.tok.xml#tok_635"/><!-- a -->
+<rel id="rel_1068" type="edge" xlink:href="tiger.legal.tok.xml#tok_636"/><!-- heading -->
+</struct>
+<struct id="const_464">
+<rel id="rel_1069" type="edge" xlink:href="tiger.legal.tok.xml#tok_638"/><!-- Ã±Rentals -->
+</struct>
+<struct id="const_465">
+<rel id="rel_1070" type="edge" xlink:href="tiger.legal.tok.xml#tok_640"/><!-- Ã® -->
+</struct>
+<struct id="const_466">
+<rel id="rel_1071" type="edge" xlink:href="tiger.legal.tok.xml#tok_646"/><!-- The -->
+<rel id="rel_1072" type="edge" xlink:href="tiger.legal.tok.xml#tok_647"/><!-- Commission -->
+</struct>
+<struct id="const_467">
+<rel id="rel_1073" type="edge" xlink:href="tiger.legal.tok.xml#tok_648"/><!-- ] -->
+</struct>
+<struct id="const_468">
+<rel id="rel_1074" type="edge" xlink:href="tiger.legal.tok.xml#tok_650"/><!-- risks -->
+</struct>
+<struct id="const_469">
+<rel id="rel_1075" type="edge" xlink:href="tiger.legal.tok.xml#tok_653"/><!-- the -->
+<rel id="rel_1076" type="edge" xlink:href="tiger.legal.tok.xml#tok_654"/><!-- operation -->
+</struct>
+<struct id="const_470">
+<rel id="rel_1077" type="edge" xlink:href="tiger.legal.tok.xml#tok_652"/><!-- in -->
+<rel id="rel_1078" type="edge" xlink:href="#const_469"/>
+</struct>
+<struct id="const_471">
+<rel id="rel_1079" type="edge" xlink:href="tiger.legal.tok.xml#tok_651"/><!-- inherent -->
+<rel id="rel_1080" type="edge" xlink:href="#const_470"/>
+</struct>
+<struct id="const_472">
+<rel id="rel_1081" type="edge" xlink:href="#const_468"/>
+<rel id="rel_1082" type="edge" xlink:href="#const_471"/>
+</struct>
+<struct id="const_473">
+<rel id="rel_1083" type="edge" xlink:href="tiger.legal.tok.xml#tok_656"/><!-- use -->
+</struct>
+<struct id="const_474">
+<rel id="rel_1084" type="edge" xlink:href="tiger.legal.tok.xml#tok_658"/><!-- the -->
+<rel id="rel_1085" type="edge" xlink:href="tiger.legal.tok.xml#tok_659"/><!-- equipment -->
+</struct>
+<struct id="const_475">
+<rel id="rel_1086" type="edge" xlink:href="tiger.legal.tok.xml#tok_657"/><!-- of -->
+<rel id="rel_1087" type="edge" xlink:href="#const_474"/>
+</struct>
+<struct id="const_476">
+<rel id="rel_1088" type="edge" xlink:href="#const_473"/>
+<rel id="rel_1089" type="edge" xlink:href="#const_475"/>
+</struct>
+<struct id="const_477">
+<rel id="rel_1090" type="edge" xlink:href="#const_472"/>
+<rel id="rel_1091" type="edge" xlink:href="tiger.legal.tok.xml#tok_655"/><!-- and -->
+<rel id="rel_1092" type="edge" xlink:href="#const_476"/>
+</struct>
+<struct id="const_478">
+<rel id="rel_1093" type="edge" xlink:href="tiger.legal.tok.xml#tok_649"/><!-- assumes -->
+<rel id="rel_1094" type="edge" xlink:href="#const_477"/>
+</struct>
+<struct id="const_479">
+<rel id="rel_1095" type="edge" xlink:href="tiger.legal.tok.xml#tok_664"/><!-- the -->
+<rel id="rel_1096" type="edge" xlink:href="tiger.legal.tok.xml#tok_665"/><!-- entire -->
+<rel id="rel_1097" type="edge" xlink:href="tiger.legal.tok.xml#tok_666"/><!-- responsibility -->
+</struct>
+<struct id="const_480">
+<rel id="rel_1098" type="edge" xlink:href="tiger.legal.tok.xml#tok_668"/><!-- the -->
+<rel id="rel_1099" type="edge" xlink:href="tiger.legal.tok.xml#tok_669"/><!-- defense -->
+</struct>
+<struct id="const_481">
+<rel id="rel_1100" type="edge" xlink:href="tiger.legal.tok.xml#tok_667"/><!-- for -->
+<rel id="rel_1101" type="edge" xlink:href="#const_480"/>
+</struct>
+<struct id="const_482">
+<rel id="rel_1102" type="edge" xlink:href="#const_479"/>
+<rel id="rel_1103" type="edge" xlink:href="#const_481"/>
+</struct>
+<struct id="const_483">
+<rel id="rel_1104" type="edge" xlink:href="tiger.legal.tok.xml#tok_670"/><!-- of -->
+</struct>
+<struct id="const_484">
+<rel id="rel_1105" type="edge" xlink:href="tiger.legal.tok.xml#tok_663"/><!-- assume -->
+<rel id="rel_1106" type="edge" xlink:href="#const_482"/>
+<rel id="rel_1107" type="edge" xlink:href="#const_483"/>
+</struct>
+<struct id="const_485">
+<rel id="rel_1108" type="edge" xlink:href="tiger.legal.tok.xml#tok_662"/><!-- to -->
+<rel id="rel_1109" type="edge" xlink:href="#const_484"/>
+</struct>
+<struct id="const_486">
+<rel id="rel_1110" type="edge" xlink:href="tiger.legal.tok.xml#tok_679"/><!-- [ -->
+<rel id="rel_1111" type="edge" xlink:href="tiger.legal.tok.xml#tok_680"/><!-- Mid_America -->
+<rel id="rel_1112" type="edge" xlink:href="tiger.legal.tok.xml#tok_681"/><!-- ] -->
+<rel id="rel_1113" type="edge" xlink:href="tiger.legal.tok.xml#tok_682"/><!-- harmless -->
+</struct>
+<struct id="const_487">
+<rel id="rel_1114" type="edge" xlink:href="tiger.legal.tok.xml#tok_683"/><!-- from -->
+</struct>
+<struct id="const_488">
+<rel id="rel_1115" type="edge" xlink:href="tiger.legal.tok.xml#tok_678"/><!-- hold -->
+<rel id="rel_1116" type="edge" xlink:href="#const_486"/>
+<rel id="rel_1117" type="edge" xlink:href="#const_487"/>
+</struct>
+<struct id="const_489">
+<rel id="rel_1118" type="edge" xlink:href="tiger.legal.tok.xml#tok_674"/><!-- pay -->
+<rel id="rel_1119" type="edge" xlink:href="tiger.legal.tok.xml#tok_675"/><!-- , -->
+<rel id="rel_1120" type="edge" xlink:href="tiger.legal.tok.xml#tok_676"/><!-- indemnify -->
+<rel id="rel_1121" type="edge" xlink:href="tiger.legal.tok.xml#tok_677"/><!-- and -->
+<rel id="rel_1122" type="edge" xlink:href="#const_488"/>
+</struct>
+<struct id="const_490">
+<rel id="rel_1123" type="edge" xlink:href="tiger.legal.tok.xml#tok_673"/><!-- to -->
+<rel id="rel_1124" type="edge" xlink:href="#const_489"/>
+</struct>
+<struct id="const_491">
+<rel id="rel_1125" type="edge" xlink:href="#const_485"/>
+<rel id="rel_1126" type="edge" xlink:href="tiger.legal.tok.xml#tok_671"/><!-- , -->
+<rel id="rel_1127" type="edge" xlink:href="tiger.legal.tok.xml#tok_672"/><!-- and -->
+<rel id="rel_1128" type="edge" xlink:href="#const_490"/>
+</struct>
+<struct id="const_492">
+<rel id="rel_1129" type="edge" xlink:href="#const_491"/>
+</struct>
+<struct id="const_493">
+<rel id="rel_1130" type="edge" xlink:href="tiger.legal.tok.xml#tok_661"/><!-- agrees -->
+<rel id="rel_1131" type="edge" xlink:href="#const_492"/>
+</struct>
+<struct id="const_494">
+<rel id="rel_1132" type="edge" xlink:href="#const_478"/>
+<rel id="rel_1133" type="edge" xlink:href="tiger.legal.tok.xml#tok_660"/><!-- and -->
+<rel id="rel_1134" type="edge" xlink:href="#const_493"/>
+</struct>
+<struct id="const_495">
+<rel id="rel_1135" type="edge" xlink:href="#const_467"/>
+<rel id="rel_1136" type="edge" xlink:href="#const_494"/>
+</struct>
+<struct id="const_496">
+<rel id="rel_1137" type="edge" xlink:href="tiger.legal.tok.xml#tok_685"/><!-- hereby -->
+<rel id="rel_1138" type="edge" xlink:href="tiger.legal.tok.xml#tok_686"/><!-- releases -->
+</struct>
+<struct id="const_497">
+<rel id="rel_1139" type="edge" xlink:href="tiger.legal.tok.xml#tok_688"/><!-- Mid_America -->
+<rel id="rel_1140" type="edge" xlink:href="tiger.legal.tok.xml#tok_689"/><!-- ] -->
+</struct>
+<struct id="const_498">
+<rel id="rel_1141" type="edge" xlink:href="tiger.legal.tok.xml#tok_691"/><!-- any -->
+</struct>
+<struct id="const_499">
+<rel id="rel_1142" type="edge" xlink:href="tiger.legal.tok.xml#tok_690"/><!-- from -->
+<rel id="rel_1143" type="edge" xlink:href="#const_498"/>
+</struct>
+<struct id="const_500">
+<rel id="rel_1144" type="edge" xlink:href="tiger.legal.tok.xml#tok_687"/><!-- [ -->
+<rel id="rel_1145" type="edge" xlink:href="#const_497"/>
+<rel id="rel_1146" type="edge" xlink:href="#const_499"/>
+</struct>
+<struct id="const_501">
+<rel id="rel_1147" type="edge" xlink:href="#const_496"/>
+<rel id="rel_1148" type="edge" xlink:href="#const_500"/>
+</struct>
+<struct id="const_502">
+<rel id="rel_1149" type="edge" xlink:href="#const_495"/>
+<rel id="rel_1150" type="edge" xlink:href="tiger.legal.tok.xml#tok_684"/><!-- and -->
+<rel id="rel_1151" type="edge" xlink:href="#const_501"/>
+</struct>
+<struct id="const_503">
+<rel id="rel_1152" type="edge" xlink:href="#const_502"/>
+</struct>
+<struct id="const_504">
+<rel id="rel_1153" type="edge" xlink:href="#const_466"/>
+<rel id="rel_1154" type="edge" xlink:href="#const_503"/>
+</struct>
+<struct id="const_505">
+<rel id="rel_1155" type="edge" xlink:href="tiger.legal.tok.xml#tok_693"/><!-- all -->
+<rel id="rel_1156" type="edge" xlink:href="tiger.legal.tok.xml#tok_694"/><!-- claims -->
+</struct>
+<struct id="const_506">
+<rel id="rel_1157" type="edge" xlink:href="#const_504"/>
+<rel id="rel_1158" type="edge" xlink:href="tiger.legal.tok.xml#tok_692"/><!-- and -->
+<rel id="rel_1159" type="edge" xlink:href="#const_505"/>
+</struct>
+<struct id="const_507">
+<rel id="rel_1160" type="edge" xlink:href="tiger.legal.tok.xml#tok_696"/><!-- damage -->
+</struct>
+<struct id="const_508">
+<rel id="rel_1161" type="edge" xlink:href="tiger.legal.tok.xml#tok_698"/><!-- property -->
+</struct>
+<struct id="const_509">
+<rel id="rel_1162" type="edge" xlink:href="tiger.legal.tok.xml#tok_697"/><!-- to -->
+<rel id="rel_1163" type="edge" xlink:href="#const_508"/>
+</struct>
+<struct id="const_510">
+<rel id="rel_1164" type="edge" xlink:href="#const_507"/>
+<rel id="rel_1165" type="edge" xlink:href="#const_509"/>
+</struct>
+<struct id="const_511">
+<rel id="rel_1166" type="edge" xlink:href="tiger.legal.tok.xml#tok_695"/><!-- for -->
+<rel id="rel_1167" type="edge" xlink:href="#const_510"/>
+</struct>
+<struct id="const_512">
+<rel id="rel_1168" type="edge" xlink:href="tiger.legal.tok.xml#tok_645"/><!-- [ -->
+<rel id="rel_1169" type="edge" xlink:href="#const_506"/>
+<rel id="rel_1170" type="edge" xlink:href="#const_511"/>
+</struct>
+<struct id="const_513">
+<rel id="rel_1171" type="edge" xlink:href="tiger.legal.tok.xml#tok_700"/><!-- bodily -->
+</struct>
+<struct id="const_514">
+<rel id="rel_1172" type="edge" xlink:href="tiger.legal.tok.xml#tok_704"/><!-- the -->
+<rel id="rel_1173" type="edge" xlink:href="tiger.legal.tok.xml#tok_705"/><!-- use -->
+</struct>
+<struct id="const_515">
+<rel id="rel_1174" type="edge" xlink:href="tiger.legal.tok.xml#tok_703"/><!-- from -->
+<rel id="rel_1175" type="edge" xlink:href="#const_514"/>
+</struct>
+<struct id="const_516">
+<rel id="rel_1176" type="edge" xlink:href="tiger.legal.tok.xml#tok_702"/><!-- resulting -->
+<rel id="rel_1177" type="edge" xlink:href="#const_515"/>
+</struct>
+<struct id="const_517">
+<rel id="rel_1178" type="edge" xlink:href="#const_516"/>
+</struct>
+<struct id="const_518">
+<rel id="rel_1179" type="edge" xlink:href="tiger.legal.tok.xml#tok_707"/><!-- operation -->
+<rel id="rel_1180" type="edge" xlink:href="tiger.legal.tok.xml#tok_708"/><!-- or -->
+<rel id="rel_1181" type="edge" xlink:href="tiger.legal.tok.xml#tok_709"/><!-- possession -->
+</struct>
+<struct id="const_519">
+<rel id="rel_1182" type="edge" xlink:href="tiger.legal.tok.xml#tok_711"/><!-- the -->
+<rel id="rel_1183" type="edge" xlink:href="tiger.legal.tok.xml#tok_712"/><!-- equipment -->
+</struct>
+<struct id="const_520">
+<rel id="rel_1184" type="edge" xlink:href="tiger.legal.tok.xml#tok_710"/><!-- of -->
+<rel id="rel_1185" type="edge" xlink:href="#const_519"/>
+</struct>
+<struct id="const_521">
+<rel id="rel_1186" type="edge" xlink:href="#const_518"/>
+<rel id="rel_1187" type="edge" xlink:href="#const_520"/>
+</struct>
+<struct id="const_522">
+<rel id="rel_1188" type="edge" xlink:href="#const_517"/>
+<rel id="rel_1189" type="edge" xlink:href="tiger.legal.tok.xml#tok_706"/><!-- , -->
+<rel id="rel_1190" type="edge" xlink:href="#const_521"/>
+</struct>
+<struct id="const_523">
+<rel id="rel_1191" type="edge" xlink:href="#const_513"/>
+<rel id="rel_1192" type="edge" xlink:href="tiger.legal.tok.xml#tok_701"/><!-- injury -->
+<rel id="rel_1193" type="edge" xlink:href="#const_522"/>
+</struct>
+<struct id="const_524">
+<rel id="rel_1194" type="edge" xlink:href="#const_512"/>
+<rel id="rel_1195" type="edge" xlink:href="tiger.legal.tok.xml#tok_699"/><!-- or -->
+<rel id="rel_1196" type="edge" xlink:href="#const_523"/>
+</struct>
+<struct id="const_525">
+<rel id="rel_1197" type="edge" xlink:href="#const_524"/>
+</struct>
+<struct id="const_526">
+<rel id="rel_1198" type="edge" xlink:href="tiger.legal.tok.xml#tok_643"/><!-- follows -->
+<rel id="rel_1199" type="edge" xlink:href="tiger.legal.tok.xml#tok_644"/><!-- : -->
+<rel id="rel_1200" type="edge" xlink:href="#const_525"/>
+</struct>
+<struct id="const_527">
+<rel id="rel_1201" type="edge" xlink:href="#const_526"/>
+</struct>
+<struct id="const_528">
+<rel id="rel_1202" type="edge" xlink:href="tiger.legal.tok.xml#tok_642"/><!-- as -->
+<rel id="rel_1203" type="edge" xlink:href="#const_527"/>
+</struct>
+<struct id="const_529">
+<rel id="rel_1204" type="edge" xlink:href="#const_465"/>
+<rel id="rel_1205" type="edge" xlink:href="tiger.legal.tok.xml#tok_641"/><!-- read -->
+<rel id="rel_1206" type="edge" xlink:href="#const_528"/>
+</struct>
+<struct id="const_530">
+<rel id="rel_1207" type="edge" xlink:href="tiger.legal.tok.xml#tok_717"/><!-- it -->
+</struct>
+<struct id="const_531">
+<rel id="rel_1208" type="edge" xlink:href="tiger.legal.tok.xml#tok_723"/><!-- such -->
+<rel id="rel_1209" type="edge" xlink:href="tiger.legal.tok.xml#tok_724"/><!-- damage -->
+<rel id="rel_1210" type="edge" xlink:href="tiger.legal.tok.xml#tok_725"/><!-- or -->
+<rel id="rel_1211" type="edge" xlink:href="tiger.legal.tok.xml#tok_726"/><!-- injury -->
+</struct>
+<struct id="const_532">
+<rel id="rel_1212" type="edge" xlink:href="tiger.legal.tok.xml#tok_729"/><!-- whole -->
+</struct>
+<struct id="const_533">
+<rel id="rel_1213" type="edge" xlink:href="tiger.legal.tok.xml#tok_728"/><!-- in -->
+<rel id="rel_1214" type="edge" xlink:href="#const_532"/>
+</struct>
+<struct id="const_534">
+<rel id="rel_1215" type="edge" xlink:href="tiger.legal.tok.xml#tok_727"/><!-- resulted -->
+<rel id="rel_1216" type="edge" xlink:href="#const_533"/>
+</struct>
+<struct id="const_535">
+<rel id="rel_1217" type="edge" xlink:href="#const_531"/>
+<rel id="rel_1218" type="edge" xlink:href="#const_534"/>
+</struct>
+<struct id="const_536">
+<rel id="rel_1219" type="edge" xlink:href="tiger.legal.tok.xml#tok_722"/><!-- that -->
+<rel id="rel_1220" type="edge" xlink:href="#const_535"/>
+</struct>
+<struct id="const_537">
+<rel id="rel_1221" type="edge" xlink:href="tiger.legal.tok.xml#tok_719"/><!-- claimed -->
+<rel id="rel_1222" type="edge" xlink:href="tiger.legal.tok.xml#tok_720"/><!-- or -->
+<rel id="rel_1223" type="edge" xlink:href="tiger.legal.tok.xml#tok_721"/><!-- held -->
+<rel id="rel_1224" type="edge" xlink:href="#const_536"/>
+</struct>
+<struct id="const_538">
+<rel id="rel_1225" type="edge" xlink:href="tiger.legal.tok.xml#tok_718"/><!-- be -->
+<rel id="rel_1226" type="edge" xlink:href="#const_537"/>
+</struct>
+<struct id="const_539">
+<rel id="rel_1227" type="edge" xlink:href="#const_530"/>
+<rel id="rel_1228" type="edge" xlink:href="#const_538"/>
+</struct>
+<struct id="const_540">
+<rel id="rel_1229" type="edge" xlink:href="tiger.legal.tok.xml#tok_714"/><!-- whether -->
+<rel id="rel_1230" type="edge" xlink:href="tiger.legal.tok.xml#tok_715"/><!-- or -->
+<rel id="rel_1231" type="edge" xlink:href="tiger.legal.tok.xml#tok_716"/><!-- not -->
+<rel id="rel_1232" type="edge" xlink:href="#const_539"/>
+</struct>
+<struct id="const_541">
+<rel id="rel_1233" type="edge" xlink:href="tiger.legal.tok.xml#tok_637"/><!-- entitled -->
+<rel id="rel_1234" type="edge" xlink:href="#const_464"/>
+<rel id="rel_1235" type="edge" xlink:href="tiger.legal.tok.xml#tok_639"/><!-- , -->
+<rel id="rel_1236" type="edge" xlink:href="#const_529"/>
+<rel id="rel_1237" type="edge" xlink:href="tiger.legal.tok.xml#tok_713"/><!-- , -->
+<rel id="rel_1238" type="edge" xlink:href="#const_540"/>
+</struct>
+<struct id="const_542">
+<rel id="rel_1239" type="edge" xlink:href="#const_463"/>
+<rel id="rel_1240" type="edge" xlink:href="#const_541"/>
+</struct>
+<struct id="const_543">
+<rel id="rel_1241" type="edge" xlink:href="tiger.legal.tok.xml#tok_634"/><!-- under -->
+<rel id="rel_1242" type="edge" xlink:href="#const_542"/>
+</struct>
+<struct id="const_544">
+<rel id="rel_1243" type="edge" xlink:href="tiger.legal.tok.xml#tok_732"/><!-- part -->
+</struct>
+<struct id="const_545">
+<rel id="rel_1244" type="edge" xlink:href="tiger.legal.tok.xml#tok_734"/><!-- [ -->
+<rel id="rel_1245" type="edge" xlink:href="tiger.legal.tok.xml#tok_735"/><!-- Mid_AmericaÃs -->
+<rel id="rel_1246" type="edge" xlink:href="tiger.legal.tok.xml#tok_736"/><!-- ] -->
+<rel id="rel_1247" type="edge" xlink:href="tiger.legal.tok.xml#tok_737"/><!-- negligence -->
+</struct>
+<struct id="const_546">
+<rel id="rel_1248" type="edge" xlink:href="tiger.legal.tok.xml#tok_733"/><!-- from -->
+<rel id="rel_1249" type="edge" xlink:href="#const_545"/>
+</struct>
+<struct id="const_547">
+<rel id="rel_1250" type="edge" xlink:href="#const_544"/>
+<rel id="rel_1251" type="edge" xlink:href="#const_546"/>
+</struct>
+<struct id="const_548">
+<rel id="rel_1252" type="edge" xlink:href="tiger.legal.tok.xml#tok_731"/><!-- in -->
+<rel id="rel_1253" type="edge" xlink:href="#const_547"/>
+</struct>
+<struct id="const_549">
+<rel id="rel_1254" type="edge" xlink:href="tiger.legal.tok.xml#tok_740"/><!-- the -->
+<rel id="rel_1255" type="edge" xlink:href="tiger.legal.tok.xml#tok_741"/><!-- condition -->
+</struct>
+<struct id="const_550">
+<rel id="rel_1256" type="edge" xlink:href="tiger.legal.tok.xml#tok_743"/><!-- the -->
+<rel id="rel_1257" type="edge" xlink:href="tiger.legal.tok.xml#tok_744"/><!-- equipment -->
+</struct>
+<struct id="const_551">
+<rel id="rel_1258" type="edge" xlink:href="tiger.legal.tok.xml#tok_742"/><!-- of -->
+<rel id="rel_1259" type="edge" xlink:href="#const_550"/>
+</struct>
+<struct id="const_552">
+<rel id="rel_1260" type="edge" xlink:href="#const_549"/>
+<rel id="rel_1261" type="edge" xlink:href="#const_551"/>
+</struct>
+<struct id="const_553">
+<rel id="rel_1262" type="edge" xlink:href="tiger.legal.tok.xml#tok_739"/><!-- from -->
+<rel id="rel_1263" type="edge" xlink:href="#const_552"/>
+</struct>
+<struct id="const_554">
+<rel id="rel_1264" type="edge" xlink:href="tiger.legal.tok.xml#tok_747"/><!-- any -->
+<rel id="rel_1265" type="edge" xlink:href="tiger.legal.tok.xml#tok_748"/><!-- cause -->
+</struct>
+<struct id="const_555">
+<rel id="rel_1266" type="edge" xlink:href="tiger.legal.tok.xml#tok_746"/><!-- from -->
+<rel id="rel_1267" type="edge" xlink:href="#const_554"/>
+</struct>
+<struct id="const_556">
+<rel id="rel_1268" type="edge" xlink:href="#const_548"/>
+<rel id="rel_1269" type="edge" xlink:href="tiger.legal.tok.xml#tok_738"/><!-- , -->
+<rel id="rel_1270" type="edge" xlink:href="#const_553"/>
+<rel id="rel_1271" type="edge" xlink:href="tiger.legal.tok.xml#tok_745"/><!-- or -->
+<rel id="rel_1272" type="edge" xlink:href="#const_555"/>
+</struct>
+<struct id="const_557">
+<rel id="rel_1273" type="edge" xlink:href="#const_543"/>
+<rel id="rel_1274" type="edge" xlink:href="tiger.legal.tok.xml#tok_730"/><!-- or -->
+<rel id="rel_1275" type="edge" xlink:href="#const_556"/>
+</struct>
+<struct id="const_558">
+<rel id="rel_1276" type="edge" xlink:href="tiger.legal.tok.xml#tok_633"/><!-- located -->
+<rel id="rel_1277" type="edge" xlink:href="#const_557"/>
+</struct>
+<struct id="const_559">
+<rel id="rel_1278" type="edge" xlink:href="#const_462"/>
+<rel id="rel_1279" type="edge" xlink:href="tiger.legal.tok.xml#tok_632"/><!-- , -->
+<rel id="rel_1280" type="edge" xlink:href="#const_558"/>
+<rel id="rel_1281" type="edge" xlink:href="tiger.legal.tok.xml#tok_749"/><!-- , -->
+</struct>
+<struct id="const_560">
+<rel id="rel_1282" type="edge" xlink:href="tiger.legal.tok.xml#tok_751"/><!-- the -->
+<rel id="rel_1283" type="edge" xlink:href="tiger.legal.tok.xml#tok_752"/><!-- Commission -->
+<rel id="rel_1284" type="edge" xlink:href="tiger.legal.tok.xml#tok_753"/><!-- ] -->
+</struct>
+<struct id="const_561">
+<rel id="rel_1285" type="edge" xlink:href="tiger.legal.tok.xml#tok_756"/><!-- no -->
+<rel id="rel_1286" type="edge" xlink:href="tiger.legal.tok.xml#tok_757"/><!-- warranties -->
+</struct>
+<struct id="const_562">
+<rel id="rel_1287" type="edge" xlink:href="tiger.legal.tok.xml#tok_759"/><!-- expressed -->
+</struct>
+<struct id="const_563">
+<rel id="rel_1288" type="edge" xlink:href="tiger.legal.tok.xml#tok_761"/><!-- implied -->
+</struct>
+<struct id="const_564">
+<rel id="rel_1289" type="edge" xlink:href="#const_562"/>
+<rel id="rel_1290" type="edge" xlink:href="tiger.legal.tok.xml#tok_760"/><!-- or -->
+<rel id="rel_1291" type="edge" xlink:href="#const_563"/>
+</struct>
+<struct id="const_565">
+<rel id="rel_1292" type="edge" xlink:href="#const_561"/>
+<rel id="rel_1293" type="edge" xlink:href="tiger.legal.tok.xml#tok_758"/><!-- , -->
+<rel id="rel_1294" type="edge" xlink:href="#const_564"/>
+</struct>
+<struct id="const_566">
+<rel id="rel_1295" type="edge" xlink:href="tiger.legal.tok.xml#tok_766"/><!-- connection -->
+</struct>
+<struct id="const_567">
+<rel id="rel_1296" type="edge" xlink:href="tiger.legal.tok.xml#tok_768"/><!-- this -->
+<rel id="rel_1297" type="edge" xlink:href="tiger.legal.tok.xml#tok_769"/><!-- rental -->
+</struct>
+<struct id="const_568">
+<rel id="rel_1298" type="edge" xlink:href="tiger.legal.tok.xml#tok_767"/><!-- with -->
+<rel id="rel_1299" type="edge" xlink:href="#const_567"/>
+</struct>
+<struct id="const_569">
+<rel id="rel_1300" type="edge" xlink:href="#const_566"/>
+<rel id="rel_1301" type="edge" xlink:href="#const_568"/>
+</struct>
+<struct id="const_570">
+<rel id="rel_1302" type="edge" xlink:href="tiger.legal.tok.xml#tok_765"/><!-- in -->
+<rel id="rel_1303" type="edge" xlink:href="#const_569"/>
+</struct>
+<struct id="const_571">
+<rel id="rel_1304" type="edge" xlink:href="tiger.legal.tok.xml#tok_764"/><!-- made -->
+<rel id="rel_1305" type="edge" xlink:href="#const_570"/>
+</struct>
+<struct id="const_572">
+<rel id="rel_1306" type="edge" xlink:href="tiger.legal.tok.xml#tok_763"/><!-- been -->
+<rel id="rel_1307" type="edge" xlink:href="#const_571"/>
+</struct>
+<struct id="const_573">
+<rel id="rel_1308" type="edge" xlink:href="tiger.legal.tok.xml#tok_762"/><!-- have -->
+<rel id="rel_1309" type="edge" xlink:href="#const_572"/>
+</struct>
+<struct id="const_574">
+<rel id="rel_1310" type="edge" xlink:href="#const_565"/>
+<rel id="rel_1311" type="edge" xlink:href="#const_573"/>
+</struct>
+<struct id="const_575">
+<rel id="rel_1312" type="edge" xlink:href="tiger.legal.tok.xml#tok_755"/><!-- that -->
+<rel id="rel_1313" type="edge" xlink:href="#const_574"/>
+</struct>
+<struct id="const_576">
+<rel id="rel_1314" type="edge" xlink:href="tiger.legal.tok.xml#tok_754"/><!-- agrees -->
+<rel id="rel_1315" type="edge" xlink:href="#const_575"/>
+</struct>
+<struct id="const_577">
+<rel id="rel_1316" type="edge" xlink:href="#const_560"/>
+<rel id="rel_1317" type="edge" xlink:href="#const_576"/>
+</struct>
+<struct id="const_578">
+<rel id="rel_1318" type="edge" xlink:href="#const_577"/>
+</struct>
+<struct id="const_579">
+<rel id="rel_1319" type="edge" xlink:href="tiger.legal.tok.xml#tok_750"/><!-- [ -->
+<rel id="rel_1320" type="edge" xlink:href="#const_578"/>
+</struct>
+<struct id="const_580">
+<rel id="rel_1321" type="edge" xlink:href="#const_559"/>
+<rel id="rel_1322" type="edge" xlink:href="#const_579"/>
+<rel id="rel_1323" type="edge" xlink:href="tiger.legal.tok.xml#tok_770"/><!-- . -->
+</struct>
+<struct id="const_581">
+<rel id="rel_1324" type="edge" xlink:href="tiger.legal.tok.xml#tok_771"/><!-- The -->
+<rel id="rel_1325" type="edge" xlink:href="tiger.legal.tok.xml#tok_772"/><!-- other -->
+<rel id="rel_1326" type="edge" xlink:href="tiger.legal.tok.xml#tok_773"/><!-- sentence -->
+</struct>
+<struct id="const_582">
+<rel id="rel_1327" type="edge" xlink:href="tiger.legal.tok.xml#tok_777"/><!-- the -->
+<rel id="rel_1328" type="edge" xlink:href="tiger.legal.tok.xml#tok_778"/><!-- Ã±ShowsÃ® -->
+<rel id="rel_1329" type="edge" xlink:href="tiger.legal.tok.xml#tok_779"/><!-- heading -->
+</struct>
+<struct id="const_583">
+<rel id="rel_1330" type="edge" xlink:href="tiger.legal.tok.xml#tok_776"/><!-- under -->
+<rel id="rel_1331" type="edge" xlink:href="#const_582"/>
+</struct>
+<struct id="const_584">
+<rel id="rel_1332" type="edge" xlink:href="tiger.legal.tok.xml#tok_775"/><!-- located -->
+<rel id="rel_1333" type="edge" xlink:href="#const_583"/>
+</struct>
+<struct id="const_585">
+<rel id="rel_1334" type="edge" xlink:href="#const_581"/>
+<rel id="rel_1335" type="edge" xlink:href="tiger.legal.tok.xml#tok_774"/><!-- , -->
+<rel id="rel_1336" type="edge" xlink:href="#const_584"/>
+<rel id="rel_1337" type="edge" xlink:href="tiger.legal.tok.xml#tok_780"/><!-- , -->
+</struct>
+<struct id="const_586">
+<rel id="rel_1338" type="edge" xlink:href="tiger.legal.tok.xml#tok_782"/><!-- forth -->
+</struct>
+<struct id="const_587">
+<rel id="rel_1339" type="edge" xlink:href="tiger.legal.tok.xml#tok_783"/><!-- essentially -->
+</struct>
+<struct id="const_588">
+<rel id="rel_1340" type="edge" xlink:href="tiger.legal.tok.xml#tok_784"/><!-- the -->
+<rel id="rel_1341" type="edge" xlink:href="tiger.legal.tok.xml#tok_785"/><!-- same -->
+<rel id="rel_1342" type="edge" xlink:href="tiger.legal.tok.xml#tok_786"/><!-- language -->
+</struct>
+<struct id="const_589">
+<rel id="rel_1343" type="edge" xlink:href="tiger.legal.tok.xml#tok_781"/><!-- set -->
+<rel id="rel_1344" type="edge" xlink:href="#const_586"/>
+<rel id="rel_1345" type="edge" xlink:href="#const_587"/>
+<rel id="rel_1346" type="edge" xlink:href="#const_588"/>
+</struct>
+<struct id="const_590">
+<rel id="rel_1347" type="edge" xlink:href="#const_585"/>
+<rel id="rel_1348" type="edge" xlink:href="#const_589"/>
+<rel id="rel_1349" type="edge" xlink:href="tiger.legal.tok.xml#tok_787"/><!-- . -->
+</struct>
+<struct id="const_591">
+<rel id="rel_1350" type="edge" xlink:href="tiger.legal.tok.xml#tok_788"/><!-- Mid_America -->
+<rel id="rel_1351" type="edge" xlink:href="tiger.legal.tok.xml#tok_789"/><!-- and -->
+<rel id="rel_1352" type="edge" xlink:href="tiger.legal.tok.xml#tok_790"/><!-- the -->
+<rel id="rel_1353" type="edge" xlink:href="tiger.legal.tok.xml#tok_791"/><!-- Commission -->
+</struct>
+<struct id="const_592">
+<rel id="rel_1354" type="edge" xlink:href="tiger.legal.tok.xml#tok_795"/><!-- cross_motions -->
+</struct>
+<struct id="const_593">
+<rel id="rel_1355" type="edge" xlink:href="tiger.legal.tok.xml#tok_797"/><!-- summary -->
+<rel id="rel_1356" type="edge" xlink:href="tiger.legal.tok.xml#tok_798"/><!-- judgment -->
+</struct>
+<struct id="const_594">
+<rel id="rel_1357" type="edge" xlink:href="tiger.legal.tok.xml#tok_796"/><!-- for -->
+<rel id="rel_1358" type="edge" xlink:href="#const_593"/>
+</struct>
+<struct id="const_595">
+<rel id="rel_1359" type="edge" xlink:href="tiger.legal.tok.xml#tok_794"/><!-- file -->
+<rel id="rel_1360" type="edge" xlink:href="#const_592"/>
+<rel id="rel_1361" type="edge" xlink:href="#const_594"/>
+</struct>
+<struct id="const_596">
+<rel id="rel_1362" type="edge" xlink:href="tiger.legal.tok.xml#tok_793"/><!-- to -->
+<rel id="rel_1363" type="edge" xlink:href="#const_595"/>
+</struct>
+<struct id="const_597">
+<rel id="rel_1364" type="edge" xlink:href="#const_596"/>
+</struct>
+<struct id="const_598">
+<rel id="rel_1365" type="edge" xlink:href="tiger.legal.tok.xml#tok_801"/><!-- opposite -->
+<rel id="rel_1366" type="edge" xlink:href="tiger.legal.tok.xml#tok_802"/><!-- positions -->
+</struct>
+<struct id="const_599">
+<rel id="rel_1367" type="edge" xlink:href="tiger.legal.tok.xml#tok_806"/><!-- December -->
+<rel id="rel_1368" type="edge" xlink:href="tiger.legal.tok.xml#tok_807"/><!-- 2011 -->
+</struct>
+<struct id="const_600">
+<rel id="rel_1369" type="edge" xlink:href="tiger.legal.tok.xml#tok_805"/><!-- the -->
+<rel id="rel_1370" type="edge" xlink:href="#const_599"/>
+<rel id="rel_1371" type="edge" xlink:href="tiger.legal.tok.xml#tok_808"/><!-- invoiceÃs -->
+<rel id="rel_1372" type="edge" xlink:href="tiger.legal.tok.xml#tok_809"/><!-- indemnity -->
+<rel id="rel_1373" type="edge" xlink:href="tiger.legal.tok.xml#tok_810"/><!-- language -->
+</struct>
+<struct id="const_601">
+<rel id="rel_1374" type="edge" xlink:href="tiger.legal.tok.xml#tok_812"/><!-- retroactively -->
+</struct>
+<struct id="const_602">
+<rel id="rel_1375" type="edge" xlink:href="tiger.legal.tok.xml#tok_815"/><!-- August -->
+<rel id="rel_1376" type="edge" xlink:href="tiger.legal.tok.xml#tok_816"/><!-- 2011 -->
+</struct>
+<struct id="const_603">
+<rel id="rel_1377" type="edge" xlink:href="tiger.legal.tok.xml#tok_814"/><!-- the -->
+<rel id="rel_1378" type="edge" xlink:href="#const_602"/>
+<rel id="rel_1379" type="edge" xlink:href="tiger.legal.tok.xml#tok_817"/><!-- roof -->
+<rel id="rel_1380" type="edge" xlink:href="tiger.legal.tok.xml#tok_818"/><!-- collapse -->
+</struct>
+<struct id="const_604">
+<rel id="rel_1381" type="edge" xlink:href="tiger.legal.tok.xml#tok_813"/><!-- to -->
+<rel id="rel_1382" type="edge" xlink:href="#const_603"/>
+</struct>
+<struct id="const_605">
+<rel id="rel_1383" type="edge" xlink:href="tiger.legal.tok.xml#tok_811"/><!-- applied -->
+<rel id="rel_1384" type="edge" xlink:href="#const_601"/>
+<rel id="rel_1385" type="edge" xlink:href="#const_604"/>
+</struct>
+<struct id="const_606">
+<rel id="rel_1386" type="edge" xlink:href="#const_600"/>
+<rel id="rel_1387" type="edge" xlink:href="#const_605"/>
+</struct>
+<struct id="const_607">
+<rel id="rel_1388" type="edge" xlink:href="tiger.legal.tok.xml#tok_804"/><!-- whether -->
+<rel id="rel_1389" type="edge" xlink:href="#const_606"/>
+</struct>
+<struct id="const_608">
+<rel id="rel_1390" type="edge" xlink:href="tiger.legal.tok.xml#tok_803"/><!-- about -->
+<rel id="rel_1391" type="edge" xlink:href="#const_607"/>
+</struct>
+<struct id="const_609">
+<rel id="rel_1392" type="edge" xlink:href="#const_598"/>
+<rel id="rel_1393" type="edge" xlink:href="#const_608"/>
+</struct>
+<struct id="const_610">
+<rel id="rel_1394" type="edge" xlink:href="tiger.legal.tok.xml#tok_800"/><!-- taking -->
+<rel id="rel_1395" type="edge" xlink:href="#const_609"/>
+</struct>
+<struct id="const_611">
+<rel id="rel_1396" type="edge" xlink:href="#const_610"/>
+</struct>
+<struct id="const_612">
+<rel id="rel_1397" type="edge" xlink:href="tiger.legal.tok.xml#tok_792"/><!-- proceeded -->
+<rel id="rel_1398" type="edge" xlink:href="#const_597"/>
+<rel id="rel_1399" type="edge" xlink:href="tiger.legal.tok.xml#tok_799"/><!-- , -->
+<rel id="rel_1400" type="edge" xlink:href="#const_611"/>
+</struct>
+<struct id="const_613">
+<rel id="rel_1401" type="edge" xlink:href="#const_591"/>
+<rel id="rel_1402" type="edge" xlink:href="#const_612"/>
+<rel id="rel_1403" type="edge" xlink:href="tiger.legal.tok.xml#tok_819"/><!-- . -->
+</struct>
+<struct id="const_614">
+<rel id="rel_1404" type="edge" xlink:href="tiger.legal.tok.xml#tok_820"/><!-- The -->
+<rel id="rel_1405" type="edge" xlink:href="tiger.legal.tok.xml#tok_821"/><!-- trial -->
+<rel id="rel_1406" type="edge" xlink:href="tiger.legal.tok.xml#tok_822"/><!-- court -->
+</struct>
+<struct id="const_615">
+<rel id="rel_1407" type="edge" xlink:href="tiger.legal.tok.xml#tok_824"/><!-- the -->
+<rel id="rel_1408" type="edge" xlink:href="tiger.legal.tok.xml#tok_825"/><!-- CommissionÃs -->
+<rel id="rel_1409" type="edge" xlink:href="tiger.legal.tok.xml#tok_826"/><!-- motion -->
+</struct>
+<struct id="const_616">
+<rel id="rel_1410" type="edge" xlink:href="tiger.legal.tok.xml#tok_823"/><!-- granted -->
+<rel id="rel_1411" type="edge" xlink:href="#const_615"/>
+</struct>
+<struct id="const_617">
+<rel id="rel_1412" type="edge" xlink:href="#const_614"/>
+<rel id="rel_1413" type="edge" xlink:href="#const_616"/>
+</struct>
+<struct id="const_618">
+<rel id="rel_1414" type="edge" xlink:href="tiger.legal.tok.xml#tok_829"/><!-- Mid_America -->
+</struct>
+<struct id="const_619">
+<rel id="rel_1415" type="edge" xlink:href="tiger.legal.tok.xml#tok_830"/><!-- appealed -->
+</struct>
+<struct id="const_620">
+<rel id="rel_1416" type="edge" xlink:href="#const_618"/>
+<rel id="rel_1417" type="edge" xlink:href="#const_619"/>
+</struct>
+<struct id="const_621">
+<rel id="rel_1418" type="edge" xlink:href="#const_617"/>
+<rel id="rel_1419" type="edge" xlink:href="tiger.legal.tok.xml#tok_827"/><!-- , -->
+<rel id="rel_1420" type="edge" xlink:href="tiger.legal.tok.xml#tok_828"/><!-- and -->
+<rel id="rel_1421" type="edge" xlink:href="#const_620"/>
+<rel id="rel_1422" type="edge" xlink:href="tiger.legal.tok.xml#tok_831"/><!-- . -->
+</struct>
+<struct id="const_622">
+<rel id="rel_1423" type="edge" xlink:href="tiger.legal.tok.xml#tok_832"/><!-- A -->
+<rel id="rel_1424" type="edge" xlink:href="tiger.legal.tok.xml#tok_833"/><!-- divided -->
+<rel id="rel_1425" type="edge" xlink:href="tiger.legal.tok.xml#tok_834"/><!-- Court -->
+</struct>
+<struct id="const_623">
+<rel id="rel_1426" type="edge" xlink:href="tiger.legal.tok.xml#tok_836"/><!-- Appeals -->
+</struct>
+<struct id="const_624">
+<rel id="rel_1427" type="edge" xlink:href="tiger.legal.tok.xml#tok_835"/><!-- of -->
+<rel id="rel_1428" type="edge" xlink:href="#const_623"/>
+</struct>
+<struct id="const_625">
+<rel id="rel_1429" type="edge" xlink:href="#const_622"/>
+<rel id="rel_1430" type="edge" xlink:href="#const_624"/>
+</struct>
+<struct id="const_626">
+<rel id="rel_1431" type="edge" xlink:href="tiger.legal.tok.xml#tok_843"/><!-- genuine -->
+<rel id="rel_1432" type="edge" xlink:href="tiger.legal.tok.xml#tok_844"/><!-- issues -->
+</struct>
+<struct id="const_627">
+<rel id="rel_1433" type="edge" xlink:href="tiger.legal.tok.xml#tok_846"/><!-- material -->
+<rel id="rel_1434" type="edge" xlink:href="tiger.legal.tok.xml#tok_847"/><!-- fact -->
+</struct>
+<struct id="const_628">
+<rel id="rel_1435" type="edge" xlink:href="tiger.legal.tok.xml#tok_845"/><!-- of -->
+<rel id="rel_1436" type="edge" xlink:href="#const_627"/>
+</struct>
+<struct id="const_629">
+<rel id="rel_1437" type="edge" xlink:href="#const_626"/>
+<rel id="rel_1438" type="edge" xlink:href="#const_628"/>
+</struct>
+<struct id="const_630">
+<rel id="rel_1439" type="edge" xlink:href="tiger.legal.tok.xml#tok_851"/><!-- the -->
+<rel id="rel_1440" type="edge" xlink:href="tiger.legal.tok.xml#tok_852"/><!-- Commission -->
+</struct>
+<struct id="const_631">
+<rel id="rel_1441" type="edge" xlink:href="tiger.legal.tok.xml#tok_850"/><!-- whether -->
+<rel id="rel_1442" type="edge" xlink:href="#const_630"/>
+</struct>
+<struct id="const_632">
+<rel id="rel_1443" type="edge" xlink:href="tiger.legal.tok.xml#tok_853"/><!-- knowingly -->
+</struct>
+<struct id="const_633">
+<rel id="rel_1444" type="edge" xlink:href="tiger.legal.tok.xml#tok_849"/><!-- regarding -->
+<rel id="rel_1445" type="edge" xlink:href="#const_631"/>
+<rel id="rel_1446" type="edge" xlink:href="#const_632"/>
+</struct>
+<struct id="const_634">
+<rel id="rel_1447" type="edge" xlink:href="#const_633"/>
+</struct>
+<struct id="const_635">
+<rel id="rel_1448" type="edge" xlink:href="tiger.legal.tok.xml#tok_848"/><!-- existed -->
+<rel id="rel_1449" type="edge" xlink:href="#const_634"/>
+</struct>
+<struct id="const_636">
+<rel id="rel_1450" type="edge" xlink:href="tiger.legal.tok.xml#tok_855"/><!-- willingly -->
+</struct>
+<struct id="const_637">
+<rel id="rel_1451" type="edge" xlink:href="tiger.legal.tok.xml#tok_859"/><!-- Mid_America -->
+</struct>
+<struct id="const_638">
+<rel id="rel_1452" type="edge" xlink:href="tiger.legal.tok.xml#tok_861"/><!-- the -->
+<rel id="rel_1453" type="edge" xlink:href="tiger.legal.tok.xml#tok_862"/><!-- roof -->
+<rel id="rel_1454" type="edge" xlink:href="tiger.legal.tok.xml#tok_863"/><!-- collapse -->
+</struct>
+<struct id="const_639">
+<rel id="rel_1455" type="edge" xlink:href="tiger.legal.tok.xml#tok_860"/><!-- for -->
+<rel id="rel_1456" type="edge" xlink:href="#const_638"/>
+</struct>
+<struct id="const_640">
+<rel id="rel_1457" type="edge" xlink:href="tiger.legal.tok.xml#tok_858"/><!-- indemnify -->
+<rel id="rel_1458" type="edge" xlink:href="#const_637"/>
+<rel id="rel_1459" type="edge" xlink:href="#const_639"/>
+</struct>
+<struct id="const_641">
+<rel id="rel_1460" type="edge" xlink:href="tiger.legal.tok.xml#tok_857"/><!-- to -->
+<rel id="rel_1461" type="edge" xlink:href="#const_640"/>
+</struct>
+<struct id="const_642">
+<rel id="rel_1462" type="edge" xlink:href="#const_641"/>
+</struct>
+<struct id="const_643">
+<rel id="rel_1463" type="edge" xlink:href="tiger.legal.tok.xml#tok_856"/><!-- agreed -->
+<rel id="rel_1464" type="edge" xlink:href="#const_642"/>
+</struct>
+<struct id="const_644">
+<rel id="rel_1465" type="edge" xlink:href="#const_635"/>
+<rel id="rel_1466" type="edge" xlink:href="tiger.legal.tok.xml#tok_854"/><!-- and -->
+<rel id="rel_1467" type="edge" xlink:href="#const_636"/>
+<rel id="rel_1468" type="edge" xlink:href="#const_643"/>
+</struct>
+<struct id="const_645">
+<rel id="rel_1469" type="edge" xlink:href="#const_629"/>
+<rel id="rel_1470" type="edge" xlink:href="#const_644"/>
+</struct>
+<struct id="const_646">
+<rel id="rel_1471" type="edge" xlink:href="tiger.legal.tok.xml#tok_842"/><!-- that -->
+<rel id="rel_1472" type="edge" xlink:href="#const_645"/>
+</struct>
+<struct id="const_647">
+<rel id="rel_1473" type="edge" xlink:href="tiger.legal.tok.xml#tok_841"/><!-- finding -->
+<rel id="rel_1474" type="edge" xlink:href="#const_646"/>
+</struct>
+<struct id="const_648">
+<rel id="rel_1475" type="edge" xlink:href="#const_647"/>
+</struct>
+<struct id="const_649">
+<rel id="rel_1476" type="edge" xlink:href="tiger.legal.tok.xml#tok_837"/><!-- reversed -->
+<rel id="rel_1477" type="edge" xlink:href="tiger.legal.tok.xml#tok_838"/><!-- and -->
+<rel id="rel_1478" type="edge" xlink:href="tiger.legal.tok.xml#tok_839"/><!-- remanded -->
+<rel id="rel_1479" type="edge" xlink:href="tiger.legal.tok.xml#tok_840"/><!-- , -->
+<rel id="rel_1480" type="edge" xlink:href="#const_648"/>
+</struct>
+<struct id="const_650">
+<rel id="rel_1481" type="edge" xlink:href="#const_625"/>
+<rel id="rel_1482" type="edge" xlink:href="#const_649"/>
+<rel id="rel_1483" type="edge" xlink:href="tiger.legal.tok.xml#tok_864"/><!-- . -->
+</struct>
+<struct id="const_651">
+<rel id="rel_1484" type="edge" xlink:href="tiger.legal.tok.xml#tok_866"/><!-- re -->
+<rel id="rel_1485" type="edge" xlink:href="tiger.legal.tok.xml#tok_867"/><!-- Ind -->
+</struct>
+<struct id="const_652">
+<rel id="rel_1486" type="edge" xlink:href="tiger.legal.tok.xml#tok_865"/><!-- In -->
+<rel id="rel_1487" type="edge" xlink:href="#const_651"/>
+</struct>
+<struct id="const_653">
+<rel id="rel_1488" type="edge" xlink:href="#const_652"/>
+<rel id="rel_1489" type="edge" xlink:href="tiger.legal.tok.xml#tok_868"/><!-- . -->
+</struct>
+<struct id="const_654">
+<rel id="rel_1490" type="edge" xlink:href="tiger.legal.tok.xml#tok_869"/><!-- State -->
+<rel id="rel_1491" type="edge" xlink:href="tiger.legal.tok.xml#tok_870"/><!-- Fair -->
+<rel id="rel_1492" type="edge" xlink:href="tiger.legal.tok.xml#tok_871"/><!-- Litigation -->
+</struct>
+<struct id="const_655">
+<rel id="rel_1493" type="edge" xlink:href="tiger.legal.tok.xml#tok_873"/><!-- 28 -->
+</struct>
+<struct id="const_656">
+<rel id="rel_1494" type="edge" xlink:href="tiger.legal.tok.xml#tok_874"/><!-- N.E.3d -->
+</struct>
+<struct id="const_657">
+<rel id="rel_1495" type="edge" xlink:href="#const_654"/>
+<rel id="rel_1496" type="edge" xlink:href="tiger.legal.tok.xml#tok_872"/><!-- , -->
+<rel id="rel_1497" type="edge" xlink:href="#const_655"/>
+<rel id="rel_1498" type="edge" xlink:href="#const_656"/>
+</struct>
+<struct id="const_658">
+<rel id="rel_1499" type="edge" xlink:href="tiger.legal.tok.xml#tok_877"/><!-- 343 -->
+</struct>
+<struct id="const_659">
+<rel id="rel_1500" type="edge" xlink:href="tiger.legal.tok.xml#tok_875"/><!-- 333 -->
+<rel id="rel_1501" type="edge" xlink:href="tiger.legal.tok.xml#tok_876"/><!-- , -->
+<rel id="rel_1502" type="edge" xlink:href="#const_658"/>
+<rel id="rel_1503" type="edge" xlink:href="tiger.legal.tok.xml#tok_878"/><!-- . -->
+</struct>
+<struct id="const_660">
+<rel id="rel_1504" type="edge" xlink:href="tiger.legal.tok.xml#tok_880"/><!-- we -->
+</struct>
+<struct id="const_661">
+<rel id="rel_1505" type="edge" xlink:href="tiger.legal.tok.xml#tok_882"/><!-- recently -->
+</struct>
+<struct id="const_662">
+<rel id="rel_1506" type="edge" xlink:href="tiger.legal.tok.xml#tok_883"/><!-- reiterated -->
+</struct>
+<struct id="const_663">
+<rel id="rel_1507" type="edge" xlink:href="tiger.legal.tok.xml#tok_881"/><!-- have -->
+<rel id="rel_1508" type="edge" xlink:href="#const_661"/>
+<rel id="rel_1509" type="edge" xlink:href="#const_662"/>
+</struct>
+<struct id="const_664">
+<rel id="rel_1510" type="edge" xlink:href="#const_660"/>
+<rel id="rel_1511" type="edge" xlink:href="#const_663"/>
+</struct>
+<struct id="const_665">
+<rel id="rel_1512" type="edge" xlink:href="tiger.legal.tok.xml#tok_879"/><!-- As -->
+<rel id="rel_1513" type="edge" xlink:href="#const_664"/>
+</struct>
+<struct id="const_666">
+<rel id="rel_1514" type="edge" xlink:href="tiger.legal.tok.xml#tok_885"/><!-- summary -->
+<rel id="rel_1515" type="edge" xlink:href="tiger.legal.tok.xml#tok_886"/><!-- judgment -->
+</struct>
+<struct id="const_667">
+<rel id="rel_1516" type="edge" xlink:href="tiger.legal.tok.xml#tok_888"/><!-- a -->
+<rel id="rel_1517" type="edge" xlink:href="tiger.legal.tok.xml#tok_889"/><!-- heavy -->
+<rel id="rel_1518" type="edge" xlink:href="tiger.legal.tok.xml#tok_890"/><!-- factual -->
+<rel id="rel_1519" type="edge" xlink:href="tiger.legal.tok.xml#tok_891"/><!-- burden -->
+</struct>
+<struct id="const_668">
+<rel id="rel_1520" type="edge" xlink:href="tiger.legal.tok.xml#tok_893"/><!-- the -->
+<rel id="rel_1521" type="edge" xlink:href="tiger.legal.tok.xml#tok_894"/><!-- moving -->
+<rel id="rel_1522" type="edge" xlink:href="tiger.legal.tok.xml#tok_895"/><!-- partyâand -->
+</struct>
+<struct id="const_669">
+<rel id="rel_1523" type="edge" xlink:href="tiger.legal.tok.xml#tok_897"/><!-- correspondingly -->
+<rel id="rel_1524" type="edge" xlink:href="tiger.legal.tok.xml#tok_898"/><!-- light -->
+</struct>
+<struct id="const_670">
+<rel id="rel_1525" type="edge" xlink:href="tiger.legal.tok.xml#tok_896"/><!-- a -->
+<rel id="rel_1526" type="edge" xlink:href="#const_669"/>
+<rel id="rel_1527" type="edge" xlink:href="tiger.legal.tok.xml#tok_899"/><!-- burden -->
+</struct>
+<struct id="const_671">
+<rel id="rel_1528" type="edge" xlink:href="tiger.legal.tok.xml#tok_901"/><!-- the -->
+<rel id="rel_1529" type="edge" xlink:href="tiger.legal.tok.xml#tok_902"/><!-- non_movantÃs -->
+<rel id="rel_1530" type="edge" xlink:href="tiger.legal.tok.xml#tok_903"/><!-- responseâbecause -->
+</struct>
+<struct id="const_672">
+<rel id="rel_1531" type="edge" xlink:href="tiger.legal.tok.xml#tok_900"/><!-- for -->
+<rel id="rel_1532" type="edge" xlink:href="#const_671"/>
+</struct>
+<struct id="const_673">
+<rel id="rel_1533" type="edge" xlink:href="tiger.legal.tok.xml#tok_904"/><!-- Ã±Indiana -->
+</struct>
+<struct id="const_674">
+<rel id="rel_1534" type="edge" xlink:href="tiger.legal.tok.xml#tok_905"/><!-- consciously -->
+</struct>
+<struct id="const_675">
+<rel id="rel_1535" type="edge" xlink:href="tiger.legal.tok.xml#tok_908"/><!-- the -->
+<rel id="rel_1536" type="edge" xlink:href="tiger.legal.tok.xml#tok_909"/><!-- side -->
+</struct>
+<struct id="const_676">
+<rel id="rel_1537" type="edge" xlink:href="tiger.legal.tok.xml#tok_912"/><!-- marginal -->
+<rel id="rel_1538" type="edge" xlink:href="tiger.legal.tok.xml#tok_913"/><!-- cases -->
+</struct>
+<struct id="const_677">
+<rel id="rel_1539" type="edge" xlink:href="tiger.legal.tok.xml#tok_911"/><!-- letting -->
+<rel id="rel_1540" type="edge" xlink:href="#const_676"/>
+</struct>
+<struct id="const_678">
+<rel id="rel_1541" type="edge" xlink:href="#const_677"/>
+</struct>
+<struct id="const_679">
+<rel id="rel_1542" type="edge" xlink:href="tiger.legal.tok.xml#tok_910"/><!-- of -->
+<rel id="rel_1543" type="edge" xlink:href="#const_678"/>
+</struct>
+<struct id="const_680">
+<rel id="rel_1544" type="edge" xlink:href="#const_675"/>
+<rel id="rel_1545" type="edge" xlink:href="#const_679"/>
+</struct>
+<struct id="const_681">
+<rel id="rel_1546" type="edge" xlink:href="tiger.legal.tok.xml#tok_907"/><!-- on -->
+<rel id="rel_1547" type="edge" xlink:href="#const_680"/>
+</struct>
+<struct id="const_682">
+<rel id="rel_1548" type="edge" xlink:href="tiger.legal.tok.xml#tok_906"/><!-- errs -->
+<rel id="rel_1549" type="edge" xlink:href="#const_681"/>
+</struct>
+<struct id="const_683">
+<rel id="rel_1550" type="edge" xlink:href="#const_673"/>
+<rel id="rel_1551" type="edge" xlink:href="#const_674"/>
+<rel id="rel_1552" type="edge" xlink:href="#const_682"/>
+</struct>
+<struct id="const_684">
+<rel id="rel_1553" type="edge" xlink:href="#const_683"/>
+</struct>
+<struct id="const_685">
+<rel id="rel_1554" type="edge" xlink:href="#const_670"/>
+<rel id="rel_1555" type="edge" xlink:href="#const_672"/>
+<rel id="rel_1556" type="edge" xlink:href="#const_684"/>
+</struct>
+<struct id="const_686">
+<rel id="rel_1557" type="edge" xlink:href="tiger.legal.tok.xml#tok_916"/><!-- trial -->
+</struct>
+<struct id="const_687">
+<rel id="rel_1558" type="edge" xlink:href="tiger.legal.tok.xml#tok_915"/><!-- to -->
+<rel id="rel_1559" type="edge" xlink:href="#const_686"/>
+</struct>
+<struct id="const_688">
+<rel id="rel_1560" type="edge" xlink:href="tiger.legal.tok.xml#tok_918"/><!-- the -->
+<rel id="rel_1561" type="edge" xlink:href="tiger.legal.tok.xml#tok_919"/><!-- merits -->
+</struct>
+<struct id="const_689">
+<rel id="rel_1562" type="edge" xlink:href="tiger.legal.tok.xml#tok_917"/><!-- on -->
+<rel id="rel_1563" type="edge" xlink:href="#const_688"/>
+</struct>
+<struct id="const_690">
+<rel id="rel_1564" type="edge" xlink:href="tiger.legal.tok.xml#tok_924"/><!-- short_circuiting -->
+<rel id="rel_1565" type="edge" xlink:href="tiger.legal.tok.xml#tok_925"/><!-- meritorious -->
+<rel id="rel_1566" type="edge" xlink:href="tiger.legal.tok.xml#tok_926"/><!-- claims.Ã® -->
+</struct>
+<struct id="const_691">
+<rel id="rel_1567" type="edge" xlink:href="tiger.legal.tok.xml#tok_923"/><!-- risk -->
+<rel id="rel_1568" type="edge" xlink:href="#const_690"/>
+</struct>
+<struct id="const_692">
+<rel id="rel_1569" type="edge" xlink:href="#const_691"/>
+</struct>
+<struct id="const_693">
+<rel id="rel_1570" type="edge" xlink:href="tiger.legal.tok.xml#tok_921"/><!-- rather -->
+<rel id="rel_1571" type="edge" xlink:href="tiger.legal.tok.xml#tok_922"/><!-- than -->
+<rel id="rel_1572" type="edge" xlink:href="#const_692"/>
+</struct>
+<struct id="const_694">
+<rel id="rel_1573" type="edge" xlink:href="tiger.legal.tok.xml#tok_914"/><!-- proceed -->
+<rel id="rel_1574" type="edge" xlink:href="#const_687"/>
+<rel id="rel_1575" type="edge" xlink:href="#const_689"/>
+<rel id="rel_1576" type="edge" xlink:href="tiger.legal.tok.xml#tok_920"/><!-- , -->
+<rel id="rel_1577" type="edge" xlink:href="#const_693"/>
+</struct>
+<struct id="const_695">
+<rel id="rel_1578" type="edge" xlink:href="#const_685"/>
+<rel id="rel_1579" type="edge" xlink:href="#const_694"/>
+</struct>
+<struct id="const_696">
+<rel id="rel_1580" type="edge" xlink:href="#const_695"/>
+</struct>
+<struct id="const_697">
+<rel id="rel_1581" type="edge" xlink:href="#const_668"/>
+<rel id="rel_1582" type="edge" xlink:href="#const_696"/>
+</struct>
+<struct id="const_698">
+<rel id="rel_1583" type="edge" xlink:href="tiger.legal.tok.xml#tok_892"/><!-- on -->
+<rel id="rel_1584" type="edge" xlink:href="#const_697"/>
+</struct>
+<struct id="const_699">
+<rel id="rel_1585" type="edge" xlink:href="tiger.legal.tok.xml#tok_887"/><!-- imposes -->
+<rel id="rel_1586" type="edge" xlink:href="#const_667"/>
+<rel id="rel_1587" type="edge" xlink:href="#const_698"/>
+</struct>
+<struct id="const_700">
+<rel id="rel_1588" type="edge" xlink:href="#const_665"/>
+<rel id="rel_1589" type="edge" xlink:href="tiger.legal.tok.xml#tok_884"/><!-- , -->
+<rel id="rel_1590" type="edge" xlink:href="#const_666"/>
+<rel id="rel_1591" type="edge" xlink:href="#const_699"/>
+</struct>
+<struct id="const_701">
+<rel id="rel_1592" type="edge" xlink:href="tiger.legal.tok.xml#tok_927"/><!-- Hughley -->
+</struct>
+<struct id="const_702">
+<rel id="rel_1593" type="edge" xlink:href="tiger.legal.tok.xml#tok_928"/><!-- v. -->
+</struct>
+<struct id="const_703">
+<rel id="rel_1594" type="edge" xlink:href="#const_701"/>
+<rel id="rel_1595" type="edge" xlink:href="#const_702"/>
+</struct>
+<struct id="const_704">
+<rel id="rel_1596" type="edge" xlink:href="tiger.legal.tok.xml#tok_932"/><!-- N.E.3d -->
+</struct>
+<struct id="const_705">
+<rel id="rel_1597" type="edge" xlink:href="tiger.legal.tok.xml#tok_929"/><!-- State -->
+<rel id="rel_1598" type="edge" xlink:href="tiger.legal.tok.xml#tok_930"/><!-- , -->
+<rel id="rel_1599" type="edge" xlink:href="tiger.legal.tok.xml#tok_931"/><!-- 15 -->
+<rel id="rel_1600" type="edge" xlink:href="#const_704"/>
+</struct>
+<struct id="const_706">
+<rel id="rel_1601" type="edge" xlink:href="tiger.legal.tok.xml#tok_935"/><!-- 1004 -->
+</struct>
+<struct id="const_707">
+<rel id="rel_1602" type="edge" xlink:href="tiger.legal.tok.xml#tok_933"/><!-- 1000 -->
+<rel id="rel_1603" type="edge" xlink:href="tiger.legal.tok.xml#tok_934"/><!-- , -->
+<rel id="rel_1604" type="edge" xlink:href="#const_706"/>
+<rel id="rel_1605" type="edge" xlink:href="tiger.legal.tok.xml#tok_936"/><!-- . -->
+</struct>
+<struct id="const_708">
+<rel id="rel_1606" type="edge" xlink:href="tiger.legal.tok.xml#tok_938"/><!-- definition -->
+</struct>
+<struct id="const_709">
+<rel id="rel_1607" type="edge" xlink:href="tiger.legal.tok.xml#tok_937"/><!-- By -->
+<rel id="rel_1608" type="edge" xlink:href="#const_708"/>
+</struct>
+<struct id="const_710">
+<rel id="rel_1609" type="edge" xlink:href="tiger.legal.tok.xml#tok_940"/><!-- cases -->
+</struct>
+<struct id="const_711">
+<rel id="rel_1610" type="edge" xlink:href="tiger.legal.tok.xml#tok_941"/><!-- that -->
+</struct>
+<struct id="const_712">
+<rel id="rel_1611" type="edge" xlink:href="tiger.legal.tok.xml#tok_944"/><!-- disputed -->
+<rel id="rel_1612" type="edge" xlink:href="tiger.legal.tok.xml#tok_945"/><!-- facts -->
+</struct>
+<struct id="const_713">
+<rel id="rel_1613" type="edge" xlink:href="tiger.legal.tok.xml#tok_943"/><!-- upon -->
+<rel id="rel_1614" type="edge" xlink:href="#const_712"/>
+</struct>
+<struct id="const_714">
+<rel id="rel_1615" type="edge" xlink:href="tiger.legal.tok.xml#tok_942"/><!-- hinge -->
+<rel id="rel_1616" type="edge" xlink:href="#const_713"/>
+</struct>
+<struct id="const_715">
+<rel id="rel_1617" type="edge" xlink:href="#const_714"/>
+</struct>
+<struct id="const_716">
+<rel id="rel_1618" type="edge" xlink:href="#const_711"/>
+<rel id="rel_1619" type="edge" xlink:href="#const_715"/>
+</struct>
+<struct id="const_717">
+<rel id="rel_1620" type="edge" xlink:href="#const_710"/>
+<rel id="rel_1621" type="edge" xlink:href="#const_716"/>
+</struct>
+<struct id="const_718">
+<rel id="rel_1622" type="edge" xlink:href="tiger.legal.tok.xml#tok_949"/><!-- summary -->
+<rel id="rel_1623" type="edge" xlink:href="tiger.legal.tok.xml#tok_950"/><!-- judgment -->
+</struct>
+<struct id="const_719">
+<rel id="rel_1624" type="edge" xlink:href="tiger.legal.tok.xml#tok_948"/><!-- for -->
+<rel id="rel_1625" type="edge" xlink:href="#const_718"/>
+</struct>
+<struct id="const_720">
+<rel id="rel_1626" type="edge" xlink:href="tiger.legal.tok.xml#tok_947"/><!-- inappropriate -->
+<rel id="rel_1627" type="edge" xlink:href="#const_719"/>
+</struct>
+<struct id="const_721">
+<rel id="rel_1628" type="edge" xlink:href="tiger.legal.tok.xml#tok_954"/><!-- [ -->
+<rel id="rel_1629" type="edge" xlink:href="tiger.legal.tok.xml#tok_955"/><!-- evidence -->
+<rel id="rel_1630" type="edge" xlink:href="tiger.legal.tok.xml#tok_956"/><!-- ] -->
+<rel id="rel_1631" type="edge" xlink:href="tiger.legal.tok.xml#tok_957"/><!-- âno -->
+<rel id="rel_1632" type="edge" xlink:href="tiger.legal.tok.xml#tok_958"/><!-- matter -->
+</struct>
+<struct id="const_722">
+<rel id="rel_1633" type="edge" xlink:href="tiger.legal.tok.xml#tok_959"/><!-- how -->
+<rel id="rel_1634" type="edge" xlink:href="tiger.legal.tok.xml#tok_960"/><!-- decisively -->
+</struct>
+<struct id="const_723">
+<rel id="rel_1635" type="edge" xlink:href="tiger.legal.tok.xml#tok_961"/><!-- the -->
+<rel id="rel_1636" type="edge" xlink:href="tiger.legal.tok.xml#tok_962"/><!-- scales -->
+</struct>
+<struct id="const_724">
+<rel id="rel_1637" type="edge" xlink:href="tiger.legal.tok.xml#tok_967"/><!-- [ -->
+</struct>
+<struct id="const_725">
+<rel id="rel_1638" type="edge" xlink:href="tiger.legal.tok.xml#tok_966"/><!-- tipâ -->
+<rel id="rel_1639" type="edge" xlink:href="#const_724"/>
+</struct>
+<struct id="const_726">
+<rel id="rel_1640" type="edge" xlink:href="tiger.legal.tok.xml#tok_965"/><!-- to -->
+<rel id="rel_1641" type="edge" xlink:href="#const_725"/>
+</struct>
+<struct id="const_727">
+<rel id="rel_1642" type="edge" xlink:href="#const_726"/>
+</struct>
+<struct id="const_728">
+<rel id="rel_1643" type="edge" xlink:href="tiger.legal.tok.xml#tok_964"/><!-- seem -->
+<rel id="rel_1644" type="edge" xlink:href="#const_727"/>
+</struct>
+<struct id="const_729">
+<rel id="rel_1645" type="edge" xlink:href="tiger.legal.tok.xml#tok_963"/><!-- may -->
+<rel id="rel_1646" type="edge" xlink:href="#const_728"/>
+</struct>
+<struct id="const_730">
+<rel id="rel_1647" type="edge" xlink:href="#const_723"/>
+<rel id="rel_1648" type="edge" xlink:href="#const_729"/>
+</struct>
+<struct id="const_731">
+<rel id="rel_1649" type="edge" xlink:href="#const_722"/>
+<rel id="rel_1650" type="edge" xlink:href="#const_730"/>
+</struct>
+<struct id="const_732">
+<rel id="rel_1651" type="edge" xlink:href="tiger.legal.tok.xml#tok_953"/><!-- Ã±weighing -->
+<rel id="rel_1652" type="edge" xlink:href="#const_721"/>
+<rel id="rel_1653" type="edge" xlink:href="#const_731"/>
+</struct>
+<struct id="const_733">
+<rel id="rel_1654" type="edge" xlink:href="#const_732"/>
+</struct>
+<struct id="const_734">
+<rel id="rel_1655" type="edge" xlink:href="tiger.legal.tok.xml#tok_969"/><!-- ] -->
+</struct>
+<struct id="const_735">
+<rel id="rel_1656" type="edge" xlink:href="tiger.legal.tok.xml#tok_970"/><!-- a -->
+<rel id="rel_1657" type="edge" xlink:href="tiger.legal.tok.xml#tok_971"/><!-- matter -->
+</struct>
+<struct id="const_736">
+<rel id="rel_1658" type="edge" xlink:href="tiger.legal.tok.xml#tok_973"/><!-- trial -->
+</struct>
+<struct id="const_737">
+<rel id="rel_1659" type="edge" xlink:href="tiger.legal.tok.xml#tok_976"/><!-- summary -->
+<rel id="rel_1660" type="edge" xlink:href="tiger.legal.tok.xml#tok_977"/><!-- judgment.Ã® -->
+</struct>
+<struct id="const_738">
+<rel id="rel_1661" type="edge" xlink:href="#const_736"/>
+<rel id="rel_1662" type="edge" xlink:href="tiger.legal.tok.xml#tok_974"/><!-- , -->
+<rel id="rel_1663" type="edge" xlink:href="tiger.legal.tok.xml#tok_975"/><!-- not -->
+<rel id="rel_1664" type="edge" xlink:href="#const_737"/>
+</struct>
+<struct id="const_739">
+<rel id="rel_1665" type="edge" xlink:href="tiger.legal.tok.xml#tok_972"/><!-- for -->
+<rel id="rel_1666" type="edge" xlink:href="#const_738"/>
+</struct>
+<struct id="const_740">
+<rel id="rel_1667" type="edge" xlink:href="#const_735"/>
+<rel id="rel_1668" type="edge" xlink:href="#const_739"/>
+</struct>
+<struct id="const_741">
+<rel id="rel_1669" type="edge" xlink:href="#const_734"/>
+<rel id="rel_1670" type="edge" xlink:href="#const_740"/>
+</struct>
+<struct id="const_742">
+<rel id="rel_1671" type="edge" xlink:href="tiger.legal.tok.xml#tok_968"/><!-- is -->
+<rel id="rel_1672" type="edge" xlink:href="#const_741"/>
+</struct>
+<struct id="const_743">
+<rel id="rel_1673" type="edge" xlink:href="#const_733"/>
+<rel id="rel_1674" type="edge" xlink:href="#const_742"/>
+</struct>
+<struct id="const_744">
+<rel id="rel_1675" type="edge" xlink:href="tiger.legal.tok.xml#tok_952"/><!-- because -->
+<rel id="rel_1676" type="edge" xlink:href="#const_743"/>
+</struct>
+<struct id="const_745">
+<rel id="rel_1677" type="edge" xlink:href="tiger.legal.tok.xml#tok_946"/><!-- are -->
+<rel id="rel_1678" type="edge" xlink:href="#const_720"/>
+<rel id="rel_1679" type="edge" xlink:href="tiger.legal.tok.xml#tok_951"/><!-- , -->
+<rel id="rel_1680" type="edge" xlink:href="#const_744"/>
+</struct>
+<struct id="const_746">
+<rel id="rel_1681" type="edge" xlink:href="#const_709"/>
+<rel id="rel_1682" type="edge" xlink:href="tiger.legal.tok.xml#tok_939"/><!-- , -->
+<rel id="rel_1683" type="edge" xlink:href="#const_717"/>
+<rel id="rel_1684" type="edge" xlink:href="#const_745"/>
+</struct>
+<struct id="const_747">
+<rel id="rel_1685" type="edge" xlink:href="tiger.legal.tok.xml#tok_978"/><!-- Id -->
+<rel id="rel_1686" type="edge" xlink:href="tiger.legal.tok.xml#tok_979"/><!-- . -->
+</struct>
+<struct id="const_748">
+<rel id="rel_1687" type="edge" xlink:href="tiger.legal.tok.xml#tok_981"/><!-- 1005_06 -->
+</struct>
+<struct id="const_749">
+<rel id="rel_1688" type="edge" xlink:href="tiger.legal.tok.xml#tok_980"/><!-- at -->
+<rel id="rel_1689" type="edge" xlink:href="#const_748"/>
+</struct>
+<struct id="const_750">
+<rel id="rel_1690" type="edge" xlink:href="#const_749"/>
+</struct>
+<struct id="const_751">
+<rel id="rel_1691" type="edge" xlink:href="#const_750"/>
+<rel id="rel_1692" type="edge" xlink:href="tiger.legal.tok.xml#tok_982"/><!-- . -->
+</struct>
+<struct id="const_752">
+<rel id="rel_1693" type="edge" xlink:href="tiger.legal.tok.xml#tok_984"/><!-- contrast -->
+</struct>
+<struct id="const_753">
+<rel id="rel_1694" type="edge" xlink:href="tiger.legal.tok.xml#tok_983"/><!-- By -->
+<rel id="rel_1695" type="edge" xlink:href="#const_752"/>
+</struct>
+<struct id="const_754">
+<rel id="rel_1696" type="edge" xlink:href="tiger.legal.tok.xml#tok_986"/><!-- matters -->
+</struct>
+<struct id="const_755">
+<rel id="rel_1697" type="edge" xlink:href="tiger.legal.tok.xml#tok_988"/><!-- contract -->
+<rel id="rel_1698" type="edge" xlink:href="tiger.legal.tok.xml#tok_989"/><!-- interpretation -->
+</struct>
+<struct id="const_756">
+<rel id="rel_1699" type="edge" xlink:href="tiger.legal.tok.xml#tok_987"/><!-- of -->
+<rel id="rel_1700" type="edge" xlink:href="#const_755"/>
+</struct>
+<struct id="const_757">
+<rel id="rel_1701" type="edge" xlink:href="#const_754"/>
+<rel id="rel_1702" type="edge" xlink:href="#const_756"/>
+</struct>
+<struct id="const_758">
+<rel id="rel_1703" type="edge" xlink:href="tiger.legal.tok.xml#tok_994"/><!-- de -->
+<rel id="rel_1704" type="edge" xlink:href="tiger.legal.tok.xml#tok_995"/><!-- novo -->
+</struct>
+<struct id="const_759">
+<rel id="rel_1705" type="edge" xlink:href="#const_758"/>
+<rel id="rel_1706" type="edge" xlink:href="tiger.legal.tok.xml#tok_996"/><!-- appellate -->
+<rel id="rel_1707" type="edge" xlink:href="tiger.legal.tok.xml#tok_997"/><!-- review -->
+</struct>
+<struct id="const_760">
+<rel id="rel_1708" type="edge" xlink:href="tiger.legal.tok.xml#tok_993"/><!-- for -->
+<rel id="rel_1709" type="edge" xlink:href="#const_759"/>
+</struct>
+<struct id="const_761">
+<rel id="rel_1710" type="edge" xlink:href="tiger.legal.tok.xml#tok_1001"/><!-- they -->
+</struct>
+<struct id="const_762">
+<rel id="rel_1711" type="edge" xlink:href="tiger.legal.tok.xml#tok_1002"/><!-- Ã±generally -->
+<rel id="rel_1712" type="edge" xlink:href="tiger.legal.tok.xml#tok_1003"/><!-- present -->
+</struct>
+<struct id="const_763">
+<rel id="rel_1713" type="edge" xlink:href="#const_761"/>
+<rel id="rel_1714" type="edge" xlink:href="#const_762"/>
+</struct>
+<struct id="const_764">
+<rel id="rel_1715" type="edge" xlink:href="tiger.legal.tok.xml#tok_1000"/><!-- because -->
+<rel id="rel_1716" type="edge" xlink:href="#const_763"/>
+</struct>
+<struct id="const_765">
+<rel id="rel_1717" type="edge" xlink:href="tiger.legal.tok.xml#tok_1004"/><!-- [ -->
+<rel id="rel_1718" type="edge" xlink:href="tiger.legal.tok.xml#tok_1005"/><!-- ] -->
+<rel id="rel_1719" type="edge" xlink:href="tiger.legal.tok.xml#tok_1006"/><!-- questions -->
+</struct>
+<struct id="const_766">
+<rel id="rel_1720" type="edge" xlink:href="tiger.legal.tok.xml#tok_1007"/><!-- purely -->
+<rel id="rel_1721" type="edge" xlink:href="tiger.legal.tok.xml#tok_1008"/><!-- of -->
+</struct>
+<struct id="const_767">
+<rel id="rel_1722" type="edge" xlink:href="tiger.legal.tok.xml#tok_1009"/><!-- law.Ã® -->
+</struct>
+<struct id="const_768">
+<rel id="rel_1723" type="edge" xlink:href="tiger.legal.tok.xml#tok_991"/><!-- Ã±particularly -->
+<rel id="rel_1724" type="edge" xlink:href="tiger.legal.tok.xml#tok_992"/><!-- well_suited -->
+<rel id="rel_1725" type="edge" xlink:href="#const_760"/>
+<rel id="rel_1726" type="edge" xlink:href="tiger.legal.tok.xml#tok_998"/><!-- , -->
+<rel id="rel_1727" type="edge" xlink:href="tiger.legal.tok.xml#tok_999"/><!-- Ã® -->
+<rel id="rel_1728" type="edge" xlink:href="#const_764"/>
+<rel id="rel_1729" type="edge" xlink:href="#const_765"/>
+<rel id="rel_1730" type="edge" xlink:href="#const_766"/>
+<rel id="rel_1731" type="edge" xlink:href="#const_767"/>
+</struct>
+<struct id="const_769">
+<rel id="rel_1732" type="edge" xlink:href="tiger.legal.tok.xml#tok_990"/><!-- are -->
+<rel id="rel_1733" type="edge" xlink:href="#const_768"/>
+</struct>
+<struct id="const_770">
+<rel id="rel_1734" type="edge" xlink:href="#const_753"/>
+<rel id="rel_1735" type="edge" xlink:href="tiger.legal.tok.xml#tok_985"/><!-- , -->
+<rel id="rel_1736" type="edge" xlink:href="#const_757"/>
+<rel id="rel_1737" type="edge" xlink:href="#const_769"/>
+</struct>
+<struct id="const_771">
+<rel id="rel_1738" type="edge" xlink:href="tiger.legal.tok.xml#tok_1010"/><!-- Holiday -->
+<rel id="rel_1739" type="edge" xlink:href="tiger.legal.tok.xml#tok_1011"/><!-- Hospitality -->
+<rel id="rel_1740" type="edge" xlink:href="tiger.legal.tok.xml#tok_1012"/><!-- Franchising -->
+<rel id="rel_1741" type="edge" xlink:href="tiger.legal.tok.xml#tok_1013"/><!-- , -->
+<rel id="rel_1742" type="edge" xlink:href="tiger.legal.tok.xml#tok_1014"/><!-- Inc. -->
+</struct>
+<struct id="const_772">
+<rel id="rel_1743" type="edge" xlink:href="tiger.legal.tok.xml#tok_1015"/><!-- v. -->
+</struct>
+<struct id="const_773">
+<rel id="rel_1744" type="edge" xlink:href="tiger.legal.tok.xml#tok_1016"/><!-- AMCO -->
+<rel id="rel_1745" type="edge" xlink:href="tiger.legal.tok.xml#tok_1017"/><!-- Ins -->
+<rel id="rel_1746" type="edge" xlink:href="tiger.legal.tok.xml#tok_1018"/><!-- . -->
+</struct>
+<struct id="const_774">
+<rel id="rel_1747" type="edge" xlink:href="tiger.legal.tok.xml#tok_1019"/><!-- Co. -->
+</struct>
+<struct id="const_775">
+<rel id="rel_1748" type="edge" xlink:href="tiger.legal.tok.xml#tok_1021"/><!-- 983 -->
+</struct>
+<struct id="const_776">
+<rel id="rel_1749" type="edge" xlink:href="tiger.legal.tok.xml#tok_1022"/><!-- N.E.2d -->
+</struct>
+<struct id="const_777">
+<rel id="rel_1750" type="edge" xlink:href="#const_775"/>
+<rel id="rel_1751" type="edge" xlink:href="#const_776"/>
+</struct>
+<struct id="const_778">
+<rel id="rel_1752" type="edge" xlink:href="tiger.legal.tok.xml#tok_1020"/><!-- , -->
+<rel id="rel_1753" type="edge" xlink:href="#const_777"/>
+</struct>
+<struct id="const_779">
+<rel id="rel_1754" type="edge" xlink:href="tiger.legal.tok.xml#tok_1025"/><!-- 577 -->
+</struct>
+<struct id="const_780">
+<rel id="rel_1755" type="edge" xlink:href="tiger.legal.tok.xml#tok_1023"/><!-- 574 -->
+<rel id="rel_1756" type="edge" xlink:href="tiger.legal.tok.xml#tok_1024"/><!-- , -->
+<rel id="rel_1757" type="edge" xlink:href="#const_779"/>
+<rel id="rel_1758" type="edge" xlink:href="tiger.legal.tok.xml#tok_1026"/><!-- . -->
+</struct>
+<struct id="const_781">
+<rel id="rel_1759" type="edge" xlink:href="tiger.legal.tok.xml#tok_1027"/><!-- A -->
+<rel id="rel_1760" type="edge" xlink:href="tiger.legal.tok.xml#tok_1028"/><!-- contract -->
+</struct>
+<struct id="const_782">
+<rel id="rel_1761" type="edge" xlink:href="tiger.legal.tok.xml#tok_1033"/><!-- summary -->
+<rel id="rel_1762" type="edge" xlink:href="tiger.legal.tok.xml#tok_1034"/><!-- judgment -->
+</struct>
+<struct id="const_783">
+<rel id="rel_1763" type="edge" xlink:href="tiger.legal.tok.xml#tok_1032"/><!-- on -->
+<rel id="rel_1764" type="edge" xlink:href="#const_782"/>
+</struct>
+<struct id="const_784">
+<rel id="rel_1765" type="edge" xlink:href="tiger.legal.tok.xml#tok_1036"/><!-- it -->
+</struct>
+<struct id="const_785">
+<rel id="rel_1766" type="edge" xlink:href="tiger.legal.tok.xml#tok_1039"/><!-- ambiguous -->
+<rel id="rel_1767" type="edge" xlink:href="tiger.legal.tok.xml#tok_1040"/><!-- or -->
+<rel id="rel_1768" type="edge" xlink:href="tiger.legal.tok.xml#tok_1041"/><!-- uncertain -->
+</struct>
+<struct id="const_786">
+<rel id="rel_1769" type="edge" xlink:href="tiger.legal.tok.xml#tok_1037"/><!-- Ã±is -->
+<rel id="rel_1770" type="edge" xlink:href="tiger.legal.tok.xml#tok_1038"/><!-- not -->
+<rel id="rel_1771" type="edge" xlink:href="#const_785"/>
+</struct>
+<struct id="const_787">
+<rel id="rel_1772" type="edge" xlink:href="#const_784"/>
+<rel id="rel_1773" type="edge" xlink:href="#const_786"/>
+</struct>
+<struct id="const_788">
+<rel id="rel_1774" type="edge" xlink:href="tiger.legal.tok.xml#tok_1035"/><!-- if -->
+<rel id="rel_1775" type="edge" xlink:href="#const_787"/>
+</struct>
+<struct id="const_789">
+<rel id="rel_1776" type="edge" xlink:href="tiger.legal.tok.xml#tok_1046"/><!-- Ã±the -->
+<rel id="rel_1777" type="edge" xlink:href="tiger.legal.tok.xml#tok_1047"/><!-- contract -->
+<rel id="rel_1778" type="edge" xlink:href="tiger.legal.tok.xml#tok_1048"/><!-- ambiguity -->
+</struct>
+<struct id="const_790">
+<rel id="rel_1779" type="edge" xlink:href="tiger.legal.tok.xml#tok_1051"/><!-- one -->
+</struct>
+<struct id="const_791">
+<rel id="rel_1780" type="edge" xlink:href="tiger.legal.tok.xml#tok_1052"/><!-- exists -->
+</struct>
+<struct id="const_792">
+<rel id="rel_1781" type="edge" xlink:href="#const_790"/>
+<rel id="rel_1782" type="edge" xlink:href="#const_791"/>
+</struct>
+<struct id="const_793">
+<rel id="rel_1783" type="edge" xlink:href="tiger.legal.tok.xml#tok_1050"/><!-- if -->
+<rel id="rel_1784" type="edge" xlink:href="#const_792"/>
+</struct>
+<struct id="const_794">
+<rel id="rel_1785" type="edge" xlink:href="tiger.legal.tok.xml#tok_1058"/><!-- the -->
+<rel id="rel_1786" type="edge" xlink:href="tiger.legal.tok.xml#tok_1059"/><!-- aid -->
+</struct>
+<struct id="const_795">
+<rel id="rel_1787" type="edge" xlink:href="tiger.legal.tok.xml#tok_1061"/><!-- a -->
+<rel id="rel_1788" type="edge" xlink:href="tiger.legal.tok.xml#tok_1062"/><!-- factual -->
+<rel id="rel_1789" type="edge" xlink:href="tiger.legal.tok.xml#tok_1063"/><!-- determination.Ã® -->
+</struct>
+<struct id="const_796">
+<rel id="rel_1790" type="edge" xlink:href="tiger.legal.tok.xml#tok_1060"/><!-- of -->
+<rel id="rel_1791" type="edge" xlink:href="#const_795"/>
+</struct>
+<struct id="const_797">
+<rel id="rel_1792" type="edge" xlink:href="#const_794"/>
+<rel id="rel_1793" type="edge" xlink:href="#const_796"/>
+</struct>
+<struct id="const_798">
+<rel id="rel_1794" type="edge" xlink:href="tiger.legal.tok.xml#tok_1057"/><!-- without -->
+<rel id="rel_1795" type="edge" xlink:href="#const_797"/>
+</struct>
+<struct id="const_799">
+<rel id="rel_1796" type="edge" xlink:href="tiger.legal.tok.xml#tok_1056"/><!-- resolved -->
+<rel id="rel_1797" type="edge" xlink:href="#const_798"/>
+</struct>
+<struct id="const_800">
+<rel id="rel_1798" type="edge" xlink:href="tiger.legal.tok.xml#tok_1055"/><!-- be -->
+<rel id="rel_1799" type="edge" xlink:href="#const_799"/>
+</struct>
+<struct id="const_801">
+<rel id="rel_1800" type="edge" xlink:href="tiger.legal.tok.xml#tok_1054"/><!-- can -->
+<rel id="rel_1801" type="edge" xlink:href="#const_800"/>
+</struct>
+<struct id="const_802">
+<rel id="rel_1802" type="edge" xlink:href="#const_789"/>
+<rel id="rel_1803" type="edge" xlink:href="tiger.legal.tok.xml#tok_1049"/><!-- , -->
+<rel id="rel_1804" type="edge" xlink:href="#const_793"/>
+<rel id="rel_1805" type="edge" xlink:href="tiger.legal.tok.xml#tok_1053"/><!-- , -->
+<rel id="rel_1806" type="edge" xlink:href="#const_801"/>
+</struct>
+<struct id="const_803">
+<rel id="rel_1807" type="edge" xlink:href="tiger.legal.tok.xml#tok_1045"/><!-- if -->
+<rel id="rel_1808" type="edge" xlink:href="#const_802"/>
+</struct>
+<struct id="const_804">
+<rel id="rel_1809" type="edge" xlink:href="#const_788"/>
+<rel id="rel_1810" type="edge" xlink:href="tiger.legal.tok.xml#tok_1042"/><!-- , -->
+<rel id="rel_1811" type="edge" xlink:href="tiger.legal.tok.xml#tok_1043"/><!-- Ã® -->
+<rel id="rel_1812" type="edge" xlink:href="tiger.legal.tok.xml#tok_1044"/><!-- or -->
+<rel id="rel_1813" type="edge" xlink:href="#const_803"/>
+</struct>
+<struct id="const_805">
+<rel id="rel_1814" type="edge" xlink:href="tiger.legal.tok.xml#tok_1031"/><!-- construed -->
+<rel id="rel_1815" type="edge" xlink:href="#const_783"/>
+<rel id="rel_1816" type="edge" xlink:href="#const_804"/>
+</struct>
+<struct id="const_806">
+<rel id="rel_1817" type="edge" xlink:href="tiger.legal.tok.xml#tok_1030"/><!-- be -->
+<rel id="rel_1818" type="edge" xlink:href="#const_805"/>
+</struct>
+<struct id="const_807">
+<rel id="rel_1819" type="edge" xlink:href="tiger.legal.tok.xml#tok_1029"/><!-- may -->
+<rel id="rel_1820" type="edge" xlink:href="#const_806"/>
+</struct>
+<struct id="const_808">
+<rel id="rel_1821" type="edge" xlink:href="#const_781"/>
+<rel id="rel_1822" type="edge" xlink:href="#const_807"/>
+</struct>
+<struct id="const_809">
+<rel id="rel_1823" type="edge" xlink:href="tiger.legal.tok.xml#tok_1064"/><!-- Warrick -->
+<rel id="rel_1824" type="edge" xlink:href="tiger.legal.tok.xml#tok_1065"/><!-- County -->
+</struct>
+<struct id="const_810">
+<rel id="rel_1825" type="edge" xlink:href="tiger.legal.tok.xml#tok_1066"/><!-- ex -->
+<rel id="rel_1826" type="edge" xlink:href="tiger.legal.tok.xml#tok_1067"/><!-- rel -->
+</struct>
+<struct id="const_811">
+<rel id="rel_1827" type="edge" xlink:href="#const_809"/>
+<rel id="rel_1828" type="edge" xlink:href="#const_810"/>
+<rel id="rel_1829" type="edge" xlink:href="tiger.legal.tok.xml#tok_1068"/><!-- . -->
+</struct>
+<struct id="const_812">
+<rel id="rel_1830" type="edge" xlink:href="tiger.legal.tok.xml#tok_1069"/><!-- Conner -->
+<rel id="rel_1831" type="edge" xlink:href="tiger.legal.tok.xml#tok_1070"/><!-- v. -->
+</struct>
+<struct id="const_813">
+<rel id="rel_1832" type="edge" xlink:href="tiger.legal.tok.xml#tok_1071"/><!-- Hill -->
+</struct>
+<struct id="const_814">
+<rel id="rel_1833" type="edge" xlink:href="tiger.legal.tok.xml#tok_1073"/><!-- 973 -->
+</struct>
+<struct id="const_815">
+<rel id="rel_1834" type="edge" xlink:href="tiger.legal.tok.xml#tok_1074"/><!-- N.E.2d -->
+</struct>
+<struct id="const_816">
+<rel id="rel_1835" type="edge" xlink:href="#const_813"/>
+<rel id="rel_1836" type="edge" xlink:href="tiger.legal.tok.xml#tok_1072"/><!-- , -->
+<rel id="rel_1837" type="edge" xlink:href="#const_814"/>
+<rel id="rel_1838" type="edge" xlink:href="#const_815"/>
+</struct>
+<struct id="const_817">
+<rel id="rel_1839" type="edge" xlink:href="tiger.legal.tok.xml#tok_1075"/><!-- 1138 -->
+</struct>
+<struct id="const_818">
+<rel id="rel_1840" type="edge" xlink:href="tiger.legal.tok.xml#tok_1079"/><!-- trans -->
+</struct>
+<struct id="const_819">
+<rel id="rel_1841" type="edge" xlink:href="#const_817"/>
+<rel id="rel_1842" type="edge" xlink:href="tiger.legal.tok.xml#tok_1076"/><!-- , -->
+<rel id="rel_1843" type="edge" xlink:href="tiger.legal.tok.xml#tok_1077"/><!-- 1144 -->
+<rel id="rel_1844" type="edge" xlink:href="tiger.legal.tok.xml#tok_1078"/><!-- , -->
+<rel id="rel_1845" type="edge" xlink:href="#const_818"/>
+<rel id="rel_1846" type="edge" xlink:href="tiger.legal.tok.xml#tok_1080"/><!-- . -->
+</struct>
+<struct id="const_820">
+<rel id="rel_1847" type="edge" xlink:href="tiger.legal.tok.xml#tok_1081"/><!-- denied -->
+</struct>
+<struct id="const_821">
+<rel id="rel_1848" type="edge" xlink:href="#const_820"/>
+<rel id="rel_1849" type="edge" xlink:href="tiger.legal.tok.xml#tok_1082"/><!-- . -->
+</struct>
+<struct id="const_822">
+<rel id="rel_1850" type="edge" xlink:href="tiger.legal.tok.xml#tok_1083"/><!-- The -->
+<rel id="rel_1851" type="edge" xlink:href="tiger.legal.tok.xml#tok_1084"/><!-- meaning -->
+</struct>
+<struct id="const_823">
+<rel id="rel_1852" type="edge" xlink:href="tiger.legal.tok.xml#tok_1086"/><!-- a -->
+<rel id="rel_1853" type="edge" xlink:href="tiger.legal.tok.xml#tok_1087"/><!-- contract -->
+</struct>
+<struct id="const_824">
+<rel id="rel_1854" type="edge" xlink:href="tiger.legal.tok.xml#tok_1085"/><!-- of -->
+<rel id="rel_1855" type="edge" xlink:href="#const_823"/>
+</struct>
+<struct id="const_825">
+<rel id="rel_1856" type="edge" xlink:href="#const_822"/>
+<rel id="rel_1857" type="edge" xlink:href="#const_824"/>
+</struct>
+<struct id="const_826">
+<rel id="rel_1858" type="edge" xlink:href="tiger.legal.tok.xml#tok_1089"/><!-- a -->
+<rel id="rel_1859" type="edge" xlink:href="tiger.legal.tok.xml#tok_1090"/><!-- question -->
+</struct>
+<struct id="const_827">
+<rel id="rel_1860" type="edge" xlink:href="tiger.legal.tok.xml#tok_1092"/><!-- the -->
+<rel id="rel_1861" type="edge" xlink:href="tiger.legal.tok.xml#tok_1093"/><!-- factfinder -->
+</struct>
+<struct id="const_828">
+<rel id="rel_1862" type="edge" xlink:href="tiger.legal.tok.xml#tok_1091"/><!-- for -->
+<rel id="rel_1863" type="edge" xlink:href="#const_827"/>
+</struct>
+<struct id="const_829">
+<rel id="rel_1864" type="edge" xlink:href="#const_826"/>
+<rel id="rel_1865" type="edge" xlink:href="#const_828"/>
+</struct>
+<struct id="const_830">
+<rel id="rel_1866" type="edge" xlink:href="tiger.legal.tok.xml#tok_1096"/><!-- summary -->
+<rel id="rel_1867" type="edge" xlink:href="tiger.legal.tok.xml#tok_1097"/><!-- judgment -->
+</struct>
+<struct id="const_831">
+<rel id="rel_1868" type="edge" xlink:href="tiger.legal.tok.xml#tok_1095"/><!-- precluding -->
+<rel id="rel_1869" type="edge" xlink:href="#const_830"/>
+</struct>
+<struct id="const_832">
+<rel id="rel_1870" type="edge" xlink:href="#const_831"/>
+</struct>
+<struct id="const_833">
+<rel id="rel_1871" type="edge" xlink:href="tiger.legal.tok.xml#tok_1099"/><!-- only -->
+<rel id="rel_1872" type="edge" xlink:href="tiger.legal.tok.xml#tok_1100"/><!-- where -->
+</struct>
+<struct id="const_834">
+<rel id="rel_1873" type="edge" xlink:href="tiger.legal.tok.xml#tok_1102"/><!-- an -->
+<rel id="rel_1874" type="edge" xlink:href="tiger.legal.tok.xml#tok_1103"/><!-- ambiguity -->
+</struct>
+<struct id="const_835">
+<rel id="rel_1875" type="edge" xlink:href="tiger.legal.tok.xml#tok_1101"/><!-- interpreting -->
+<rel id="rel_1876" type="edge" xlink:href="#const_834"/>
+</struct>
+<struct id="const_836">
+<rel id="rel_1877" type="edge" xlink:href="#const_835"/>
+</struct>
+<struct id="const_837">
+<rel id="rel_1878" type="edge" xlink:href="tiger.legal.tok.xml#tok_1105"/><!-- extrinsic -->
+<rel id="rel_1879" type="edge" xlink:href="tiger.legal.tok.xml#tok_1106"/><!-- evidence -->
+</struct>
+<struct id="const_838">
+<rel id="rel_1880" type="edge" xlink:href="tiger.legal.tok.xml#tok_1104"/><!-- requires -->
+<rel id="rel_1881" type="edge" xlink:href="#const_837"/>
+</struct>
+<struct id="const_839">
+<rel id="rel_1882" type="edge" xlink:href="#const_836"/>
+<rel id="rel_1883" type="edge" xlink:href="#const_838"/>
+</struct>
+<struct id="const_840">
+<rel id="rel_1884" type="edge" xlink:href="#const_833"/>
+<rel id="rel_1885" type="edge" xlink:href="#const_839"/>
+</struct>
+<struct id="const_841">
+<rel id="rel_1886" type="edge" xlink:href="tiger.legal.tok.xml#tok_1088"/><!-- is -->
+<rel id="rel_1887" type="edge" xlink:href="#const_829"/>
+<rel id="rel_1888" type="edge" xlink:href="tiger.legal.tok.xml#tok_1094"/><!-- , -->
+<rel id="rel_1889" type="edge" xlink:href="#const_832"/>
+<rel id="rel_1890" type="edge" xlink:href="tiger.legal.tok.xml#tok_1098"/><!-- , -->
+<rel id="rel_1891" type="edge" xlink:href="#const_840"/>
+</struct>
+<struct id="const_842">
+<rel id="rel_1892" type="edge" xlink:href="#const_825"/>
+<rel id="rel_1893" type="edge" xlink:href="#const_841"/>
+<rel id="rel_1894" type="edge" xlink:href="tiger.legal.tok.xml#tok_1107"/><!-- . -->
+</struct>
+<struct id="const_843">
+<rel id="rel_1895" type="edge" xlink:href="tiger.legal.tok.xml#tok_1108"/><!-- Tate -->
+</struct>
+<struct id="const_844">
+<rel id="rel_1896" type="edge" xlink:href="tiger.legal.tok.xml#tok_1109"/><!-- v. -->
+</struct>
+<struct id="const_845">
+<rel id="rel_1897" type="edge" xlink:href="#const_843"/>
+<rel id="rel_1898" type="edge" xlink:href="#const_844"/>
+</struct>
+<struct id="const_846">
+<rel id="rel_1899" type="edge" xlink:href="tiger.legal.tok.xml#tok_1110"/><!-- Secura -->
+<rel id="rel_1900" type="edge" xlink:href="tiger.legal.tok.xml#tok_1111"/><!-- Ins. -->
+</struct>
+<struct id="const_847">
+<rel id="rel_1901" type="edge" xlink:href="tiger.legal.tok.xml#tok_1113"/><!-- 587 -->
+</struct>
+<struct id="const_848">
+<rel id="rel_1902" type="edge" xlink:href="tiger.legal.tok.xml#tok_1114"/><!-- N.E.2d -->
+</struct>
+<struct id="const_849">
+<rel id="rel_1903" type="edge" xlink:href="#const_847"/>
+<rel id="rel_1904" type="edge" xlink:href="#const_848"/>
+</struct>
+<struct id="const_850">
+<rel id="rel_1905" type="edge" xlink:href="tiger.legal.tok.xml#tok_1112"/><!-- , -->
+<rel id="rel_1906" type="edge" xlink:href="#const_849"/>
+</struct>
+<struct id="const_851">
+<rel id="rel_1907" type="edge" xlink:href="tiger.legal.tok.xml#tok_1117"/><!-- 668 -->
+</struct>
+<struct id="const_852">
+<rel id="rel_1908" type="edge" xlink:href="tiger.legal.tok.xml#tok_1115"/><!-- 665 -->
+<rel id="rel_1909" type="edge" xlink:href="tiger.legal.tok.xml#tok_1116"/><!-- , -->
+<rel id="rel_1910" type="edge" xlink:href="#const_851"/>
+<rel id="rel_1911" type="edge" xlink:href="tiger.legal.tok.xml#tok_1118"/><!-- . -->
+</struct>
+<struct id="const_853">
+<rel id="rel_1912" type="edge" xlink:href="tiger.legal.tok.xml#tok_1119"/><!-- Moreover -->
+</struct>
+<struct id="const_854">
+<rel id="rel_1913" type="edge" xlink:href="tiger.legal.tok.xml#tok_1121"/><!-- our -->
+<rel id="rel_1914" type="edge" xlink:href="tiger.legal.tok.xml#tok_1122"/><!-- standard -->
+</struct>
+<struct id="const_855">
+<rel id="rel_1915" type="edge" xlink:href="tiger.legal.tok.xml#tok_1124"/><!-- review -->
+<rel id="rel_1916" type="edge" xlink:href="tiger.legal.tok.xml#tok_1125"/><!-- remains -->
+</struct>
+<struct id="const_856">
+<rel id="rel_1917" type="edge" xlink:href="tiger.legal.tok.xml#tok_1126"/><!-- unchanged -->
+</struct>
+<struct id="const_857">
+<rel id="rel_1918" type="edge" xlink:href="tiger.legal.tok.xml#tok_1127"/><!-- when -->
+</struct>
+<struct id="const_858">
+<rel id="rel_1919" type="edge" xlink:href="tiger.legal.tok.xml#tok_1130"/><!-- here -->
+</struct>
+<struct id="const_859">
+<rel id="rel_1920" type="edge" xlink:href="#const_858"/>
+</struct>
+<struct id="const_860">
+<rel id="rel_1921" type="edge" xlink:href="tiger.legal.tok.xml#tok_1129"/><!-- as -->
+<rel id="rel_1922" type="edge" xlink:href="#const_859"/>
+</struct>
+<struct id="const_861">
+<rel id="rel_1923" type="edge" xlink:href="tiger.legal.tok.xml#tok_1132"/><!-- the -->
+<rel id="rel_1924" type="edge" xlink:href="tiger.legal.tok.xml#tok_1133"/><!-- parties -->
+</struct>
+<struct id="const_862">
+<rel id="rel_1925" type="edge" xlink:href="tiger.legal.tok.xml#tok_1135"/><!-- cross_motions -->
+</struct>
+<struct id="const_863">
+<rel id="rel_1926" type="edge" xlink:href="tiger.legal.tok.xml#tok_1137"/><!-- summary -->
+<rel id="rel_1927" type="edge" xlink:href="tiger.legal.tok.xml#tok_1138"/><!-- judgmentâwe -->
+</struct>
+<struct id="const_864">
+<rel id="rel_1928" type="edge" xlink:href="tiger.legal.tok.xml#tok_1136"/><!-- for -->
+<rel id="rel_1929" type="edge" xlink:href="#const_863"/>
+</struct>
+<struct id="const_865">
+<rel id="rel_1930" type="edge" xlink:href="tiger.legal.tok.xml#tok_1134"/><!-- file -->
+<rel id="rel_1931" type="edge" xlink:href="#const_862"/>
+<rel id="rel_1932" type="edge" xlink:href="#const_864"/>
+</struct>
+<struct id="const_866">
+<rel id="rel_1933" type="edge" xlink:href="#const_860"/>
+<rel id="rel_1934" type="edge" xlink:href="tiger.legal.tok.xml#tok_1131"/><!-- , -->
+<rel id="rel_1935" type="edge" xlink:href="#const_861"/>
+<rel id="rel_1936" type="edge" xlink:href="#const_865"/>
+</struct>
+<struct id="const_867">
+<rel id="rel_1937" type="edge" xlink:href="#const_857"/>
+<rel id="rel_1938" type="edge" xlink:href="tiger.legal.tok.xml#tok_1128"/><!-- , -->
+<rel id="rel_1939" type="edge" xlink:href="#const_866"/>
+</struct>
+<struct id="const_868">
+<rel id="rel_1940" type="edge" xlink:href="#const_855"/>
+<rel id="rel_1941" type="edge" xlink:href="#const_856"/>
+<rel id="rel_1942" type="edge" xlink:href="#const_867"/>
+</struct>
+<struct id="const_869">
+<rel id="rel_1943" type="edge" xlink:href="tiger.legal.tok.xml#tok_1123"/><!-- of -->
+<rel id="rel_1944" type="edge" xlink:href="#const_868"/>
+</struct>
+<struct id="const_870">
+<rel id="rel_1945" type="edge" xlink:href="#const_854"/>
+<rel id="rel_1946" type="edge" xlink:href="#const_869"/>
+</struct>
+<struct id="const_871">
+<rel id="rel_1947" type="edge" xlink:href="tiger.legal.tok.xml#tok_1139"/><!-- simply -->
+</struct>
+<struct id="const_872">
+<rel id="rel_1948" type="edge" xlink:href="tiger.legal.tok.xml#tok_1141"/><!-- each -->
+<rel id="rel_1949" type="edge" xlink:href="tiger.legal.tok.xml#tok_1142"/><!-- motion -->
+</struct>
+<struct id="const_873">
+<rel id="rel_1950" type="edge" xlink:href="tiger.legal.tok.xml#tok_1143"/><!-- separately -->
+</struct>
+<struct id="const_874">
+<rel id="rel_1951" type="edge" xlink:href="tiger.legal.tok.xml#tok_1147"/><!-- the -->
+<rel id="rel_1952" type="edge" xlink:href="tiger.legal.tok.xml#tok_1148"/><!-- moving -->
+<rel id="rel_1953" type="edge" xlink:href="tiger.legal.tok.xml#tok_1149"/><!-- party -->
+</struct>
+<struct id="const_875">
+<rel id="rel_1954" type="edge" xlink:href="tiger.legal.tok.xml#tok_1153"/><!-- judgment -->
+</struct>
+<struct id="const_876">
+<rel id="rel_1955" type="edge" xlink:href="tiger.legal.tok.xml#tok_1152"/><!-- to -->
+<rel id="rel_1956" type="edge" xlink:href="#const_875"/>
+</struct>
+<struct id="const_877">
+<rel id="rel_1957" type="edge" xlink:href="tiger.legal.tok.xml#tok_1155"/><!-- a -->
+<rel id="rel_1958" type="edge" xlink:href="tiger.legal.tok.xml#tok_1156"/><!-- matter -->
+</struct>
+<struct id="const_878">
+<rel id="rel_1959" type="edge" xlink:href="tiger.legal.tok.xml#tok_1158"/><!-- law.Ã® -->
+</struct>
+<struct id="const_879">
+<rel id="rel_1960" type="edge" xlink:href="tiger.legal.tok.xml#tok_1157"/><!-- of -->
+<rel id="rel_1961" type="edge" xlink:href="#const_878"/>
+</struct>
+<struct id="const_880">
+<rel id="rel_1962" type="edge" xlink:href="#const_877"/>
+<rel id="rel_1963" type="edge" xlink:href="#const_879"/>
+</struct>
+<struct id="const_881">
+<rel id="rel_1964" type="edge" xlink:href="tiger.legal.tok.xml#tok_1154"/><!-- as -->
+<rel id="rel_1965" type="edge" xlink:href="#const_880"/>
+</struct>
+<struct id="const_882">
+<rel id="rel_1966" type="edge" xlink:href="tiger.legal.tok.xml#tok_1151"/><!-- entitled -->
+<rel id="rel_1967" type="edge" xlink:href="#const_876"/>
+<rel id="rel_1968" type="edge" xlink:href="#const_881"/>
+</struct>
+<struct id="const_883">
+<rel id="rel_1969" type="edge" xlink:href="tiger.legal.tok.xml#tok_1150"/><!-- is -->
+<rel id="rel_1970" type="edge" xlink:href="#const_882"/>
+</struct>
+<struct id="const_884">
+<rel id="rel_1971" type="edge" xlink:href="#const_874"/>
+<rel id="rel_1972" type="edge" xlink:href="#const_883"/>
+</struct>
+<struct id="const_885">
+<rel id="rel_1973" type="edge" xlink:href="tiger.legal.tok.xml#tok_1146"/><!-- whether -->
+<rel id="rel_1974" type="edge" xlink:href="#const_884"/>
+</struct>
+<struct id="const_886">
+<rel id="rel_1975" type="edge" xlink:href="tiger.legal.tok.xml#tok_1145"/><!-- determine -->
+<rel id="rel_1976" type="edge" xlink:href="#const_885"/>
+</struct>
+<struct id="const_887">
+<rel id="rel_1977" type="edge" xlink:href="tiger.legal.tok.xml#tok_1144"/><!-- to -->
+<rel id="rel_1978" type="edge" xlink:href="#const_886"/>
+</struct>
+<struct id="const_888">
+<rel id="rel_1979" type="edge" xlink:href="#const_887"/>
+</struct>
+<struct id="const_889">
+<rel id="rel_1980" type="edge" xlink:href="#const_871"/>
+<rel id="rel_1981" type="edge" xlink:href="tiger.legal.tok.xml#tok_1140"/><!-- Ã±consider -->
+<rel id="rel_1982" type="edge" xlink:href="#const_872"/>
+<rel id="rel_1983" type="edge" xlink:href="#const_873"/>
+<rel id="rel_1984" type="edge" xlink:href="#const_888"/>
+</struct>
+<struct id="const_890">
+<rel id="rel_1985" type="edge" xlink:href="#const_853"/>
+<rel id="rel_1986" type="edge" xlink:href="tiger.legal.tok.xml#tok_1120"/><!-- , -->
+<rel id="rel_1987" type="edge" xlink:href="#const_870"/>
+<rel id="rel_1988" type="edge" xlink:href="#const_889"/>
+</struct>
+<struct id="const_891">
+<rel id="rel_1989" type="edge" xlink:href="tiger.legal.tok.xml#tok_1159"/><!-- SCI -->
+<rel id="rel_1990" type="edge" xlink:href="tiger.legal.tok.xml#tok_1160"/><!-- Propane -->
+<rel id="rel_1991" type="edge" xlink:href="tiger.legal.tok.xml#tok_1161"/><!-- , -->
+<rel id="rel_1992" type="edge" xlink:href="tiger.legal.tok.xml#tok_1162"/><!-- LLC -->
+<rel id="rel_1993" type="edge" xlink:href="tiger.legal.tok.xml#tok_1163"/><!-- v. -->
+</struct>
+<struct id="const_892">
+<rel id="rel_1994" type="edge" xlink:href="tiger.legal.tok.xml#tok_1164"/><!-- Frederick -->
+</struct>
+<struct id="const_893">
+<rel id="rel_1995" type="edge" xlink:href="tiger.legal.tok.xml#tok_1166"/><!-- 39 -->
+</struct>
+<struct id="const_894">
+<rel id="rel_1996" type="edge" xlink:href="tiger.legal.tok.xml#tok_1167"/><!-- N.E.3d -->
+</struct>
+<struct id="const_895">
+<rel id="rel_1997" type="edge" xlink:href="#const_892"/>
+<rel id="rel_1998" type="edge" xlink:href="tiger.legal.tok.xml#tok_1165"/><!-- , -->
+<rel id="rel_1999" type="edge" xlink:href="#const_893"/>
+<rel id="rel_2000" type="edge" xlink:href="#const_894"/>
+</struct></structList>
+</paula>
